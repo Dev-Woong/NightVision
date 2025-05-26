@@ -2047,7 +2047,7 @@ GameObject:
   - component: {fileID: 1123778297}
   m_Layer: 0
   m_Name: Tilemap_Floor
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2827,6 +2827,7 @@ MonoBehaviour:
   lastInputTime: 0
   startCoroutineTime: 0
   resetDelay: 0.5
+  jumpForce: 5
   comboCount: 0
   isJumping: 0
   isAttacking: 0
