@@ -33,16 +33,14 @@ public class PlayerController : MonoBehaviour
     public float startCoroutineTime = 0;
     public float resetDelay = 0.5f;
     public float jumpForce = 5;
+    public float distance = 0.2f;
+    public int jumpCount = 0;
     public int comboCount = 0;
-    public Vector2 characterVelocity;
-    public bool isJumping = false;
+    public bool canJump=true;
+    public bool canDoubleJump=false;
     public bool isAttacking = false;
     private Coroutine comboResetCoroutine;
-    //public RuntimeAnimatorController handAnim;
-    //public RuntimeAnimatorController SwordAnim;
-    //public MonoBehaviour HandAnimScript;
-    //public MonoBehaviour SwordAnimScript;
-    //public MonoBehaviour GunAnimScript;
+    private Coroutine JumpCountCoroutine;
     public int wType = 0;
     void Start()
     {
@@ -157,14 +155,7 @@ public class PlayerController : MonoBehaviour
             Instantiate(DashEffect, DashEffectPoint);
         }
     }
-    public void DashPositionChange()
-    {
-        if (tr.localScale.x == 1)
-        { tr.position += new Vector3(1, 0, 0) * 0.3f; }
-
-        else if (tr.localScale.x == -1)
-        { tr.position += new Vector3(-1, 0, 0) * 0.3f; }
-    }
+    
     void Attack()
     {
         if (Input.GetKeyDown(KeyCode.LeftControl))
@@ -180,7 +171,7 @@ public class PlayerController : MonoBehaviour
     }
     void UseSkill()
     {
-        if (Input.GetKeyDown(KeyCode.X))
+        if (Input.GetKeyDown(KeyCode.C))
         {
             lastInputTime = Time.time;
             if (weaponType != WeaponType.Gun)
@@ -195,17 +186,62 @@ public class PlayerController : MonoBehaviour
             }
         }
     }
+    #region Jump
     void Jump()
     {
-        if (Input.GetKeyDown(KeyCode.C)&&isJumping ==false)
+        if (Input.GetKeyDown(KeyCode.LeftAlt))
         {
-            anim.SetTrigger("Jump");
+            if (jumpCount == 0&&canJump==true)
+            {
+                canJump = false;
+               
+                anim.SetTrigger("Jump");
+                rb.AddForce(Vector3.up * jumpForce, ForceMode2D.Impulse);
+                if (JumpCountCoroutine != null)
+                {
+                    StopCoroutine (JumpCountCoroutine);
+                }
+                JumpCountCoroutine = StartCoroutine(DoubleJumpCoroutine());
+                
+            }
         }
     }
-    void AnimEventJumpForce()
+    IEnumerator DoubleJumpCoroutine()
     {
-        rb.AddForce(Vector3.up * jumpForce, ForceMode2D.Impulse);
-        isJumping = true;
+        yield return new WaitForSeconds(0.1f);
+        jumpCount++;
+        canDoubleJump = true;
+    }
+    void DoubleJump()
+    {
+        if (Input.GetKeyDown(KeyCode.LeftAlt) && jumpCount == 1)
+        {
+            rb.linearVelocity = Vector3.zero;
+            rb.AddForce(Vector3.up * jumpForce, ForceMode2D.Impulse);
+            anim.SetTrigger("DoubleJump");
+            jumpCount++;
+        }
+    }
+    
+    public void OnAir()
+    {
+        if (canJump == false)
+        {
+            anim.SetBool("onAir", true);
+        }
+        else { anim.SetBool("onAir", false); }
+    }
+    
+    
+    #endregion
+    #region AnimationEvent
+    public void DashPositionChange()
+    {
+        if (tr.localScale.x == 1)
+        { tr.position += new Vector3(1, 0, 0) * 0.3f; }
+
+        else if (tr.localScale.x == -1)
+        { tr.position += new Vector3(-1, 0, 0) * 0.3f; }
     }
     /// <summary>
     /// 공중 공격 애니메이션 이벤트
@@ -301,20 +337,28 @@ public class PlayerController : MonoBehaviour
         comboCount = 0;
         comboResetCoroutine = null;
     }
+    #endregion
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.collider.CompareTag("Ground"))
         {
-            isJumping = false;
+            canJump = true;
+            jumpCount = 0;
         }
         
     }
+    private void FixedUpdate()
+    {
+        //Landing();
+    }
     void Update()
     {
-        characterVelocity = rb.linearVelocity;
+        
         Move();
         Jump();
+        DoubleJump();
+        OnAir();
         Dash();
         Attack();
         UseSkill();

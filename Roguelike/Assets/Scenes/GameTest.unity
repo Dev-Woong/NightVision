@@ -784,7 +784,7 @@ Transform:
   m_GameObject: {fileID: 364761798}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.5, z: -10}
+  m_LocalPosition: {x: 2.01, y: -0.5, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -998,7 +998,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.5, z: -10}
+  m_LocalPosition: {x: 2.01, y: -0.5, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2045,7 +2045,7 @@ GameObject:
   - component: {fileID: 1123778299}
   - component: {fileID: 1123778298}
   - component: {fileID: 1123778297}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Tilemap_Floor
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -2818,6 +2818,10 @@ MonoBehaviour:
   JumpEffectPoint: {fileID: 243664020}
   FireEffectPoint: {fileID: 1673122396}
   DashEffectPoint: {fileID: 1538791976}
+  Ground: {fileID: 1123778296}
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 64
   FireEffect: {fileID: 282872155380125613, guid: 7fb61e8df64a7324a92f54739196f709, type: 3}
   JumpEFfect: {fileID: 1432662399882269447, guid: 9293d72710d39e24cb22b2b6a595bd46, type: 3}
   DashEffect: {fileID: 36312249568226427, guid: d5c5866b485145446a3cc86f83b2b4f1, type: 3}
@@ -2828,8 +2832,13 @@ MonoBehaviour:
   startCoroutineTime: 0
   resetDelay: 0.5
   jumpForce: 5
+  distance: 0.1
+  jumpCount: 0
   comboCount: 0
-  isJumping: 0
+  velocityY: 0
+  isGround: 0
+  wasGround: 0
+  canJump: 0
   isAttacking: 0
   wType: 0
 --- !u!61 &1423384747
@@ -2991,7 +3000,7 @@ Transform:
   m_GameObject: {fileID: 1423384743}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -4.5, z: 0}
+  m_LocalPosition: {x: 2.01, y: -4.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
