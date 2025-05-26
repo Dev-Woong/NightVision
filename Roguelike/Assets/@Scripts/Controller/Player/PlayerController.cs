@@ -32,7 +32,9 @@ public class PlayerController : MonoBehaviour
     public float lastInputTime = 0;
     public float startCoroutineTime = 0;
     public float resetDelay = 0.5f;
+    public float jumpForce = 5;
     public int comboCount = 0;
+    public Vector2 characterVelocity;
     public bool isJumping = false;
     public bool isAttacking = false;
     private Coroutine comboResetCoroutine;
@@ -178,7 +180,7 @@ public class PlayerController : MonoBehaviour
     }
     void UseSkill()
     {
-        if (Input.GetKeyDown(KeyCode.C))
+        if (Input.GetKeyDown(KeyCode.X))
         {
             lastInputTime = Time.time;
             if (weaponType != WeaponType.Gun)
@@ -192,6 +194,18 @@ public class PlayerController : MonoBehaviour
                 anim.SetInteger(Define.comboCountHash, comboCount);
             }
         }
+    }
+    void Jump()
+    {
+        if (Input.GetKeyDown(KeyCode.C)&&isJumping ==false)
+        {
+            anim.SetTrigger("Jump");
+        }
+    }
+    void AnimEventJumpForce()
+    {
+        rb.AddForce(Vector3.up * jumpForce, ForceMode2D.Impulse);
+        isJumping = true;
     }
     /// <summary>
     /// 공중 공격 애니메이션 이벤트
@@ -298,7 +312,9 @@ public class PlayerController : MonoBehaviour
     }
     void Update()
     {
+        characterVelocity = rb.linearVelocity;
         Move();
+        Jump();
         Dash();
         Attack();
         UseSkill();
