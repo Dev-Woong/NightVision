@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Interaction : MonoBehaviour
 {
@@ -14,6 +15,7 @@ public class Interaction : MonoBehaviour
         if(collision.CompareTag("Player"))
         {
             nearObject = collision.gameObject;
+            SceneManager.LoadScene("Scene1");
 
         }
     }
