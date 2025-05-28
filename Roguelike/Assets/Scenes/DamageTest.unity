@@ -4234,9 +4234,11 @@ MonoBehaviour:
   startCoroutineTime: 0
   resetDelay: 0.5
   jumpForce: 5
+  distance: 0.2
+  jumpCount: 0
   comboCount: 0
-  characterVelocity: {x: 0, y: 0}
-  isJumping: 0
+  canJump: 1
+  canDoubleJump: 0
   isAttacking: 0
   wType: 0
 --- !u!61 &1601665627
