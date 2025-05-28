@@ -1,9 +1,6 @@
 using System.Collections;
-using System.Net;
-using Unity.VisualScripting;
+using Unity.Cinemachine;
 using UnityEngine;
-using UnityEngine.UIElements;
-
 
 public enum WeaponType
 {
@@ -23,35 +20,73 @@ public class PlayerController : MonoBehaviour
     public GameObject FireEffect;
     public GameObject JumpEFfect;
     public GameObject DashEffect;
+    public GameObject Scope;
+    public ScopeController sController;
+    public CinemachineCamera playerCam;
+    public CinemachineCamera scopeCam;
 
-    WeaponType weaponType;
+    public WeaponType weaponType;
     private float h;
-    public float comboCountKeepTime = 0;
-    public float riseHeight = 0.8f;
-    public float fallGravityScale = 11f;
-    public float lastInputTime = 0;
-    public float startCoroutineTime = 0;
-    public float resetDelay = 0.5f;
-    public float jumpForce = 5;
-    public float distance = 0.2f;
-    public int jumpCount = 0;
-    public int comboCount = 0;
-    public bool canJump=true;
-    public bool canDoubleJump=false;
+    float riseHeight = 1.3f;
+    float fallGravityScale = 11f;
+    float lastInputTime = 0;
+    float resetDelay = 0.5f;
+    float jumpForce = 5;
+    int jumpCount = 0;
+    int comboCount = 0;
+    public int magazineDrum = 5;
+    bool canJump=true;
     public bool isAttacking = false;
+    bool moveAble = true;
+    public bool snipeMode = false;
     private Coroutine comboResetCoroutine;
     private Coroutine JumpCountCoroutine;
-    public int wType = 0;
+    int wType = 0;
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         tr = GetComponent<Transform>();
         anim = GetComponent<Animator>();
-        //HandAnimScript = gameObject.GetComponent<Anim_Hand>();
-        //SwordAnimScript = gameObject.GetComponent <Anim_Sword>();
-        //GunAnimScript = gameObject.GetComponent<Anim_Gun>();
+        Scope.SetActive(false);
         rb.freezeRotation = true;
     }
+    public void ScopeC()
+    {
+        if (snipeMode == true)
+        {
+            anim.SetBool("onSnipe", true);
+            Scope.SetActive(true);
+        }
+        else if (snipeMode == false)
+        {
+            Scope.transform.position = tr.position + new Vector3(1, 1, 0);
+            anim.SetBool("onSnipe",false);
+            Scope.SetActive(false);
+        }
+    }
+    public void EnterSnipeMode()
+    {
+        moveAble = !moveAble;
+        snipeMode = !snipeMode;
+    }
+    public void ExitScopeCam()
+    {
+        if (snipeMode == false)
+        {
+            playerCam.Priority = 20;
+            scopeCam.Priority = 10;
+            magazineDrum = 5;
+        }
+    }
+    public void EnterScopeCam()
+    {
+        if (snipeMode == true)
+        {
+            playerCam.Priority = 10;
+            scopeCam.Priority = 20;
+        }
+    }
+    
     void SetWeaponState()
     {
         if (Input.GetKeyDown(KeyCode.Z))
@@ -80,22 +115,12 @@ public class PlayerController : MonoBehaviour
         switch (weaponType)
         {
             case WeaponType.Hand:
-               
-                //HandAnimScript.enabled = true;
-                //SwordAnimScript.enabled = false;
-                //GunAnimScript.enabled = false;
                 anim.SetInteger("WeaponType", wType);
             break;
             case WeaponType.Sword:
-                //HandAnimScript.enabled = false;
-                //SwordAnimScript.enabled = true;
-                //GunAnimScript.enabled = false;
                 anim.SetInteger("WeaponType", wType);
                 break;
             case WeaponType.Gun:
-                //HandAnimScript.enabled = false;
-                //SwordAnimScript.enabled = false;
-                //GunAnimScript.enabled = true;
                 anim.SetInteger("WeaponType", wType);
                 break;
         }
@@ -103,7 +128,7 @@ public class PlayerController : MonoBehaviour
     
     void Move()
     {
-        if (Input.GetButton(Define.Horizontal)/* && (isAttacking == false || weaponType==WeaponType.Gun)*/)
+        if (Input.GetButton(Define.Horizontal) /* && (isAttacking == false || weaponType==WeaponType.Gun)*/)
         {
             h = Input.GetAxisRaw(Define.Horizontal);
             Vector2 moveDir = new Vector2(h, 0);
@@ -184,6 +209,10 @@ public class PlayerController : MonoBehaviour
                 anim.SetTrigger(Define.useSkillHash);
                 anim.SetInteger(Define.comboCountHash, comboCount);
             }
+            else 
+            {
+                EnterSnipeMode();
+            }
         }
     }
     #region Jump
@@ -210,7 +239,6 @@ public class PlayerController : MonoBehaviour
     {
         yield return new WaitForSeconds(0.1f);
         jumpCount++;
-        canDoubleJump = true;
     }
     void DoubleJump()
     {
@@ -354,16 +382,23 @@ public class PlayerController : MonoBehaviour
     }
     void Update()
     {
+        if( moveAble == true) 
+        { 
+            Move(); 
+            Jump();
+            Dash();
+            SetWeaponState();
+            GetWeaponState();
+            Attack();
+        }
         
-        Move();
-        Jump();
+        
         DoubleJump();
         OnAir();
-        Dash();
-        Attack();
+        ScopeC();
         UseSkill();
+        ExitScopeCam();
+        EnterScopeCam();
         ResetComboCount();
-        SetWeaponState();
-        GetWeaponState();
     }
 }
