@@ -1,26 +1,33 @@
-using JetBrains.Annotations;
+
 using System.Collections;
 using Unity.Cinemachine;
 using UnityEngine;
 public class ScopeController: MonoBehaviour
 {
+    protected PlayerController player;
+    protected PortalController portal;
+    private Coroutine FireCoroutine;
     public CinemachineImpulseSource impulseSource;
-    protected PlayerController pc;
+    public CinemachineCamera scopeCam;
+    public PolygonCollider2D[] mapCollider;
     public GameObject BrokenShotEffect;
     public GameObject[] FireEffectPref;
     public GameObject SnipeBG;
-    private Coroutine FireCoroutine;
     public float scopeMoveSpeed = 5;
     public float coolTime = 0.3f;
     private float curTime;
 
     private void Start()
     {
-        pc = GetComponentInParent<PlayerController>();
+        player = GetComponentInParent<PlayerController>();
+        portal = GetComponentInParent<PortalController>();
+        scopeCam.Priority = 1;
     }
     void Update()
     {
         ScopeMove();
+        ExitScopeCam();
+        EnterScopeCam();
         Fire();
         curTime -= Time.deltaTime;
     }
@@ -30,7 +37,7 @@ public class ScopeController: MonoBehaviour
         {
             float h = Input.GetAxisRaw(Define.Horizontal);
             float v = Input.GetAxisRaw("Vertical");
-            if (pc.gameObject.transform.localScale.x == -1)
+            if (player.gameObject.transform.localScale.x == -1)
             {
                 h = -h;
             }
@@ -38,9 +45,29 @@ public class ScopeController: MonoBehaviour
             transform.Translate(scopeMoveSpeed * Time.deltaTime * scopeMoveDir);
         }
     }
+    public void ChangeMapCollider(int SceneNum)
+    {
+        scopeCam.GetComponent<CinemachineConfiner2D>().BoundingShape2D = mapCollider[SceneNum];
+        scopeCam.GetComponent<CinemachineConfiner2D>().InvalidateBoundingShapeCache();
+    }
+    public void ExitScopeCam()
+    {
+        if (player.snipeMode == false)
+        {
+            scopeCam.Priority = 1;
+            player.magazineDrum = 5;
+        }
+    }
+    public void EnterScopeCam()
+    {
+        if (player.snipeMode == true)
+        {
+            scopeCam.Priority = 30;
+        }
+    }
     public void Fire()
     {
-        if (Input.GetKeyDown(KeyCode.LeftControl) && pc.magazineDrum > 0&&curTime <=0)
+        if (Input.GetKeyDown(KeyCode.LeftControl) && player.magazineDrum > 0&&curTime <=0)
         {
             if (FireCoroutine != null)
             {
@@ -50,7 +77,7 @@ public class ScopeController: MonoBehaviour
             Vector3 recoilDir = new Vector3(a, 1f, 0f).normalized;
             impulseSource.GenerateImpulse(recoilDir);
             FireCoroutine = StartCoroutine(FireEffect());
-            pc.magazineDrum--;
+            player.magazineDrum--;
             curTime = coolTime;
         }
     }
@@ -77,15 +104,11 @@ public class ScopeController: MonoBehaviour
         RandomFireEffect();
         RandomBrokeEffect();
         yield return new WaitForSeconds(0.05f);
-
         SnipeBG.GetComponent<SpriteRenderer>().color = new Color32(0, 0, 0, 244);
-
         yield return new WaitForSeconds(0.03f);
-
-        
-        if (pc.magazineDrum <= 0)
+        if (player.magazineDrum <= 0)
         {
-            pc.EnterSnipeMode();
+            player.EnterSnipeMode();
         }
     }
 }

@@ -2937,16 +2937,14 @@ MonoBehaviour:
   FireEffectPoint: {fileID: 1673122396}
   DashEffectPoint: {fileID: 1538791976}
   FireEffect: {fileID: 282872155380125613, guid: 7fb61e8df64a7324a92f54739196f709, type: 3}
-  JumpEFfect: {fileID: 1432662399882269447, guid: 9293d72710d39e24cb22b2b6a595bd46, type: 3}
   DashEffect: {fileID: 36312249568226427, guid: d5c5866b485145446a3cc86f83b2b4f1, type: 3}
+  DoubleJumpEffet: {fileID: 1432662399882269447, guid: 9293d72710d39e24cb22b2b6a595bd46, type: 3}
   Scope: {fileID: 103296941}
   sController: {fileID: 103296943}
-  playerCam: {fileID: 1667961006}
   scopeCam: {fileID: 1797125476}
   weaponType: 0
   magazineDrum: 5
-  isAttacking: 0
-  snipeMode: 0
+  portalMovePosition: {x: 0, y: 0, z: 0}
 --- !u!61 &1423384747
 BoxCollider2D:
   m_ObjectHideFlags: 0

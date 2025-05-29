@@ -17,15 +17,11 @@ public class PlayerController : MonoBehaviour
     public Transform JumpEffectPoint;
     public Transform FireEffectPoint;
     public Transform DashEffectPoint;
-    public Transform[] StartPoint;
     public GameObject FireEffect;
     public GameObject DashEffect;
     public GameObject DoubleJumpEffet;
     public GameObject Scope;
     public ScopeController sController;
-    public CinemachineCamera[] playerCam;
-    public PolygonCollider2D[] mapCol;
-    public CinemachineCamera scopeCam;
 
     public WeaponType weaponType;
     private float h;
@@ -39,35 +35,21 @@ public class PlayerController : MonoBehaviour
     public int magazineDrum = 5;
     bool canJump=true;
     bool moveAble = true;
-    bool snipeMode = false;
-    public bool canPortalInteract = false;
+    public bool snipeMode = false;
     public Vector3 portalMovePosition;
     private Coroutine comboResetCoroutine;
     private Coroutine JumpCountCoroutine;
     int wType = 0;
-    public int lastPriority = 0;
-    public int curPriority = 0;
-    public int nextPriority = 0;
+    
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         tr = GetComponent<Transform>();
         anim = GetComponent<Animator>();
-       
-        
         Scope.SetActive(false);
         rb.freezeRotation = true;
-        tr.position = StartPoint[0].position;
-        StartCamSetting();
     }
-    public void StartCamSetting()
-    {
-        scopeCam.Priority = 1;
-        for (int i = 1; i < playerCam.Length; i++)
-        {
-            playerCam[i].Priority = 1;
-        }
-    }
+   
     public void ScopeC()
     {
         if (snipeMode == true)
@@ -82,65 +64,11 @@ public class PlayerController : MonoBehaviour
             Scope.SetActive(false);
         }
     }
-    private void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.CompareTag("Portal"))
-        {
-            //lastPriority = nextPriority;
-            nextPriority= other.GetComponent<Portal>().pNum.portalNum;
-            curPriority = nextPriority;
-            canPortalInteract = true;
-        }
-    }
-    private void OnTriggerExit2D(Collider2D other)
-    {
-        if (other.CompareTag("Portal"))
-        {
-            nextPriority = curPriority;
-            canPortalInteract = false;
-            
-        }
-    }
-    public void UsePotal()
-    {
-        if (Input.GetKeyDown(KeyCode.F) && canPortalInteract==true)
-        {
-            tr.position = StartPoint[nextPriority].position;
-            Debug.Log($"이동,{tr.position} ");
-            StartCoroutine(DelayCamSwitch());
-        }
-    }
-    IEnumerator DelayCamSwitch()
-    {
-        yield return new WaitForSeconds(1f);
-        playerCam[lastPriority].Priority = 0;
-        
-        playerCam[nextPriority].Priority = 20;
-        Debug.Log($"{lastPriority}{nextPriority}");
-        lastPriority = curPriority;
-        Debug.Log("캠스위치 성공");
-    }
     public void EnterSnipeMode()
     {
         moveAble = !moveAble;
         snipeMode = !snipeMode;
     }
-    public void ExitScopeCam()
-    {
-        if (snipeMode == false)
-        {   
-            scopeCam.Priority = 1;
-            magazineDrum = 5;
-        }
-    }
-    public void EnterScopeCam()
-    {
-        if (snipeMode == true)
-        {
-            scopeCam.Priority = 30;
-        }
-    }
-    
     void SetWeaponState()
     {
         if (Input.GetKeyDown(KeyCode.Z))
@@ -238,8 +166,6 @@ public class PlayerController : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.LeftControl))
         {
-            
-            //anim.SetBool(Define.isAttackHash, true);
             anim.SetTrigger("Attack");
             if (weaponType == WeaponType.Gun)
             {
@@ -447,27 +373,14 @@ public class PlayerController : MonoBehaviour
             Attack();
         }
 
-        UsePotal();
         DoubleJump();
         OnAir();
         ScopeC();
         UseSkill();
-        ExitScopeCam();
-        EnterScopeCam();
         ResetComboCount();
     }
 }
 
 
-// 일반 공격 하는 함수(f키만 눌렀을 때)
 
-// 1번 콤보 공격까지 하는 함수(x키 && count 0)
-// 
-// == count 1
-// == count 2 
-/*
- 총 제외 >> 칼 주먹 >> 콤보시스템임 >> 파라미터값을 공유함 anim.Trigger(skill), anim.SetInteger(0,1,2) << 이값은 스킬 사용중에 카운트가 올라감 0 >2  >>
-스탠스마다 개별적으로 스킬 해금 시스템을 넣을건지? 
-주먹 칼 이런거 다 파라미터를 공유함
- */
 
