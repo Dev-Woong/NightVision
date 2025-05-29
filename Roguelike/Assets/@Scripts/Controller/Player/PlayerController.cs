@@ -38,9 +38,9 @@ public class PlayerController : MonoBehaviour
     int comboCount = 0;
     public int magazineDrum = 5;
     bool canJump=true;
-    public bool isAttacking = false;
     bool moveAble = true;
-    public bool snipeMode = false;
+    bool snipeMode = false;
+    bool canPortalInteract = false;
     private Coroutine comboResetCoroutine;
     private Coroutine JumpCountCoroutine;
     int wType = 0;
@@ -68,20 +68,29 @@ public class PlayerController : MonoBehaviour
             Scope.SetActive(false);
         }
     }
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        if (collision.CompareTag("Portal"))
+        if (other.CompareTag("Portal"))
         {
-            collision.GetComponent<Point1>();
+            camPriority= other.GetComponent<Portal>().pNum.portalNum;
+            canPortalInteract = true;
+        }
+    }
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.CompareTag("Portal"))
+        {
+            camPriority = 0;
+            canPortalInteract= false;
         }
     }
     public void UsePotal()
     {
-        if (Input.GetKeyDown(KeyCode.F))
+        if (Input.GetKeyDown(KeyCode.F)&&canPortalInteract==true)
         {
             tr.position = StartDungeonPoint[camPriority].position;
+            StartCoroutine(DelayCamSwitch());
         }
-       
     }
     IEnumerator DelayCamSwitch()
     {
@@ -209,7 +218,7 @@ public class PlayerController : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.LeftControl))
         {
-            isAttacking = true;
+            
             //anim.SetBool(Define.isAttackHash, true);
             anim.SetTrigger("Attack");
             if (weaponType == WeaponType.Gun)
