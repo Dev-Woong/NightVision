@@ -3569,6 +3569,7 @@ GameObject:
   - component: {fileID: 466406889}
   - component: {fileID: 466406888}
   - component: {fileID: 466406887}
+  - component: {fileID: 466406897}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -3677,28 +3678,15 @@ MonoBehaviour:
   JumpEffectPoint: {fileID: 1502528173}
   FireEffectPoint: {fileID: 609261630}
   DashEffectPoint: {fileID: 1569136450}
-  StartPoint:
-  - {fileID: 188814966}
-  - {fileID: 869842965}
   FireEffect: {fileID: 282872155380125613, guid: 7fb61e8df64a7324a92f54739196f709, type: 3}
   DashEffect: {fileID: 36312249568226427, guid: d5c5866b485145446a3cc86f83b2b4f1, type: 3}
   DoubleJumpEffet: {fileID: 1432662399882269447, guid: 9293d72710d39e24cb22b2b6a595bd46, type: 3}
   Scope: {fileID: 1884460534}
   sController: {fileID: 1884460535}
-  playerCam:
-  - {fileID: 364761801}
-  - {fileID: 1052829682}
-  mapCol:
-  - {fileID: 612854064}
-  - {fileID: 1729717263}
-  scopeCam: {fileID: 1197852552}
   weaponType: 0
   magazineDrum: 5
-  canPortalInteract: 0
+  snipeMode: 0
   portalMovePosition: {x: 0, y: 0, z: 0}
-  lastPriority: 0
-  curPriority: 0
-  nextPriority: 0
 --- !u!61 &466406892
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3862,10 +3850,34 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 1197852553}
   - {fileID: 2094558059}
   - {fileID: 1884460536}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &466406897
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 466406886}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a1a49d8ac361714b965df2859032dc6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  StartPoint:
+  - {fileID: 188814966}
+  - {fileID: 869842965}
+  mapCamera:
+  - {fileID: 364761801}
+  - {fileID: 1052829682}
+  scope: {fileID: 1884460535}
+  canPortalInteract: 0
+  curSceneNum: 0
+  tempSceneNum: 0
+  nextSceneNum: 0
 --- !u!1 &483379559
 GameObject:
   m_ObjectHideFlags: 0
@@ -7179,7 +7191,7 @@ Transform:
   m_GameObject: {fileID: 1052829680}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -13.72, y: 1.9300001, z: -10}
+  m_LocalPosition: {x: -15.1, y: 1.9300001, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -9108,11 +9120,11 @@ Transform:
   m_GameObject: {fileID: 1197852549}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -13.72, y: -1.97, z: -10}
+  m_LocalPosition: {x: 0, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 466406896}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1197852554
 MonoBehaviour:
@@ -9130,7 +9142,7 @@ MonoBehaviour:
   Damping: 0.5
   SlowingDistance: 5
   OversizeWindow:
-    Enabled: 0
+    Enabled: 1
     MaxWindowSize: 0
     Padding: 0
   m_LegacyMaxWindowSize: -2
@@ -9292,7 +9304,7 @@ Transform:
   m_GameObject: {fileID: 1266327297}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 1.41, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -13340,6 +13352,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   impulseSource: {fileID: 1884460537}
+  scopeCam: {fileID: 1197852552}
+  mapCollider:
+  - {fileID: 612854064}
+  - {fileID: 1729717263}
   BrokenShotEffect: {fileID: 5907124718778239688, guid: a42c4ced12855b14fb06ddee2c0d5d0c, type: 3}
   FireEffectPref:
   - {fileID: 915288787154401683, guid: 17dc940f9af8f4244832ef1ed00a11ad, type: 3}
@@ -14758,6 +14774,5 @@ SceneRoots:
   - {fileID: 1266327298}
   - {fileID: 630578229}
   - {fileID: 1007081692}
-  - {fileID: 1197852553}
   - {fileID: 64376611}
   - {fileID: 438063215}
