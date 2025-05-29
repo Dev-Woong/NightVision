@@ -17,12 +17,14 @@ public class PlayerController : MonoBehaviour
     public Transform JumpEffectPoint;
     public Transform FireEffectPoint;
     public Transform DashEffectPoint;
+    public Transform[] StartDungeonPoint;
     public GameObject FireEffect;
-    public GameObject JumpEFfect;
     public GameObject DashEffect;
+    public GameObject DoubleJumpEffet;
     public GameObject Scope;
     public ScopeController sController;
-    public CinemachineCamera playerCam;
+    public CinemachineCamera[] playerCam;
+    public PolygonCollider2D[] mapCol;
     public CinemachineCamera scopeCam;
 
     public WeaponType weaponType;
@@ -42,6 +44,7 @@ public class PlayerController : MonoBehaviour
     private Coroutine comboResetCoroutine;
     private Coroutine JumpCountCoroutine;
     int wType = 0;
+    public int camPriority = 0;
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -49,6 +52,7 @@ public class PlayerController : MonoBehaviour
         anim = GetComponent<Animator>();
         Scope.SetActive(false);
         rb.freezeRotation = true;
+        
     }
     public void ScopeC()
     {
@@ -60,9 +64,30 @@ public class PlayerController : MonoBehaviour
         else if (snipeMode == false)
         {
             Scope.transform.position = tr.position + new Vector3(1, 1, 0);
-            anim.SetBool("onSnipe",false);
+            anim.SetBool("onSnipe", false);
             Scope.SetActive(false);
         }
+    }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Portal"))
+        {
+            collision.GetComponent<Point1>();
+        }
+    }
+    public void UsePotal()
+    {
+        if (Input.GetKeyDown(KeyCode.F))
+        {
+            tr.position = StartDungeonPoint[camPriority].position;
+        }
+       
+    }
+    IEnumerator DelayCamSwitch()
+    {
+        yield return new WaitForSeconds(1.5f);
+        playerCam[camPriority].Priority = 30;
+        playerCam[camPriority].GetComponent<CinemachineConfiner2D>().BoundingShape2D = mapCol[camPriority];
     }
     public void EnterSnipeMode()
     {
@@ -73,8 +98,8 @@ public class PlayerController : MonoBehaviour
     {
         if (snipeMode == false)
         {
-            playerCam.Priority = 20;
-            scopeCam.Priority = 10;
+            playerCam[camPriority].Priority = 20;
+            scopeCam.Priority = 0;
             magazineDrum = 5;
         }
     }
@@ -82,7 +107,7 @@ public class PlayerController : MonoBehaviour
     {
         if (snipeMode == true)
         {
-            playerCam.Priority = 10;
+            playerCam[camPriority].Priority = 10;
             scopeCam.Priority = 20;
         }
     }
@@ -108,7 +133,6 @@ public class PlayerController : MonoBehaviour
             comboCount = 0;
         }
         wType = (int)weaponType;
-        
     }
     void GetWeaponState()
     {
@@ -246,6 +270,7 @@ public class PlayerController : MonoBehaviour
         {
             rb.linearVelocity = Vector3.zero;
             rb.AddForce(Vector3.up * jumpForce, ForceMode2D.Impulse);
+            Instantiate(DoubleJumpEffet, JumpEffectPoint.position, Quaternion.identity);
             anim.SetTrigger("DoubleJump");
             jumpCount++;
         }
@@ -257,7 +282,7 @@ public class PlayerController : MonoBehaviour
         {
             anim.SetBool("onAir", true);
         }
-        else { anim.SetBool("onAir", false); }
+        
     }
     
     
@@ -373,8 +398,9 @@ public class PlayerController : MonoBehaviour
         {
             canJump = true;
             jumpCount = 0;
+            anim.SetBool("onAir", false); 
         }
-        
+
     }
     private void FixedUpdate()
     {
@@ -402,3 +428,17 @@ public class PlayerController : MonoBehaviour
         ResetComboCount();
     }
 }
+
+
+// 일반 공격 하는 함수(f키만 눌렀을 때)
+
+// 1번 콤보 공격까지 하는 함수(x키 && count 0)
+// 
+// == count 1
+// == count 2 
+/*
+ 총 제외 >> 칼 주먹 >> 콤보시스템임 >> 파라미터값을 공유함 anim.Trigger(skill), anim.SetInteger(0,1,2) << 이값은 스킬 사용중에 카운트가 올라감 0 >2  >>
+스탠스마다 개별적으로 스킬 해금 시스템을 넣을건지? 
+주먹 칼 이런거 다 파라미터를 공유함
+ */
+

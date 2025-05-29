@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 2291506238140060855}
   - component: {fileID: -7827210400309441502}
   m_Layer: 0
-  m_Name: Player_HandCombo_Jump_Effect
+  m_Name: Player_Jump_Effect
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

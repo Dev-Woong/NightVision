@@ -650,17 +650,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   impulseSource: {fileID: 103296946}
   BrokenShotEffect: {fileID: 5907124718778239688, guid: a42c4ced12855b14fb06ddee2c0d5d0c, type: 3}
-  pc: {fileID: 0}
-  scopeSpeed: 5
-  curTime: 0
-  coolTime: 0.2
-  SnipeBG: {fileID: 2043188127}
   FireEffectPref:
   - {fileID: 915288787154401683, guid: 17dc940f9af8f4244832ef1ed00a11ad, type: 3}
   - {fileID: 6595376392988314816, guid: afa7f4de71e4b464780a5ef96c2ef13e, type: 3}
   - {fileID: 4713306772191868369, guid: e9483894b38b54043847a0c45916b894, type: 3}
   - {fileID: 245054581394735112, guid: 608c1b3b3281b654a801f40a4ce4121a, type: 3}
   - {fileID: 1685758634327384092, guid: b2685ebe5e8516b4b8e73c814c831789, type: 3}
+  SnipeBG: {fileID: 2043188127}
+  scopeMoveSpeed: 5
+  coolTime: 0.2
 --- !u!212 &103296945
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -730,7 +728,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ImpulseDefinition:
     ImpulseChannel: 1
-    ImpulseShape: 2
+    ImpulseShape: 3
     CustomImpulseShape:
       serializedVersion: 2
       m_Curve: []
@@ -4445,7 +4443,7 @@ SceneRoots:
   - {fileID: 1667961004}
   - {fileID: 1797125474}
   - {fileID: 519420032}
+  - {fileID: 1423384751}
   - {fileID: 1855382946}
   - {fileID: 514270554}
-  - {fileID: 1423384751}
   - {fileID: 996601841}
