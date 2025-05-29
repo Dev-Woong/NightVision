@@ -17,6 +17,7 @@ public class PlayerController : MonoBehaviour
     public Transform JumpEffectPoint;
     public Transform FireEffectPoint;
     public Transform DashEffectPoint;
+    public Transform[] StartPoint;
     public GameObject FireEffect;
     public GameObject DashEffect;
     public GameObject DoubleJumpEffet;
@@ -39,20 +40,33 @@ public class PlayerController : MonoBehaviour
     bool canJump=true;
     bool moveAble = true;
     bool snipeMode = false;
-    bool canPortalInteract = false;
+    public bool canPortalInteract = false;
     public Vector3 portalMovePosition;
     private Coroutine comboResetCoroutine;
     private Coroutine JumpCountCoroutine;
     int wType = 0;
-    public int camPriority = 0;
+    public int lastPriority = 0;
+    public int curPriority = 0;
+    public int nextPriority = 0;
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         tr = GetComponent<Transform>();
         anim = GetComponent<Animator>();
+       
+        
         Scope.SetActive(false);
         rb.freezeRotation = true;
-        
+        tr.position = StartPoint[0].position;
+        StartCamSetting();
+    }
+    public void StartCamSetting()
+    {
+        scopeCam.Priority = 1;
+        for (int i = 1; i < playerCam.Length; i++)
+        {
+            playerCam[i].Priority = 1;
+        }
     }
     public void ScopeC()
     {
@@ -72,8 +86,9 @@ public class PlayerController : MonoBehaviour
     {
         if (other.CompareTag("Portal"))
         {
-            camPriority= other.GetComponent<Portal>().pNum.portalNum;
-            portalMovePosition = other.GetComponent<Portal>().pNum.CurrentPosition.position;
+            //lastPriority = nextPriority;
+            nextPriority= other.GetComponent<Portal>().pNum.portalNum;
+            curPriority = nextPriority;
             canPortalInteract = true;
         }
     }
@@ -81,23 +96,29 @@ public class PlayerController : MonoBehaviour
     {
         if (other.CompareTag("Portal"))
         {
-            camPriority = 0;
-            canPortalInteract= false;
+            nextPriority = curPriority;
+            canPortalInteract = false;
+            
         }
     }
     public void UsePotal()
     {
-        if (Input.GetKeyDown(KeyCode.F)&&canPortalInteract==true)
+        if (Input.GetKeyDown(KeyCode.F) && canPortalInteract==true)
         {
-            tr.position = portalMovePosition;
+            tr.position = StartPoint[nextPriority].position;
+            Debug.Log($"이동,{tr.position} ");
             StartCoroutine(DelayCamSwitch());
         }
     }
     IEnumerator DelayCamSwitch()
     {
-        yield return new WaitForSeconds(1.5f);
-        playerCam[camPriority].Priority = 30;
-        playerCam[camPriority].GetComponent<CinemachineConfiner2D>().BoundingShape2D = mapCol[camPriority];
+        yield return new WaitForSeconds(1f);
+        playerCam[lastPriority].Priority = 0;
+        
+        playerCam[nextPriority].Priority = 20;
+        Debug.Log($"{lastPriority}{nextPriority}");
+        lastPriority = curPriority;
+        Debug.Log("캠스위치 성공");
     }
     public void EnterSnipeMode()
     {
@@ -107,9 +128,8 @@ public class PlayerController : MonoBehaviour
     public void ExitScopeCam()
     {
         if (snipeMode == false)
-        {
-            playerCam[camPriority].Priority = 20;
-            scopeCam.Priority = 0;
+        {   
+            scopeCam.Priority = 1;
             magazineDrum = 5;
         }
     }
@@ -117,8 +137,7 @@ public class PlayerController : MonoBehaviour
     {
         if (snipeMode == true)
         {
-            playerCam[camPriority].Priority = 10;
-            scopeCam.Priority = 20;
+            scopeCam.Priority = 30;
         }
     }
     
@@ -427,8 +446,8 @@ public class PlayerController : MonoBehaviour
             GetWeaponState();
             Attack();
         }
-        
-        
+
+        UsePotal();
         DoubleJump();
         OnAir();
         ScopeC();
