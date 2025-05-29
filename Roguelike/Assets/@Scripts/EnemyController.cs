@@ -3,9 +3,9 @@ using UnityEditor;
 using UnityEngine;
 using UnityEngine.UIElements;
 
-public class EnemyController : MonoBehaviour
-{
-    Rigidbody2D rigidbody2D;
+public class EnemyController : DamageAbleBase
+{ 
+    Rigidbody2D rb;
     Animator animator;
     SpriteRenderer spriteRenderer;
     BoxCollider2D boxCollider2D;
@@ -22,11 +22,11 @@ public class EnemyController : MonoBehaviour
     public LayerMask PlayerLayer;
     
     public float CurrentHp;
-    public float MaxHp;
+    public float MaxHp = 100;
 
     private void Start()
     {
-        rigidbody2D = GetComponent<Rigidbody2D>();
+        rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         boxCollider2D = GetComponent<BoxCollider2D>();
 
@@ -35,17 +35,16 @@ public class EnemyController : MonoBehaviour
 
         InstanceHp();
     }
-
-    void InstanceHp()
-    {
-        CurrentHp = 100;
-        MaxHp = 100;
-    }
-
     void Update()
     {
         Move();  
     }
+
+    void InstanceHp()
+    {
+        CurrentHp = MaxHp;
+    }
+
 
     void Move()
     {
@@ -75,15 +74,15 @@ public class EnemyController : MonoBehaviour
 
                 if (distanceToTarget < stopDistance)
                 {
-                    rigidbody2D.linearVelocity = Vector2.zero;
+                    rb.linearVelocity = Vector2.zero;
                     animator.SetBool("isWalk", false);
                     StartCoroutine(EnAttack());
                 }
 
                 else
                 {
-                    Vector2 direction = ((Vector2)closest.position - rigidbody2D.position).normalized;
-                    rigidbody2D.MovePosition(rigidbody2D.position + direction * speed * Time.deltaTime);
+                    Vector2 direction = ((Vector2)closest.position - rb.position).normalized;
+                    rb.MovePosition(rb.position + direction * speed * Time.deltaTime);
                     if(closest.position.x > transform.position.x)
                     {
                         transform.localScale = new Vector3(-1,1,1);
@@ -117,9 +116,13 @@ public class EnemyController : MonoBehaviour
         Gizmos.DrawWireSphere(offsetPosition, detectionRadius);
     }
 
-    void OnDamage(float causerAtk)
+    public override void OnDamage(float causerAtk)
     {
         CurrentHp -= causerAtk;
+        if (CurrentHp < 0)
+        {
+            Die();
+        }
     }
 
     void OnTriggerEnter2D(Collider2D collision)
@@ -131,10 +134,7 @@ public class EnemyController : MonoBehaviour
             hudText.GetComponent<DamageText>().damage = 1;
             animator.SetTrigger("doHit");
 
-            if (CurrentHp < 0)
-            {
-                Die();
-            }
+            
         }
     }
     void Die()

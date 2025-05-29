@@ -5,15 +5,14 @@ using UnityEngine;
 public class ScopeController: MonoBehaviour
 {
     public CinemachineImpulseSource impulseSource;
+    protected PlayerController pc;
     public GameObject BrokenShotEffect;
-    [SerializeField]
-    PlayerController pc;
-    public float scopeSpeed = 5;
-    public float curTime;
-    public float coolTime = 0.3f;
-    public GameObject SnipeBG;
     public GameObject[] FireEffectPref;
+    public GameObject SnipeBG;
     private Coroutine FireCoroutine;
+    public float scopeMoveSpeed = 5;
+    public float coolTime = 0.3f;
+    private float curTime;
 
     private void Start()
     {
@@ -36,7 +35,7 @@ public class ScopeController: MonoBehaviour
                 h = -h;
             }
             Vector3 scopeMoveDir = new Vector3(h, v, 0);
-            transform.Translate(scopeSpeed * Time.deltaTime * scopeMoveDir);
+            transform.Translate(scopeMoveSpeed * Time.deltaTime * scopeMoveDir);
         }
     }
     public void Fire()

@@ -1,9 +1,12 @@
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "SkillData", menuName = "Skill/AttackSkill")]
-public class SkillData : ScriptableObject   
+public class AttackData : ScriptableObject   
 {
-    [Header("스킬 ID")]
+    [Header("스킬 불러오는 시점")]
+    [TextArea]
+    public string animSpot;
+    [Header("불러오는 ID")]
     public string skillID;
     [Header("데미지 (계산 공식은 추후 설정)")]
     public float damage;
@@ -13,5 +16,6 @@ public class SkillData : ScriptableObject
     public Vector2 hitBoxSize;
     [Header("히트박스 생성 위치 설정")]
     public float rangeOffset;
-    
+    [Header("타겟")]
+    public LayerMask targetMask;
 }

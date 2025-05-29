@@ -497,7 +497,22 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Hit Effect 4 3_0: 4354955391742571188
+      Hit Effect 4 3_1: -9126482097442137013
+      Hit Effect 4 3_10: 217252804353866428
+      Hit Effect 4 3_11: 250861200196355540
+      Hit Effect 4 3_12: -4349118516646896159
+      Hit Effect 4 3_13: -5576530068641062181
+      Hit Effect 4 3_14: 5572656772731909850
+      Hit Effect 4 3_2: 3422520523827903679
+      Hit Effect 4 3_3: 526988627329471077
+      Hit Effect 4 3_4: 3928239526261931446
+      Hit Effect 4 3_5: 979492703617312741
+      Hit Effect 4 3_6: -8247431539026694071
+      Hit Effect 4 3_7: 6996442068223627445
+      Hit Effect 4 3_8: 7125009489662367420
+      Hit Effect 4 3_9: -4579696877995377024
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
