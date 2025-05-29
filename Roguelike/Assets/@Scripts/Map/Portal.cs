@@ -19,7 +19,6 @@ public class Portal: MonoBehaviour
         {
             Banner[i].SetActive(false);
         }
-     
     }
     private void Update()
     {

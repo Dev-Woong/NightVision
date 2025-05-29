@@ -4,7 +4,6 @@ using UnityEngine;
 public class PortalNumber : ScriptableObject
 {
     public int portalNum;
-    public Transform CurrentPosition;
 
 
     
