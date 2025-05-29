@@ -23,6 +23,7 @@ public class EnemyController : DamageAbleBase
     
     public float CurrentHp;
     public float MaxHp = 100;
+    bool isDead = false;
 
     private void Start()
     {
@@ -119,26 +120,27 @@ public class EnemyController : DamageAbleBase
     public override void OnDamage(float causerAtk)
     {
         CurrentHp -= causerAtk;
-        if (CurrentHp < 0)
+        GameObject hudText = Instantiate(damageText);
+        hudText.transform.position = damagePos.position;
+        hudText.GetComponent<DamageText>().damage = causerAtk;
+        animator.SetTrigger("doHit");
+        if (CurrentHp <= 0)
         {
             Die();
         }
+    }
+    void Die()
+    {
+        ReleaseObject();
     }
 
     void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player") && PlayerLayer != 0)
         {
-            GameObject hudText = Instantiate(damageText);
-            hudText.transform.position = damagePos.position;
-            hudText.GetComponent<DamageText>().damage = 1;
-            animator.SetTrigger("doHit");
+            
 
             
         }
-    }
-    void Die()
-    {
-        gameObject.SetActive(false);
     }
 }

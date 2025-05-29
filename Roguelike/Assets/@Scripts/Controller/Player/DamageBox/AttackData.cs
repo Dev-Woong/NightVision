@@ -1,8 +1,15 @@
 using UnityEngine;
 
+public enum Target 
+{
+    Enemy,
+    Player
+}
 [CreateAssetMenu(fileName = "SkillData", menuName = "Skill/AttackSkill")]
 public class AttackData : ScriptableObject   
 {
+    [Header("타겟")]
+    public Target Target;
     [Header("스킬 불러오는 시점")]
     [TextArea]
     public string animSpot;
@@ -13,7 +20,7 @@ public class AttackData : ScriptableObject
     [Header("스킬 히트수")]
     public int hitCount;
     [Header("공격 범위 설정")]
-    public Vector2 hitBoxSize;
+    public Vector3 hitBoxSize;
     [Header("히트박스 생성 위치 설정")]
     public float rangeOffset;
     [Header("타겟")]

@@ -11,7 +11,7 @@ public class DamageText : MonoBehaviour
     public TMP_Text damageText;
     Color alpha;
 
-    public int damage;
+    public float damage;
 
     void Start()
     {
