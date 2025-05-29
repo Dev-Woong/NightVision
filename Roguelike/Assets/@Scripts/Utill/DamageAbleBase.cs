@@ -4,10 +4,10 @@ public interface IDamageable
     public void TakeDamage(float Damage);
 }
 
-public abstract class DamageAbleBase : MonoBehaviour, IDamageable 
+public abstract class DamageAbleBase : PoolAble, IDamageable 
 {
     public bool canDamage;
-    public void TakeDamage(float Damage)
+    public virtual void TakeDamage(float Damage)
     {
         if (canDamage == false) return;
         OnDamage(Damage);

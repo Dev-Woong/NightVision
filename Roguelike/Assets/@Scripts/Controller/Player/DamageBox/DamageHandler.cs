@@ -5,14 +5,28 @@ public class DamageHandler : MonoBehaviour
 {
     public AttackData aData;
 
-    public void CreateAttackBox()
+    public void SpawnHitbox()
     {
-        Vector2 center = (Vector2)transform.position;
+        Vector3 spawnPos = transform.position + transform.right * aData.rangeOffset;
+        Collider2D[] hits = Physics2D.OverlapBoxAll(spawnPos, aData.hitBoxSize, 0f, aData.targetMask);
 
-        Collider2D[] hits = Physics2D.OverlapBoxAll(center, aData.hitBoxSize, 0, aData.targetMask);
         foreach (Collider2D hit in hits)
         {
-            
+            IDamageable target = hit.GetComponent<IDamageable>();
+            if (target != null)
+            {
+                target.TakeDamage(aData.damage);
+            }
         }
+    }
+
+    // 히트박스 확인용 (디버깅용 Gizmos)
+    private void OnDrawGizmosSelected()
+    {
+        if (aData == null) return;
+
+        Gizmos.color = Color.red;
+        Vector3 spawnPos = transform.position + transform.right * aData.rangeOffset;
+        Gizmos.DrawWireCube(spawnPos, aData.hitBoxSize);
     }
 }
