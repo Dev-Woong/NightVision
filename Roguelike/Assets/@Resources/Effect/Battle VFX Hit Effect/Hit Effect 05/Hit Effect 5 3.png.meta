@@ -166,6 +166,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -622,7 +635,27 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Hit Effect 5 3_0: -892602804392340289
+      Hit Effect 5 3_1: 3975460494418672100
+      Hit Effect 5 3_10: -2269040347294028301
+      Hit Effect 5 3_11: 5159339514445766657
+      Hit Effect 5 3_12: 8160676128760453807
+      Hit Effect 5 3_13: 3901068152200061976
+      Hit Effect 5 3_14: 3779613132503396388
+      Hit Effect 5 3_15: -5024501037109599934
+      Hit Effect 5 3_16: 4596278402382501796
+      Hit Effect 5 3_17: -2662380992070134713
+      Hit Effect 5 3_18: -4974570948783328328
+      Hit Effect 5 3_19: 7175915423886915369
+      Hit Effect 5 3_2: -5566259278387232570
+      Hit Effect 5 3_3: 3846110784220784372
+      Hit Effect 5 3_4: 2425184978848498942
+      Hit Effect 5 3_5: -5124783436177748239
+      Hit Effect 5 3_6: 681347898744099807
+      Hit Effect 5 3_7: -8153754390862006603
+      Hit Effect 5 3_8: -9102515708691292872
+      Hit Effect 5 3_9: -8829188953790843377
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
