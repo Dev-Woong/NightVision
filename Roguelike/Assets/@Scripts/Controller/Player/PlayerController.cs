@@ -17,7 +17,6 @@ public class PlayerController : MonoBehaviour
     public Transform JumpEffectPoint;
     public Transform FireEffectPoint;
     public Transform DashEffectPoint;
-    public Transform[] StartDungeonPoint;
     public GameObject FireEffect;
     public GameObject DashEffect;
     public GameObject DoubleJumpEffet;
@@ -41,6 +40,7 @@ public class PlayerController : MonoBehaviour
     bool moveAble = true;
     bool snipeMode = false;
     bool canPortalInteract = false;
+    public Vector3 portalMovePosition;
     private Coroutine comboResetCoroutine;
     private Coroutine JumpCountCoroutine;
     int wType = 0;
@@ -73,6 +73,7 @@ public class PlayerController : MonoBehaviour
         if (other.CompareTag("Portal"))
         {
             camPriority= other.GetComponent<Portal>().pNum.portalNum;
+            portalMovePosition = other.GetComponent<Portal>().pNum.CurrentPosition.position;
             canPortalInteract = true;
         }
     }
@@ -88,7 +89,7 @@ public class PlayerController : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.F)&&canPortalInteract==true)
         {
-            tr.position = StartDungeonPoint[camPriority].position;
+            tr.position = portalMovePosition;
             StartCoroutine(DelayCamSwitch());
         }
     }
