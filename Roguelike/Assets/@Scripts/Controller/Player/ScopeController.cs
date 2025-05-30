@@ -7,9 +7,12 @@ public class ScopeController: MonoBehaviour
     protected PlayerController player;
     protected PortalController portal;
     private Coroutine FireCoroutine;
+
+    [Header("맵 순서대로 콜라이더 부착")]
+    public PolygonCollider2D[] mapCollider;
+
     public CinemachineImpulseSource impulseSource;
     public CinemachineCamera scopeCam;
-    public PolygonCollider2D[] mapCollider;
     public GameObject BrokenShotEffect;
     public GameObject[] FireEffectPref;
     public GameObject SnipeBG;

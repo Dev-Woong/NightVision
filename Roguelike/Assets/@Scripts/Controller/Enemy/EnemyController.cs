@@ -23,7 +23,6 @@ public class EnemyController : DamageAbleBase
     
     public float CurrentHp;
     public float MaxHp = 100;
-    bool isDead = false;
 
     private void Start()
     {

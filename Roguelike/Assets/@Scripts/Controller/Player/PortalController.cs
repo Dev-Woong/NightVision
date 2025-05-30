@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class PortalController : MonoBehaviour
 {
+    [Header("맵마다 시작포인트 지정")]
     public Transform[] StartPoint;
+    [Header("맵마다 시네머신 부착")]
     public CinemachineCamera[] mapCamera;
     public ScopeController scope;
     public bool canPortalInteract = false;
