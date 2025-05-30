@@ -1,7 +1,7 @@
 using System.Data;
 using UnityEngine;
 
-public class DamageHandler : MonoBehaviour
+public class DamageHandler : MonoBehaviour 
 {
     public AttackData aData;
 
