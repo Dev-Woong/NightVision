@@ -12,6 +12,7 @@ public class AttackData : ScriptableObject
     public Target Target;
     [Header("스킬 불러오는 시점")]
     [TextArea]
+    [Tooltip("애니메이션 이벤트를 어느 시점에 넣어야 하는지 설명 (예: 타격 직전 프레임)")]
     public string animSpot;
     [Header("불러오는 ID")]
     public string skillID;
