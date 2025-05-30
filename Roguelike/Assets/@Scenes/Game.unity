@@ -3565,11 +3565,11 @@ GameObject:
   - component: {fileID: 466406893}
   - component: {fileID: 466406892}
   - component: {fileID: 466406891}
+  - component: {fileID: 466406897}
   - component: {fileID: 466406890}
   - component: {fileID: 466406889}
   - component: {fileID: 466406888}
   - component: {fileID: 466406887}
-  - component: {fileID: 466406897}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -13351,11 +13351,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02a31eb3cf26cbf4d9ec161b92adfa21, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  impulseSource: {fileID: 1884460537}
-  scopeCam: {fileID: 1197852552}
   mapCollider:
   - {fileID: 612854064}
   - {fileID: 1729717263}
+  impulseSource: {fileID: 1884460537}
+  scopeCam: {fileID: 1197852552}
   BrokenShotEffect: {fileID: 5907124718778239688, guid: a42c4ced12855b14fb06ddee2c0d5d0c, type: 3}
   FireEffectPref:
   - {fileID: 915288787154401683, guid: 17dc940f9af8f4244832ef1ed00a11ad, type: 3}

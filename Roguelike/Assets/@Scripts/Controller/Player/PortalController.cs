@@ -17,7 +17,6 @@ public class PortalController : MonoBehaviour
     {
         StartCamSetting();
         transform.position = StartPoint[0].position;
-       
     }
     public void StartCamSetting()
     {
