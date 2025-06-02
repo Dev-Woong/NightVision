@@ -14,7 +14,7 @@ public class BusMove : MonoBehaviour
     void Update()
     {
         Move();
-        if (transform.position.x >= 23)
+        if (transform.position.x >= 20)
         {
             dir = transform.position;
             dir.x = -23f;

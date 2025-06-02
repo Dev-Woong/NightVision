@@ -25,6 +25,7 @@ public class ScopeController: MonoBehaviour
         player = GetComponentInParent<PlayerController>();
         portal = GetComponentInParent<PortalController>();
         scopeCam.Priority = 1;
+        ChangeMapCollider(0);
     }
     void Update()
     {
@@ -51,8 +52,12 @@ public class ScopeController: MonoBehaviour
     public void ChangeMapCollider(int SceneNum)
     {
         scopeCam.GetComponent<CinemachineConfiner2D>().BoundingShape2D = mapCollider[SceneNum];
+        
         scopeCam.GetComponent<CinemachineConfiner2D>().InvalidateBoundingShapeCache();
+
+        scopeCam.transform.position = gameObject.transform.position;
     }
+
     public void ExitScopeCam()
     {
         if (player.snipeMode == false)
@@ -112,6 +117,7 @@ public class ScopeController: MonoBehaviour
         if (player.magazineDrum <= 0)
         {
             player.EnterSnipeMode();
+            ExitScopeCam();
         }
     }
 }
