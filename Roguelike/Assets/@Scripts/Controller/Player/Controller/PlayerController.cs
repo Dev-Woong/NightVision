@@ -21,7 +21,6 @@ public class PlayerController : MonoBehaviour
     public GameObject DashEffect;
     public GameObject DoubleJumpEffet;
     public GameObject Scope;
-    public ScopeController sController;
 
     public WeaponType weaponType;
     private float h;
