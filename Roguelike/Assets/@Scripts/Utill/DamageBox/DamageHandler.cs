@@ -1,32 +1,52 @@
-using System.Data;
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class DamageHandler : MonoBehaviour 
 {
-    public AttackData aData;
+    public AttackData attackData;
+    public AudioSource audioSource;
+    public float interval = 0.1f;
+    private readonly HashSet<IDamageable> damagedTargets = new();
 
-    public void SpawnHitbox()
+    public void CreateAttackBox(AttackData data)
     {
-        Vector3 spawnPos = transform.position + transform.right * aData.rangeOffset;
-        Collider2D[] hits = Physics2D.OverlapBoxAll(spawnPos, aData.hitBoxSize, 0f, aData.targetMask);
+        if (data == null) return;
+        damagedTargets.Clear();
+        attackData = data; 
+        Vector3 hitPos = transform.position + transform.right * data.rangeOffset;
+        Collider2D[] hits = Physics2D.OverlapBoxAll(hitPos, data.hitBoxSize, 0, data.targetMask);
 
-        foreach (Collider2D hit in hits)
+        foreach (var hit in hits)
         {
-            IDamageable target = hit.GetComponent<IDamageable>();
-            if (target != null)
+            IDamageable dmg = hit.GetComponent<IDamageable>();
+            if (dmg != null)
             {
-                target.TakeDamage(aData.damage);
+                damagedTargets.Add(dmg);
+                StartCoroutine(HitDamage(dmg, data));
             }
         }
     }
-
-    // 히트박스 확인용 (디버깅용 Gizmos)
+    IEnumerator HitDamage(IDamageable dmg, AttackData data)
+    {
+        int currentHits = 0;
+        while (currentHits < data.hitCount)
+        {
+            dmg.TakeDamage(data.damageValue);
+            audioSource.PlayOneShot(data.SFX);
+            Instantiate(data.HitEffect);
+            currentHits++;
+            yield return new WaitForSeconds(interval);
+        }
+    }
+    
+    // 히트박스 확인용 
     private void OnDrawGizmosSelected()
     {
-        if (aData == null) return;
+        if (attackData == null) return;
 
         Gizmos.color = Color.red;
-        Vector3 spawnPos = transform.position + transform.right * aData.rangeOffset;
-        Gizmos.DrawWireCube(spawnPos, aData.hitBoxSize);
+        Vector3 spawnPos = transform.position + transform.right * attackData.rangeOffset;
+        Gizmos.DrawWireCube(spawnPos, attackData.hitBoxSize);
     }
 }

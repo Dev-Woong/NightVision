@@ -31,7 +31,7 @@ public class PlayerController : MonoBehaviour
     float resetDelay = 0.5f;
     float jumpForce = 5;
     int jumpCount = 0;
-    int comboCount = 0;
+    public int comboCount = 0;
     public int magazineDrum = 5;
     bool canJump=true;
     bool moveAble = true;
@@ -312,7 +312,7 @@ public class PlayerController : MonoBehaviour
             anim.SetInteger(Define.comboCountHash, 0);
         }
     }
-
+    
     public void ComboCountReset() // 콤보 카운트 리셋 AnimationEvent
     {
         if (comboResetCoroutine != null)

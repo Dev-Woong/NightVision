@@ -29,7 +29,6 @@ public class PortalController : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.F) && canPortalInteract == true)
         {
-            Debug.Log("scope" + $"{nextSceneNum}");
             scope.ChangeMapCollider(nextSceneNum);
             transform.position = StartPoint[nextSceneNum].position;
             scope.transform.position = StartPoint[nextSceneNum].position;
