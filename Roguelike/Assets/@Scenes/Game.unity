@@ -3333,6 +3333,7 @@ MonoBehaviour:
   DashEffect: {fileID: 36312249568226427, guid: d5c5866b485145446a3cc86f83b2b4f1, type: 3}
   DoubleJumpEffet: {fileID: 1432662399882269447, guid: 9293d72710d39e24cb22b2b6a595bd46, type: 3}
   Scope: {fileID: 1884460534}
+  brain: {fileID: 519420033}
   weaponType: 0
   comboCount: 0
   magazineDrum: 5
@@ -3501,6 +3502,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 519420032}
   - {fileID: 1197852553}
   - {fileID: 2094558059}
   - {fileID: 1884460536}
@@ -3527,11 +3529,6 @@ MonoBehaviour:
   - {fileID: 1052829682}
   - {fileID: 155615757}
   scope: {fileID: 1884460535}
-  Walls:
-  - {fileID: 1342527722}
-  - {fileID: 895495888}
-  - {fileID: 563625821}
-  - {fileID: 1041436358}
   scController: {fileID: 1197852555}
   canPortalInteract: 0
   curSceneNum: 0
@@ -4788,11 +4785,11 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 12.105312, y: -0.66539997, z: -10}
+  m_LocalPosition: {x: -47.09469, y: 3.8245997, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1927248750}
+  m_Father: {fileID: 466406896}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &519420033
 MonoBehaviour:
@@ -11654,7 +11651,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1884460535
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12120,7 +12117,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 519420032}
   - {fileID: 364761802}
   - {fileID: 612854065}
   m_Father: {fileID: 1326368055}
