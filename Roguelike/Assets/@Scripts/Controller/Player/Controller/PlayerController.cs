@@ -22,6 +22,8 @@ public class PlayerController : MonoBehaviour
     public GameObject DoubleJumpEffet;
     public GameObject Scope;
 
+    public CinemachineBrain brain;
+    WaitForSeconds wTime = new(0.04f);
     public WeaponType weaponType;
     private float h;
     float riseHeight = 1.3f;
@@ -39,6 +41,7 @@ public class PlayerController : MonoBehaviour
     private Coroutine comboResetCoroutine;
     private Coroutine JumpCountCoroutine;
     int wType = 0;
+    Color ScopeColor= new Color32(0,0,0,255);
     
     void Start()
     {
@@ -53,15 +56,29 @@ public class PlayerController : MonoBehaviour
     {
         if (snipeMode == true)
         {
+            
+            brain.DefaultBlend.Style = CinemachineBlendDefinition.Styles.EaseInOut;
             anim.SetBool("onSnipe", true);
-            Scope.SetActive(true);
+            StartCoroutine(CineBrainBlendInOut());
         }
         else if (snipeMode == false)
         {
+           
             Scope.transform.position = tr.position + new Vector3(1, 1, 0);
-            anim.SetBool("onSnipe", false);
             Scope.SetActive(false);
+            anim.SetBool("onSnipe", false);
+            StartCoroutine(CineBrainBlendCut());
         }
+    }
+    IEnumerator CineBrainBlendInOut()
+    {
+        yield return wTime;
+        Scope.SetActive(true);
+    }
+    IEnumerator CineBrainBlendCut()
+    {
+        yield return wTime;
+        brain.DefaultBlend.Style = CinemachineBlendDefinition.Styles.Cut;
     }
     public void EnterSnipeMode()
     {

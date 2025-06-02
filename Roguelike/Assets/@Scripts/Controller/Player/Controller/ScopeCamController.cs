@@ -10,11 +10,11 @@ public class ScopeCamController : MonoBehaviour
     private void Awake()
     {
         pc = GetComponentInParent<PlayerController>();
+        gameObject.GetComponent<CinemachineConfiner2D>().BoundingShape2D = mapCollider[0];
     }
     private void Start()
     {
-        gameObject.GetComponent<CinemachineConfiner2D>().BoundingShape2D = mapCollider[0];
-        StartCoroutine(DelayUpdate());
+        gameObject.GetComponent<CinemachineConfiner2D>().InvalidateBoundingShapeCache();
     }
     public void ChangeMapCollider(int SceneNum)
     {

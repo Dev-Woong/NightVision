@@ -12,17 +12,21 @@ public class ScopeController: MonoBehaviour
 
     public CinemachineImpulseSource impulseSource;
     public CinemachineCamera scopeCam;
+    
     public GameObject BrokenShotEffect;
     public GameObject[] FireEffectPref;
     public GameObject SnipeBG;
     public float scopeMoveSpeed = 5;
     public float coolTime = 0.3f;
     private float curTime;
-
+    WaitForSeconds wTime = new(0.1f);
+    Color BaseScopeBGColor = new Color32(0, 0, 0, 244);
+    Color FireScopeBGColor = new Color32(80, 78, 56, 255);
     private void Start()
     {
         player = GetComponentInParent<PlayerController>();
         portal = GetComponentInParent<PortalController>();
+        
         scopeCam.Priority = 1;
     }
     void Update()
@@ -55,6 +59,7 @@ public class ScopeController: MonoBehaviour
         {
             scopeCam.Priority = 1;
             player.magazineDrum = 5;
+            SnipeBG.GetComponent<SpriteRenderer>().color = BaseScopeBGColor;
         }
     }
     public void EnterScopeCam()
@@ -65,6 +70,7 @@ public class ScopeController: MonoBehaviour
             scopeCam.Priority = 30;
         }
     }
+    
     public void Fire()
     {
         if (Input.GetKeyDown(KeyCode.LeftControl) && player.magazineDrum > 0&&curTime <=0)
@@ -79,6 +85,11 @@ public class ScopeController: MonoBehaviour
             FireCoroutine = StartCoroutine(FireEffect());
             player.magazineDrum--;
             curTime = coolTime;
+            if (player.magazineDrum <= 0)
+            {
+                player.EnterSnipeMode();
+                ExitScopeCam();
+            }
         }
     }
     public void RandomFireEffect()
@@ -100,17 +111,13 @@ public class ScopeController: MonoBehaviour
     }
     IEnumerator FireEffect()
     {
-        SnipeBG.GetComponent<SpriteRenderer>().color = new Color32(80, 78, 56, 255);
+        SnipeBG.GetComponent<SpriteRenderer>().color = FireScopeBGColor;
         RandomFireEffect();
         RandomBrokeEffect();
         yield return new WaitForSeconds(0.05f);
-        SnipeBG.GetComponent<SpriteRenderer>().color = new Color32(0, 0, 0, 244);
+        SnipeBG.GetComponent<SpriteRenderer>().color = BaseScopeBGColor;
         yield return new WaitForSeconds(0.03f);
-        if (player.magazineDrum <= 0)
-        {
-            player.EnterSnipeMode();
-            ExitScopeCam();
-        }
+        
     }
 }
 

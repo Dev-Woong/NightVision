@@ -10,8 +10,6 @@ public class PortalController : MonoBehaviour
     [Header("¸Ê¸¶´Ù ½Ã³×¸Ó½Å ºÎÂø")]
     public CinemachineCamera[] mapCamera;
     public ScopeController scope;
-
-    public BoxCollider2D[] Walls;
     public ScopeCamController scController;
     public bool canPortalInteract = false;
     public int curSceneNum = 0;
@@ -33,10 +31,7 @@ public class PortalController : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.F) && canPortalInteract == true)
         {
-            for (int i = 0; i < Walls.Length - 1; i++)
-            {
-                Walls[i].enabled = false;
-            }
+            
             transform.position = StartPoint[nextSceneNum].position;
             scope.transform.position = StartPoint[nextSceneNum].position;
             scController.ChangeMapCollider(nextSceneNum);
@@ -70,10 +65,7 @@ public class PortalController : MonoBehaviour
         yield return new WaitForSeconds(0.9f);
         mapCamera[curSceneNum].Priority = 0;
         mapCamera[nextSceneNum].Priority = 20; 
-        for (int i = 0; i < Walls.Length - 1; i++)
-        {
-            Walls[i].enabled = true;
-        }
+        
         yield return new WaitForSeconds(0.01f);
         curSceneNum = nextSceneNum;
         
