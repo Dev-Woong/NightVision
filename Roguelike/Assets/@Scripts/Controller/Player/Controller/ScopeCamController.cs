@@ -7,9 +7,14 @@ public class ScopeCamController : MonoBehaviour
     [Header("맵 순서대로 콜라이더 부착")]
     public PolygonCollider2D[] mapCollider;
     public PlayerController pc;
+    private void Awake()
+    {
+        pc = GetComponentInParent<PlayerController>();
+    }
     private void Start()
     {
-        pc= GetComponentInParent<PlayerController>();   
+        gameObject.GetComponent<CinemachineConfiner2D>().BoundingShape2D = mapCollider[0];
+        StartCoroutine(DelayUpdate());
     }
     public void ChangeMapCollider(int SceneNum)
     {
@@ -18,13 +23,11 @@ public class ScopeCamController : MonoBehaviour
     }
     IEnumerator DelayUpdate()
     {
-        yield return new WaitForSeconds(0.1f);
+        yield return new WaitForSeconds(0.3f);
         gameObject.GetComponent<CinemachineConfiner2D>().InvalidateBoundingShapeCache();
     }
     public void CamPositionSet()
     {
         transform.position = pc.transform.position;
-        //gameObject.GetComponent<CinemachineConfiner2D>().InvalidateBoundingShapeCache();
     }
-    
 }
