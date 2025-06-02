@@ -6,10 +6,9 @@ public class ScopeController: MonoBehaviour
 {
     protected PlayerController player;
     protected PortalController portal;
-    private Coroutine FireCoroutine;
 
-    [Header("맵 순서대로 콜라이더 부착")]
-    public PolygonCollider2D[] mapCollider;
+    private Coroutine FireCoroutine;
+    
 
     public CinemachineImpulseSource impulseSource;
     public CinemachineCamera scopeCam;
@@ -25,7 +24,6 @@ public class ScopeController: MonoBehaviour
         player = GetComponentInParent<PlayerController>();
         portal = GetComponentInParent<PortalController>();
         scopeCam.Priority = 1;
-        ChangeMapCollider(0);
     }
     void Update()
     {
@@ -49,14 +47,7 @@ public class ScopeController: MonoBehaviour
             transform.Translate(scopeMoveSpeed * Time.deltaTime * scopeMoveDir);
         }
     }
-    public void ChangeMapCollider(int SceneNum)
-    {
-        scopeCam.GetComponent<CinemachineConfiner2D>().BoundingShape2D = mapCollider[SceneNum];
-        
-        scopeCam.GetComponent<CinemachineConfiner2D>().InvalidateBoundingShapeCache();
-
-        scopeCam.transform.position = gameObject.transform.position;
-    }
+    
 
     public void ExitScopeCam()
     {
@@ -70,6 +61,7 @@ public class ScopeController: MonoBehaviour
     {
         if (player.snipeMode == true)
         {
+            scopeCam.GetComponent<ScopeCamController>().CamPositionSet();
             scopeCam.Priority = 30;
         }
     }
