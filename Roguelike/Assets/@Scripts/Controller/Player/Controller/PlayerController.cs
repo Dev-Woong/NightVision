@@ -21,7 +21,7 @@ public class PlayerController : MonoBehaviour
     public GameObject DashEffect;
     public GameObject DoubleJumpEffet;
     public GameObject Scope;
-
+    public PlayerStatus ps;
     public CinemachineBrain brain;
     WaitForSeconds wTime = new(0.04f);
     public WeaponType weaponType;
@@ -45,6 +45,7 @@ public class PlayerController : MonoBehaviour
     
     void Start()
     {
+        ps = GetComponent<PlayerStatus>();
         rb = GetComponent<Rigidbody2D>();
         tr = GetComponent<Transform>();
         anim = GetComponent<Animator>();
@@ -133,12 +134,12 @@ public class PlayerController : MonoBehaviour
             if (Input.GetKey(KeyCode.LeftShift))
             {
                 anim.SetBool(Define.isRunHash, true);
-                tr.Translate(Time.deltaTime * 2  /*ÃßÈÄ ÇÃ·¹ÀÌ¾î ÀÌµ¿¼Óµµ º¯¼ö·Î ¹Þ¾Æ¿À±â */* moveDir);
+                tr.Translate(Time.deltaTime * ps.speed*2* moveDir);
             }
             else
             {
                 anim.SetBool(Define.isRunHash, false);
-                tr.Translate(Time.deltaTime * 1  /*ÃßÈÄ ÇÃ·¹ÀÌ¾î ÀÌµ¿¼Óµµ º¯¼ö·Î ¹Þ¾Æ¿À±â */* moveDir);
+                tr.Translate(Time.deltaTime * ps.speed* moveDir);
             }
 
 
@@ -268,7 +269,7 @@ public class PlayerController : MonoBehaviour
         { tr.position += new Vector3(-1, 0, 0) * 0.3f; }
     }
     /// <summary>
-    /// °øÁß °ø°Ý ¾Ö´Ï¸ÞÀÌ¼Ç ÀÌº¥Æ®
+    /// ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ö´Ï¸ï¿½ï¿½Ì¼ï¿½ ï¿½Ìºï¿½Æ®
     /// </summary>
     public void OnAirComboStart()
     {
@@ -305,7 +306,7 @@ public class PlayerController : MonoBehaviour
         Vector3 fallForce = new Vector3(tr.localScale.x, -1, 0);
         rb.AddForce(fallForce * 10, ForceMode2D.Impulse);
     }
-    public void PlusComboCount() // ÄÞº¸ Ä«¿îÆ® Áõ°¡ Animation Event
+    public void PlusComboCount() // ï¿½Þºï¿½ Ä«ï¿½ï¿½Æ® ï¿½ï¿½ï¿½ï¿½ Animation Event
     {
         comboCount++;
         if (comboCount > 2)
@@ -313,7 +314,7 @@ public class PlayerController : MonoBehaviour
             comboCount = 0;
         }
     }
-    private void ResetComboCount() // È¤½Ã ³²¾ÆÀÖ´Â comboCount °­Á¦ÃÊ±âÈ­
+    private void ResetComboCount() // È¤ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ö´ï¿½ comboCount ï¿½ï¿½ï¿½ï¿½ï¿½Ê±ï¿½È­
     {
         AnimatorStateInfo state = anim.GetCurrentAnimatorStateInfo(0);
 
@@ -329,7 +330,7 @@ public class PlayerController : MonoBehaviour
         }
     }
     
-    public void ComboCountReset() // ÄÞº¸ Ä«¿îÆ® ¸®¼Â AnimationEvent
+    public void ComboCountReset() // ï¿½Þºï¿½ Ä«ï¿½ï¿½Æ® ï¿½ï¿½ï¿½ï¿½ AnimationEvent
     {
         if (comboResetCoroutine != null)
         {
@@ -347,17 +348,17 @@ public class PlayerController : MonoBehaviour
         {
             timer += Time.deltaTime;
 
-            // Áß°£¿¡ ÀÔ·ÂÀÌ »õ·Î µé¾î¿ÔÀ¸¸é À¯Áö
+            // ï¿½ß°ï¿½ï¿½ï¿½ ï¿½Ô·ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
             if (lastInputTime > lastCheckedInputTime)
             {
                 comboResetCoroutine = null;
-                yield break; // ÄÞº¸ À¯Áö
+                yield break; // ï¿½Þºï¿½ ï¿½ï¿½ï¿½ï¿½
             }
 
             yield return null;
         }
 
-        // ÀÔ·Â ¾ø¾úÀ¸¸é ÄÞº¸ ¸®¼Â
+        // ï¿½Ô·ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Þºï¿½ ï¿½ï¿½ï¿½ï¿½
         comboCount = 0;
         comboResetCoroutine = null;
     }
@@ -371,32 +372,24 @@ public class PlayerController : MonoBehaviour
             jumpCount = 0;
             anim.SetBool("onAir", false); 
         }
-        
-    }
-    private void OnCollisionStay2D(Collision2D collision)
-    {
         if (collision.collider.CompareTag("UpStair"))
         {
             canJump = true;
-            rb.gravityScale = 0f;
+            ps.speed = 2;
             jumpCount = 0;
             anim.SetBool("onAir", false);
         }
-        if (collision.collider.CompareTag("DownStair"))
-        {
-            canJump = true;
-            rb.gravityScale = 1f;
-            jumpCount = 0;
-            anim.SetBool("onAir", false);
-        }
+
     }
-    private void OnCollisionExit2D(Collision2D collision)
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        if (collision.collider.CompareTag("UpStair")||collision.collider.CompareTag("DownStair"))
+        if (other.CompareTag("SpeedTool"))
         {
-            rb.gravityScale = 1f;
+            ps.speed = 1;
         }
+        
     }
+    
     private void FixedUpdate()
     {
         //Landing();

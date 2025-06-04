@@ -4,7 +4,7 @@ public class PlayerStatus: MonoBehaviour
 {
     public float atk;
     public float def;
-    public float speed;
+    public float speed = 1;
     
     void Start()
     {

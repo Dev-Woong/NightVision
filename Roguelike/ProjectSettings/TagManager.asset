@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Ground
   - Portal
+  - DownStair
+  - UpStair
+  - SpeedTool
   layers:
   - Default
   - TransparentFX
