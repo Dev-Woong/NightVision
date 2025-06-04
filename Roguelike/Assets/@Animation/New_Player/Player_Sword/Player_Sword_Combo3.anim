@@ -341,9 +341,9 @@ AnimationClip:
   m_HasMotionFloatCurves: 0
   m_Events:
   - time: 0.11904762
-    functionName: 
+    functionName: CreateAttackBox
     data: 
-    objectReferenceParameter: {fileID: 0}
+    objectReferenceParameter: {fileID: 11400000, guid: 0552b007b168dc242860e4d0835f781f, type: 2}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
