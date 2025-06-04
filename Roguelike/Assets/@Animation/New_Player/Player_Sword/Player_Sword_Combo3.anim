@@ -58,7 +58,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 0.5
+        time: 0.52380955
         value: 0
         inSlope: 0
         outSlope: 0
@@ -67,16 +67,16 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 0.52380955
+        time: 0.54761904
         value: 0.8
-        inSlope: 11.199996
-        outSlope: 11.199996
+        inSlope: 11.200005
+        outSlope: 11.200005
         tangentMode: 136
         weightedMode: 0
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 0.5714286
+        time: 0.5952381
         value: 1
         inSlope: 0
         outSlope: 0
@@ -113,8 +113,6 @@ AnimationClip:
       value: {fileID: -2416370251844783846, guid: 66e8c5fc4847da04c918947fee7a0bd6, type: 3}
     - time: 0.1904762
       value: {fileID: -2416370251844783846, guid: 66e8c5fc4847da04c918947fee7a0bd6, type: 3}
-    - time: 0.5
-      value: {fileID: -2416370251844783846, guid: 66e8c5fc4847da04c918947fee7a0bd6, type: 3}
     - time: 0.52380955
       value: {fileID: -2416370251844783846, guid: 66e8c5fc4847da04c918947fee7a0bd6, type: 3}
     - time: 0.54761904
@@ -134,7 +132,7 @@ AnimationClip:
     - time: 0.71428573
       value: {fileID: -2416370251844783846, guid: 66e8c5fc4847da04c918947fee7a0bd6, type: 3}
     - time: 0.7380952
-      value: {fileID: 1131914280107358477, guid: 66e8c5fc4847da04c918947fee7a0bd6, type: 3}
+      value: {fileID: -2416370251844783846, guid: 66e8c5fc4847da04c918947fee7a0bd6, type: 3}
     - time: 0.7619048
       value: {fileID: 1131914280107358477, guid: 66e8c5fc4847da04c918947fee7a0bd6, type: 3}
     - time: 0.78571427
@@ -146,7 +144,7 @@ AnimationClip:
     - time: 0.85714287
       value: {fileID: 1131914280107358477, guid: 66e8c5fc4847da04c918947fee7a0bd6, type: 3}
     - time: 0.88095236
-      value: {fileID: 107929739775874414, guid: 66e8c5fc4847da04c918947fee7a0bd6, type: 3}
+      value: {fileID: 1131914280107358477, guid: 66e8c5fc4847da04c918947fee7a0bd6, type: 3}
     - time: 0.9047619
       value: {fileID: 107929739775874414, guid: 66e8c5fc4847da04c918947fee7a0bd6, type: 3}
     - time: 0.9285714
@@ -160,7 +158,7 @@ AnimationClip:
     - time: 1.0238096
       value: {fileID: 107929739775874414, guid: 66e8c5fc4847da04c918947fee7a0bd6, type: 3}
     - time: 1.0476191
-      value: {fileID: -49186010906550935, guid: 66e8c5fc4847da04c918947fee7a0bd6, type: 3}
+      value: {fileID: 107929739775874414, guid: 66e8c5fc4847da04c918947fee7a0bd6, type: 3}
     - time: 1.0714285
       value: {fileID: -49186010906550935, guid: 66e8c5fc4847da04c918947fee7a0bd6, type: 3}
     - time: 1.0952381
@@ -170,6 +168,8 @@ AnimationClip:
     - time: 1.1428572
       value: {fileID: -49186010906550935, guid: 66e8c5fc4847da04c918947fee7a0bd6, type: 3}
     - time: 1.1666666
+      value: {fileID: -49186010906550935, guid: 66e8c5fc4847da04c918947fee7a0bd6, type: 3}
+    - time: 1.1904762
       value: {fileID: -49186010906550935, guid: 66e8c5fc4847da04c918947fee7a0bd6, type: 3}
     attribute: m_Sprite
     path: 
@@ -245,7 +245,7 @@ AnimationClip:
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 1.1904762
+    m_StopTime: 1.2142857
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -302,7 +302,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 0.5
+        time: 0.52380955
         value: 0
         inSlope: 0
         outSlope: 0
@@ -311,16 +311,16 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 0.52380955
+        time: 0.54761904
         value: 0.8
-        inSlope: 11.199996
-        outSlope: 11.199996
+        inSlope: 11.200005
+        outSlope: 11.200005
         tangentMode: 136
         weightedMode: 0
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 0.5714286
+        time: 0.5952381
         value: 1
         inSlope: 0
         outSlope: 0
@@ -340,6 +340,13 @@ AnimationClip:
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
   m_Events:
+  - time: 0.11904762
+    functionName: 
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
   - time: 0.14285715
     functionName: Combo3TeleportEffect
     data: 
@@ -354,10 +361,24 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
+  - time: 0.21428572
+    functionName: CreateAttackBox
+    data: 
+    objectReferenceParameter: {fileID: 11400000, guid: dbb49f026361ea2438322adfb93d94a2, type: 2}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
   - time: 0.23809524
     functionName: Spect2
     data: 
     objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0.26190478
+    functionName: CreateAttackBox
+    data: 
+    objectReferenceParameter: {fileID: 11400000, guid: dbb49f026361ea2438322adfb93d94a2, type: 2}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
@@ -368,10 +389,24 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
+  - time: 0.30952382
+    functionName: CreateAttackBox
+    data: 
+    objectReferenceParameter: {fileID: 11400000, guid: dbb49f026361ea2438322adfb93d94a2, type: 2}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
   - time: 0.33333334
     functionName: Spect4
     data: 
     objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0.35714287
+    functionName: CreateAttackBox
+    data: 
+    objectReferenceParameter: {fileID: 11400000, guid: dbb49f026361ea2438322adfb93d94a2, type: 2}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
@@ -382,10 +417,24 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
+  - time: 0.4047619
+    functionName: CreateAttackBox
+    data: 
+    objectReferenceParameter: {fileID: 11400000, guid: dbb49f026361ea2438322adfb93d94a2, type: 2}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
   - time: 0.42857143
     functionName: Spect6
     data: 
     objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0.45238096
+    functionName: CreateAttackBox
+    data: 
+    objectReferenceParameter: {fileID: 11400000, guid: dbb49f026361ea2438322adfb93d94a2, type: 2}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
@@ -397,6 +446,13 @@ AnimationClip:
     intParameter: 0
     messageOptions: 0
   - time: 0.5
+    functionName: CreateAttackBox
+    data: 
+    objectReferenceParameter: {fileID: 11400000, guid: dbb49f026361ea2438322adfb93d94a2, type: 2}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0.52380955
     functionName: Combo3PositionChange
     data: 
     objectReferenceParameter: {fileID: 0}
@@ -407,6 +463,13 @@ AnimationClip:
     functionName: PlusComboCount
     data: 
     objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 1.1428572
+    functionName: CreateAttackBox
+    data: 
+    objectReferenceParameter: {fileID: 11400000, guid: 11f47274193879649b066293ddbbe1b3, type: 2}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
