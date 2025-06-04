@@ -18,8 +18,8 @@ MonoBehaviour:
   weaponType: 2
   animSpot: null
   hitCount: 1
-  damageValue: 60
+  damageValue: 100
   HitEffect: {fileID: 0}
   effectPos: {x: 0, y: 0, z: 0}
-  hitBoxSize: {x: 4, y: 4, z: 0}
+  hitBoxSize: {x: 2, y: 2, z: 0}
   rangeOffset: 0
