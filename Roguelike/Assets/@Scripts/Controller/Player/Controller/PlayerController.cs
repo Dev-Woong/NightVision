@@ -371,7 +371,31 @@ public class PlayerController : MonoBehaviour
             jumpCount = 0;
             anim.SetBool("onAir", false); 
         }
-
+        
+    }
+    private void OnCollisionStay2D(Collision2D collision)
+    {
+        if (collision.collider.CompareTag("UpStair"))
+        {
+            canJump = true;
+            rb.gravityScale = 0f;
+            jumpCount = 0;
+            anim.SetBool("onAir", false);
+        }
+        if (collision.collider.CompareTag("DownStair"))
+        {
+            canJump = true;
+            rb.gravityScale = 1f;
+            jumpCount = 0;
+            anim.SetBool("onAir", false);
+        }
+    }
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+        if (collision.collider.CompareTag("UpStair")||collision.collider.CompareTag("DownStair"))
+        {
+            rb.gravityScale = 1f;
+        }
     }
     private void FixedUpdate()
     {

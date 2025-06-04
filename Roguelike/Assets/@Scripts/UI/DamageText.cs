@@ -13,14 +13,22 @@ public class DamageText : PoolAble
     public float fontMinusSpeed = 10;
     TMP_Text damageText;
     Color alpha;
+    VertexGradient criticalColor;
     WaitForSeconds DelTime;
     public float damage;
     void Start()
     {
+        criticalColor = new (Color.white, Color.white, Color.red, Color.red);
         damageText = GetComponent<TMP_Text>();
         if (damage <= 0)
         { damageText.text = "Miss"; }
+        else if (damage >= 99)
+        {
+            damageText.GetComponent<TMP_Text>().colorGradient = criticalColor;
+            damageText.text = "99";
+        }
         else { damageText.text = damage.ToString(); }
+        
         DelTime = new(destroySpeed);
         alpha = damageText.color;
         StartCoroutine(UnDamageText());

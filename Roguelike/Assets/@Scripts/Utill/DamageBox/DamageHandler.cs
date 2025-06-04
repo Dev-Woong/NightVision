@@ -7,6 +7,7 @@ public class DamageHandler : MonoBehaviour
 {
     public AudioSource audioSource;
     public ScopeController sc;
+    public PlayerStatus ps;
     public float interval = 0.06f;
     private readonly HashSet<IDamageable> damagedTargets = new();
     WaitForSeconds Interval = new(0);
@@ -53,10 +54,9 @@ public class DamageHandler : MonoBehaviour
         int currentHits = 0;
         while (currentHits < data.hitCount)
         {
-            float finalDmg = data.damageValue * 1; /*플레이어 공격 스탯*/
-            float randDmg = Mathf.RoundToInt(Random.Range(finalDmg - 2, finalDmg + 2));
+            float finalDmg = data.damageValue * ps.atk;
+            float randDmg = Mathf.RoundToInt(Random.Range(finalDmg * 0.9f, finalDmg *1.1f));
             dmg.TakeDamage((randDmg));
-            Debug.Log($"{randDmg}");
             //audioSource.PlayOneShot(data.SFX);
             if (data.HitEffect != null) 
             {
