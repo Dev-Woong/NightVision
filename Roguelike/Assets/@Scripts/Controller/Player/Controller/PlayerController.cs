@@ -1,5 +1,7 @@
+using JetBrains.Annotations;
 using System.Collections;
 using Unity.Cinemachine;
+using UnityEditor;
 using UnityEngine;
 
 public enum WeaponType
@@ -34,14 +36,15 @@ public class PlayerController : MonoBehaviour
     int jumpCount = 0;
     public int comboCount = 0;
     public int magazineDrum = 5;
+    public int mode = 0;
     bool canJump=true;
     bool moveAble = true;
     public bool snipeMode = false;
+    public bool modeSelection = false;
     public Vector3 portalMovePosition;
     private Coroutine comboResetCoroutine;
     private Coroutine JumpCountCoroutine;
     int wType = 0;
-    Color ScopeColor= new Color32(0,0,0,255);
     
     void Start()
     {
@@ -57,14 +60,12 @@ public class PlayerController : MonoBehaviour
     {
         if (snipeMode == true)
         {
-            
             brain.DefaultBlend.Style = CinemachineBlendDefinition.Styles.EaseInOut;
             anim.SetBool("onSnipe", true);
             StartCoroutine(CineBrainBlendInOut());
         }
         else if (snipeMode == false)
         {
-           
             Scope.transform.position = tr.position + new Vector3(1, 1, 0);
             Scope.SetActive(false);
             anim.SetBool("onSnipe", false);
@@ -81,10 +82,55 @@ public class PlayerController : MonoBehaviour
         yield return wTime;
         brain.DefaultBlend.Style = CinemachineBlendDefinition.Styles.Cut;
     }
-    public void EnterSnipeMode()
+    public void EnterGunMode()
+    {
+        moveAble = !moveAble;
+        modeSelection = !modeSelection; 
+    }
+    public void ExitSnipeMode()
     {
         moveAble = !moveAble;
         snipeMode = !snipeMode;
+    }
+    public void SelectGunMode()
+    {
+        if (modeSelection == true)
+        {
+            
+            if (Input.GetKeyDown(KeyCode.RightArrow))
+            {
+                mode++;
+                if (mode >= 3)
+                {
+                    mode = 0;
+                }
+                
+            }
+            if (Input.GetKeyDown(KeyCode.Return))
+            {
+                switch (mode)
+                {
+                    case 0:
+                        
+                        modeSelection = !modeSelection;
+                        snipeMode = !snipeMode;
+                        mode = 0;
+                        break;
+                    case 1:
+                        
+                        modeSelection = !modeSelection;
+                        //snipeMode = !snipeMode;
+                        mode = 0;
+                        break;
+                    case 2:
+                       
+                        modeSelection = !modeSelection;
+                        //snipeMode = !snipeMode;
+                        break;
+                }
+            }
+
+        }
     }
     void SetWeaponState()
     {
@@ -207,7 +253,7 @@ public class PlayerController : MonoBehaviour
             }
             else 
             {
-                EnterSnipeMode();
+                EnterGunMode();
             }
         }
     }
@@ -405,7 +451,7 @@ public class PlayerController : MonoBehaviour
             GetWeaponState();
             Attack();
         }
-
+        SelectGunMode();
         DoubleJump();
         OnAir();
         ScopeC();
