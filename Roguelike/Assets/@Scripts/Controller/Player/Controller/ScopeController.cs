@@ -89,7 +89,7 @@ public class ScopeController: MonoBehaviour
             curTime = coolTime;
             if (player.magazineDrum <= 0)
             {
-                player.EnterSnipeMode();
+                player.ExitSnipeMode();
                 ExitScopeCam();
             }
         }
