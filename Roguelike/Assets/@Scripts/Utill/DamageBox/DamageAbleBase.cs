@@ -6,11 +6,11 @@ public interface IDamageable
 
 public abstract class DamageAbleBase : PoolAble, IDamageable 
 {
-    public bool canDamage;
-    public virtual void TakeDamage(float Damage)
+    public void TakeDamage(float Damage)
     {
-        if (canDamage == false) return;
         OnDamage(Damage);
     }
-    public abstract void OnDamage(float causerAtk); 
+    
+    public abstract void OnDamage(float causerAtk);
+
 }

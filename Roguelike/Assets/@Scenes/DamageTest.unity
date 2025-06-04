@@ -1231,7 +1231,7 @@ GameObject:
   - component: {fileID: 403694801}
   - component: {fileID: 403694802}
   - component: {fileID: 403694803}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Enemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1351,7 +1351,7 @@ Transform:
   m_GameObject: {fileID: 403694795}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.14, z: 0}
+  m_LocalPosition: {x: 0.06, y: -0.44, z: 0}
   m_LocalScale: {x: 1.1, y: 1.1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1416,7 +1416,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85218ac697715c94d82aadd016dad984, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canDamage: 0
   nearObject: {fileID: 0}
   damageText: {fileID: 0}
   damagePos: {fileID: 0}
@@ -1972,7 +1971,7 @@ Transform:
   m_GameObject: {fileID: 537464347}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.25, z: 0}
+  m_LocalPosition: {x: 0, y: 0.47, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3336,7 +3335,7 @@ MonoBehaviour:
   DashEffect: {fileID: 36312249568226427, guid: d5c5866b485145446a3cc86f83b2b4f1, type: 3}
   DoubleJumpEffet: {fileID: 1432662399882269447, guid: 9293d72710d39e24cb22b2b6a595bd46, type: 3}
   Scope: {fileID: 1445972496}
-  sController: {fileID: 1445972498}
+  brain: {fileID: 1584781632}
   weaponType: 0
   comboCount: 0
   magazineDrum: 5
@@ -3505,6 +3504,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 1252316623}
   - {fileID: 1230097232}
   - {fileID: 1445972497}
   m_Father: {fileID: 0}
@@ -3521,87 +3521,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b37e40349fe28be4f9de0128b25aec63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackData: {fileID: 0}
   audioSource: {fileID: 0}
+  sc: {fileID: 1445972498}
   interval: 0.1
---- !u!1 &964695050
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 964695052}
-  - component: {fileID: 964695051}
-  m_Layer: 0
-  m_Name: GameObject (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!61 &964695051
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 964695050}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Size: {x: 1, y: 1}
-  m_EdgeRadius: 0
---- !u!4 &964695052
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 964695050}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1106276582
 GameObject:
   m_ObjectHideFlags: 0
@@ -3944,6 +3866,7 @@ GameObject:
   - component: {fileID: 1252316620}
   - component: {fileID: 1252316622}
   - component: {fileID: 1252316621}
+  - component: {fileID: 1252316624}
   m_Layer: 0
   m_Name: Scope_Cam
   m_TagString: Untagged
@@ -4057,12 +3980,27 @@ Transform:
   m_GameObject: {fileID: 1252316619}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2, y: 0, z: -10}
+  m_LocalPosition: {x: 0, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 957042073}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1252316624
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1252316619}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b92fedfc9d2ff914294345b6bda8f198, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mapCollider:
+  - {fileID: 239134812}
+  pc: {fileID: 957042068}
 --- !u!1 &1299918083
 GameObject:
   m_ObjectHideFlags: 0
@@ -4511,9 +4449,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02a31eb3cf26cbf4d9ec161b92adfa21, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mapCollider: []
   impulseSource: {fileID: 1445972499}
   scopeCam: {fileID: 1252316620}
+  snipeData: {fileID: 11400000, guid: 2a4c3b4c41790c745bd526ec71f04049, type: 2}
   BrokenShotEffect: {fileID: 5907124718778239688, guid: a42c4ced12855b14fb06ddee2c0d5d0c, type: 3}
   FireEffectPref:
   - {fileID: 915288787154401683, guid: 17dc940f9af8f4244832ef1ed00a11ad, type: 3}
@@ -6597,8 +6535,6 @@ SceneRoots:
   - {fileID: 54990364}
   - {fileID: 403694800}
   - {fileID: 1354328342}
-  - {fileID: 1252316623}
   - {fileID: 1189423534}
   - {fileID: 957042073}
   - {fileID: 1584781635}
-  - {fileID: 964695052}

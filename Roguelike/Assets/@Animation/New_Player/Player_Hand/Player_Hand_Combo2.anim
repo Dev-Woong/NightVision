@@ -145,10 +145,24 @@ AnimationClip:
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
   m_Events:
+  - time: 0.14285715
+    functionName: CreateAttackBox
+    data: 
+    objectReferenceParameter: {fileID: 11400000, guid: 406a594df3cce3a46af570a8d61e6578, type: 2}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
   - time: 0.23809524
     functionName: CircleKick
     data: 
     objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0.42857143
+    functionName: CreateAttackBox
+    data: 
+    objectReferenceParameter: {fileID: 11400000, guid: 1f29857070524b940aae386111a1630c, type: 2}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
@@ -163,6 +177,13 @@ AnimationClip:
     functionName: OnHandCombo3Fall
     data: 
     objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0.95238096
+    functionName: CreateAttackBox
+    data: 
+    objectReferenceParameter: {fileID: 11400000, guid: 3932b9b1cbe147b42b513a340caebeec, type: 2}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0

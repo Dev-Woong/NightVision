@@ -116,6 +116,13 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
+  - time: 0.13333334
+    functionName: CreateAttackBox
+    data: 
+    objectReferenceParameter: {fileID: 11400000, guid: 23242fc70c3cb234c89bdf2198aa1dee, type: 2}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
   - time: 0.33333334
     functionName: UpSlashEffect
     data: 
@@ -123,10 +130,24 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
+  - time: 0.46666667
+    functionName: CreateAttackBox
+    data: 
+    objectReferenceParameter: {fileID: 11400000, guid: 98aaf6f5c1ed53d479e96dfffc1a47cb, type: 2}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
   - time: 0.6666667
     functionName: UpSlashEffect
     data: 
     objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0.73333335
+    functionName: CreateAttackBox
+    data: 
+    objectReferenceParameter: {fileID: 11400000, guid: 98aaf6f5c1ed53d479e96dfffc1a47cb, type: 2}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0

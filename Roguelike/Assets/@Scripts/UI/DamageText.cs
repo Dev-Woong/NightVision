@@ -3,37 +3,49 @@ using TMPro;
 using Unity.Mathematics;
 using UnityEngine;
 
-public class DamageText : MonoBehaviour
+public class DamageText : PoolAble
 {
     public float moveSpeed;
     public float alphaSpeed;
-
-    public TMP_Text damageText;
+    public float destroySpeed = 1;
+    public float maxFontSize = 15;
+    public float currentAlpha = 1;
+    public float fontMinusSpeed = 10;
+    TMP_Text damageText;
     Color alpha;
-
+    WaitForSeconds DelTime;
     public float damage;
-
     void Start()
     {
         damageText = GetComponent<TMP_Text>();
-        damageText.text = damage.ToString();
+        if (damage <= 0)
+        { damageText.text = "Miss"; }
+        else { damageText.text = damage.ToString(); }
+        DelTime = new(destroySpeed);
         alpha = damageText.color;
         StartCoroutine(UnDamageText());
     }
-
-    
-    void Update()
+    public void TextMove()
     {
         transform.Translate(new Vector3(0, moveSpeed * Time.deltaTime, 0));
 
-        alpha.a = Mathf.Lerp(alpha.a, 0, Time.deltaTime * alphaSpeed);
+        // 알파 변화
+        currentAlpha = Mathf.Lerp(currentAlpha, 0, Time.deltaTime * alphaSpeed);
+        alpha = damageText.color;
+        alpha.a = currentAlpha;
         damageText.color = alpha;
-    }
 
+        // 폰트 크기 변화
+
+        damageText.fontSize = Mathf.RoundToInt(maxFontSize -= Time.deltaTime*fontMinusSpeed); // 꼭 정수로
+    }
+    void Update()
+    {
+        TextMove();
+    }
     IEnumerator UnDamageText()
     {
-        yield return new WaitForSeconds(1f);
-
+        yield return DelTime;
         Destroy(gameObject);
     }
 }

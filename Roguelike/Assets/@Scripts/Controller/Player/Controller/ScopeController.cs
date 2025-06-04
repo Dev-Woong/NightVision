@@ -6,13 +6,14 @@ public class ScopeController: MonoBehaviour
 {
     protected PlayerController player;
     protected PortalController portal;
-
+    protected DamageHandler dHandle;
     private Coroutine FireCoroutine;
     
 
     public CinemachineImpulseSource impulseSource;
     public CinemachineCamera scopeCam;
-    
+
+    public AttackData snipeData;
     public GameObject BrokenShotEffect;
     public GameObject[] FireEffectPref;
     public GameObject SnipeBG;
@@ -26,7 +27,7 @@ public class ScopeController: MonoBehaviour
     {
         player = GetComponentInParent<PlayerController>();
         portal = GetComponentInParent<PortalController>();
-        
+        dHandle = GetComponentInParent<DamageHandler>();    
         scopeCam.Priority = 1;
     }
     void Update()
@@ -83,6 +84,7 @@ public class ScopeController: MonoBehaviour
             Vector3 recoilDir = new Vector3(a, 1f, 0f).normalized;
             impulseSource.GenerateImpulse(recoilDir);
             FireCoroutine = StartCoroutine(FireEffect());
+            dHandle.CreateAttackBox(snipeData);
             player.magazineDrum--;
             curTime = coolTime;
             if (player.magazineDrum <= 0)

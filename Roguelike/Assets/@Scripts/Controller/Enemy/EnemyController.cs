@@ -3,7 +3,7 @@ using UnityEditor;
 using UnityEngine;
 using UnityEngine.UIElements;
 
-public class EnemyController : DamageAbleBase
+public class EnemyController : DamageAbleBase, IDamageable
 { 
     Rigidbody2D rb;
     Animator animator;
@@ -24,6 +24,8 @@ public class EnemyController : DamageAbleBase
     public float CurrentHp;
     public float MaxHp = 100;
 
+   
+
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -39,13 +41,10 @@ public class EnemyController : DamageAbleBase
     {
         Move();  
     }
-
     void InstanceHp()
     {
         CurrentHp = MaxHp;
     }
-
-
     void Move()
     {
         Collider2D[] hits = Physics2D.OverlapCircleAll(transform.position, detectionRadius, PlayerLayer);
@@ -115,19 +114,8 @@ public class EnemyController : DamageAbleBase
         Vector3 offsetPosition = transform.position;
         Gizmos.DrawWireSphere(offsetPosition, detectionRadius);
     }
-
-    public override void OnDamage(float causerAtk)
-    {
-        CurrentHp -= causerAtk;
-        GameObject hudText = Instantiate(damageText);
-        hudText.transform.position = damagePos.position;
-        hudText.GetComponent<DamageText>().damage = causerAtk;
-        animator.SetTrigger("doHit");
-        if (CurrentHp <= 0)
-        {
-            Die();
-        }
-    }
+    
+    
     void Die()
     {
         ReleaseObject();
@@ -141,5 +129,18 @@ public class EnemyController : DamageAbleBase
 
             
         }
+    }
+
+    public override void OnDamage(float causerAtk)
+    { 
+        CurrentHp -= causerAtk;
+        GameObject hudText = Instantiate(damageText);
+        hudText.transform.position = damagePos.position;
+        hudText.GetComponent<DamageText>().damage = causerAtk;
+        animator.SetTrigger("doHit");
+        //if (CurrentHp <= 0)
+        //{
+        //    Die();
+        //}
     }
 }

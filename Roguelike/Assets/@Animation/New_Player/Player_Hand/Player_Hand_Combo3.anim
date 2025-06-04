@@ -264,6 +264,13 @@ AnimationClip:
     intParameter: 0
     messageOptions: 0
   - time: 0.3611111
+    functionName: CreateAttackBox
+    data: 
+    objectReferenceParameter: {fileID: 11400000, guid: 873bd29b317b8944cbca4418b2a52a78, type: 2}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0.3611111
     functionName: Jab
     data: 
     objectReferenceParameter: {fileID: 0}
@@ -271,9 +278,23 @@ AnimationClip:
     intParameter: 0
     messageOptions: 0
   - time: 0.5
+    functionName: CreateAttackBox
+    data: 
+    objectReferenceParameter: {fileID: 11400000, guid: 873bd29b317b8944cbca4418b2a52a78, type: 2}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0.5
     functionName: Uppercut
     data: 
     objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0.6666667
+    functionName: CreateAttackBox
+    data: 
+    objectReferenceParameter: {fileID: 11400000, guid: 873bd29b317b8944cbca4418b2a52a78, type: 2}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
@@ -291,10 +312,24 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
+  - time: 0.8055556
+    functionName: CreateAttackBox
+    data: 
+    objectReferenceParameter: {fileID: 11400000, guid: 873bd29b317b8944cbca4418b2a52a78, type: 2}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
   - time: 0.9166667
     functionName: Jab
     data: 
     objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0.9166667
+    functionName: CreateAttackBox
+    data: 
+    objectReferenceParameter: {fileID: 11400000, guid: 873bd29b317b8944cbca4418b2a52a78, type: 2}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
@@ -305,52 +340,108 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 1.0833334
+  - time: 1.0277778
+    functionName: CreateAttackBox
+    data: 
+    objectReferenceParameter: {fileID: 11400000, guid: 873bd29b317b8944cbca4418b2a52a78, type: 2}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 1.1111112
     functionName: Jab
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 1.2222223
+  - time: 1.1111112
+    functionName: CreateAttackBox
+    data: 
+    objectReferenceParameter: {fileID: 11400000, guid: 873bd29b317b8944cbca4418b2a52a78, type: 2}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 1.25
     functionName: Uppercut
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 1.388889
+  - time: 1.25
+    functionName: CreateAttackBox
+    data: 
+    objectReferenceParameter: {fileID: 11400000, guid: 873bd29b317b8944cbca4418b2a52a78, type: 2}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 1.4166666
     functionName: Jab
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 1.5277779
+  - time: 1.4166666
+    functionName: CreateAttackBox
+    data: 
+    objectReferenceParameter: {fileID: 11400000, guid: 873bd29b317b8944cbca4418b2a52a78, type: 2}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 1.5555556
     functionName: Hook
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 1.638889
+  - time: 1.5555556
+    functionName: CreateAttackBox
+    data: 
+    objectReferenceParameter: {fileID: 11400000, guid: 873bd29b317b8944cbca4418b2a52a78, type: 2}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 1.6666666
+    functionName: CreateAttackBox
+    data: 
+    objectReferenceParameter: {fileID: 11400000, guid: 873bd29b317b8944cbca4418b2a52a78, type: 2}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 1.6666666
     functionName: Jab
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 1.7222223
+  - time: 1.75
     functionName: Hook
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 1.8055556
+  - time: 1.75
+    functionName: CreateAttackBox
+    data: 
+    objectReferenceParameter: {fileID: 11400000, guid: 873bd29b317b8944cbca4418b2a52a78, type: 2}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 1.8333334
     functionName: Jab
     data: 
     objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 1.8333334
+    functionName: CreateAttackBox
+    data: 
+    objectReferenceParameter: {fileID: 11400000, guid: 873bd29b317b8944cbca4418b2a52a78, type: 2}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
@@ -372,6 +463,13 @@ AnimationClip:
     functionName: Jab
     data: 
     objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 2.4444444
+    functionName: CreateAttackBox
+    data: 
+    objectReferenceParameter: {fileID: 11400000, guid: 50c90e544305acd409bc0b5fc6bc586b, type: 2}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
