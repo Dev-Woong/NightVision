@@ -28,7 +28,7 @@ public class PortalController : MonoBehaviour
     
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Portal"))
+        if (other.CompareTag("Map"))
         {
             nextSceneNum = other.GetComponent<Portal>().pNum.portalNum;
             //scope.transform.position = StartPoint[nextSceneNum].position;

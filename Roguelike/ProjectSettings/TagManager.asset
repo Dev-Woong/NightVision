@@ -9,6 +9,7 @@ TagManager:
   - DownStair
   - UpStair
   - SpeedTool
+  - Map
   layers:
   - Default
   - TransparentFX

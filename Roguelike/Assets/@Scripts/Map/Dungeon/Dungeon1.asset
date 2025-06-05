@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90f6f62623aa1a746893973aa1665caf, type: 3}
   m_Name: Dungeon1
   m_EditorClassIdentifier: 
-  portalNum: 1
+  portalNum: 0
