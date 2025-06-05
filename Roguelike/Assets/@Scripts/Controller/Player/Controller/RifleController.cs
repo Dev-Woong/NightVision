@@ -13,7 +13,7 @@ public class RifleController : MonoBehaviour
     public GameObject ShotEffect;
     public GameObject RifleBG;
     public Transform firePoint;
-    public Transform emptycartridgePoint;
+    public Transform emptyCartridgePoint;
     public GameObject emptycartridge;
     Color BaseScopeBGColor = new Color32(0, 0, 0, 244);
     Color FireScopeBGColor = new Color32(80, 78, 56, 255);
@@ -29,20 +29,20 @@ public class RifleController : MonoBehaviour
         {
             StopCoroutine(FireCoroutine);
         }
+        float a = Random.Range(-0.3f, 0.3f);
+        Vector3 recoilDir = new Vector3(0.8f, a, 0f).normalized;
+        impulseSource.GenerateImpulse(recoilDir);
     }
     public void RandomFireEffect()
     {
         var fireEffect = Instantiate(ShotEffect);
-        fireEffect.transform.position = transform.position;
-        fireEffect.transform.eulerAngles = new Vector3(0, 0, 0);
-
+        fireEffect.transform.position = firePoint.position;
     }
     public void RandomCartidgeEffect()
     {
-        int a = Random.Range(0, 360);
+        float x = Random.Range(0, 360);
         var brokeEffect = Instantiate(ShotEffect);
-        brokeEffect.transform.position = transform.position;
-        brokeEffect.transform.eulerAngles = new Vector3(0, 0, a);
+        brokeEffect.transform.position = emptyCartridgePoint.position;
     }
     IEnumerator FireEffect()
     {
