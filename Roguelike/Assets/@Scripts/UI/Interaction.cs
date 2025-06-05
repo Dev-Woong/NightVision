@@ -9,7 +9,6 @@ public class Interaction : MonoBehaviour
     
     void Start()
     {   
-
         foreach (GameObject Gb in gameObjects)
         {
             Gb.SetActive(false);
