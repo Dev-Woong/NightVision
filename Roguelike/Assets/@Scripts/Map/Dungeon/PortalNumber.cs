@@ -3,9 +3,6 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "PortalNumber", menuName = "Map/Portal")]
 public class PortalNumber : ScriptableObject
 {
-    [Header("¸Ê »ý¼º ½Ã Áõ°¡µÈ ¹øÈ£ Ãß°¡")]
+    [Header("ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½È£ ï¿½ß°ï¿½")]
     public int portalNum;
-
-
-    
 }

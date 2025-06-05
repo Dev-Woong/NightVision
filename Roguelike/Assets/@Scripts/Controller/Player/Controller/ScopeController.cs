@@ -5,7 +5,6 @@ using UnityEngine;
 public class ScopeController: MonoBehaviour
 {
     protected PlayerController player;
-    protected PortalController portal;
     protected DamageHandler dHandle;
     private Coroutine FireCoroutine;
     
@@ -26,7 +25,6 @@ public class ScopeController: MonoBehaviour
     private void Start()
     {
         player = GetComponentInParent<PlayerController>();
-        portal = GetComponentInParent<PortalController>();
         dHandle = GetComponentInParent<DamageHandler>();    
         scopeCam.Priority = 1;
     }
