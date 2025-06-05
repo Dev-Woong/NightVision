@@ -3,6 +3,7 @@ using System.Collections;
 using Unity.Cinemachine;
 using UnityEditor;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public enum WeaponType
 {
@@ -27,24 +28,32 @@ public class PlayerController : MonoBehaviour
     public CinemachineBrain brain;
     WaitForSeconds wTime = new(0.04f);
     public WeaponType weaponType;
+
     private float h;
-    float riseHeight = 1.3f;
-    float fallGravityScale = 11f;
-    float lastInputTime = 0;
-    float resetDelay = 0.5f;
-    float jumpForce = 5;
-    int jumpCount = 0;
-    public int comboCount = 0;
-    public int magazineDrum = 5;
+    private float riseHeight = 1.3f;
+    private float fallGravityScale = 11f;
+    private float lastInputTime = 0;
+    private float resetDelay = 0.5f;
+    private float jumpForce = 5;
+    private int wType = 0;
+    private int jumpCount = 0;
+    private int comboCount = 0;
     public int mode = 0;
-    bool canJump=true;
-    bool moveAble = true;
+    public int magazineDrum = 5;
+
+    private bool canJump=true;
+    private bool moveAble = true;
     public bool snipeMode = false;
+    public bool rifleMode = false;
     public bool modeSelection = false;
+
     public Vector3 portalMovePosition;
     private Coroutine comboResetCoroutine;
     private Coroutine JumpCountCoroutine;
-    int wType = 0;
+
+    public GameObject gunModePanel;
+    public GameObject[] gunModes;
+    public GameObject Rifle;
     
     void Start()
     {
@@ -52,11 +61,14 @@ public class PlayerController : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         tr = GetComponent<Transform>();
         anim = GetComponent<Animator>();
+        Rifle.SetActive(false);
         Scope.SetActive(false);
+        
         rb.freezeRotation = true;
+
     }
    
-    public void ScopeC()
+    public void EnterSnipeMode()
     {
         if (snipeMode == true)
         {
@@ -72,6 +84,11 @@ public class PlayerController : MonoBehaviour
             StartCoroutine(CineBrainBlendCut());
         }
     }
+    public void ExitSnipeMode()
+    {
+        moveAble = !moveAble;
+        snipeMode = !snipeMode;
+    }
     IEnumerator CineBrainBlendInOut()
     {
         yield return wTime;
@@ -82,44 +99,48 @@ public class PlayerController : MonoBehaviour
         yield return wTime;
         brain.DefaultBlend.Style = CinemachineBlendDefinition.Styles.Cut;
     }
+    public void EnterRifleMode()
+    {
+        anim.SetBool("onRifle", rifleMode);
+        Rifle.SetActive(rifleMode);
+    }
+    public void ExitRifleMode()
+    {
+        moveAble = !moveAble;
+        rifleMode = !rifleMode;
+    }
     public void EnterGunMode()
     {
-        moveAble = !moveAble;
         modeSelection = !modeSelection; 
-    }
-    public void ExitSnipeMode()
-    {
-        moveAble = !moveAble;
-        snipeMode = !snipeMode;
     }
     public void SelectGunMode()
     {
         if (modeSelection == true)
         {
             
-            if (Input.GetKeyDown(KeyCode.RightArrow))
+            if (Input.GetKeyDown(KeyCode.F))
             {
                 mode++;
                 if (mode >= 3)
                 {
                     mode = 0;
                 }
-                
+               
             }
-            if (Input.GetKeyDown(KeyCode.Return))
+            if (Input.GetKeyDown(KeyCode.G))
             {
                 switch (mode)
                 {
                     case 0:
-                        
-                        modeSelection = !modeSelection;
-                        snipeMode = !snipeMode;
+                        moveAble = !moveAble;
+                        modeSelection = false ;
+                        snipeMode = true;
                         mode = 0;
                         break;
                     case 1:
-                        
-                        modeSelection = !modeSelection;
-                        //snipeMode = !snipeMode;
+                        moveAble = !moveAble;
+                        modeSelection = false;
+                        rifleMode = !rifleMode;
                         mode = 0;
                         break;
                     case 2:
@@ -131,6 +152,29 @@ public class PlayerController : MonoBehaviour
             }
 
         }
+    }
+    public void GunModeUI()
+    {
+        gunModePanel.SetActive(modeSelection);
+        if (mode == 0)
+        {
+            gunModes[0].SetActive(modeSelection);
+            gunModes[1].SetActive(!modeSelection);
+            gunModes[2].SetActive(!modeSelection);
+        }
+        else if (mode == 1)
+        {
+            gunModes[0].SetActive(!modeSelection);
+            gunModes[1].SetActive(modeSelection);
+            gunModes[2].SetActive(!modeSelection);
+        }
+        else
+        {
+            gunModes[0].SetActive(!modeSelection);
+            gunModes[1].SetActive(!modeSelection);
+            gunModes[2].SetActive(modeSelection);
+        }
+
     }
     void SetWeaponState()
     {
@@ -451,10 +495,12 @@ public class PlayerController : MonoBehaviour
             GetWeaponState();
             Attack();
         }
+        EnterRifleMode();
+        GunModeUI();
         SelectGunMode();
         DoubleJump();
         OnAir();
-        ScopeC();
+        EnterSnipeMode();
         UseSkill();
         ResetComboCount();
     }
