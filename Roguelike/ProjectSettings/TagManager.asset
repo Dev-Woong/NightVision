@@ -11,6 +11,8 @@ TagManager:
   - SpeedTool
   - Map
   - Cam
+  - RightTrigger
+  - LeftTrigger
   layers:
   - Default
   - TransparentFX
