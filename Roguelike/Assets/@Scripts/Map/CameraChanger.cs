@@ -26,6 +26,13 @@ public class CameraChanger : MonoBehaviour
 
     void Start()
     {
+        Initialize();
+         moveLeft = true;
+        moveRight = true;
+    }
+
+    public void Initialize()
+    {
         // Scopecam 오브젝트 자동으로 찾기
         ScopeCam = GameObject.Find("Player").transform.Find("Scope_Cam").gameObject;
 
@@ -48,8 +55,6 @@ public class CameraChanger : MonoBehaviour
         c = mappol.Length;
 
         a = 0;
-        moveLeft = true;
-        moveRight = true;
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

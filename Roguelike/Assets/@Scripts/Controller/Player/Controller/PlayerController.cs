@@ -3,6 +3,7 @@ using System.Collections;
 using Unity.Cinemachine;
 using UnityEditor;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UIElements;
 
 public enum WeaponType
@@ -11,6 +12,8 @@ public enum WeaponType
     Sword,
     Gun
 }
+
+
 
 public class PlayerController : MonoBehaviour
 {
@@ -54,7 +57,11 @@ public class PlayerController : MonoBehaviour
     public GameObject gunModePanel;
     public GameObject[] gunModes;
     public GameObject Rifle;
-    
+    public void Awake()
+    {
+        DontDestroyOnLoad(gameObject);
+    }
+
     void Start()
     {
         ps = GetComponent<PlayerStatus>();
@@ -477,6 +484,14 @@ public class PlayerController : MonoBehaviour
         if (other.CompareTag("SpeedTool"))
         {
             ps.speed = 1;
+        }
+
+        if (other.CompareTag("EndPortal"))
+        {
+            CameraChanger changer = new CameraChanger();
+            changer.Initialize();
+            this.GetComponent<PlayerPositionManager>().SetTargetSpawnId("HomeStartPos");
+            SceneManager.LoadScene("Home");
         }
         
     }
