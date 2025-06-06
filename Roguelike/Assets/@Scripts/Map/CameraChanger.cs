@@ -55,8 +55,6 @@ public class CameraChanger : MonoBehaviour
         c = mappol.Length;
 
         a = 0;
-        moveLeft = true;
-        moveRight = true;
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

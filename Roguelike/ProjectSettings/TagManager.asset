@@ -13,6 +13,7 @@ TagManager:
   - Cam
   - RightTrigger
   - LeftTrigger
+  - EndPortal
   layers:
   - Default
   - TransparentFX
