@@ -488,12 +488,21 @@ public class PlayerController : MonoBehaviour
 
         if (other.CompareTag("EndPortal"))
         {
-            CameraChanger changer = new CameraChanger();
-            changer.Initialize();
             this.GetComponent<PlayerPositionManager>().SetTargetSpawnId("HomeStartPos");
             SceneManager.LoadScene("Home");
+            Debug.Log("a");
+            StartCoroutine(ChangerInitialize());
+            Debug.Log("b");
         }
         
+    }
+
+    IEnumerator ChangerInitialize()
+    {
+        yield return new WaitForSeconds(0.5f);
+        CameraChanger changer = new CameraChanger();
+        changer.Initialize();
+        Debug.Log("c");
     }
     
     private void FixedUpdate()
