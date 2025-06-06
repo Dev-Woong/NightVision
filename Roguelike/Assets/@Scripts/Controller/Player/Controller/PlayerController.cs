@@ -72,16 +72,17 @@ public class PlayerController : MonoBehaviour
     {
         if (snipeMode == true)
         {
-            brain.DefaultBlend.Style = CinemachineBlendDefinition.Styles.EaseInOut;
+            //brain.DefaultBlend.Style = CinemachineBlendDefinition.Styles.EaseInOut;
             anim.SetBool("onSnipe", true);
-            StartCoroutine(CineBrainBlendInOut());
+            Scope.SetActive(true);
+            //StartCoroutine(CineBrainBlendInOut());
         }
         else if (snipeMode == false)
         {
             Scope.transform.position = tr.position + new Vector3(1, 1, 0);
             Scope.SetActive(false);
             anim.SetBool("onSnipe", false);
-            StartCoroutine(CineBrainBlendCut());
+            //StartCoroutine(CineBrainBlendCut());
         }
     }
     public void ExitSnipeMode()
@@ -89,16 +90,16 @@ public class PlayerController : MonoBehaviour
         moveAble = !moveAble;
         snipeMode = !snipeMode;
     }
-    IEnumerator CineBrainBlendInOut()
-    {
-        yield return wTime;
-        Scope.SetActive(true);
-    }
-    IEnumerator CineBrainBlendCut()
-    {
-        yield return wTime;
-        brain.DefaultBlend.Style = CinemachineBlendDefinition.Styles.Cut;
-    }
+    //IEnumerator CineBrainBlendInOut()
+    //{
+    //    yield return wTime;
+    //    Scope.SetActive(true);
+    //}
+    //IEnumerator CineBrainBlendCut()
+    //{
+    //    yield return wTime;
+    //    brain.DefaultBlend.Style = CinemachineBlendDefinition.Styles.Cut;
+    //}
     public void EnterRifleMode()
     {
         anim.SetBool("onRifle", rifleMode);
