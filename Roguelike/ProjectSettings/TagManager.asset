@@ -16,6 +16,9 @@ TagManager:
   - RightTrigger
   - LeftTrigger
   - EndPortal
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
   layers:
   - Default
