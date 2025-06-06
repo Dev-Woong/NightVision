@@ -11,6 +11,12 @@ TagManager:
   - SpeedTool
   - Map
   - Cam
+<<<<<<< Updated upstream
+=======
+  - RightTrigger
+  - LeftTrigger
+  - EndPortal
+>>>>>>> Stashed changes
   layers:
   - Default
   - TransparentFX

@@ -344,6 +344,11 @@ GameObject:
   - component: {fileID: 54208288}
   - component: {fileID: 54208287}
   - component: {fileID: 54208286}
+<<<<<<< Updated upstream
+=======
+  - component: {fileID: 54208298}
+  - component: {fileID: 54208299}
+>>>>>>> Stashed changes
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -672,6 +677,41 @@ Transform:
   - {fileID: 1967465394}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< Updated upstream
+=======
+--- !u!114 &54208298
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 54208285}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b31fe95ece7c8be4080f0a89e2c84616, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ScopeCam: {fileID: 0}
+  mapCam: []
+  mappol: []
+  a: 0
+  portalUseAble: 0
+  moveLeft: 0
+  moveRight: 0
+--- !u!114 &54208299
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 54208285}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fad4360831b4acb4e91d85d1d11d53b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetSpawnId: HomeStartPos
+>>>>>>> Stashed changes
 --- !u!1 &75776872
 GameObject:
   m_ObjectHideFlags: 0
@@ -2008,7 +2048,11 @@ Transform:
   m_GameObject: {fileID: 178305045}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+<<<<<<< Updated upstream
   m_LocalPosition: {x: -13.996932, y: -0.44364998, z: -10}
+=======
+  m_LocalPosition: {x: 14.07119, y: -0.47509, z: -10}
+>>>>>>> Stashed changes
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -10642,7 +10686,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1184808153}
   m_Layer: 0
-  m_Name: Dungeon
+  m_Name: PointPos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14228,7 +14272,7 @@ GameObject:
   - component: {fileID: 1682483060}
   m_Layer: 0
   m_Name: ChangeMap1
-  m_TagString: Untagged
+  m_TagString: EndPortal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
