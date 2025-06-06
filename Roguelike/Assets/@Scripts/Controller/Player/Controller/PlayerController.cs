@@ -77,7 +77,6 @@ public class PlayerController : MonoBehaviour
         rb.freezeRotation = true;
 
         camChanger = GetComponent<CameraChanger>();
-        StartCoroutine(ChangerInitialize());
     }
    
     public void EnterSnipeMode()
@@ -494,7 +493,8 @@ public class PlayerController : MonoBehaviour
         if (other.CompareTag("EndPortal"))
         {
             this.GetComponent<PlayerPositionManager>().SetTargetSpawnId("HomeStartPos");
-            SceneManager.LoadScene("Home");
+            SceneManager.LoadSceneAsync("Home");
+            StartCoroutine(ChangerInitialize());
         }
         
     }

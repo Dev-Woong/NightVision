@@ -20,43 +20,27 @@ public class CameraChanger : MonoBehaviour
 
     void Awake()
     {
-        mapCam = GameObject.FindGameObjectsWithTag("Cam");//(FindObjectsSortMode.InstanceID);
-        mappol = FindObjectsByType<PolygonCollider2D>(FindObjectsSortMode.InstanceID);
+        
     }
-
-    void Start()
+    private void Start()
     {
         Initialize();
-        moveLeft = true;
-        moveRight = true;
-
     }
+
+
 
     public void Initialize()
     {
-        // Scopecam 오브젝트 자동으로 찾기
-        ScopeCam = GameObject.Find("Player").transform.Find("Scope_Cam").gameObject;
-
-        // 맵 카메라 배열 초기화
-        GameObject[] camObjs = GameObject.FindGameObjectsWithTag("Cam");
-
-
+        mapCam = GameObject.FindGameObjectsWithTag("Cam");
+        mappol = FindObjectsByType<PolygonCollider2D>(FindObjectsSortMode.InstanceID);
+        moveLeft = true;
+        moveRight = true;
         mapCam = mapCam.OrderBy(p => p.name).ToArray();
-
-        //mapCam = new CinemachineCamera[camObjs.Length];
-
-        //for (int i = 0; i < camObjs.Length; i++)
-        //{
-        //    mapCam[i] = camObjs[i].GetComponent<CinemachineCamera>();
-        //}
-
-        // 폴리곤 배열 초기화
-
         mappol = mappol.OrderBy(p => p.name).ToArray();
         c = mappol.Length;
-
         a = 0;
-        
+        ScopeCam.GetComponent<CinemachineConfiner2D>().BoundingShape2D = mappol[0];
+        StartCoroutine(DelayUpdate());
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
