@@ -14,9 +14,9 @@ public class CameraChanger : MonoBehaviour
 
     int c = 0;
 
-    bool PortalUseable = false;
-    bool left = false;
-    bool Right = false;
+    public bool portalUseAble = false;
+    public bool moveLeft = true;
+    public bool moveRight = true;
 
     void Awake()
     {
@@ -48,6 +48,8 @@ public class CameraChanger : MonoBehaviour
         c = mappol.Length;
 
         a = 0;
+        moveLeft = true;
+        moveRight = true;
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -79,33 +81,60 @@ public class CameraChanger : MonoBehaviour
         //    }
 
         //}
+
+        //if (a >= 0 && a < c - 1)
+        //{
+        //    // 다음 맵으로 이동
+        //    a++;
+        //    UpdateCamera(a - 1, a);
+
+        //}
+
+        //else if (a > 0 && a == c - 1)
+        //{
+        //    // 이전 맵으로 이동
+        //    a--;
+        //    UpdateCamera(a + 1, a);
+        //}
         #endregion
 
-        if (!collision.CompareTag("Player")) return;
-
-        if (a >= 0 && a < c - 1)
+        if (collision.CompareTag("Portal"))
         {
-            // 다음 맵으로 이동
-            a++;
-            UpdateCamera(a - 1, a);
-
+            if (portalUseAble == true && moveRight == true)
+            {
+                UpdateCamera(a, a + 1);
+                portalUseAble = false;
+                a++;
+            }
+            else if (portalUseAble == true && moveLeft == true)
+            {
+                UpdateCamera(a, a - 1);
+                portalUseAble = false;
+                a--;
+            }
+            else return;
         }
-
-        else if (a > 0 && a == c - 1)
+        if (collision.CompareTag("RightTrigger")&&moveRight ==true)
         {
-            // 이전 맵으로 이동
-            a--;
-            UpdateCamera(a + 1, a);
+            moveLeft = true;
+            moveRight = false;
+            portalUseAble = true;
+        }
+        if (collision.CompareTag("LeftTrigger")&&moveLeft==true)
+        {
+            moveRight = true;
+            moveLeft = false;
+            portalUseAble = true;
         }
     }
 
-    private void UpdateCamera(int prevIndex, int newIndex) // prevIndex : 현재 맵 , newIndex : 다음 맵
+    private void UpdateCamera(int curIndex, int newIndex) // prevIndex : 현재 맵 , newIndex : 다음 맵
     {
         // Confiner 변경
         ScopeCam.GetComponent<CinemachineConfiner2D>().BoundingShape2D = mappol[newIndex];
 
         // 카메라 우선순위 조절
-        mapCam[prevIndex].GetComponent<CinemachineCamera>().Priority = 10;
+        mapCam[curIndex].GetComponent<CinemachineCamera>().Priority = 10;
         mapCam[newIndex].GetComponent<CinemachineCamera>().Priority = 30;
 
         // Confiner 캐시 초기화
@@ -115,6 +144,7 @@ public class CameraChanger : MonoBehaviour
     IEnumerator DelayUpdate() 
     {
         yield return new WaitForSeconds(0.1f);
+
         ScopeCam.GetComponent<CinemachineConfiner2D>().InvalidateBoundingShapeCache();
     }
 }
