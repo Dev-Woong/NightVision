@@ -807,7 +807,7 @@ GameObject:
   - component: {fileID: 311558770}
   - component: {fileID: 311558773}
   m_Layer: 0
-  m_Name: Cam0
+  m_Name: Cam01
   m_TagString: Cam
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -826,7 +826,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1117039499}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &311558770
 MonoBehaviour:
@@ -3060,7 +3060,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 311558769}
   - {fileID: 2021472741}
   m_Father: {fileID: 1217255994}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3363,7 +3362,7 @@ GameObject:
   - component: {fileID: 1236702238}
   - component: {fileID: 1236702241}
   m_Layer: 0
-  m_Name: Main Camera
+  m_Name: PlayerCamera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3437,7 +3436,7 @@ Transform:
   m_GameObject: {fileID: 1236702237}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 17.575228, y: -2.4152498, z: -10}
+  m_LocalPosition: {x: 17.568201, y: -2.4152498, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4713,3 +4712,4 @@ SceneRoots:
   - {fileID: 1217255994}
   - {fileID: 1878626918}
   - {fileID: 1140542929}
+  - {fileID: 311558769}

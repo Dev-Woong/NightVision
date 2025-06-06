@@ -28,7 +28,7 @@ public class PlayerController : MonoBehaviour
     public GameObject DoubleJumpEffet;
     public GameObject Scope;
     public PlayerStatus ps;
-    public CinemachineBrain brain;
+   
     WaitForSeconds wTime = new(0.04f);
     public WeaponType weaponType;
 
@@ -57,6 +57,9 @@ public class PlayerController : MonoBehaviour
     public GameObject gunModePanel;
     public GameObject[] gunModes;
     public GameObject Rifle;
+
+    CameraChanger camChanger;
+
     public void Awake()
     {
         DontDestroyOnLoad(gameObject);
@@ -73,6 +76,8 @@ public class PlayerController : MonoBehaviour
         
         rb.freezeRotation = true;
 
+        camChanger = GetComponent<CameraChanger>();
+        StartCoroutine(ChangerInitialize());
     }
    
     public void EnterSnipeMode()
@@ -490,9 +495,6 @@ public class PlayerController : MonoBehaviour
         {
             this.GetComponent<PlayerPositionManager>().SetTargetSpawnId("HomeStartPos");
             SceneManager.LoadScene("Home");
-            Debug.Log("a");
-            StartCoroutine(ChangerInitialize());
-            Debug.Log("b");
         }
         
     }
@@ -500,9 +502,10 @@ public class PlayerController : MonoBehaviour
     IEnumerator ChangerInitialize()
     {
         yield return new WaitForSeconds(0.5f);
-        CameraChanger changer = new CameraChanger();
-        changer.Initialize();
-        Debug.Log("c");
+        Debug.Log("a");
+
+        camChanger.Initialize();
+        Debug.Log("b");
     }
     
     private void FixedUpdate()
