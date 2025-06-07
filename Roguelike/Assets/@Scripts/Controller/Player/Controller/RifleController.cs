@@ -19,11 +19,15 @@ public class RifleController : MonoBehaviour
     Color FireBGColor = new Color32(80, 78, 56, 255);
     public float cartridgeForce = 10;
     int magazineDrum = 0;
-    void Start()
+    private void Awake()
     {
         player = GetComponentInParent<PlayerController>();
         dHandle = GetComponentInParent<DamageHandler>();
         rifleCam.Priority = 1;
+    }
+    void Start()
+    {
+        this.gameObject.SetActive(false);
     }
     public void Fire()
     {
@@ -32,26 +36,31 @@ public class RifleController : MonoBehaviour
         {
             StopCoroutine(FireCoroutine);
         }
-        float a = Random.Range(-0.3f, 0.3f);
-        Vector3 recoilDir = new Vector3(0.8f, a, 0f).normalized;
-        impulseSource.GenerateImpulse(recoilDir);
+        
+        
         FireCoroutine = StartCoroutine(FireEffect());
         dHandle.CreateAttackBox(rifleData);
        
-        if (magazineDrum < 0)
-        {
-            //라이플캠 종료 및 라이플상태 종료
-            player.ExitRifleMode();
-            ExitRifleCam();
-        }
+        //if (magazineDrum<= 0)
+        //{
+        //    //라이플캠 종료 및 라이플상태 종료
+        //    player.ExitRifleMode();
+        //    ExitRifleCam();
+        //}
 
+    }
+    public void EnterRifleMode()
+    {
+        if (player.rifleMode == true)
+        {
+            
+        }
     }
     public void ExitRifleCam()
     {
         if (player.snipeMode == false)
         {
-            rifleCam.Priority = 1;
-            RifleBG.GetComponent<SpriteRenderer>().color = BaseBGColor;
+            
         }
     }
     public void RandomFireEffect()
@@ -61,27 +70,32 @@ public class RifleController : MonoBehaviour
     }
     public void RandomCartridgeEffect()
     {
-        var brokeEffect = Instantiate(ShotEffect);
+        var brokeEffect = Instantiate(emptycartridge);
         brokeEffect.transform.position = emptyCartridgePoint.position;
-        float x = Random.Range(-0.8f, -0.3f);
-        float y = Random.Range(0.2f, -1f);
+        float x = Random.Range(-0.5f, -0.3f);
+        float y = Random.Range(0.3f, -0.3f);
         brokeEffect.GetComponent<Rigidbody2D>().AddForce(new Vector3(x, y, 0)*cartridgeForce,ForceMode2D.Impulse);
     }
     IEnumerator FireEffect()
     {
         int a = 0;
+        rifleCam.Priority = 50;
         while (a < rifleData.hitCount)
         {
-            RifleBG.GetComponent<SpriteRenderer>().color = FireBGColor;
+           // RifleBG.GetComponent<SpriteRenderer>().color = FireBGColor;
             RandomFireEffect();
+            float b = Random.Range(-0.5f, 0f);
+            Vector3 recoilDir = new Vector3(0.5f, b, 0f);
+            impulseSource.GenerateImpulse(recoilDir);
             RandomCartridgeEffect();
-            yield return new WaitForSeconds(0.01f);
-            RifleBG.GetComponent<SpriteRenderer>().color = BaseBGColor;
-            yield return new WaitForSeconds(0.02f);
+            yield return new WaitForSeconds(0.04f);
+            //RifleBG.GetComponent<SpriteRenderer>().color = BaseBGColor;
+            yield return new WaitForSeconds(0.04f);
             a++;
             magazineDrum--;
         }
-
+        rifleCam.Priority = 1;
+        RifleBG.GetComponent<SpriteRenderer>().color = BaseBGColor;
     }
     
 }

@@ -28,6 +28,7 @@ public class PlayerController : MonoBehaviour
     public GameObject DoubleJumpEffet;
     public GameObject Scope;
     public PlayerStatus ps;
+    public RifleController rc;
    
     WaitForSeconds wTime = new(0.04f);
     public WeaponType weaponType;
@@ -71,6 +72,7 @@ public class PlayerController : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         tr = GetComponent<Transform>();
         anim = GetComponent<Animator>();
+        rc =GetComponentInChildren<RifleController>();
         Rifle.SetActive(false);
         Scope.SetActive(false);
         
@@ -106,8 +108,10 @@ public class PlayerController : MonoBehaviour
     }
     public void ExitRifleMode()
     {
-        moveAble = !moveAble;
-        rifleMode = !rifleMode;
+        moveAble = true;
+        rifleMode =false;
+
+        anim.SetBool("onRifle", rifleMode);
     }
     public void EnterGunMode()
     {
@@ -142,6 +146,7 @@ public class PlayerController : MonoBehaviour
                         modeSelection = false;
                         rifleMode = !rifleMode;
                         mode = 0;
+                        StartCoroutine(RifleFire());
                         break;
                     case 2:
                        
@@ -152,6 +157,11 @@ public class PlayerController : MonoBehaviour
             }
 
         }
+    }
+    IEnumerator RifleFire()
+    {
+        yield return wTime;
+        rc.Fire();
     }
     public void GunModeUI()
     {

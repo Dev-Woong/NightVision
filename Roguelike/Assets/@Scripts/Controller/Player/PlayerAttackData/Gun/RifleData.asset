@@ -20,6 +20,6 @@ MonoBehaviour:
   hitCount: 30
   damageValue: 10
   HitEffect: {fileID: 5099289152872433770, guid: 47d68cf229101694f9b0faea8768cdd2, type: 3}
-  effectPos: {x: 0, y: 0, z: 0}
-  hitBoxSize: {x: 8, y: 3, z: 0}
-  rangeOffset: 4
+  effectPos: {x: 0.2, y: 0, z: 0}
+  hitBoxSize: {x: 13, y: 3, z: 0}
+  rangeOffset: 6
