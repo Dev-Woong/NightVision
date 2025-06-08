@@ -22,6 +22,7 @@ public class ScopeController: MonoBehaviour
     WaitForSeconds wTime = new(0.1f);
     Color BaseScopeBGColor = new Color32(0, 0, 0, 244);
     Color FireScopeBGColor = new Color32(80, 78, 56, 255);
+    
     private void Start()
     {
         player = GetComponentInParent<PlayerController>();
@@ -85,11 +86,7 @@ public class ScopeController: MonoBehaviour
             dHandle.CreateAttackBox(snipeData);
             player.magazineDrum--;
             curTime = coolTime;
-            if (player.magazineDrum <= 0)
-            {
-                player.ExitSnipeMode();
-                ExitScopeCam();
-            }
+            
         }
     }
     public void RandomFireEffect()
@@ -114,10 +111,14 @@ public class ScopeController: MonoBehaviour
         SnipeBG.GetComponent<SpriteRenderer>().color = FireScopeBGColor;
         RandomFireEffect();
         RandomBrokeEffect();
-        yield return new WaitForSeconds(0.05f);
+        yield return new WaitForSeconds(0.1f);
         SnipeBG.GetComponent<SpriteRenderer>().color = BaseScopeBGColor;
         yield return new WaitForSeconds(0.03f);
-        
+        if (player.magazineDrum <= 0)
+        {
+            player.ExitSnipeMode();
+            ExitScopeCam();
+        }
     }
 }
 

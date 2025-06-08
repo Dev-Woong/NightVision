@@ -8,13 +8,10 @@ public class DamageHandler : MonoBehaviour
     public AudioSource audioSource;
     public ScopeController sc;
     public PlayerStatus ps;
-    public float interval = 0.06f;
+    
     private readonly HashSet<IDamageable> damagedTargets = new();
-    WaitForSeconds Interval = new(0);
-    private void Start()
-    {
-        Interval = new(interval);
-    }
+    private readonly WaitForSeconds Interval = new(0.04f);
+    
     public void CreateAttackBox(AttackData data)
     {
         if (data == null) return;
@@ -68,7 +65,6 @@ public class DamageHandler : MonoBehaviour
                     effect.GetComponent<SpriteRenderer>().flipX = true;
                 }
             } 
-            
             currentHits++;
             yield return Interval;
         }
