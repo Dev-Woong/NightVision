@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: db1c858cf464e4d47b978b20a3e97fb2
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 223681
+  packageName: Muzzle 2D Effect
+  packageVersion: 1.0
+  assetPath: Assets/Muzzle 2D VFX/Muzzle2DVFX/Muzzle1_Collection/MaterialsAndTextures/Muzzle1_Yellow_Sheet.mat
+  uploadId: 503625

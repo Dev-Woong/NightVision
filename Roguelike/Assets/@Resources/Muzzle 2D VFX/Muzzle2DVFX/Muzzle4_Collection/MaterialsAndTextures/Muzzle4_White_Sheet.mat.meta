@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c0c5d60e4a9d9e345809cf8e26a79003
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 223681
+  packageName: Muzzle 2D Effect
+  packageVersion: 1.0
+  assetPath: Assets/Muzzle 2D VFX/Muzzle2DVFX/Muzzle4_Collection/MaterialsAndTextures/Muzzle4_White_Sheet.mat
+  uploadId: 503625
