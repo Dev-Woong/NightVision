@@ -11,12 +11,9 @@ public class RifleController : MonoBehaviour
     public CinemachineCamera rifleCam;
     public AttackData rifleData;
     public GameObject ShotEffect;
-    public GameObject RifleBG;
     public Transform firePoint;
     public Transform emptyCartridgePoint;
     public GameObject emptycartridge;
-    Color BaseBGColor = new Color32(0, 0, 0, 244);
-    Color FireBGColor = new Color32(80, 78, 56, 255);
     public float cartridgeForce = 10;
     int magazineDrum = 0;
     private void Awake()
@@ -82,20 +79,17 @@ public class RifleController : MonoBehaviour
         rifleCam.Priority = 50;
         while (a < rifleData.hitCount)
         {
-           // RifleBG.GetComponent<SpriteRenderer>().color = FireBGColor;
             RandomFireEffect();
-            float b = Random.Range(-0.5f, 0f);
-            Vector3 recoilDir = new Vector3(0.5f, b, 0f);
+            float b = Random.Range(0f, 0.2f);
+            Vector3 recoilDir = new Vector3(0.3f, b, 0f);
             impulseSource.GenerateImpulse(recoilDir);
             RandomCartridgeEffect();
             yield return new WaitForSeconds(0.04f);
-            //RifleBG.GetComponent<SpriteRenderer>().color = BaseBGColor;
             yield return new WaitForSeconds(0.04f);
             a++;
             magazineDrum--;
         }
         rifleCam.Priority = 1;
-        RifleBG.GetComponent<SpriteRenderer>().color = BaseBGColor;
     }
     
 }

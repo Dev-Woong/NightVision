@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 72e440e8a2be3c543ac082b25d7028b9
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 223681
+  packageName: Muzzle 2D Effect
+  packageVersion: 1.0
+  assetPath: Assets/Muzzle 2D VFX/Muzzle2DVFX/Muzzle3_Collection/MaterialsAndTextures/Muzzle3_Green_Sheet.mat
+  uploadId: 503625

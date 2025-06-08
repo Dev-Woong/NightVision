@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c339a8550cbac6f4faa2a3ad9a150bcd
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 223681
+  packageName: Muzzle 2D Effect
+  packageVersion: 1.0
+  assetPath: Assets/Muzzle 2D VFX/Muzzle2DVFX/Muzzle1_Collection/MaterialsAndTextures/Flare_White.mat
+  uploadId: 503625
