@@ -41,8 +41,7 @@ public class RifleController : MonoBehaviour
         //if (magazineDrum<= 0)
         //{
         //    //라이플캠 종료 및 라이플상태 종료
-        //    player.ExitRifleMode();
-        //    ExitRifleCam();
+        //   
         //}
 
     }
@@ -81,14 +80,15 @@ public class RifleController : MonoBehaviour
         {
             RandomFireEffect();
             float b = Random.Range(0f, 0.2f);
-            Vector3 recoilDir = new Vector3(0.3f, b, 0f);
+            Vector3 recoilDir = new Vector3(-0.1f, b, 0f);
             impulseSource.GenerateImpulse(recoilDir);
             RandomCartridgeEffect();
-            yield return new WaitForSeconds(0.04f);
-            yield return new WaitForSeconds(0.04f);
             a++;
             magazineDrum--;
+            yield return new WaitForSeconds(0.04f);
         }
+        player.ExitRifleMode();
+        ExitRifleCam();
         rifleCam.Priority = 1;
     }
     
