@@ -292,16 +292,16 @@ AnimationClip:
     intParameter: 0
     messageOptions: 0
   - time: 0.6666667
-    functionName: CreateAttackBox
+    functionName: Jab
     data: 
-    objectReferenceParameter: {fileID: 11400000, guid: 873bd29b317b8944cbca4418b2a52a78, type: 2}
+    objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
   - time: 0.6666667
-    functionName: Jab
+    functionName: CreateAttackBox
     data: 
-    objectReferenceParameter: {fileID: 0}
+    objectReferenceParameter: {fileID: 11400000, guid: 873bd29b317b8944cbca4418b2a52a78, type: 2}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
@@ -348,16 +348,16 @@ AnimationClip:
     intParameter: 0
     messageOptions: 0
   - time: 1.1111112
-    functionName: Jab
+    functionName: CreateAttackBox
     data: 
-    objectReferenceParameter: {fileID: 0}
+    objectReferenceParameter: {fileID: 11400000, guid: 873bd29b317b8944cbca4418b2a52a78, type: 2}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
   - time: 1.1111112
-    functionName: CreateAttackBox
+    functionName: Jab
     data: 
-    objectReferenceParameter: {fileID: 11400000, guid: 873bd29b317b8944cbca4418b2a52a78, type: 2}
+    objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
@@ -452,21 +452,21 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 2.1944444
-    functionName: Combo3FinishAttack
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 0
-    messageOptions: 0
-  - time: 2.1944444
+  - time: 2.3333333
     functionName: Jab
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 2.4444444
+  - time: 2.3333333
+    functionName: Combo3FinishAttack
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 2.3611112
     functionName: CreateAttackBox
     data: 
     objectReferenceParameter: {fileID: 11400000, guid: 50c90e544305acd409bc0b5fc6bc586b, type: 2}

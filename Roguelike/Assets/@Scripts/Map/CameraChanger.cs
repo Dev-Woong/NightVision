@@ -18,10 +18,8 @@ public class CameraChanger : MonoBehaviour
     public bool moveLeft = true;
     public bool moveRight = true;
 
-    void Awake()
-    {
-        
-    }
+      
+    
     private void Start()
     {
         Initialize();
@@ -42,7 +40,6 @@ public class CameraChanger : MonoBehaviour
         ScopeCam.GetComponent<CinemachineConfiner2D>().BoundingShape2D = mappol[0];
         StartCoroutine(DelayUpdate());
     }
-
     private void OnTriggerEnter2D(Collider2D collision)
     {
         #region 
