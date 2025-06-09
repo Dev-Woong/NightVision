@@ -12,7 +12,7 @@ public class BulletDestroy : MonoBehaviour
     }
     IEnumerator CoBulletDestroy()
     {
-        yield return new WaitForSeconds(0.2f);
+        yield return new WaitForSeconds(0.7f);
         Destroy(gameObject);
     }
 }

@@ -17,7 +17,7 @@ public class DamageHandler : MonoBehaviour
         if (data == null) return;
         damagedTargets.Clear();
         float x = transform.localScale.x;
-        if (data.weaponType != WeaponType.Gun)
+        if (data.skillType != SkillType.AOE)
         {
             Vector3 hitPos = transform.position + transform.right * data.rangeOffset * x;
             Collider2D[] hits = Physics2D.OverlapBoxAll(hitPos, data.hitBoxSize, 0, data.targetMask);
@@ -27,7 +27,7 @@ public class DamageHandler : MonoBehaviour
                 if (dmg != null && !damagedTargets.Contains(dmg))
                 {
                     damagedTargets.Add(dmg);
-                    StartCoroutine(HitDamage(dmg, data, x, hit.transform.position));
+                    StartCoroutine(HitDamage(dmg, data, x, hit.transform.position,hit.gameObject));
                 }
             }
         }
@@ -41,19 +41,32 @@ public class DamageHandler : MonoBehaviour
                 if (dmg != null && !damagedTargets.Contains(dmg))
                 {
                     damagedTargets.Add(dmg);
-                    StartCoroutine(HitDamage(dmg, data, x, hit.transform.position));
+                    StartCoroutine(HitDamage(dmg, data, x, hit.transform.position, hit.gameObject));
                 }
             }
         }
     }
-    IEnumerator HitDamage(IDamageable dmg, AttackData data,float x,Vector3 enemyPos)
+    IEnumerator HitDamage(IDamageable dmg, AttackData data,float x,Vector3 enemyPos,GameObject target)
     {
         int currentHits = 0;
+        if (data.knockBack == KnockBack.Done)
+        {
+            Debug.Log("¶¸´Ù");
+            if (enemyPos.x < transform.position.x)
+            {
+                target.GetComponent<Rigidbody2D>().AddForce(new Vector3(-data.knockBackForceX, data.knockBackForceY, 0), ForceMode2D.Impulse);
+            }
+            else 
+            {
+                target.GetComponent<Rigidbody2D>().AddForce(new Vector3(data.knockBackForceX, data.knockBackForceY, 0), ForceMode2D.Impulse);
+            } 
+        }
         while (currentHits < data.hitCount)
         {
             float finalDmg = data.damageValue * ps.atk;
             float randDmg = Mathf.RoundToInt(Random.Range(finalDmg * 0.9f, finalDmg *1.1f));
             dmg.TakeDamage((randDmg));
+            ps.curEnergy += data.getEnergy;
             //audioSource.PlayOneShot(data.SFX);
             if (data.HitEffect != null) 
             {

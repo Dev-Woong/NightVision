@@ -289,14 +289,9 @@ public class PlayerController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.LeftControl))
         {
             anim.SetTrigger("Attack");
-            if (weaponType == WeaponType.Gun)
-            {
-                GameObject fireEffect = Instantiate(FireEffect, FireEffectPoint);
-                fireEffect.transform.localScale = transform.localScale;
-                //dHandler.CreateAttackBox(normalGunAttack);
-            }
         }
     }
+    
     void UseSkill()
     {
         if (Input.GetKeyDown(KeyCode.C))
@@ -363,10 +358,21 @@ public class PlayerController : MonoBehaviour
         }
         
     }
-    
-    
+
+
     #endregion
     #region AnimationEvent
+    public void GunEffect() // AnimEvent
+    {
+        GameObject fireEffect = Instantiate(FireEffect,FireEffectPoint.position,Quaternion.identity);
+       
+        if (transform.localScale.x == 1)
+        { fireEffect.transform.eulerAngles = new Vector3(0, 0, 0); }
+        else if (transform.localScale.x == -1)
+        {
+            fireEffect.transform.eulerAngles = new Vector3(0, 0, 180);
+        }
+    }
     public void DashPositionChange()
     {
         if (tr.localScale.x == 1)
@@ -375,9 +381,7 @@ public class PlayerController : MonoBehaviour
         else if (tr.localScale.x == -1)
         { tr.position += new Vector3(-1, 0, 0) * 0.3f; }
     }
-    /// <summary>
-    /// ���� ���� �ִϸ��̼� �̺�Ʈ
-    /// </summary>
+    
     public void OnAirComboStart()
     {
         rb.gravityScale = 0;
