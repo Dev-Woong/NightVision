@@ -14722,7 +14722,7 @@ GameObject:
   - component: {fileID: 868637783739667776}
   - component: {fileID: 4611265843343703367}
   m_Layer: 0
-  m_Name: Muzzle4_Red
+  m_Name: MuzzleFire
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
