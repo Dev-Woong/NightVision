@@ -7,10 +7,11 @@ using Unity.VisualScripting;
 public class CameraChanger : MonoBehaviour
 {
     public GameObject ScopeCam;
+    public GameObject RifleCam;
     public GameObject[] mapCam;
     public PolygonCollider2D[] mappol;
 
-    public int a ;
+    public int a;
 
     int c = 0;
 
@@ -18,8 +19,8 @@ public class CameraChanger : MonoBehaviour
     public bool moveLeft = true;
     public bool moveRight = true;
 
-      
-    
+
+
     private void Start()
     {
         Initialize();
@@ -38,6 +39,7 @@ public class CameraChanger : MonoBehaviour
         c = mappol.Length;
         a = 0;
         ScopeCam.GetComponent<CinemachineConfiner2D>().BoundingShape2D = mappol[0];
+        RifleCam.GetComponent<CinemachineConfiner2D>().BoundingShape2D = mappol[0];
         StartCoroutine(DelayUpdate());
     }
     private void OnTriggerEnter2D(Collider2D collision)
@@ -86,29 +88,31 @@ public class CameraChanger : MonoBehaviour
         //}
         #endregion
 
-        if (collision.CompareTag("Portal"))
+        if (collision.CompareTag("Portal")&& a <= mapCam.Length )
         {
             if (portalUseAble == true && moveRight == true)
             {
-                UpdateCamera(a, a + 1);
-                portalUseAble = false;
                 a++;
+                UpdateCamera(a-1, a);
+                portalUseAble = false;
+                
             }
             else if (portalUseAble == true && moveLeft == true)
             {
-                UpdateCamera(a, a - 1);
-                portalUseAble = false;
                 a--;
+                UpdateCamera(a+1, a );
+                portalUseAble = false;
+               
             }
             else return;
         }
-        if (collision.CompareTag("RightTrigger")&&moveRight ==true)
+        if (collision.CompareTag("RightTrigger") && moveRight == true)
         {
             moveLeft = true;
             moveRight = false;
             portalUseAble = true;
         }
-        if (collision.CompareTag("LeftTrigger")&&moveLeft==true)
+        if (collision.CompareTag("LeftTrigger") && moveLeft == true)
         {
             moveRight = true;
             moveLeft = false;
@@ -119,20 +123,23 @@ public class CameraChanger : MonoBehaviour
     private void UpdateCamera(int curIndex, int newIndex) // prevIndex : 현재 맵 , newIndex : 다음 맵
     {
         // Confiner 변경
-        ScopeCam.GetComponent<CinemachineConfiner2D>().BoundingShape2D = mappol[newIndex];
+        
 
         // 카메라 우선순위 조절
         mapCam[curIndex].GetComponent<CinemachineCamera>().Priority = 10;
         mapCam[newIndex].GetComponent<CinemachineCamera>().Priority = 30;
+        ScopeCam.GetComponent<CinemachineConfiner2D>().BoundingShape2D = mappol[newIndex];
+        RifleCam.GetComponent<CinemachineConfiner2D>().BoundingShape2D = mappol[newIndex];
 
         // Confiner 캐시 초기화
         StartCoroutine(DelayUpdate());
     }
 
-    IEnumerator DelayUpdate() 
+    IEnumerator DelayUpdate()
     {
         yield return new WaitForSeconds(0.1f);
 
         ScopeCam.GetComponent<CinemachineConfiner2D>().InvalidateBoundingShapeCache();
+        RifleCam.GetComponent<CinemachineConfiner2D>().InvalidateBoundingShapeCache();
     }
 }

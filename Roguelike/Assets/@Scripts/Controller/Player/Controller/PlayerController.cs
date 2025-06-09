@@ -29,7 +29,6 @@ public class PlayerController : MonoBehaviour
     public GameObject Scope;
     public PlayerStatus ps;
     public RifleController rc;
-    public DamageHandler dHandler;
    
     WaitForSeconds wTime = new(0.04f);
     public WeaponType weaponType;
@@ -65,17 +64,20 @@ public class PlayerController : MonoBehaviour
 
     public void Awake()
     {
-        DontDestroyOnLoad(gameObject);
-    }
-
-    void Start()
-    {
+        DontDestroyOnLoad(gameObject); 
+        
         ps = GetComponent<PlayerStatus>();
         rb = GetComponent<Rigidbody2D>();
         tr = GetComponent<Transform>();
         anim = GetComponent<Animator>();
-        rc =GetComponentInChildren<RifleController>();
-        dHandler = GetComponent<DamageHandler>();
+
+
+        rc = GetComponentInChildren<RifleController>();
+    }
+
+    void Start()
+    {
+
         Rifle.SetActive(false);
         Scope.SetActive(false);
         
