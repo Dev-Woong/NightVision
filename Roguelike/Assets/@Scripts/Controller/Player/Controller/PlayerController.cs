@@ -29,6 +29,7 @@ public class PlayerController : MonoBehaviour
     public GameObject Scope;
     public PlayerStatus ps;
     public RifleController rc;
+    public DamageHandler dHandler;
    
     WaitForSeconds wTime = new(0.04f);
     public WeaponType weaponType;
@@ -60,6 +61,7 @@ public class PlayerController : MonoBehaviour
     public GameObject Rifle;
 
     CameraChanger camChanger;
+    public AttackData normalGunAttack;
 
     public void Awake()
     {
@@ -73,6 +75,7 @@ public class PlayerController : MonoBehaviour
         tr = GetComponent<Transform>();
         anim = GetComponent<Animator>();
         rc =GetComponentInChildren<RifleController>();
+        dHandler = GetComponent<DamageHandler>();
         Rifle.SetActive(false);
         Scope.SetActive(false);
         
@@ -287,6 +290,8 @@ public class PlayerController : MonoBehaviour
             if (weaponType == WeaponType.Gun)
             {
                 GameObject fireEffect = Instantiate(FireEffect, FireEffectPoint);
+                fireEffect.transform.localScale = transform.localScale;
+                //dHandler.CreateAttackBox(normalGunAttack);
             }
         }
     }

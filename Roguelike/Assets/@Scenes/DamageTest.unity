@@ -2431,7 +2431,7 @@ Transform:
   m_GameObject: {fileID: 586429954}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.431, y: 0.558, z: 0}
+  m_LocalPosition: {x: 0.431, y: 0.68, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3782,6 +3782,7 @@ MonoBehaviour:
   Scope: {fileID: 1445972496}
   ps: {fileID: 957042075}
   rc: {fileID: 0}
+  dHandler: {fileID: 0}
   weaponType: 0
   mode: 0
   magazineDrum: 5
@@ -3795,6 +3796,7 @@ MonoBehaviour:
   - {fileID: 1994972533}
   - {fileID: 2080126052}
   Rifle: {fileID: 4704030673096813041}
+  normalGunAttack: {fileID: 11400000, guid: c88439de52c6e964f8957d10d32b46a9, type: 2}
 --- !u!61 &957042069
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4008,7 +4010,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b31fe95ece7c8be4080f0a89e2c84616, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ScopeCam: {fileID: 0}
+  ScopeCam: {fileID: 1252316619}
   mapCam: []
   mappol: []
   a: 0
@@ -6206,7 +6208,7 @@ MonoBehaviour:
     DefaultMode: 0
   DefaultBlend:
     Style: 1
-    Time: 0.4
+    Time: 0.2
     CustomCurve:
       serializedVersion: 2
       m_Curve: []

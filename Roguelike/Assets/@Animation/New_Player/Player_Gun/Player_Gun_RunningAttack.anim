@@ -79,10 +79,10 @@ AnimationClip:
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
   m_Events:
-  - time: 0.25
-    functionName: AttackAnimFalse
+  - time: 0
+    functionName: CreateAttackBox
     data: 
-    objectReferenceParameter: {fileID: 0}
+    objectReferenceParameter: {fileID: 11400000, guid: c88439de52c6e964f8957d10d32b46a9, type: 2}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
