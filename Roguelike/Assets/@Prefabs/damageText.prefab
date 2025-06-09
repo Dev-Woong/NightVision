@@ -190,9 +190,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 2
-  alphaSpeed: 2
-  destroySpeed: 0.5
-  maxFontSize: 13
+  alphaSpeed: 10
+  destroySpeed: 0.35
+  maxFontSize: 10
   currentAlpha: 1
   fontMinusSpeed: 10
   damage: 0
