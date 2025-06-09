@@ -624,7 +624,13 @@ ScriptedImporter:
       height: 108
     spriteID: 9f929dc89abd0f047ad0d516ee589b30
     spriteBone: []
-    spriteOutline: []
+    spriteOutline:
+    - outline:
+      - {x: -10, y: -36}
+      - {x: 15, y: -36}
+      - {x: 15, y: -31}
+      - {x: 15, y: -22}
+      - {x: -10, y: -22}
     vertices: []
     spritePhysicsOutline: []
     indices: 
