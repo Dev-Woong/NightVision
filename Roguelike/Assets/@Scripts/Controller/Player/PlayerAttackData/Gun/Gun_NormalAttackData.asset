@@ -15,7 +15,8 @@ MonoBehaviour:
   targetMask:
     serializedVersion: 2
     m_Bits: 128
-  weaponType: 1
+  weaponType: 2
+  skillType: 0
   animSpot: Gun_Attack
   hitCount: 1
   damageValue: 5

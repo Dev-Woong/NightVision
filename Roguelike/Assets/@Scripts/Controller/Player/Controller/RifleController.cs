@@ -14,8 +14,7 @@ public class RifleController : MonoBehaviour
     public Transform firePoint;
     public Transform emptyCartridgePoint;
     public GameObject emptycartridge;
-    public float cartridgeForce = 10;
-    int magazineDrum = 0;
+    public float cartridgeForce = 5;
     private void Awake()
     {
         player = GetComponentInParent<PlayerController>();
@@ -28,49 +27,36 @@ public class RifleController : MonoBehaviour
     }
     public void Fire()
     {
-        magazineDrum = rifleData.hitCount;
         if (FireCoroutine != null)
         {
             StopCoroutine(FireCoroutine);
         }
-        
-        
         FireCoroutine = StartCoroutine(FireEffect());
         dHandle.CreateAttackBox(rifleData);
-       
-        //if (magazineDrum<= 0)
-        //{
-        //    //라이플캠 종료 및 라이플상태 종료
-        //   
-        //}
-
     }
-    public void EnterRifleMode()
-    {
-        if (player.rifleMode == true)
-        {
-            
-        }
-    }
-    public void ExitRifleCam()
-    {
-        if (player.snipeMode == false)
-        {
-            
-        }
-    }
+    
     public void RandomFireEffect()
     {
         var fireEffect = Instantiate(ShotEffect);
         fireEffect.transform.position = firePoint.position;
+        if (player.transform.localScale.x == 1) { fireEffect.transform.eulerAngles = new Vector3(0, 0, 0); }
+        else if (player.transform.localScale.x == -1) { fireEffect.transform.eulerAngles = new Vector3(0, 0, 180); }
+        
     }
     public void RandomCartridgeEffect()
     {
-        var brokeEffect = Instantiate(emptycartridge);
-        brokeEffect.transform.position = emptyCartridgePoint.position;
-        float x = Random.Range(-0.5f, -0.3f);
-        float y = Random.Range(0.3f, -0.3f);
-        brokeEffect.GetComponent<Rigidbody2D>().AddForce(new Vector3(x, y, 0)*cartridgeForce,ForceMode2D.Impulse);
+        var brokeEffect = Instantiate(emptycartridge,emptyCartridgePoint.position,Quaternion.identity);
+        float x = Random.Range(-0.2f, 0.0f);
+        float y = Random.Range(0.25f, 0f);
+        if (player.transform.localScale.x == 1)
+        {
+            brokeEffect.GetComponent<Rigidbody2D>().AddForce(new Vector3(x, y, 0) * cartridgeForce, ForceMode2D.Impulse);
+        }
+        else if (player.transform.localScale.x == -1)
+        {
+
+            brokeEffect.GetComponent<Rigidbody2D>().AddForce(new Vector3(-x, y, 0) * cartridgeForce, ForceMode2D.Impulse);
+        }
     }
     IEnumerator FireEffect()
     {
@@ -80,15 +66,13 @@ public class RifleController : MonoBehaviour
         {
             RandomFireEffect();
             float b = Random.Range(0f, 0.2f);
-            Vector3 recoilDir = new Vector3(-0.1f, b, 0f);
+            Vector3 recoilDir = new (-0.1f, b, 0f);
             impulseSource.GenerateImpulse(recoilDir);
             RandomCartridgeEffect();
             a++;
-            magazineDrum--;
             yield return new WaitForSeconds(0.04f);
         }
         player.ExitRifleMode();
-        ExitRifleCam();
         rifleCam.Priority = 1;
     }
     

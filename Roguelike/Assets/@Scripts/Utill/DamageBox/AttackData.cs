@@ -1,12 +1,28 @@
 using UnityEngine;
 
+public enum SkillType 
+{
+    Normal,
+    AOE
+}
+public enum KnockBack
+{
+    None,
+    Done
+}
 [CreateAssetMenu(fileName = "SkillData", menuName = "Skill/AttackSkill")]
 public class AttackData : ScriptableObject   
 {
 
     public LayerMask targetMask;
 
-    public WeaponType weaponType;
+    public KnockBack knockBack;
+
+    public float knockBackForceX;
+    public float knockBackForceY;
+    public int getEnergy;
+
+    public SkillType skillType; 
 
     public string animSpot;
 
