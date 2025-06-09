@@ -3923,7 +3923,6 @@ MonoBehaviour:
   audioSource: {fileID: 0}
   sc: {fileID: 1445972498}
   ps: {fileID: 957042075}
-  interval: 0.1
 --- !u!114 &957042075
 MonoBehaviour:
   m_ObjectHideFlags: 0
