@@ -15,7 +15,11 @@ MonoBehaviour:
   targetMask:
     serializedVersion: 2
     m_Bits: 128
-  weaponType: 0
+  knockBack: 0
+  knockBackForceX: 0
+  knockBackForceY: 0
+  getEnergy: 1
+  skillType: 0
   animSpot: HandCombo3-1
   hitCount: 1
   damageValue: 8

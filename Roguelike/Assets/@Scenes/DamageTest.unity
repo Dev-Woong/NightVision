@@ -3709,6 +3709,9 @@ MonoBehaviour:
   atk: 3
   def: 0
   speed: 1
+  curEnergy: 0
+  maxEnergy: 0
+  Energy: {fileID: 1332001635}
 --- !u!114 &957042076
 MonoBehaviour:
   m_ObjectHideFlags: 0
