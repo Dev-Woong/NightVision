@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1bcaff112e6880143aa326affc45c68f, type: 3}
+  m_Name: HealthPlus
+  m_EditorClassIdentifier: 
+  itemName: "\uCCB4\uB825 \uC99D\uAC00"
+  price: 10
+  quantityAvailable: 5
+  description: "\uAE30\uBCF8 \uCCB4\uB825 \uB2A5\uB825\uCE58\uB97C 20\uC99D\uAC00
+    \uC2DC\uD0A8\uB2E4. "
+  itemIcon: {fileID: -5834073387260071431, guid: 97892ea818d14724e8657f5693207b99, type: 3}
