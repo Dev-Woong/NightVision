@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 3dfb787c458cd40408b68068a9ef3184
+guid: edb747a747452e14eade2abbd2e1ba40
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1334842771816359926
-    second: ListItemSelected_0
+      213: 6936184045474184553
+    second: ListItem1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -109,30 +109,17 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ListItemSelected_0
+      name: ListItem1_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 32
-        height: 20
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6f7ac1dbd60568210800000000000000
-      internalID: 1334842771816359926
+      spriteID: 96d783fc3a6424060800000000000000
+      internalID: 6936184045474184553
       vertices: []
       indices: 
       edges: []
@@ -161,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      ListItemSelected_0: 1334842771816359926
+      ListItem1_0: 6936184045474184553
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
