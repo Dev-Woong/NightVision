@@ -4,4 +4,7 @@ using UnityEngine;
 public class ShopItemDatabase : ScriptableObject
 {
     public ShopItemData[] items;
+
+    
+
 }

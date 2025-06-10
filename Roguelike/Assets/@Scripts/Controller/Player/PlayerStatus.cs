@@ -6,8 +6,8 @@ public class PlayerStatus: MonoBehaviour
     public float atk;
     public float def;
     public float speed = 1;
-    public float curEnergy = 0;
-    public float maxEnergy = 0;
+    public float curEnergy = 100;
+    public float maxEnergy = 100;
     public Image Energy;
     void Start()
     {
@@ -21,6 +21,6 @@ public class PlayerStatus: MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        EnergyAmount();
+        //EnergyAmount();
     }
 }
