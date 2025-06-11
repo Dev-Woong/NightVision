@@ -13,10 +13,13 @@ MonoBehaviour:
   m_Name: AttackPlus
   m_EditorClassIdentifier: 
   itemName: "\uB2A5\uB825\uCE58 \uC99D\uAC00 : \uACF5\uACA9"
-  basePrice: 20
-  price: 200
+  price: 0
+  basePrice: 100
   minRandomPrice: 50
   maxRandomPrice: 200
-  quantityAvailable: 5
+  quantity: 0
+  basequantity: 5
+  minRandomQuantity: 1
+  maxRandomQuantity: 5
   description: "\uACF5\uACA9\uB825\uC744 5 \uC99D\uAC00\uC2DC\uD0A8\uB2E4"
   itemIcon: {fileID: 39238633058601426, guid: 97892ea818d14724e8657f5693207b99, type: 3}

@@ -469,6 +469,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1cb800525733fa4409ec656fd8163397, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  itemDatabase: {fileID: 0}
   JumpEffectPoint: {fileID: 2087956573}
   FireEffectPoint: {fileID: 90424210}
   DashEffectPoint: {fileID: 1754112482}
@@ -13493,6 +13494,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1cb800525733fa4409ec656fd8163397, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  itemDatabase: {fileID: 11400000, guid: 608b8f165ae41554db3b00d5a0cb4753, type: 2}
   JumpEffectPoint: {fileID: 1404364374}
   FireEffectPoint: {fileID: 1498286728}
   DashEffectPoint: {fileID: 494711037}

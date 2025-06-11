@@ -1,5 +1,6 @@
 using JetBrains.Annotations;
 using System.Collections.Generic;
+using System.Diagnostics;
 using UnityEngine;
 
 public class ShopUIManager : MonoBehaviour
@@ -34,15 +35,15 @@ public class ShopUIManager : MonoBehaviour
             runtimeItem.itemName = itemData.itemName;
             runtimeItem.basePrice = itemData.basePrice;
             runtimeItem.price = Random.Range(itemData.minRandomPrice, itemData.maxRandomPrice + 1);
-            runtimeItem.quantityAvailable = itemData.quantityAvailable;
+            runtimeItem.basequantity = itemData.basequantity;
+            runtimeItem.quantity = Random.Range(itemData.minRandomQuantity, itemData.maxRandomQuantity + 1);
             runtimeItem.description = itemData.description;
             runtimeItem.itemIcon = itemData.itemIcon;
 
-            slot.SetUpSlot(runtimeItem);
+            //slot.SetUpSlot(runtimeItem);
 
-            
+            currentSlots.Add(slotObj);
         }
-        //PopulateShop();
     }
 
     public void CloseShop()
@@ -54,22 +55,10 @@ public class ShopUIManager : MonoBehaviour
     {
         foreach (var slot in currentSlots)
         {
+            
             Destroy(slot);
         }
+        UnityEngine.Debug.Log("Destroy ¼º°ø");
         currentSlots.Clear();
-    }
-
-    
-    //void PopulateShop()
-    //{
-    //    foreach (var item in itemDatabase.items)
-    //    {
-    //        GameObject slotObj = Instantiate(slotPrefab, slotParent);
-    //        ShopItemSlot slot = slotObj.GetComponent<ShopItemSlot>();
-    //        slot.SetUpSlot(item);
-    //    }
-    //}
-
-
-
+    } 
 }
