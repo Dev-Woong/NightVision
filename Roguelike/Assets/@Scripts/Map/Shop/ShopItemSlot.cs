@@ -11,27 +11,22 @@ public class ShopItemSlot : MonoBehaviour
 
     [Header("아이템 명")]
     public TMP_Text nameText;
-    [Header("최대 구매 수량")]
+    [Header("구매 수량")]
     public TMP_Text quantityText;
     [Header("아이템 설명 ")]
     public TMP_Text descriptionText;
     [Header("가격")]
     public TMP_Text priceText;
 
-
-    public void SetUpSlot(ShopItemData data)
+    private ShopItemInstance itemInstance;
+    public void SetUpSlot(ShopItemInstance instance)
     {
-        itemData = data;
+        itemInstance = instance;
 
-        iconImage.sprite = data.itemIcon;
-        nameText.text = data.itemName;
-        quantityText.text = $"남은 수량 :  {data.quantityAvailable}";
-        descriptionText.text = data.description;
-        priceText.text = $"{data.price}";
-    }
-
-    public void RefreshQuantity()
-    {
-        quantityText.text = $"남은 수량 :  {itemData.quantityAvailable}";
+        iconImage.sprite = instance.baseData.itemIcon;
+        nameText.text = instance.baseData.itemName;
+        quantityText.text = $"남은 수량  :  {instance.quantity}";
+        descriptionText.text = instance.baseData.description;
+        priceText.text = $"{instance.price}";
     }
 }

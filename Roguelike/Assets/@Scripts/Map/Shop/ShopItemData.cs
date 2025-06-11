@@ -7,16 +7,23 @@ public class ShopItemData : ScriptableObject
     public string itemName; // 아이템 명 
 
     [Header("가격")]
+    public int price; // 랜덤 값 지정함
+
     public int basePrice; // 베이스가격
-
-    public int price;
-
+    
     [Header("변동가격")]
-    public int minRandomPrice; // 최소가격랜덤
-    public int maxRandomPrice; // 최대가격랜덤
+    public int minRandomPrice; // 최소가격
+    public int maxRandomPrice; // 최대가격
 
     [Header("최대 구매 수량 ")]
-    public int quantityAvailable; // 수량
+    public int quantity; // 랜덤 값 지정함
+
+    public int basequantity;
+
+    [Header("변동 수량")]
+    public int minRandomQuantity; // 최소 수량
+    public int maxRandomQuantity; // 최대 수량
+
     [Header("아이템 설명")]
     [TextArea] public string description; // 아이템 설명
 

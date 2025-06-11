@@ -17,6 +17,8 @@ public enum WeaponType
 
 public class PlayerController : MonoBehaviour
 {
+    public ShopItemDatabase itemDatabase;
+
     Transform tr;
     Rigidbody2D rb;
     Animator anim;
@@ -61,6 +63,8 @@ public class PlayerController : MonoBehaviour
 
     CameraChanger camChanger;
     public AttackData normalGunAttack;
+
+
 
     public void Awake()
     {
@@ -511,10 +515,8 @@ public class PlayerController : MonoBehaviour
     IEnumerator ChangerInitialize()
     {
         yield return new WaitForSeconds(0.5f);
-        Debug.Log("a");
-
         camChanger.Initialize();
-        Debug.Log("b");
+        ShopManager.Instance.NewShopItems(itemDatabase, 4);
     }
     
     private void FixedUpdate()

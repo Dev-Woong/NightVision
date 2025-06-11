@@ -13,10 +13,13 @@ MonoBehaviour:
   m_Name: DefancePlus
   m_EditorClassIdentifier: 
   itemName: "\uB2A5\uB825\uCE58 \uC99D\uAC00 : \uBC29\uC5B4"
-  basePrice: 15
-  price: 150
-  minRandomPrice: 10
-  maxRandomPrice: 150
-  quantityAvailable: 5
+  price: 0
+  basePrice: 80
+  minRandomPrice: 40
+  maxRandomPrice: 160
+  quantity: 0
+  basequantity: 4
+  minRandomQuantity: 1
+  maxRandomQuantity: 4
   description: "\uBC29\uC5B4\uB825\uC744 3 \uC99D\uAC00\uC2DC\uD0A8\uB2E4"
   itemIcon: {fileID: -2100862993504246422, guid: 97892ea818d14724e8657f5693207b99, type: 3}

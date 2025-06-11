@@ -2,9 +2,12 @@ using UnityEngine;
 
 public class ShopInteraction : MonoBehaviour
 {
-    public ShopUIManager ShopUIManager;
+    public ShopUIManager2 shopUIManager2;
 
     public GameObject[] gameObjects;
+
+    private bool isPlayerinRange = false;
+    private bool isShopOpen = false;
 
     void Start()
     {
@@ -16,10 +19,11 @@ public class ShopInteraction : MonoBehaviour
 
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.F))
+        if(Input.GetKeyDown(KeyCode.F) && isPlayerinRange == true)
         { 
             Debug.Log("InShop");
-            ShopUIManager.OpenShop();
+            isShopOpen = true;
+            shopUIManager2.OpenShop();
             foreach (GameObject Gb in gameObjects)
             {
                 Gb.SetActive(true);
@@ -28,12 +32,14 @@ public class ShopInteraction : MonoBehaviour
 
         if(Input.GetKeyDown(KeyCode.Escape))
         {
-            ShopUIManager.CloseShop();
+            //isPlayerinRange = false;
+            isShopOpen = false;
             foreach (GameObject Gb in gameObjects)
             {
                 Gb.SetActive(false);
                 Debug.Log("OutShop");
             }
+            shopUIManager2.ClearShop();
         }
     }
 
@@ -42,6 +48,7 @@ public class ShopInteraction : MonoBehaviour
         if ((collision.CompareTag("Player")))
         {
             Debug.Log("InShop");
+            isPlayerinRange = true;
         }
     }
 
@@ -49,12 +56,14 @@ public class ShopInteraction : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            ShopUIManager.CloseShop();
+            isPlayerinRange = false;
+            isShopOpen = false;
             foreach (GameObject Gb in gameObjects)
             {
                 Gb.SetActive(false);
                 Debug.Log("OutShop");
             }
+            shopUIManager2.ClearShop();
         }
     }
 }
