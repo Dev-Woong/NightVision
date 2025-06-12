@@ -4,10 +4,11 @@ using UnityEngine.SceneManagement;
 public class PlayerPositionManager : MonoBehaviour
 {
 
-    public string targetSpawnId = "HomeStartPos";
+    private string targetSpawnId;
 
     void OnEnable()
     {
+
         SceneManager.sceneLoaded += OnSceneLoaded;
     }
 
