@@ -32,7 +32,7 @@ public class PlayerController : MonoBehaviour
     public GameObject Scope;
     public PlayerStatus ps;
     public RifleController rc;
-   
+
     WaitForSeconds wTime = new(0.04f);
     public WeaponType weaponType;
 
@@ -43,12 +43,12 @@ public class PlayerController : MonoBehaviour
     private float resetDelay = 0.5f;
     private float jumpForce = 5;
     private int wType = 0;
-    private int jumpCount = 0;
+    public int jumpCount = 0;
     private int comboCount = 0;
     public int mode = 0;
     public int magazineDrum = 5;
 
-    private bool canJump=true;
+    public bool canJump = true;
     private bool moveAble = true;
     public bool snipeMode = false;
     public bool rifleMode = false;
@@ -69,8 +69,8 @@ public class PlayerController : MonoBehaviour
 
     public void Awake()
     {
-        DontDestroyOnLoad(gameObject); 
-        
+        DontDestroyOnLoad(gameObject);
+
         ps = GetComponent<PlayerStatus>();
         rb = GetComponent<Rigidbody2D>();
         tr = GetComponent<Transform>();
@@ -85,12 +85,12 @@ public class PlayerController : MonoBehaviour
 
         Rifle.SetActive(false);
         Scope.SetActive(false);
-        
+
         rb.freezeRotation = true;
 
         camChanger = GetComponent<CameraChanger>();
     }
-   
+
     public void EnterSnipeMode()
     {
         if (snipeMode == true)
@@ -110,7 +110,7 @@ public class PlayerController : MonoBehaviour
         moveAble = !moveAble;
         snipeMode = !snipeMode;
     }
-    
+
     public void EnterRifleMode()
     {
         anim.SetBool("onRifle", rifleMode);
@@ -119,19 +119,19 @@ public class PlayerController : MonoBehaviour
     public void ExitRifleMode()
     {
         moveAble = true;
-        rifleMode =false;
+        rifleMode = false;
 
         anim.SetBool("onRifle", rifleMode);
     }
     public void EnterGunMode()
     {
-        modeSelection = !modeSelection; 
+        modeSelection = !modeSelection;
     }
     public void SelectGunMode()
     {
         if (modeSelection == true)
         {
-            
+
             if (Input.GetKeyDown(KeyCode.F))
             {
                 mode++;
@@ -139,7 +139,7 @@ public class PlayerController : MonoBehaviour
                 {
                     mode = 0;
                 }
-               
+
             }
             if (Input.GetKeyDown(KeyCode.G))
             {
@@ -147,7 +147,7 @@ public class PlayerController : MonoBehaviour
                 {
                     case 0:
                         moveAble = !moveAble;
-                        modeSelection = false ;
+                        modeSelection = false;
                         snipeMode = true;
                         mode = 0;
                         break;
@@ -159,7 +159,7 @@ public class PlayerController : MonoBehaviour
                         StartCoroutine(RifleFire());
                         break;
                     case 2:
-                       
+
                         modeSelection = !modeSelection;
                         //snipeMode = !snipeMode;
                         break;
@@ -224,7 +224,7 @@ public class PlayerController : MonoBehaviour
         {
             case WeaponType.Hand:
                 anim.SetInteger("WeaponType", wType);
-            break;
+                break;
             case WeaponType.Sword:
                 anim.SetInteger("WeaponType", wType);
                 break;
@@ -233,7 +233,7 @@ public class PlayerController : MonoBehaviour
                 break;
         }
     }
-    
+
     void Move()
     {
         if (Input.GetButton(Define.Horizontal) /* && (isAttacking == false || weaponType==WeaponType.Gun)*/)
@@ -244,12 +244,12 @@ public class PlayerController : MonoBehaviour
             if (Input.GetKey(KeyCode.LeftShift))
             {
                 anim.SetBool(Define.isRunHash, true);
-                tr.Translate(Time.deltaTime * ps.speed*2* moveDir);
+                tr.Translate(Time.deltaTime * ps.speed * 2 * moveDir);
             }
             else
             {
                 anim.SetBool(Define.isRunHash, false);
-                tr.Translate(Time.deltaTime * ps.speed* moveDir);
+                tr.Translate(Time.deltaTime * ps.speed * moveDir);
             }
 
 
@@ -277,18 +277,18 @@ public class PlayerController : MonoBehaviour
             rb.gravityScale = 1;
             if (tr.localScale.x == 1)
             {
-                DashEffect.transform.localScale = new Vector3(1,0,0);
-                
+                DashEffect.transform.localScale = new Vector3(1, 0, 0);
+
             }
             else if (tr.localScale.x == -1)
             {
                 DashEffect.transform.localScale = new Vector3(-1, 0, 0);
-               
+
             }
             Instantiate(DashEffect, DashEffectPoint);
         }
     }
-    
+
     void Attack()
     {
         if (Input.GetKeyDown(KeyCode.LeftControl))
@@ -296,7 +296,7 @@ public class PlayerController : MonoBehaviour
             anim.SetTrigger("Attack");
         }
     }
-    
+
     void UseSkill()
     {
         if (Input.GetKeyDown(KeyCode.C))
@@ -312,7 +312,7 @@ public class PlayerController : MonoBehaviour
                 anim.SetTrigger(Define.useSkillHash);
                 anim.SetInteger(Define.comboCountHash, comboCount);
             }
-            else 
+            else
             {
                 EnterGunMode();
             }
@@ -323,18 +323,18 @@ public class PlayerController : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.LeftAlt))
         {
-            if (jumpCount == 0&&canJump==true)
+            if (jumpCount == 0 && canJump == true)
             {
                 canJump = false;
-               
+
                 anim.SetTrigger("Jump");
                 rb.AddForce(Vector3.up * jumpForce, ForceMode2D.Impulse);
                 if (JumpCountCoroutine != null)
                 {
-                    StopCoroutine (JumpCountCoroutine);
+                    StopCoroutine(JumpCountCoroutine);
                 }
                 JumpCountCoroutine = StartCoroutine(DoubleJumpCoroutine());
-                
+
             }
         }
     }
@@ -354,14 +354,14 @@ public class PlayerController : MonoBehaviour
             jumpCount++;
         }
     }
-    
+
     public void OnAir()
     {
         if (canJump == false)
         {
             anim.SetBool("onAir", true);
         }
-        
+
     }
 
 
@@ -369,8 +369,8 @@ public class PlayerController : MonoBehaviour
     #region AnimationEvent
     public void GunEffect() // AnimEvent
     {
-        GameObject fireEffect = Instantiate(FireEffect,FireEffectPoint.position,Quaternion.identity);
-       
+        GameObject fireEffect = Instantiate(FireEffect, FireEffectPoint.position, Quaternion.identity);
+
         if (transform.localScale.x == 1)
         { fireEffect.transform.eulerAngles = new Vector3(0, 0, 0); }
         else if (transform.localScale.x == -1)
@@ -386,7 +386,7 @@ public class PlayerController : MonoBehaviour
         else if (tr.localScale.x == -1)
         { tr.position += new Vector3(-1, 0, 0) * 0.3f; }
     }
-    
+
     public void OnAirComboStart()
     {
         rb.gravityScale = 0;
@@ -405,7 +405,7 @@ public class PlayerController : MonoBehaviour
     public void OnAirComboFinish()
     {
         rb.gravityScale = 1;
-        
+
     }
     public void Combo3PositionChange()
     {
@@ -415,7 +415,7 @@ public class PlayerController : MonoBehaviour
         else if (tr.localScale.x == -1)
         { tr.position += new Vector3(-1, 0, 0) * 4; }
     }
-    
+
     public void OnHandCombo3Fall()
     {
         rb.linearVelocity = Vector3.zero;
@@ -440,12 +440,12 @@ public class PlayerController : MonoBehaviour
             anim.SetInteger(Define.comboCountHash, 0);
         }
         else if (state.IsName("Player_Sword_Idle") && comboCount != 0)
-        {           
+        {
             comboCount = 0;
             anim.SetInteger(Define.comboCountHash, 0);
         }
     }
-    
+
     public void ComboCountReset() // �޺� ī��Ʈ ���� AnimationEvent
     {
         if (comboResetCoroutine != null)
@@ -486,7 +486,7 @@ public class PlayerController : MonoBehaviour
         {
             canJump = true;
             jumpCount = 0;
-            anim.SetBool("onAir", false); 
+            anim.SetBool("onAir", false);
         }
         if (collision.collider.CompareTag("UpStair"))
         {
@@ -499,33 +499,32 @@ public class PlayerController : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D other)
     {
-       
-            //var mapManager = FindObjectsByType<MapManager>(FindObjectsSortMode.None).FirstOrDefault();
-            var portal = other.GetComponent<MapPortal>();
 
-            if (portal == null)
-            {
-                Debug.Log("MapManager not found in scene");
-                return;
-            }
+        var portal = other.GetComponent<MapPortal>();
 
-            Debug.Log("MapManager found");
-            Debug.Log("Collider tag :" + other.tag);
+        if (portal == null)
+        {
+            Debug.Log("MapManager not found in scene");
+            return;
+        }
+
+        Debug.Log("MapManager found");
+        Debug.Log("Collider tag :" + other.tag);
 
         //var mapData = mapManager.GetMapData(other.tag);
         var mapData = portal.targetMapData;
 
-            if (mapData == null)
-            {
-                Debug.Log("No MapData found for tag" + other.tag);
-            }
+        if (mapData == null)
+        {
+            Debug.Log("No MapData found for tag" + other.tag);
+        }
 
-            if (mapData != null)
-            {
-                HandleMapTransition(mapData);
-            }
-        
-        
+        if (mapData != null)
+        {
+            HandleMapTransition(mapData);
+        }
+
+
 
         if (other.CompareTag("SpeedTool"))
         {
