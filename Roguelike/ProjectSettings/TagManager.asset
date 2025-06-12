@@ -13,7 +13,9 @@ TagManager:
   - Cam
   - RightTrigger
   - LeftTrigger
-  - EndPortal
+  - HomePortal
+  - MapManager
+  - TrainPortal
   layers:
   - Default
   - TransparentFX

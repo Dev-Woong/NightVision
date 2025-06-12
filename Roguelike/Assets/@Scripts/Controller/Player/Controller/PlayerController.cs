@@ -1,5 +1,6 @@
 using JetBrains.Annotations;
 using System.Collections;
+using System.Linq;
 using Unity.Cinemachine;
 using UnityEditor;
 using UnityEngine;
@@ -498,25 +499,62 @@ public class PlayerController : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D other)
     {
+       
+            //var mapManager = FindObjectsByType<MapManager>(FindObjectsSortMode.None).FirstOrDefault();
+            var portal = other.GetComponent<MapPortal>();
+
+            if (portal == null)
+            {
+                Debug.Log("MapManager not found in scene");
+                return;
+            }
+
+            Debug.Log("MapManager found");
+            Debug.Log("Collider tag :" + other.tag);
+
+        //var mapData = mapManager.GetMapData(other.tag);
+        var mapData = portal.targetMapData;
+
+            if (mapData == null)
+            {
+                Debug.Log("No MapData found for tag" + other.tag);
+            }
+
+            if (mapData != null)
+            {
+                HandleMapTransition(mapData);
+            }
+        
+        
+
         if (other.CompareTag("SpeedTool"))
         {
             ps.speed = 1;
         }
 
-        if (other.CompareTag("EndPortal"))
-        {
-            this.GetComponent<PlayerPositionManager>().SetTargetSpawnId("HomeStartPos");
-            SceneManager.LoadSceneAsync("Home");
-            StartCoroutine(ChangerInitialize());
-        }
-        
     }
 
-    IEnumerator ChangerInitialize()
+    IEnumerator InitializeCamAndItem()
     {
         yield return new WaitForSeconds(0.5f);
         camChanger.Initialize();
         ShopManager.Instance.NewShopItems(itemDatabase, 4);
+    }
+
+
+    private void HandleMapTransition(MapData mapData)
+    {
+        // 위치 선정
+        GetComponent<PlayerPositionManager>().SetTargetSpawnId(mapData.spawnPointId);
+        // 씬 로딩
+        SceneManager.LoadSceneAsync(mapData.sceneName);
+
+        // 초기화 코루틴 실행
+        if (mapData.useInitializeCamAndItem)
+        {
+            StartCoroutine(InitializeCamAndItem());
+        }
+       
     }
     
     private void FixedUpdate()
