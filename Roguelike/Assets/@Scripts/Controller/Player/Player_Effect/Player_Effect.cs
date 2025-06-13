@@ -17,6 +17,7 @@ public class Player_Effect : MonoBehaviour
     public void UpSlashEffect()
     {
         Instantiate (UpSlash,UpSlashPos);
+        
     }
     public void HorizonSlashEffect()
     {

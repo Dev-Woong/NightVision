@@ -15,8 +15,8 @@ MonoBehaviour:
   targetMask:
     serializedVersion: 2
     m_Bits: 128
-  knockBack: 0
-  knockBackForceX: 0
+  knockBack: 1
+  knockBackForceX: -0.5
   knockBackForceY: 0
   getEnergy: 1
   skillType: 0
@@ -24,6 +24,6 @@ MonoBehaviour:
   hitCount: 1
   damageValue: 8
   HitEffect: {fileID: 6400350627046229043, guid: d51260152c6239a498168d5e1db72914, type: 3}
-  effectPos: {x: 0, y: -0.2, z: 0}
-  hitBoxSize: {x: 3, y: 1, z: 0}
-  rangeOffset: 1.5
+  effectPos: {x: 0, y: -0.23, z: 0}
+  hitBoxSize: {x: 1.5, y: 1, z: 0}
+  rangeOffset: 0.75

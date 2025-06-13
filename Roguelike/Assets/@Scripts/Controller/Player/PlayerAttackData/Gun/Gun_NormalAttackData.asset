@@ -15,12 +15,15 @@ MonoBehaviour:
   targetMask:
     serializedVersion: 2
     m_Bits: 128
-  weaponType: 2
+  knockBack: 0
+  knockBackForceX: 0
+  knockBackForceY: 0
+  getEnergy: 0
   skillType: 0
   animSpot: Gun_Attack
   hitCount: 1
   damageValue: 5
   HitEffect: {fileID: 5099289152872433770, guid: 47d68cf229101694f9b0faea8768cdd2, type: 3}
   effectPos: {x: 0.3, y: -0.2, z: 0}
-  hitBoxSize: {x: 5, y: 1, z: 0}
-  rangeOffset: 2.5
+  hitBoxSize: {x: 3, y: 1, z: 0}
+  rangeOffset: 1.5

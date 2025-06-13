@@ -16,8 +16,8 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 128
   knockBack: 1
-  knockBackForceX: 0.5
-  knockBackForceY: -2
+  knockBackForceX: 1
+  knockBackForceY: -1
   getEnergy: 0
   skillType: 0
   animSpot: 'SwordCombo1-2
@@ -27,5 +27,5 @@ MonoBehaviour:
   damageValue: 15
   HitEffect: {fileID: 5295936817183097829, guid: 4a12568d27798834cb68a1ec2c2f08dd, type: 3}
   effectPos: {x: 0, y: 0, z: 0}
-  hitBoxSize: {x: 3, y: 3, z: 0}
-  rangeOffset: 1.5
+  hitBoxSize: {x: 1.5, y: 3, z: 0}
+  rangeOffset: 0.75

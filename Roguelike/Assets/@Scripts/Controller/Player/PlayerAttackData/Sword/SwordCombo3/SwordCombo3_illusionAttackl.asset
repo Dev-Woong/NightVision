@@ -15,7 +15,11 @@ MonoBehaviour:
   targetMask:
     serializedVersion: 2
     m_Bits: 128
-  weaponType: 1
+  knockBack: 1
+  knockBackForceX: 0
+  knockBackForceY: 0
+  getEnergy: 0
+  skillType: 0
   animSpot: 'SwordCombo3_illusionAttack
 
 '
