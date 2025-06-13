@@ -32,7 +32,7 @@ public class EnemyController : DamageAbleBase, IDamageable
         animator = GetComponent<Animator>();
         boxCollider2D = GetComponent<BoxCollider2D>();
 
-        damageText = (GameObject)AssetDatabase.LoadAssetAtPath("Assets/@Prefabs/damageText.prefab", typeof(GameObject));
+        //damageText = (GameObject)AssetDatabase.LoadAssetAtPath("Assets/@Prefabs/damageText.prefab", typeof(GameObject));
         damagePos = transform.Find("hud").transform;
 
         InstanceHp();
@@ -134,9 +134,9 @@ public class EnemyController : DamageAbleBase, IDamageable
     public override void OnDamage(float causerAtk)
     { 
         CurrentHp -= causerAtk;
-        GameObject hudText = Instantiate(damageText);
-        hudText.transform.position = damagePos.position;
-        hudText.GetComponent<DamageText>().damage = causerAtk;
+        //GameObject hudText = Instantiate(damageText);
+        //hudText.transform.position = damagePos.position;
+        //hudText.GetComponent<DamageText>().damage = causerAtk;
         animator.SetTrigger("doHit");
         //if (CurrentHp <= 0)
         //{

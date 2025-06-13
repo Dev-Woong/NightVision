@@ -6,7 +6,7 @@ public class CurserUi : MonoBehaviour
 
     void Start()
     {
-        Cursor.visible = false; // 기본 커서 숨기기
+        Cursor.visible = true; // 기본 커서 숨기기
 
         customCursorUI = GameObject.Find("CustomCurser").GetComponent<RectTransform>();
         Debug.Log(customCursorUI);
