@@ -15,7 +15,11 @@ MonoBehaviour:
   targetMask:
     serializedVersion: 2
     m_Bits: 128
-  weaponType: 1
+  knockBack: 0
+  knockBackForceX: 1
+  knockBackForceY: 0
+  getEnergy: 0
+  skillType: 0
   animSpot: 'SwordAttack_DownSlash
 
 '
