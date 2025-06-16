@@ -52,7 +52,7 @@ public class EnemyController : DamageAbleBase, IDamageable
         if (hits.Length > 0)
         {
             Transform closest = null;
-            float minDistance = Mathf.Infinity;
+            float minDistance = 8;
 
             foreach (Collider2D hit in hits)
             {
@@ -81,7 +81,7 @@ public class EnemyController : DamageAbleBase, IDamageable
                 else
                 {
                     Vector2 direction = ((Vector2)closest.position - rb.position).normalized;
-                    rb.MovePosition(rb.position + direction * speed * Time.deltaTime);
+                    transform.Translate(direction * speed );
                     if(closest.position.x > transform.position.x)
                     {
                         transform.localScale = new Vector3(-1,1,1);
@@ -134,9 +134,9 @@ public class EnemyController : DamageAbleBase, IDamageable
     public override void OnDamage(float causerAtk)
     { 
         CurrentHp -= causerAtk;
-        //GameObject hudText = Instantiate(damageText);
-        //hudText.transform.position = damagePos.position;
-        //hudText.GetComponent<DamageText>().damage = causerAtk;
+        GameObject hudText = Instantiate(damageText);
+        hudText.transform.position = damagePos.position;
+        hudText.GetComponent<DamageText>().damage = causerAtk;
         animator.SetTrigger("doHit");
         //if (CurrentHp <= 0)
         //{
