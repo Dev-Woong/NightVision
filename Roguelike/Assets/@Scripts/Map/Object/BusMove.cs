@@ -14,17 +14,17 @@ public class BusMove : MonoBehaviour
     void Update()
     {
         Move();
-        if (transform.position.x >= 20)
+        if (transform.position.x <= -23)
         {
             dir = transform.position;
-            dir.x = -23f;
+            dir.x = 20f;
             transform.position = dir;
         }
     }
 
     void Move()
     {
-        transform.Translate(Vector3.right * Time.deltaTime * speed);
+        transform.Translate(Vector3.left * Time.deltaTime * speed);
         animator.SetTrigger("isLand");
     }
 }
