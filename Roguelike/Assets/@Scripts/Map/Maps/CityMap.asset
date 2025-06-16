@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3478b473ca707a14d9e7f447654231eb, type: 3}
-  m_Name: ShopMap
+  m_Name: CityMap
   m_EditorClassIdentifier: 
-  sceneName: Shop
-  spawnPointId: ShopStartPos
+  sceneName: City
+  spawnPointId: CityStartPos
   useInitializeCamAndItem: 1

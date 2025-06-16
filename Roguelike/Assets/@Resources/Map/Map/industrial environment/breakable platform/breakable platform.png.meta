@@ -597,7 +597,26 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      breakable platform_0: 3160668455346015513
+      breakable platform_1: 6322857898666958111
+      breakable platform_10: 3761040654313234639
+      breakable platform_11: 2198240442990932251
+      breakable platform_12: 9217886203287847742
+      breakable platform_13: 3328271716944921190
+      breakable platform_14: -8727840943744917137
+      breakable platform_15: -4759035431230098717
+      breakable platform_16: -8858315908267632971
+      breakable platform_17: -1444200743715975619
+      breakable platform_18: 4636889841575407123
+      breakable platform_2: -1694795899695453778
+      breakable platform_3: 9032515806542855057
+      breakable platform_4: -3758883709066221391
+      breakable platform_5: 8004361665163368497
+      breakable platform_6: -5534561400443387624
+      breakable platform_7: 2044524414681824067
+      breakable platform_8: 3345916654829275772
+      breakable platform_9: 8942909918219865421
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

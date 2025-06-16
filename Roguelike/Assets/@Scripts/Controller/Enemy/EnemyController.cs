@@ -32,7 +32,7 @@ public class EnemyController : DamageAbleBase, IDamageable
         animator = GetComponent<Animator>();
         boxCollider2D = GetComponent<BoxCollider2D>();
 
-        //damageText = (GameObject)AssetDatabase.LoadAssetAtPath("Assets/@Prefabs/damageText.prefab", typeof(GameObject));
+        damageText = (GameObject)AssetDatabase.LoadAssetAtPath("Assets/@Prefabs/damageText.prefab", typeof(GameObject));
         damagePos = transform.Find("hud").transform;
 
         InstanceHp();
