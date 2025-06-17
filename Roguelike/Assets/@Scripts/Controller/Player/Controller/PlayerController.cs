@@ -325,6 +325,7 @@ public class PlayerController : MonoBehaviour
         {
             if (jumpCount == 0 && canJump == true)
             {
+                rb.gravityScale = 1;
                 canJump = false;
 
                 anim.SetTrigger("Jump");
