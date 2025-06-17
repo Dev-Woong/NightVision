@@ -131,7 +131,7 @@ TextureImporter:
         serializedVersion: 2
         x: 30
         y: 15
-        width: 139
+        width: 138
         height: 58
       alignment: 9
       pivot: {x: 0.00052589306, y: 0.5}
@@ -151,9 +151,9 @@ TextureImporter:
       name: Vehicles_TrainCar_Idle_1
       rect:
         serializedVersion: 2
-        x: 17
+        x: 16
         y: 15
-        width: 13
+        width: 14
         height: 58
       alignment: 9
       pivot: {x: 0.9750337, y: 0.5}
