@@ -17,7 +17,7 @@ MonoBehaviour:
     m_Bits: 128
   knockBack: 1
   knockBackForceX: 0
-  knockBackForceY: 0
+  knockBackForceY: 1
   getEnergy: 0
   skillType: 0
   animSpot: 'HandCombo2-1

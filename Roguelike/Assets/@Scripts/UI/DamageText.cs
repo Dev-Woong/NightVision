@@ -24,6 +24,7 @@ public class DamageText : PoolAble
         { damageText.text = "Miss"; }
         else if (damage >= 99)
         {
+            maxFontSize = 21;
             damageText.GetComponent<TMP_Text>().colorGradient = criticalColor;
             damageText.text = "99";
         }
