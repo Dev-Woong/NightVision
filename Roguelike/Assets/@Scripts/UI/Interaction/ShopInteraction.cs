@@ -19,7 +19,7 @@ public class ShopInteraction : MonoBehaviour
 
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.F) && isPlayerinRange == true)
+        if(Input.GetKeyDown(KeyCode.F) && isPlayerinRange == true&&isShopOpen==false)
         { 
             Debug.Log("InShop");
             isShopOpen = true;
@@ -30,7 +30,7 @@ public class ShopInteraction : MonoBehaviour
             }
         }
 
-        if(Input.GetKeyDown(KeyCode.Escape))
+        if(Input.GetKeyDown(KeyCode.Escape)&&isShopOpen==true)
         {
             //isPlayerinRange = false;
             isShopOpen = false;

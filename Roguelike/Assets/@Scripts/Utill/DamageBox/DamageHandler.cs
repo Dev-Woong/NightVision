@@ -51,10 +51,9 @@ public class DamageHandler : MonoBehaviour
     {
         int currentHits = 0;
 
-        target.GetComponent<EnemyController>().OnHit = true;
         if (data.knockBack == KnockBack.Done)
         {
-            Debug.Log("¶¸´Ù");
+            
             if (enemyPos.x < transform.position.x)
             {
                 target.GetComponent<Rigidbody2D>().linearVelocity = Vector3.zero;
@@ -89,7 +88,6 @@ public class DamageHandler : MonoBehaviour
             currentHits++;
             yield return Interval;
         }
-        yield return new WaitForSeconds(0.5f);
-        target.GetComponent<EnemyController>().OnHitDisable();
+        yield return new WaitForSeconds(0.4f);
     }
 }

@@ -26,7 +26,7 @@ public class EnemyController : DamageAbleBase, IDamageable
     public bool OnHit = false;
 
     public bool MoveAble = true;
-
+    private Coroutine coAttack;
 
     private void Start()
     {
@@ -58,7 +58,6 @@ public class EnemyController : DamageAbleBase, IDamageable
         {
             Transform closest = null;
             float minDistance = Mathf.Infinity;
-
             foreach (Collider2D hit in hits)
             {
                 float distance = Vector2.Distance(transform.position, hit.transform.position);
@@ -71,7 +70,6 @@ public class EnemyController : DamageAbleBase, IDamageable
                     closest = hit.transform;
                 }
             }
-
             if (closest != null)
             {
                 float distanceToTarget = Vector2.Distance(transform.position, closest.position);
@@ -80,9 +78,12 @@ public class EnemyController : DamageAbleBase, IDamageable
                 {
                     rb.linearVelocity = Vector2.zero;
                     animator.SetBool("isWalk", false);
-                    StartCoroutine(EnAttack());
+                    if (coAttack != null)
+                    {
+                        StopCoroutine(coAttack);
+                    }
+                    coAttack=StartCoroutine(EnAttack());
                 }
-
                 else 
                 {
                     if (MoveAble == true)
@@ -146,9 +147,9 @@ public class EnemyController : DamageAbleBase, IDamageable
         hudText.GetComponent<DamageText>().damage = causerAtk;
         animator.SetBool("isWalk", false);
         animator.SetTrigger("Hit");
-        //if (CurrentHp <= 0)
-        //{
-        //    Die();
-        //}
+        if (CurrentHp <= 0)
+        {
+           Die();
+        }
     }
 }
