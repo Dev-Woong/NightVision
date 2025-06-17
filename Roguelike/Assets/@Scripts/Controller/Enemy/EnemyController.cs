@@ -39,7 +39,7 @@ public class EnemyController : DamageAbleBase, IDamageable
     }
     void Update()
     {
-        Move();  
+        //Move();  
     }
     void InstanceHp()
     {
