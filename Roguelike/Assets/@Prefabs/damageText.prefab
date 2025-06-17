@@ -193,7 +193,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 2
   alphaSpeed: 10
-  destroySpeed: 0.35
+  destroySpeed: 1
   maxFontSize: 10
   currentAlpha: 1
   fontMinusSpeed: 10

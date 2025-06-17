@@ -28,6 +28,7 @@ public class DamageHandler : MonoBehaviour
                 {
                     damagedTargets.Add(dmg);
                     StartCoroutine(HitDamage(dmg, data, x, hit.transform.position,hit.gameObject));
+                    
                 }
             }
         }
@@ -49,16 +50,22 @@ public class DamageHandler : MonoBehaviour
     IEnumerator HitDamage(IDamageable dmg, AttackData data,float x,Vector3 enemyPos,GameObject target)
     {
         int currentHits = 0;
+
+        target.GetComponent<EnemyController>().OnHit = true;
         if (data.knockBack == KnockBack.Done)
         {
             Debug.Log("¶¸´Ù");
             if (enemyPos.x < transform.position.x)
             {
+                target.GetComponent<Rigidbody2D>().linearVelocity = Vector3.zero;
                 target.GetComponent<Rigidbody2D>().AddForce(new Vector3(-data.knockBackForceX, data.knockBackForceY, 0), ForceMode2D.Impulse);
+                
             }
-            else 
+            else
             {
+                target.GetComponent<Rigidbody2D>().linearVelocity = Vector3.zero;
                 target.GetComponent<Rigidbody2D>().AddForce(new Vector3(data.knockBackForceX, data.knockBackForceY, 0), ForceMode2D.Impulse);
+                
             } 
         }
         while (currentHits < data.hitCount)
@@ -77,10 +84,12 @@ public class DamageHandler : MonoBehaviour
                 {
                     effect.GetComponent<SpriteRenderer>().flipX = true;
                 }
-            } 
+            }
+            
             currentHits++;
             yield return Interval;
         }
-        
+        yield return new WaitForSeconds(0.5f);
+        target.GetComponent<EnemyController>().OnHitDisable();
     }
 }

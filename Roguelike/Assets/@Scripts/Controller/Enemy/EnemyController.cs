@@ -23,8 +23,10 @@ public class EnemyController : DamageAbleBase, IDamageable
     
     public float CurrentHp;
     public float MaxHp = 100;
+    public bool OnHit = false;
 
-   
+    public bool MoveAble = true;
+
 
     private void Start()
     {
@@ -39,7 +41,10 @@ public class EnemyController : DamageAbleBase, IDamageable
     }
     void Update()
     {
-        //Move();  
+        if (OnHit == false)
+        {
+            Move();
+        }
     }
     void InstanceHp()
     {
@@ -52,7 +57,7 @@ public class EnemyController : DamageAbleBase, IDamageable
         if (hits.Length > 0)
         {
             Transform closest = null;
-            float minDistance = 8;
+            float minDistance = Mathf.Infinity;
 
             foreach (Collider2D hit in hits)
             {
@@ -78,20 +83,22 @@ public class EnemyController : DamageAbleBase, IDamageable
                     StartCoroutine(EnAttack());
                 }
 
-                else
+                else 
                 {
-                    Vector2 direction = ((Vector2)closest.position - rb.position).normalized;
-                    transform.Translate(direction * speed );
-                    if(closest.position.x > transform.position.x)
+                    if (MoveAble == true)
                     {
-                        transform.localScale = new Vector3(-1,1,1);
+                        Vector2 direction = ((Vector2)closest.position - rb.position).normalized;
+                        rb.linearVelocity = (direction * speed);
+                        if (closest.position.x > transform.position.x)
+                        {
+                            transform.localScale = new Vector3(-1, 1, 1);
+                        }
+                        if (closest.position.x < transform.position.x)
+                        {
+                            transform.localScale = new Vector3(1, 1, 1);
+                        }
+                        animator.SetBool("isWalk", true);
                     }
-                    if(closest.position.x < transform.position.x)
-                    {
-                        transform.localScale = new Vector3(1, 1, 1);
-                    }
-                    animator.SetBool("isWalk", true);
-                    animator.SetBool("isAttack", false);
                 }
             }
         }
@@ -104,7 +111,8 @@ public class EnemyController : DamageAbleBase, IDamageable
     IEnumerator EnAttack()
     {
         yield return new WaitForSeconds(0.1f);
-        animator.SetBool("isAttack", true);
+        animator.SetTrigger("Attack");
+        MoveAble = false;
         yield return new WaitForSeconds(0.5f);
     }
 
@@ -121,14 +129,13 @@ public class EnemyController : DamageAbleBase, IDamageable
         ReleaseObject();
     }
 
-    void OnTriggerEnter2D(Collider2D collision)
+    public void OnHitDisable()
     {
-        if (collision.CompareTag("Player") && PlayerLayer != 0)
-        {
-            
-
-            
-        }
+        OnHit = false;  
+    }
+    public void OnMoveAble() // Animation Event
+    {
+        MoveAble = true;
     }
 
     public override void OnDamage(float causerAtk)
@@ -137,7 +144,8 @@ public class EnemyController : DamageAbleBase, IDamageable
         GameObject hudText = Instantiate(damageText);
         hudText.transform.position = damagePos.position;
         hudText.GetComponent<DamageText>().damage = causerAtk;
-        animator.SetTrigger("doHit");
+        animator.SetBool("isWalk", false);
+        animator.SetTrigger("Hit");
         //if (CurrentHp <= 0)
         //{
         //    Die();

@@ -1369,7 +1369,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!114 &146749049
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1390,7 +1390,7 @@ MonoBehaviour:
   detectionRadius: 0
   PlayerLayer:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 64
   CurrentHp: 0
   MaxHp: 100
 --- !u!1 &157626289
@@ -8755,7 +8755,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -6827115762623808459, guid: ef655f84437c6104db79400929627b7e, type: 3}
+  m_Sprite: {fileID: 4506374358906167590, guid: 60c565afe837823418f36f05f0e5a8f7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -11057,7 +11057,7 @@ GameObject:
   - component: {fileID: 1551082795}
   - component: {fileID: 1551082793}
   - component: {fileID: 1551082807}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
