@@ -5907,9 +5907,13 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1458610979226041217, guid: a2e3120036a6c8746b9ac52507dbaa49, type: 3}
+      propertyPath: m_Radius
+      value: 0.8
+      objectReference: {fileID: 0}
     - target: {fileID: 2506582527578866109, guid: a2e3120036a6c8746b9ac52507dbaa49, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 87.8
+      value: 28.23
       objectReference: {fileID: 0}
     - target: {fileID: 2506582527578866109, guid: a2e3120036a6c8746b9ac52507dbaa49, type: 3}
       propertyPath: m_LocalPosition.y
@@ -5946,6 +5950,10 @@ PrefabInstance:
     - target: {fileID: 2506582527578866109, guid: a2e3120036a6c8746b9ac52507dbaa49, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3253279127430927313, guid: a2e3120036a6c8746b9ac52507dbaa49, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 9160597480422541622, guid: a2e3120036a6c8746b9ac52507dbaa49, type: 3}
       propertyPath: m_Name
