@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Data;
 using System.Diagnostics.CodeAnalysis;
 using UnityEngine;
 
@@ -47,14 +48,14 @@ public class DamageHandler : MonoBehaviour
             }
         }
     }
-    IEnumerator HitDamage(IDamageable dmg, AttackData data,float x,Vector3 enemyPos,GameObject target)
+    IEnumerator HitDamage(IDamageable dmg, AttackData data,float x,Vector3 targetPos,GameObject target)
     {
         int currentHits = 0;
 
         if (data.knockBack == KnockBack.Done)
         {
             
-            if (enemyPos.x < transform.position.x)
+            if (targetPos.x < transform.position.x)
             {
                 target.GetComponent<Rigidbody2D>().linearVelocity = Vector3.zero;
                 target.GetComponent<Rigidbody2D>().AddForce(new Vector3(-data.knockBackForceX, data.knockBackForceY, 0), ForceMode2D.Impulse);
@@ -72,11 +73,11 @@ public class DamageHandler : MonoBehaviour
             float finalDmg = data.damageValue * ps.atk;
             float randDmg = Mathf.RoundToInt(Random.Range(finalDmg * 0.9f, finalDmg *1.1f));
             dmg.TakeDamage((randDmg));
-            ps.curEnergy += data.getEnergy;
+            
             //audioSource.PlayOneShot(data.SFX);
             if (data.HitEffect != null) 
             {
-                Vector3 effectPos = enemyPos + new Vector3(data.effectPos.x * x, data.effectPos.y, data.effectPos.z);
+                Vector3 effectPos = targetPos + new Vector3(data.effectPos.x * x, data.effectPos.y, data.effectPos.z);
                 var effect = Instantiate(data.HitEffect, effectPos, Quaternion.identity);
 
                 if (transform.localScale.x == -1)

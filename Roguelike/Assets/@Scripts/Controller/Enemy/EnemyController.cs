@@ -7,13 +7,10 @@ public class EnemyController : DamageAbleBase, IDamageable
 { 
     Rigidbody2D rb;
     Animator animator;
-    SpriteRenderer spriteRenderer;
-    BoxCollider2D boxCollider2D;
+    public EnemyData eData;
 
-    public GameObject nearObject;
-    public GameObject damageText;
-    
     public Transform damagePos;
+    public GameObject damageText;
 
     public float speed = 50f;
     public float stopDistance;
@@ -27,16 +24,22 @@ public class EnemyController : DamageAbleBase, IDamageable
 
     public bool MoveAble = true;
     private Coroutine coAttack;
-
+    private enum EnemyState 
+    {
+        Patrol,
+        Trace,
+        Attack,
+        Hit,
+        Die
+    }
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
-        boxCollider2D = GetComponent<BoxCollider2D>();
 
         damageText = (GameObject)AssetDatabase.LoadAssetAtPath("Assets/@Prefabs/damageText.prefab", typeof(GameObject));
         damagePos = transform.Find("hud").transform;
-
+        MaxHp = eData.enemyHp;
         InstanceHp();
     }
     void Update()
@@ -48,6 +51,7 @@ public class EnemyController : DamageAbleBase, IDamageable
     }
     void InstanceHp()
     {
+        
         CurrentHp = MaxHp;
     }
     void Move()
@@ -78,13 +82,13 @@ public class EnemyController : DamageAbleBase, IDamageable
                 {
                     rb.linearVelocity = Vector2.zero;
                     animator.SetBool("isWalk", false);
-                    if (coAttack != null)
-                    {
-                        StopCoroutine(coAttack);
-                    }
-                    coAttack=StartCoroutine(EnAttack());
+                    //if (coAttack != null)
+                    //{
+                    //    StopCoroutine(coAttack);
+                    //}
+                    coAttack = StartCoroutine(EnAttack());
                 }
-                else 
+                else
                 {
                     if (MoveAble == true)
                     {
@@ -113,7 +117,7 @@ public class EnemyController : DamageAbleBase, IDamageable
     {
         yield return new WaitForSeconds(0.1f);
         animator.SetTrigger("Attack");
-        MoveAble = false;
+        //MoveAble = false;
         yield return new WaitForSeconds(0.5f);
     }
 
@@ -149,7 +153,7 @@ public class EnemyController : DamageAbleBase, IDamageable
         animator.SetTrigger("Hit");
         if (CurrentHp <= 0)
         {
-           Die();
+          // Die();
         }
     }
 }

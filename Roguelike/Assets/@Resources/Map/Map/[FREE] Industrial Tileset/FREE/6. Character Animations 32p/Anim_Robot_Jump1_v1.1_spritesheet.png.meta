@@ -322,7 +322,15 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Anim_Robot_Jump1_v1.1_spritesheet_0: 4767609271506909030
+      Anim_Robot_Jump1_v1.1_spritesheet_1: 761224055575584455
+      Anim_Robot_Jump1_v1.1_spritesheet_2: 771870722824572479
+      Anim_Robot_Jump1_v1.1_spritesheet_3: -722517439877553587
+      Anim_Robot_Jump1_v1.1_spritesheet_4: 7593937239833444240
+      Anim_Robot_Jump1_v1.1_spritesheet_5: 6708240562530526023
+      Anim_Robot_Jump1_v1.1_spritesheet_6: 7183803168408710958
+      Anim_Robot_Jump1_v1.1_spritesheet_7: 3015790163419496681
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

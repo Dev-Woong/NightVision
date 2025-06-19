@@ -16,7 +16,7 @@ public enum WeaponType
 
 
 
-public class PlayerController : MonoBehaviour
+public class PlayerController :DamageAbleBase,IDamageable
 {
     public ShopItemDatabase itemDatabase;
 
@@ -33,20 +33,22 @@ public class PlayerController : MonoBehaviour
     public PlayerStatus ps;
     public RifleController rc;
 
-    WaitForSeconds wTime = new(0.04f);
+    readonly WaitForSeconds wTime = new(0.04f);
     public WeaponType weaponType;
 
     private float h;
-    private float riseHeight = 1.3f;
-    private float fallGravityScale = 11f;
+    private readonly float riseHeight = 1.3f;
+    private readonly float fallGravityScale = 11f;
     private float lastInputTime = 0;
-    private float resetDelay = 0.5f;
-    private float jumpForce = 5;
+    private readonly float resetDelay = 0.5f;
+    private readonly float jumpForce = 5;
     private int wType = 0;
     public int jumpCount = 0;
     private int comboCount = 0;
     public int mode = 0;
     public int magazineDrum = 5;
+    public float maxHp;
+    public float curHp;
 
     public bool canJump = true;
     private bool moveAble = true;
@@ -58,8 +60,8 @@ public class PlayerController : MonoBehaviour
     private Coroutine comboResetCoroutine;
     private Coroutine JumpCountCoroutine;
 
-    public GameObject gunModePanel;
     public GameObject[] gunModes;
+    public GameObject gunModePanel;
     public GameObject Rifle;
 
     CameraChanger camChanger;
@@ -75,9 +77,9 @@ public class PlayerController : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         tr = GetComponent<Transform>();
         anim = GetComponent<Animator>();
-
-
         rc = GetComponentInChildren<RifleController>();
+        maxHp = 100;
+        curHp = maxHp;
     }
 
     void Start()
@@ -90,7 +92,19 @@ public class PlayerController : MonoBehaviour
 
         camChanger = GetComponent<CameraChanger>();
     }
-
+    public override void OnDamage(float causerAtk)
+    {
+        curHp -= causerAtk;
+        //GameObject hudText = Instantiate(damageText);
+        //hudText.transform.position = damagePos.position;
+        //hudText.GetComponent<DamageText>().damage = causerAtk;
+       
+        anim.SetTrigger("Hurt");
+        if (curHp <= 0)
+        {
+           // Die();
+        }
+    }
     public void EnterSnipeMode()
     {
         if (snipeMode == true)
@@ -217,6 +231,9 @@ public class PlayerController : MonoBehaviour
             comboCount = 0;
         }
         wType = (int)weaponType;
+        if (weaponType != WeaponType.Gun) {
+            modeSelection = false; gunModePanel.SetActive(false);
+        }
     }
     void GetWeaponState()
     {
@@ -314,7 +331,10 @@ public class PlayerController : MonoBehaviour
             }
             else
             {
-                EnterGunMode();
+                if (moveAble == true)
+                {
+                    EnterGunMode();
+                }
             }
         }
     }
