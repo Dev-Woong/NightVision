@@ -11,6 +11,8 @@ public class CustomButton : MonoBehaviour
     public Animator animator;
     public TMP_Text text;
     public Button unityUIButton;
+    public GameObject optionsPanel;
+    
 
     private void Start()
     {
@@ -19,6 +21,7 @@ public class CustomButton : MonoBehaviour
         {
             unityUIButton.onClick.AddListener(Press);
         }
+        
     }
 
     public void Select()
@@ -46,7 +49,7 @@ public class CustomButton : MonoBehaviour
 
             case ButtonActionType.OpenOptions:
                 Debug.Log("옵션 열기");
-                // optionsPanel.SetActive(true);
+                optionsPanel.SetActive(true);
                 break;
 
             case ButtonActionType.ExitGame:
@@ -58,4 +61,6 @@ public class CustomButton : MonoBehaviour
                 break;
         }
     }
+
+    
 }
