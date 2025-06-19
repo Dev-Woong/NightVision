@@ -272,7 +272,13 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Anim_Robot_Walk1_v1.1_spritesheet_0: -6967114997719777538
+      Anim_Robot_Walk1_v1.1_spritesheet_1: -3208028706754345329
+      Anim_Robot_Walk1_v1.1_spritesheet_2: -705749861797539143
+      Anim_Robot_Walk1_v1.1_spritesheet_3: 3381037790523770762
+      Anim_Robot_Walk1_v1.1_spritesheet_4: 8990733829602491371
+      Anim_Robot_Walk1_v1.1_spritesheet_5: -638860274422321999
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
