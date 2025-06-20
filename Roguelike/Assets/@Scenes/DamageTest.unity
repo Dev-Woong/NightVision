@@ -230,7 +230,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85218ac697715c94d82aadd016dad984, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  eData: {fileID: 0}
   damagePos: {fileID: 0}
   damageText: {fileID: 0}
   speed: 2
@@ -240,7 +239,6 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   CurrentHp: 0
-  MaxHp: 100000
   OnHit: 0
   MoveAble: 1
 --- !u!61 &31374594
@@ -3364,6 +3362,7 @@ GameObject:
   - component: {fileID: 957042075}
   - component: {fileID: 957042077}
   - component: {fileID: 957042076}
+  - component: {fileID: 957042078}
   m_Layer: 6
   m_Name: Player
   m_TagString: Player
@@ -3479,7 +3478,8 @@ MonoBehaviour:
   DashEffect: {fileID: 36312249568226427, guid: d5c5866b485145446a3cc86f83b2b4f1, type: 3}
   DoubleJumpEffet: {fileID: 1432662399882269447, guid: 9293d72710d39e24cb22b2b6a595bd46, type: 3}
   Scope: {fileID: 1445972496}
-  ps: {fileID: 957042075}
+  PlayerStat: {fileID: 957042075}
+  PublicStat: {fileID: 957042078}
   rc: {fileID: 0}
   weaponType: 0
   jumpCount: 0
@@ -3658,7 +3658,7 @@ Transform:
   m_GameObject: {fileID: 957042063}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2, y: 3.36, z: 0}
+  m_LocalPosition: {x: -2, y: -2.9, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3683,8 +3683,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioSource: {fileID: 0}
-  sc: {fileID: 1445972498}
-  ps: {fileID: 957042075}
+  target: {fileID: 1445972497}
+  ps: {fileID: 957042078}
 --- !u!114 &957042075
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3697,9 +3697,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9bb0e793c0860c44aa5989f5de27eb17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  atk: 3
-  def: 0
-  speed: 1
   curEnergy: 0
   maxEnergy: 0
   Energy: {fileID: 1332001635}
@@ -3735,6 +3732,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fad4360831b4acb4e91d85d1d11d53b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &957042078
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 957042063}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8e840e754bfad5408f493dfce133717, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obData: {fileID: 11400000, guid: 4d8e2cbd26ec9ec4fbfc3268734c4859, type: 2}
+  atk: 0
+  speed: 0
+  maxHp: 0
+  curHp: 0
+  def: 0
+  jamStack: 0
 --- !u!1 &1091887125
 GameObject:
   m_ObjectHideFlags: 0
@@ -3899,7 +3915,7 @@ Transform:
   m_GameObject: {fileID: 1189423531}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2, y: 7.5868473, z: -10}
+  m_LocalPosition: {x: -2, y: 1.3268476, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3997,7 +4013,7 @@ SpriteRenderer:
   m_Size: {x: 10.56, y: 2.38}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &1223332352
@@ -4136,6 +4152,7 @@ GameObject:
   - component: {fileID: 1231932256}
   - component: {fileID: 1231932255}
   - component: {fileID: 1231932262}
+  - component: {fileID: 1231932263}
   m_Layer: 7
   m_Name: Enemy_Samurai
   m_TagString: Untagged
@@ -4201,7 +4218,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85218ac697715c94d82aadd016dad984, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  eData: {fileID: 11400000, guid: 50437de74bccdc24db781b177b9d504f, type: 2}
   damagePos: {fileID: 0}
   damageText: {fileID: 0}
   speed: 2
@@ -4211,7 +4227,6 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   CurrentHp: 100
-  MaxHp: 100000
   OnHit: 0
   MoveAble: 1
 --- !u!61 &1231932257
@@ -4373,7 +4388,7 @@ Transform:
   m_GameObject: {fileID: 1231932254}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.8, y: 6.6, z: 0}
+  m_LocalPosition: {x: 0.8, y: -2.12, z: 0}
   m_LocalScale: {x: 1.1, y: 1.1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -4393,8 +4408,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioSource: {fileID: 0}
-  sc: {fileID: 0}
-  ps: {fileID: 0}
+  target: {fileID: 0}
+  ps: {fileID: 1231932263}
+--- !u!114 &1231932263
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1231932254}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8e840e754bfad5408f493dfce133717, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obData: {fileID: 11400000, guid: 50437de74bccdc24db781b177b9d504f, type: 2}
+  atk: 0
+  speed: 0
+  maxHp: 0
+  curHp: 0
+  def: 0
+  jamStack: 0
 --- !u!1 &1245839806
 GameObject:
   m_ObjectHideFlags: 0
@@ -4948,7 +4982,7 @@ Transform:
   m_GameObject: {fileID: 1354328339}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 2.12, z: 0}
+  m_LocalPosition: {x: 0, y: -4.68, z: 0}
   m_LocalScale: {x: 21, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -5943,7 +5977,7 @@ Transform:
   m_GameObject: {fileID: 1584781631}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2, y: 7.5868473, z: -10}
+  m_LocalPosition: {x: -2, y: 1.3268476, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

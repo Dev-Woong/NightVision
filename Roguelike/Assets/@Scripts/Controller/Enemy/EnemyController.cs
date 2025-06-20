@@ -7,7 +7,7 @@ public class EnemyController : DamageAbleBase, IDamageable
 { 
     Rigidbody2D rb;
     Animator animator;
-    public EnemyData eData;
+    
 
     public Transform damagePos;
     public GameObject damageText;
@@ -19,7 +19,6 @@ public class EnemyController : DamageAbleBase, IDamageable
     public LayerMask PlayerLayer;
     
     public float CurrentHp;
-    public float MaxHp = 100;
     public bool OnHit = false;
 
     public bool MoveAble = true;
@@ -39,8 +38,8 @@ public class EnemyController : DamageAbleBase, IDamageable
 
         damageText = (GameObject)AssetDatabase.LoadAssetAtPath("Assets/@Prefabs/damageText.prefab", typeof(GameObject));
         damagePos = transform.Find("hud").transform;
-        MaxHp = eData.enemyHp;
-        InstanceHp();
+        CurrentHp = gameObject.GetComponent<PublicStatus>().maxHp;
+        
     }
     void Update()
     {
@@ -48,11 +47,6 @@ public class EnemyController : DamageAbleBase, IDamageable
         {
             Move();
         }
-    }
-    void InstanceHp()
-    {
-        
-        CurrentHp = MaxHp;
     }
     void Move()
     {
@@ -82,10 +76,7 @@ public class EnemyController : DamageAbleBase, IDamageable
                 {
                     rb.linearVelocity = Vector2.zero;
                     animator.SetBool("isWalk", false);
-                    //if (coAttack != null)
-                    //{
-                    //    StopCoroutine(coAttack);
-                    //}
+                    
                     coAttack = StartCoroutine(EnAttack());
                 }
                 else
@@ -117,8 +108,9 @@ public class EnemyController : DamageAbleBase, IDamageable
     {
         yield return new WaitForSeconds(0.1f);
         animator.SetTrigger("Attack");
-        //MoveAble = false;
-        yield return new WaitForSeconds(0.5f);
+        
+        MoveAble = false;
+        yield return new WaitForSeconds(1.5f);
     }
 
     void OnDrawGizmosSelected()

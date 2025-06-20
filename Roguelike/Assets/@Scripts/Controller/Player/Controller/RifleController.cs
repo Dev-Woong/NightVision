@@ -32,7 +32,7 @@ public class RifleController : MonoBehaviour
             StopCoroutine(FireCoroutine);
         }
         FireCoroutine = StartCoroutine(FireEffect());
-        dHandle.CreateAttackBox(rifleData);
+        dHandle.PlayerCreateAttackBox(rifleData);
     }
     
     public void RandomFireEffect()
