@@ -1473,9 +1473,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85218ac697715c94d82aadd016dad984, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nearObject: {fileID: 0}
-  damageText: {fileID: 0}
+  eData: {fileID: 0}
   damagePos: {fileID: 0}
+  damageText: {fileID: 0}
   speed: 2
   stopDistance: 2
   detectionRadius: 5
@@ -11350,9 +11350,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85218ac697715c94d82aadd016dad984, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nearObject: {fileID: 0}
-  damageText: {fileID: 0}
+  eData: {fileID: 0}
   damagePos: {fileID: 0}
+  damageText: {fileID: 0}
   speed: 2
   stopDistance: 1.5
   detectionRadius: 5
@@ -12875,16 +12875,18 @@ MonoBehaviour:
   jumpCount: 0
   mode: 0
   magazineDrum: 5
+  maxHp: 0
+  curHp: 0
   canJump: 1
   snipeMode: 0
   rifleMode: 0
   modeSelection: 0
   portalMovePosition: {x: 0, y: 0, z: 0}
-  gunModePanel: {fileID: 29218893}
   gunModes:
   - {fileID: 137109414}
   - {fileID: 125851342}
   - {fileID: 2023886833}
+  gunModePanel: {fileID: 29218893}
   Rifle: {fileID: 568525119}
   normalGunAttack: {fileID: 0}
 --- !u!61 &1551082802
@@ -16611,7 +16613,7 @@ SpriteRenderer:
   m_Size: {x: 10.56, y: 2.38}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &2066342541
