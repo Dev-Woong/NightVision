@@ -83,7 +83,7 @@ public class ScopeController: MonoBehaviour
             Vector3 recoilDir = new Vector3(a, 1f, 0f).normalized;
             impulseSource.GenerateImpulse(recoilDir);
             FireCoroutine = StartCoroutine(FireEffect());
-            dHandle.CreateAttackBox(snipeData);
+            dHandle.PlayerCreateAttackBox(snipeData);
             player.magazineDrum--;
             curTime = coolTime;
             

@@ -341,7 +341,7 @@ AnimationClip:
   m_HasMotionFloatCurves: 0
   m_Events:
   - time: 0.11904762
-    functionName: CreateAttackBox
+    functionName: PlayerCreateAttackBox
     data: 
     objectReferenceParameter: {fileID: 11400000, guid: 0552b007b168dc242860e4d0835f781f, type: 2}
     floatParameter: 0
@@ -362,7 +362,7 @@ AnimationClip:
     intParameter: 0
     messageOptions: 0
   - time: 0.21428572
-    functionName: CreateAttackBox
+    functionName: PlayerCreateAttackBox
     data: 
     objectReferenceParameter: {fileID: 11400000, guid: dbb49f026361ea2438322adfb93d94a2, type: 2}
     floatParameter: 0
@@ -376,7 +376,7 @@ AnimationClip:
     intParameter: 0
     messageOptions: 0
   - time: 0.26190478
-    functionName: CreateAttackBox
+    functionName: PlayerCreateAttackBox
     data: 
     objectReferenceParameter: {fileID: 11400000, guid: dbb49f026361ea2438322adfb93d94a2, type: 2}
     floatParameter: 0
@@ -390,7 +390,7 @@ AnimationClip:
     intParameter: 0
     messageOptions: 0
   - time: 0.30952382
-    functionName: CreateAttackBox
+    functionName: PlayerCreateAttackBox
     data: 
     objectReferenceParameter: {fileID: 11400000, guid: dbb49f026361ea2438322adfb93d94a2, type: 2}
     floatParameter: 0
@@ -404,7 +404,7 @@ AnimationClip:
     intParameter: 0
     messageOptions: 0
   - time: 0.35714287
-    functionName: CreateAttackBox
+    functionName: PlayerCreateAttackBox
     data: 
     objectReferenceParameter: {fileID: 11400000, guid: dbb49f026361ea2438322adfb93d94a2, type: 2}
     floatParameter: 0
@@ -418,7 +418,7 @@ AnimationClip:
     intParameter: 0
     messageOptions: 0
   - time: 0.4047619
-    functionName: CreateAttackBox
+    functionName: PlayerCreateAttackBox
     data: 
     objectReferenceParameter: {fileID: 11400000, guid: dbb49f026361ea2438322adfb93d94a2, type: 2}
     floatParameter: 0
@@ -432,7 +432,7 @@ AnimationClip:
     intParameter: 0
     messageOptions: 0
   - time: 0.45238096
-    functionName: CreateAttackBox
+    functionName: PlayerCreateAttackBox
     data: 
     objectReferenceParameter: {fileID: 11400000, guid: dbb49f026361ea2438322adfb93d94a2, type: 2}
     floatParameter: 0
@@ -446,7 +446,7 @@ AnimationClip:
     intParameter: 0
     messageOptions: 0
   - time: 0.5
-    functionName: CreateAttackBox
+    functionName: PlayerCreateAttackBox
     data: 
     objectReferenceParameter: {fileID: 11400000, guid: dbb49f026361ea2438322adfb93d94a2, type: 2}
     floatParameter: 0
@@ -467,7 +467,7 @@ AnimationClip:
     intParameter: 0
     messageOptions: 0
   - time: 1.1428572
-    functionName: CreateAttackBox
+    functionName: PlayerCreateAttackBox
     data: 
     objectReferenceParameter: {fileID: 11400000, guid: 11f47274193879649b066293ddbbe1b3, type: 2}
     floatParameter: 0

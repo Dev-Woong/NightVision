@@ -135,7 +135,7 @@ AnimationClip:
     intParameter: 0
     messageOptions: 0
   - time: 0.0952381
-    functionName: CreateAttackBox
+    functionName: PlayerCreateAttackBox
     data: 
     objectReferenceParameter: {fileID: 11400000, guid: 64d3af5ad62be9e42b8527955f2cb19f, type: 2}
     floatParameter: 0
@@ -156,7 +156,7 @@ AnimationClip:
     intParameter: 0
     messageOptions: 0
   - time: 0.2857143
-    functionName: CreateAttackBox
+    functionName: PlayerCreateAttackBox
     data: 
     objectReferenceParameter: {fileID: 11400000, guid: 811490dc9cbfb8c47b2ea78da2a0b841, type: 2}
     floatParameter: 0

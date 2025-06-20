@@ -15,11 +15,10 @@ public enum WeaponType
 }
 
 
-
 public class PlayerController :DamageAbleBase,IDamageable
 {
+    #region Component
     public ShopItemDatabase itemDatabase;
-
     Transform tr;
     Rigidbody2D rb;
     Animator anim;
@@ -30,7 +29,8 @@ public class PlayerController :DamageAbleBase,IDamageable
     public GameObject DashEffect;
     public GameObject DoubleJumpEffet;
     public GameObject Scope;
-    public PlayerStatus ps;
+    public PlayerStatus PlayerStat;
+    public PublicStatus PublicStat;
     public RifleController rc;
 
     readonly WaitForSeconds wTime = new(0.04f);
@@ -67,31 +67,9 @@ public class PlayerController :DamageAbleBase,IDamageable
     CameraChanger camChanger;
     public AttackData normalGunAttack;
 
+    #endregion
 
-
-    public void Awake()
-    {
-        DontDestroyOnLoad(gameObject);
-
-        ps = GetComponent<PlayerStatus>();
-        rb = GetComponent<Rigidbody2D>();
-        tr = GetComponent<Transform>();
-        anim = GetComponent<Animator>();
-        rc = GetComponentInChildren<RifleController>();
-        maxHp = 100;
-        curHp = maxHp;
-    }
-
-    void Start()
-    {
-
-        Rifle.SetActive(false);
-        Scope.SetActive(false);
-
-        rb.freezeRotation = true;
-
-        camChanger = GetComponent<CameraChanger>();
-    }
+   
     public override void OnDamage(float causerAtk)
     {
         curHp -= causerAtk;
@@ -261,12 +239,12 @@ public class PlayerController :DamageAbleBase,IDamageable
             if (Input.GetKey(KeyCode.LeftShift))
             {
                 anim.SetBool(Define.isRunHash, true);
-                tr.Translate(Time.deltaTime * ps.speed * 2 * moveDir);
+                tr.Translate(Time.deltaTime * PublicStat.speed * 2 * moveDir);
             }
             else
             {
                 anim.SetBool(Define.isRunHash, false);
-                tr.Translate(Time.deltaTime * ps.speed * moveDir);
+                tr.Translate(Time.deltaTime * PublicStat.speed * moveDir);
             }
 
 
@@ -512,7 +490,7 @@ public class PlayerController :DamageAbleBase,IDamageable
         if (collision.collider.CompareTag("UpStair"))
         {
             canJump = true;
-            ps.speed = 2;
+            PublicStat.speed = 2;
             jumpCount = 0;
             anim.SetBool("onAir", false);
         }
@@ -549,7 +527,7 @@ public class PlayerController :DamageAbleBase,IDamageable
 
         if (other.CompareTag("SpeedTool"))
         {
-            ps.speed = 1;
+            PublicStat.speed = 1;
         }
 
     }
@@ -576,7 +554,31 @@ public class PlayerController :DamageAbleBase,IDamageable
         }
        
     }
-    
+    #region LifeCycle
+    public void Awake()
+    {
+        DontDestroyOnLoad(gameObject);
+
+        PlayerStat = GetComponent<PlayerStatus>();
+        PublicStat = GetComponent<PublicStatus>();
+        rb = GetComponent<Rigidbody2D>();
+        tr = GetComponent<Transform>();
+        anim = GetComponent<Animator>();
+        rc = GetComponentInChildren<RifleController>();
+        maxHp = 100;
+        curHp = maxHp;
+    }
+
+    void Start()
+    {
+
+        Rifle.SetActive(false);
+        Scope.SetActive(false);
+
+        rb.freezeRotation = true;
+
+        camChanger = GetComponent<CameraChanger>();
+    }
     private void FixedUpdate()
     {
         //Landing();
@@ -601,6 +603,7 @@ public class PlayerController :DamageAbleBase,IDamageable
         UseSkill();
         ResetComboCount();
     }
+    #endregion
 }
 
 

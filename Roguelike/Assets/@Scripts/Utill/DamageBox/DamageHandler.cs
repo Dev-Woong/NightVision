@@ -3,50 +3,43 @@ using System.Collections.Generic;
 using System.Data;
 using System.Diagnostics.CodeAnalysis;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class DamageHandler : MonoBehaviour 
 {
     public AudioSource audioSource;
-    public ScopeController sc;
-    public PlayerStatus ps;
-    
+    public Transform target;
+    public PublicStatus ps;
+    Vector3 hitPos;
     private readonly HashSet<IDamageable> damagedTargets = new();
     private readonly WaitForSeconds Interval = new(0.04f);
     
-    public void CreateAttackBox(AttackData data)
+    public void PlayerCreateAttackBox(AttackData data)
     {
         if (data == null) return;
         damagedTargets.Clear();
         float x = transform.localScale.x;
         if (data.skillType != SkillType.AOE)
         {
-            Vector3 hitPos = transform.position + transform.right * data.rangeOffset * x;
-            Collider2D[] hits = Physics2D.OverlapBoxAll(hitPos, data.hitBoxSize, 0, data.targetMask);
-            foreach (var hit in hits)
-            {
-                IDamageable dmg = hit.GetComponent<IDamageable>();
-                if (dmg != null && !damagedTargets.Contains(dmg))
-                {
-                    damagedTargets.Add(dmg);
-                    StartCoroutine(HitDamage(dmg, data, x, hit.transform.position,hit.gameObject));
-                    
-                }
-            }
+            hitPos = transform.position + transform.right * data.rangeOffset * x;
         }
         else 
         {
-            Vector3 hitPos = sc.transform.position;
-            Collider2D[] hits = Physics2D.OverlapBoxAll(hitPos, data.hitBoxSize, 0, data.targetMask);
-            foreach (var hit in hits)
+            if (target == null) { Debug.LogWarning("지정 타겟이 없음! "); return; }
+            hitPos = target.position;
+        }
+        Collider2D[] hits = Physics2D.OverlapBoxAll(hitPos, data.hitBoxSize, 0, data.targetMask);
+        foreach (var hit in hits)
+        {
+            IDamageable dmg = hit.GetComponent<IDamageable>();
+            if (dmg != null && !damagedTargets.Contains(dmg))
             {
-                IDamageable dmg = hit.GetComponent<IDamageable>();
-                if (dmg != null && !damagedTargets.Contains(dmg))
-                {
-                    damagedTargets.Add(dmg);
-                    StartCoroutine(HitDamage(dmg, data, x, hit.transform.position, hit.gameObject));
-                }
+                damagedTargets.Add(dmg);
+                StartCoroutine(HitDamage(dmg, data, x, hit.transform.position, hit.gameObject));
+
             }
         }
+           
     }
     IEnumerator HitDamage(IDamageable dmg, AttackData data,float x,Vector3 targetPos,GameObject target)
     {
