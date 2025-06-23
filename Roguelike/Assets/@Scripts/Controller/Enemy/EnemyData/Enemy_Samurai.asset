@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ID: 
   moveSpeed: 2
-  atk: 5
+  atk: 1
   def: 2
   maxHp: 100
   speed: 1
