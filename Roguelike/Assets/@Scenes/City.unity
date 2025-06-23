@@ -1377,7 +1377,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -99
+  m_SortingOrder: -100
   m_Sprite: {fileID: 5088316998373936774, guid: d8b02676eb34ea6488dde72241d7ce2e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1834,7 +1834,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -99
+  m_SortingOrder: -100
   m_Sprite: {fileID: 5088316998373936774, guid: d8b02676eb34ea6488dde72241d7ce2e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -3505,6 +3505,7 @@ GameObject:
   - component: {fileID: 1087879165}
   - component: {fileID: 1087879164}
   - component: {fileID: 1087879163}
+  - component: {fileID: 1087879177}
   m_Layer: 6
   m_Name: Player
   m_TagString: Player
@@ -3556,9 +3557,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9bb0e793c0860c44aa5989f5de27eb17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  atk: 3
-  def: 0
-  speed: 1
   curEnergy: 0
   maxEnergy: 0
   Energy: {fileID: 271390348}
@@ -3575,8 +3573,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioSource: {fileID: 0}
-  sc: {fileID: 371509653}
-  ps: {fileID: 1087879165}
+  target: {fileID: 0}
+  ps: {fileID: 0}
 --- !u!114 &1087879167
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3685,7 +3683,8 @@ MonoBehaviour:
   DashEffect: {fileID: 36312249568226427, guid: d5c5866b485145446a3cc86f83b2b4f1, type: 3}
   DoubleJumpEffet: {fileID: 1432662399882269447, guid: 9293d72710d39e24cb22b2b6a595bd46, type: 3}
   Scope: {fileID: 371509650}
-  ps: {fileID: 1087879165}
+  PlayerStat: {fileID: 1087879165}
+  PublicStat: {fileID: 1087879177}
   rc: {fileID: 1298337876}
   weaponType: 0
   jumpCount: 0
@@ -3877,6 +3876,25 @@ Transform:
   - {fileID: 1139935478}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1087879177
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1087879162}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8e840e754bfad5408f493dfce133717, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obData: {fileID: 11400000, guid: 4d8e2cbd26ec9ec4fbfc3268734c4859, type: 2}
+  atk: 0
+  speed: 0
+  maxHp: 0
+  curHp: 0
+  def: 0
+  jamStack: 0
 --- !u!1 &1098155156
 GameObject:
   m_ObjectHideFlags: 0
@@ -10556,7 +10574,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -99
+  m_SortingOrder: -100
   m_Sprite: {fileID: 5088316998373936774, guid: d8b02676eb34ea6488dde72241d7ce2e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
