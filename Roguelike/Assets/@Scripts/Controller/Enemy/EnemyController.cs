@@ -7,7 +7,7 @@ public class EnemyController : DamageAbleBase, IDamageable
 { 
     Rigidbody2D rb;
     Animator animator;
-    
+    public PublicStatus ps;
 
     public Transform damagePos;
     public GameObject damageText;
@@ -23,30 +23,20 @@ public class EnemyController : DamageAbleBase, IDamageable
 
     public bool MoveAble = true;
     private Coroutine coAttack;
-    private enum EnemyState 
-    {
-        Patrol,
-        Trace,
-        Attack,
-        Hit,
-        Die
-    }
+    Vector2 direction;
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
-
-        damageText = (GameObject)AssetDatabase.LoadAssetAtPath("Assets/@Prefabs/damageText.prefab", typeof(GameObject));
+        ps = GetComponent<PublicStatus>();
+        damageText = (GameObject)AssetDatabase.LoadAssetAtPath("Assets/@Prefabs/DamageText.prefab", typeof(GameObject));
         damagePos = transform.Find("hud").transform;
         CurrentHp = gameObject.GetComponent<PublicStatus>().maxHp;
         
     }
     void Update()
     {
-        if (OnHit == false)
-        {
-            Move();
-        }
+        
     }
     void Move()
     {
@@ -76,15 +66,16 @@ public class EnemyController : DamageAbleBase, IDamageable
                 {
                     rb.linearVelocity = Vector2.zero;
                     animator.SetBool("isWalk", false);
-                    
-                    coAttack = StartCoroutine(EnAttack());
+                    if (coAttack == null)
+                        coAttack = StartCoroutine(EnAttack());
+                    else return;
                 }
                 else
                 {
-                    if (MoveAble == true)
+                    if (ps.canMove== true)
                     {
-                        Vector2 direction = ((Vector2)closest.position - rb.position).normalized;
-                        rb.linearVelocity = (direction * speed);
+                        direction = new Vector2(closest.position.x - rb.position.x, 0);
+                        rb.linearVelocity = (direction.normalized * speed);
                         if (closest.position.x > transform.position.x)
                         {
                             transform.localScale = new Vector3(-1, 1, 1);
@@ -106,13 +97,14 @@ public class EnemyController : DamageAbleBase, IDamageable
 
     IEnumerator EnAttack()
     {
-        yield return new WaitForSeconds(0.1f);
-        animator.SetTrigger("Attack");
         
+        animator.SetTrigger("Attack");
         MoveAble = false;
         yield return new WaitForSeconds(1.5f);
-    }
+        MoveAble = true;
+        coAttack = null;
 
+    }
     void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.yellow;
@@ -126,17 +118,14 @@ public class EnemyController : DamageAbleBase, IDamageable
         ReleaseObject();
     }
 
-    public void OnHitDisable()
-    {
-        OnHit = false;  
-    }
+    
     public void OnMoveAble() // Animation Event
     {
         MoveAble = true;
     }
-
+    
     public override void OnDamage(float causerAtk)
-    { 
+    {
         CurrentHp -= causerAtk;
         GameObject hudText = Instantiate(damageText);
         hudText.transform.position = damagePos.position;
