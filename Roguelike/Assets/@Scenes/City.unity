@@ -547,7 +547,7 @@ GameObject:
   m_Component:
   - component: {fileID: 216307455}
   m_Layer: 0
-  m_Name: Building1
+  m_Name: Building3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2331,7 +2331,7 @@ GameObject:
   m_Component:
   - component: {fileID: 774864825}
   m_Layer: 0
-  m_Name: Building3
+  m_Name: Building1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2639,6 +2639,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 819589502}
+  - component: {fileID: 819589503}
   m_Layer: 0
   m_Name: Buildings
   m_TagString: Untagged
@@ -2660,11 +2661,27 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1709084866}
-  - {fileID: 216307455}
-  - {fileID: 479295238}
   - {fileID: 774864825}
+  - {fileID: 479295238}
+  - {fileID: 216307455}
   m_Father: {fileID: 1208846762}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &819589503
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 819589501}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97fba29a0abf4da4eb58b1dfaa7f0646, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bd: {fileID: 774864825}
+  bd1: {fileID: 479295238}
+  bd2: {fileID: 216307455}
+  speed: 0
 --- !u!1 &848958594
 GameObject:
   m_ObjectHideFlags: 0
