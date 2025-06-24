@@ -4,8 +4,6 @@ using UnityEngine;
 public class ObjectData : ScriptableObject
 {
     public string ID;
-    
-    public float moveSpeed;
     public int atk;
     public int def;
     public int maxHp;

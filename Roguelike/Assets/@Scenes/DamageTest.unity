@@ -211,13 +211,15 @@ GameObject:
   - component: {fileID: 31374595}
   - component: {fileID: 31374594}
   - component: {fileID: 31374593}
+  - component: {fileID: 31374599}
+  - component: {fileID: 31374600}
   m_Layer: 7
   m_Name: Enemy_Thief
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &31374593
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -401,13 +403,47 @@ Transform:
   m_GameObject: {fileID: 31374592}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.38, y: 6.6, z: 0}
+  m_LocalPosition: {x: 2.38, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 334363715}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &31374599
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 31374592}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8e840e754bfad5408f493dfce133717, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obData: {fileID: 11400000, guid: f2bcccd528f56ad4195fd34d77f3769a, type: 2}
+  atk: 0
+  speed: 0
+  maxHp: 0
+  curHp: 0
+  def: 0
+  jamStack: 0
+--- !u!114 &31374600
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 31374592}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b37e40349fe28be4f9de0128b25aec63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioSource: {fileID: 0}
+  target: {fileID: 0}
+  ps: {fileID: 0}
 --- !u!1 &45281684
 GameObject:
   m_ObjectHideFlags: 0
@@ -3479,21 +3515,10 @@ MonoBehaviour:
   DashEffect: {fileID: 36312249568226427, guid: d5c5866b485145446a3cc86f83b2b4f1, type: 3}
   DoubleJumpEffet: {fileID: 1432662399882269447, guid: 9293d72710d39e24cb22b2b6a595bd46, type: 3}
   Scope: {fileID: 1445972496}
-  PlayerStat: {fileID: 957042075}
-  PublicStat: {fileID: 957042078}
-  damagePos: {fileID: 0}
-  damageText: {fileID: 0}
-  rc: {fileID: 0}
-  weaponType: 0
-  jumpCount: 0
-  mode: 0
-  magazineDrum: 5
-  maxHp: 0
   curHp: 0
-  canJump: 1
+  magazineDrum: 5
+  moveAble: 1
   snipeMode: 0
-  rifleMode: 0
-  modeSelection: 0
   portalMovePosition: {x: 0, y: 0, z: 0}
   gunModes:
   - {fileID: 1314637915}
@@ -3588,7 +3613,7 @@ Animator:
   m_Controller: {fileID: 9100000, guid: b61d53b626cdeda46a1cb88847a694f6, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
-  m_ApplyRootMotion: 1
+  m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
   m_AnimatePhysics: 0
@@ -3755,7 +3780,6 @@ MonoBehaviour:
   curHp: 0
   def: 0
   jamStack: 0
-  canMove: 0
 --- !u!1 &1091887125
 GameObject:
   m_ObjectHideFlags: 0
@@ -4164,7 +4188,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!61 &1231932255
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4415,7 +4439,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioSource: {fileID: 0}
   target: {fileID: 0}
-  ps: {fileID: 1231932263}
+  ps: {fileID: 0}
 --- !u!114 &1231932263
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4435,7 +4459,6 @@ MonoBehaviour:
   curHp: 0
   def: 0
   jamStack: 0
-  canMove: 1
 --- !u!1 &1245839806
 GameObject:
   m_ObjectHideFlags: 0
