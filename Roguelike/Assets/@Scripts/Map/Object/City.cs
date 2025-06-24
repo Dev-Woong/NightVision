@@ -4,16 +4,19 @@ using UnityEngine;
 public class City : MonoBehaviour
 {
     
-    public Transform bd;
-    public Transform bd1;
-    public Transform bd2;
+    public Transform[] bd;
+    
+
+
 
     float h;
     public float speed;
 
+
+
     void Start()
     { 
-        speed = 0.05f;      
+        speed = 0.03f;      
     }
     void Update()
     {
@@ -29,16 +32,20 @@ public class City : MonoBehaviour
             
             if (Input.GetKey(KeyCode.LeftShift))
             {
-               
-                bd.transform.Translate(Time.deltaTime * (speed * 1.2f) * moveDir);
-                bd1.transform.Translate(Time.deltaTime * (speed * 1.4f) * moveDir);
-                bd2.transform.Translate(Time.deltaTime * (speed * 1.6f) * moveDir);
+
+                for (int i = 0; i < bd.Length ; i++) 
+                {
+                    float a = 0.8f * (i + 1);
+                    bd[i].transform.Translate(Time.deltaTime * speed * a * moveDir);
+                }
             }
             else
             {
-                bd.transform.Translate(Time.deltaTime * speed  * moveDir);
-                bd1.transform.Translate(Time.deltaTime * (speed / 1.5f) * moveDir);
-                bd2.transform.Translate(Time.deltaTime * (speed / 2f) * moveDir);
+                for (int i = 0; i < bd.Length; i++)
+                {
+                    float a =  0.4f * (i + 1);
+                    bd[i].transform.Translate(Time.deltaTime * speed * a * moveDir);
+                }
             }
         }
     }
