@@ -1,0 +1,2042 @@
+fileFormatVersion: 2
+guid: c891745377010fb4c9b009437f0bd0c2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8666698665813477107
+    second: SpearWarrior_purple_0
+  - first:
+      213: 4982399377599955195
+    second: SpearWarrior_purple_1
+  - first:
+      213: 1952506766028885158
+    second: SpearWarrior_purple_2
+  - first:
+      213: -6330119199120956555
+    second: SpearWarrior_purple_3
+  - first:
+      213: -3854328945455734360
+    second: SpearWarrior_purple_4
+  - first:
+      213: -1045786117774303222
+    second: SpearWarrior_purple_5
+  - first:
+      213: -6714564881920195558
+    second: SpearWarrior_purple_6
+  - first:
+      213: -3354770496028457596
+    second: SpearWarrior_purple_7
+  - first:
+      213: -4692608872451347918
+    second: SpearWarrior_purple_8
+  - first:
+      213: 2597328203975719568
+    second: SpearWarrior_purple_9
+  - first:
+      213: 7322834684044693582
+    second: SpearWarrior_purple_10
+  - first:
+      213: -5636959748944460811
+    second: SpearWarrior_purple_11
+  - first:
+      213: 7768499912673210473
+    second: SpearWarrior_purple_12
+  - first:
+      213: 9056298513686777270
+    second: SpearWarrior_purple_13
+  - first:
+      213: 6350400168033636030
+    second: SpearWarrior_purple_14
+  - first:
+      213: -3542981261097166748
+    second: SpearWarrior_purple_15
+  - first:
+      213: -7296949809689402509
+    second: SpearWarrior_purple_16
+  - first:
+      213: 6943320674794533967
+    second: SpearWarrior_purple_17
+  - first:
+      213: 5397077436387814189
+    second: SpearWarrior_purple_18
+  - first:
+      213: -5068760939531298946
+    second: SpearWarrior_purple_19
+  - first:
+      213: 403743552249016736
+    second: SpearWarrior_purple_20
+  - first:
+      213: 3591607202266483246
+    second: SpearWarrior_purple_21
+  - first:
+      213: 8716502011971155294
+    second: SpearWarrior_purple_22
+  - first:
+      213: -333933060271981341
+    second: SpearWarrior_purple_23
+  - first:
+      213: 2669547636520459406
+    second: SpearWarrior_purple_24
+  - first:
+      213: -3539417594595634451
+    second: SpearWarrior_purple_25
+  - first:
+      213: -681364962848539464
+    second: SpearWarrior_purple_26
+  - first:
+      213: -4594821794809951431
+    second: SpearWarrior_purple_27
+  - first:
+      213: -2599451463411161706
+    second: SpearWarrior_purple_28
+  - first:
+      213: 3727350492615564571
+    second: SpearWarrior_purple_29
+  - first:
+      213: -1425076950427582278
+    second: SpearWarrior_purple_30
+  - first:
+      213: 1224715475240332697
+    second: SpearWarrior_purple_31
+  - first:
+      213: 8856577647395022207
+    second: SpearWarrior_purple_32
+  - first:
+      213: -2740236996176641999
+    second: SpearWarrior_purple_33
+  - first:
+      213: 5220140144754722210
+    second: SpearWarrior_purple_34
+  - first:
+      213: -7773596267658211585
+    second: SpearWarrior_purple_35
+  - first:
+      213: -2417012766245129862
+    second: SpearWarrior_purple_36
+  - first:
+      213: -4400717618412430393
+    second: SpearWarrior_purple_37
+  - first:
+      213: 6622513093053517748
+    second: SpearWarrior_purple_38
+  - first:
+      213: 3027248848974033383
+    second: SpearWarrior_purple_39
+  - first:
+      213: -8223157446239446567
+    second: SpearWarrior_purple_40
+  - first:
+      213: 2810115948278187836
+    second: SpearWarrior_purple_41
+  - first:
+      213: -8474714671895415025
+    second: SpearWarrior_purple_42
+  - first:
+      213: 5861105753700853985
+    second: SpearWarrior_purple_43
+  - first:
+      213: -496561165373329944
+    second: SpearWarrior_purple_44
+  - first:
+      213: -7397651461955727117
+    second: SpearWarrior_purple_45
+  - first:
+      213: 373800530824004664
+    second: SpearWarrior_purple_46
+  - first:
+      213: 8543663464406438049
+    second: SpearWarrior_purple_47
+  - first:
+      213: -733434066476665809
+    second: SpearWarrior_purple_48
+  - first:
+      213: 6327709824027003479
+    second: SpearWarrior_purple_49
+  - first:
+      213: 8097151792765165912
+    second: SpearWarrior_purple_50
+  - first:
+      213: -6220162912532386983
+    second: SpearWarrior_purple_51
+  - first:
+      213: 3060672637335777711
+    second: SpearWarrior_purple_52
+  - first:
+      213: -7109133571126476836
+    second: SpearWarrior_purple_53
+  - first:
+      213: 2513929436089635625
+    second: SpearWarrior_purple_54
+  - first:
+      213: 5684231830132244691
+    second: SpearWarrior_purple_55
+  - first:
+      213: -5986586243109253144
+    second: SpearWarrior_purple_56
+  - first:
+      213: -2285022817784769206
+    second: SpearWarrior_purple_57
+  - first:
+      213: 6546758059704730672
+    second: SpearWarrior_purple_58
+  - first:
+      213: 5559598955210886903
+    second: SpearWarrior_purple_59
+  - first:
+      213: 6677423142135003038
+    second: SpearWarrior_purple_60
+  - first:
+      213: 911956188270847833
+    second: SpearWarrior_purple_61
+  - first:
+      213: -6112517556970354186
+    second: SpearWarrior_purple_62
+  - first:
+      213: -1913118691504057745
+    second: SpearWarrior_purple_63
+  - first:
+      213: 4044727023319235975
+    second: SpearWarrior_purple_64
+  - first:
+      213: 3018654254675621802
+    second: SpearWarrior_purple_65
+  - first:
+      213: -3021396167672305592
+    second: SpearWarrior_purple_66
+  - first:
+      213: 752422990209968041
+    second: SpearWarrior_purple_67
+  - first:
+      213: 6067940575511278529
+    second: SpearWarrior_purple_68
+  - first:
+      213: 8950332025666364711
+    second: SpearWarrior_purple_69
+  - first:
+      213: 5035207634566845050
+    second: SpearWarrior_purple_70
+  - first:
+      213: 1742988340738701976
+    second: SpearWarrior_purple_71
+  - first:
+      213: -1327741088054506890
+    second: SpearWarrior_purple_72
+  - first:
+      213: -7772958537281152925
+    second: SpearWarrior_purple_73
+  - first:
+      213: -1297169182754848103
+    second: SpearWarrior_purple_74
+  - first:
+      213: 6112119729037201579
+    second: SpearWarrior_purple_75
+  - first:
+      213: 5303694871219538454
+    second: SpearWarrior_purple_76
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SpearWarrior_purple_0
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 605
+        width: 69
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f60a27b48c464870800000000000000
+      internalID: 8666698665813477107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_purple_1
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 605
+        width: 69
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf009f606d9052540800000000000000
+      internalID: 4982399377599955195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_purple_2
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 605
+        width: 69
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6acc2b21f82b81b10800000000000000
+      internalID: 1952506766028885158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_purple_3
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 605
+        width: 69
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 573e3867026e628a0800000000000000
+      internalID: -6330119199120956555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_purple_4
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 605
+        width: 69
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a1ea96ce3ca28ac0800000000000000
+      internalID: -3854328945455734360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_purple_5
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 605
+        width: 69
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a002703111f9c71f0800000000000000
+      internalID: -1045786117774303222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_purple_6
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 605
+        width: 69
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1485dfa0d211d2a0800000000000000
+      internalID: -6714564881920195558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_purple_7
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 605
+        width: 69
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 485434912067171d0800000000000000
+      internalID: -3354770496028457596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_purple_8
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 505
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23ae0bfc71180eeb0800000000000000
+      internalID: -4692608872451347918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_purple_9
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 503
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09a73138d309b0420800000000000000
+      internalID: 2597328203975719568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_purple_10
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 504
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e40d46bd85fef9560800000000000000
+      internalID: 7322834684044693582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_purple_11
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 507
+        width: 54
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f38df669fe75c1b0800000000000000
+      internalID: -5636959748944460811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_purple_12
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 508
+        width: 54
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9603a84e2814fcb60800000000000000
+      internalID: 7768499912673210473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_purple_13
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 505
+        width: 54
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bdc230148f6ead70800000000000000
+      internalID: 9056298513686777270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_purple_14
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 505
+        width: 54
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebec9359e47212850800000000000000
+      internalID: 6350400168033636030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_purple_15
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 505
+        width: 45
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4681076805dc4dec0800000000000000
+      internalID: -3542981261097166748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_purple_16
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 405
+        width: 58
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 373eb991fc60cba90800000000000000
+      internalID: -7296949809689402509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_purple_17
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 405
+        width: 56
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f44f0cecd51ab5060800000000000000
+      internalID: 6943320674794533967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_purple_18
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 405
+        width: 64
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2beb2d555546ea40800000000000000
+      internalID: 5397077436387814189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_purple_19
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 405
+        width: 52
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e779cdbe7c428a9b0800000000000000
+      internalID: -5068760939531298946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_purple_20
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 405
+        width: 38
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a138242f926a9500800000000000000
+      internalID: 403743552249016736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_purple_21
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 405
+        width: 77
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2a04d7a8b3f7d130800000000000000
+      internalID: 3591607202266483246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_purple_22
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 405
+        width: 73
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e55b48bd56c37f870800000000000000
+      internalID: 8716502011971155294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_purple_23
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 405
+        width: 61
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ecbab3a6a1ad5bf0800000000000000
+      internalID: -333933060271981341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_purple_24
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 405
+        width: 52
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8c19c97e632c0520800000000000000
+      internalID: 2669547636520459406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_purple_25
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 405
+        width: 51
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de21c5a437671eec0800000000000000
+      internalID: -3539417594595634451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_purple_26
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 405
+        width: 58
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bcf3032d2e4b86f0800000000000000
+      internalID: -681364962848539464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_purple_27
+      rect:
+        serializedVersion: 2
+        x: 1126
+        y: 405
+        width: 67
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93b412a0ce9eb30c0800000000000000
+      internalID: -4594821794809951431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_purple_28
+      rect:
+        serializedVersion: 2
+        x: 1226
+        y: 405
+        width: 67
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6952280aaa4ecebd0800000000000000
+      internalID: -2599451463411161706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_purple_29
+      rect:
+        serializedVersion: 2
+        x: 1322
+        y: 405
+        width: 60
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1d5ab156853ab330800000000000000
+      internalID: 3727350492615564571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_purple_30
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 305
+        width: 59
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab0ca20601c193ce0800000000000000
+      internalID: -1425076950427582278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_purple_31
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 305
+        width: 56
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99daf946c301ff010800000000000000
+      internalID: 1224715475240332697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_purple_32
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 305
+        width: 53
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7525a63272e8ea70800000000000000
+      internalID: 8856577647395022207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_purple_33
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 305
+        width: 46
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 130028a68f8b8f9d0800000000000000
+      internalID: -2740236996176641999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_purple_34
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 305
+        width: 38
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a58cddddc9a17840800000000000000
+      internalID: 5220140144754722210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_purple_35
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 305
+        width: 38
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffe0eee7163ae1490800000000000000
+      internalID: -7773596267658211585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_purple_36
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 305
+        width: 38
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a71ff5ae1bb057ed0800000000000000
+      internalID: -2417012766245129862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_purple_37
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 305
+        width: 38
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cb59bd54a28de2c0800000000000000
+      internalID: -4400717618412430393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_purple_38
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 305
+        width: 38
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bf04df0294e7eb50800000000000000
+      internalID: 6622513093053517748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_purple_39
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 304
+        width: 78
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e1bec10ac2f20a20800000000000000
+      internalID: 3027248848974033383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_purple_40
+      rect:
+        serializedVersion: 2
+        x: 1012
+        y: 304
+        width: 76
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d91acceed971ed80800000000000000
+      internalID: -8223157446239446567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_purple_41
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 302
+        width: 82
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3708caf0998ff620800000000000000
+      internalID: 2810115948278187836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_purple_42
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 302
+        width: 74
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f07f1e828e3c36a80800000000000000
+      internalID: -8474714671895415025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_purple_43
+      rect:
+        serializedVersion: 2
+        x: 1310
+        y: 301
+        width: 72
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e8665821a4d65150800000000000000
+      internalID: 5861105753700853985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_purple_44
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 303
+        width: 57
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ed2ba0404cdb19f0800000000000000
+      internalID: -496561165373329944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_purple_45
+      rect:
+        serializedVersion: 2
+        x: 1513
+        y: 303
+        width: 54
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f0daf59033465990800000000000000
+      internalID: -7397651461955727117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_purple_46
+      rect:
+        serializedVersion: 2
+        x: 1614
+        y: 305
+        width: 53
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8340e903a91003500800000000000000
+      internalID: 373800530824004664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_purple_47
+      rect:
+        serializedVersion: 2
+        x: 1711
+        y: 304
+        width: 56
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a0dd6497a0319670800000000000000
+      internalID: 8543663464406438049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_purple_48
+      rect:
+        serializedVersion: 2
+        x: 1822
+        y: 305
+        width: 58
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f24fc793a9152d5f0800000000000000
+      internalID: -733434066476665809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_purple_49
+      rect:
+        serializedVersion: 2
+        x: 1922
+        y: 305
+        width: 58
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75a01ee2f8a80d750800000000000000
+      internalID: 6327709824027003479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_purple_50
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 205
+        width: 38
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8516f2ca7acde5070800000000000000
+      internalID: 8097151792765165912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_purple_51
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 205
+        width: 38
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95ba27179ca8da9a0800000000000000
+      internalID: -6220162912532386983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_purple_52
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 205
+        width: 38
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa1382a2c81b97a20800000000000000
+      internalID: 3060672637335777711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_purple_53
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 205
+        width: 38
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdfb330dea8475d90800000000000000
+      internalID: -7109133571126476836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_purple_54
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 205
+        width: 38
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9235584b08543e220800000000000000
+      internalID: 2513929436089635625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_purple_55
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 205
+        width: 38
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d04000bbb272ee40800000000000000
+      internalID: 5684231830132244691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_purple_56
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 205
+        width: 38
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ef8b3ab78f5beca0800000000000000
+      internalID: -5986586243109253144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_purple_57
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 205
+        width: 38
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a45d6429ad7f940e0800000000000000
+      internalID: -2285022817784769206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_purple_58
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 105
+        width: 58
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0344023e4c1cada50800000000000000
+      internalID: 6546758059704730672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_purple_59
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 105
+        width: 58
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fe4af23bc9a72d40800000000000000
+      internalID: 5559598955210886903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_purple_60
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 105
+        width: 58
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e97fde128f8faac50800000000000000
+      internalID: 6677423142135003038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_purple_61
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 5
+        width: 58
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9576a9c425be7ac00800000000000000
+      internalID: 911956188270847833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_purple_62
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 5
+        width: 58
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f9817ddaa9fb2ba0800000000000000
+      internalID: -6112517556970354186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_purple_63
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 5
+        width: 58
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f629dbbafac3375e0800000000000000
+      internalID: -1913118691504057745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_purple_64
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 5
+        width: 58
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78dbd5e3cc1c12830800000000000000
+      internalID: 4044727023319235975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_purple_65
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 5
+        width: 58
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa779a51d0a64e920800000000000000
+      internalID: 3018654254675621802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_purple_66
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 5
+        width: 60
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8486a2c8138d116d0800000000000000
+      internalID: -3021396167672305592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_purple_67
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 5
+        width: 57
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a76d4c19b4217a00800000000000000
+      internalID: 752422990209968041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_purple_68
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 5
+        width: 44
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c37789ddc7a53450800000000000000
+      internalID: 6067940575511278529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_purple_69
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 5
+        width: 36
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72565a37e87f53c70800000000000000
+      internalID: 8950332025666364711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_purple_70
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 3
+        width: 38
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7211bc7aa6a0e540800000000000000
+      internalID: 5035207634566845050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_purple_71
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 4
+        width: 33
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89ab06149a6503810800000000000000
+      internalID: 1742988340738701976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_purple_72
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 9
+        width: 30
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67a02dcd38ae29de0800000000000000
+      internalID: -1327741088054506890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_purple_73
+      rect:
+        serializedVersion: 2
+        x: 1236
+        y: 14
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 368548ba467e02490800000000000000
+      internalID: -7772958537281152925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_purple_74
+      rect:
+        serializedVersion: 2
+        x: 1340
+        y: 18
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 992405040878ffde0800000000000000
+      internalID: -1297169182754848103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_purple_75
+      rect:
+        serializedVersion: 2
+        x: 1443
+        y: 21
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba05be9928c92d450800000000000000
+      internalID: 6112119729037201579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_purple_76
+      rect:
+        serializedVersion: 2
+        x: 1543
+        y: 22
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61a0a1c92628a9940800000000000000
+      internalID: 5303694871219538454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

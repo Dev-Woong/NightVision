@@ -13,7 +13,6 @@ MonoBehaviour:
   m_Name: PlayerStatData
   m_EditorClassIdentifier: 
   ID: Player
-  moveSpeed: 1
   atk: 5
   def: 2
   maxHp: 100

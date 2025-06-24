@@ -36,7 +36,7 @@ public class EnemyController : DamageAbleBase, IDamageable
     }
     void Update()
     {
-        
+        Move();
     }
     void Move()
     {
@@ -72,7 +72,7 @@ public class EnemyController : DamageAbleBase, IDamageable
                 }
                 else
                 {
-                    if (ps.canMove== true)
+                    if (MoveAble==true)
                     {
                         direction = new Vector2(closest.position.x - rb.position.x, 0);
                         rb.linearVelocity = (direction.normalized * speed);

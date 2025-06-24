@@ -24,15 +24,15 @@ public class PlayerController :DamageAbleBase,IDamageable
     public GameObject DashEffect;
     public GameObject DoubleJumpEffet;
     public GameObject Scope;
-    public PlayerStatus PlayerStat;
-    public PublicStatus PublicStat;
+    private PlayerStatus PlayerStat;
+    private PublicStatus PublicStat;
 
-    public Transform damagePos;
-    public GameObject damageText;
-    public RifleController rc;
+    private Transform damagePos;
+    private GameObject damageText;
+    private RifleController rc;
 
     readonly WaitForSeconds wTime = new(0.04f);
-    public WeaponType weaponType;
+    private WeaponType weaponType;
 
     private float h;
     private readonly float riseHeight = 1.3f;
@@ -41,18 +41,18 @@ public class PlayerController :DamageAbleBase,IDamageable
     private readonly float resetDelay = 0.5f;
     private readonly float jumpForce = 5;
     private int wType = 0;
-    public int jumpCount = 0;
+    private int jumpCount = 0;
     private int comboCount = 0;
-    public int mode = 0;
-    public int magazineDrum = 5;
-    public float maxHp;
+    private int mode = 0;
+    private float maxHp;
     public float curHp;
+    public int magazineDrum = 5;
 
-    public bool canJump = true;
-    private bool moveAble = true;
+    private bool canJump = true;
+    private bool rifleMode = false;
+    private bool modeSelection = false;
+    public bool moveAble = true;
     public bool snipeMode = false;
-    public bool rifleMode = false;
-    public bool modeSelection = false;
 
     public Vector3 portalMovePosition;
     private Coroutine comboResetCoroutine;
@@ -361,7 +361,10 @@ public class PlayerController :DamageAbleBase,IDamageable
         }
 
     }
-
+    public void MoveAble() // Animation Event
+    {
+        moveAble = true;
+    }
 
     #endregion
     #region AnimationEvent
@@ -417,7 +420,7 @@ public class PlayerController :DamageAbleBase,IDamageable
     public void OnHandCombo3Fall()
     {
         rb.linearVelocity = Vector3.zero;
-        Vector3 fallForce = new Vector3(tr.localScale.x, -1, 0);
+        Vector3 fallForce = Vector3.down;
         rb.AddForce(fallForce * 10, ForceMode2D.Impulse);
     }
     public void PlusComboCount() // �޺� ī��Ʈ ���� Animation Event
@@ -558,8 +561,9 @@ public class PlayerController :DamageAbleBase,IDamageable
         {
             StartCoroutine(InitializeCamAndItem());
         }
-       
     }
+   
+    
     #region LifeCycle
     public void Awake()
     {
@@ -574,7 +578,7 @@ public class PlayerController :DamageAbleBase,IDamageable
         maxHp = 100;
         curHp = maxHp;
     }
-
+    
     void Start()
     {
 

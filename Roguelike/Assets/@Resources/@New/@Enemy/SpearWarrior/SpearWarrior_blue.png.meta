@@ -1,0 +1,2042 @@
+fileFormatVersion: 2
+guid: 4b828a239f3207a4d8357c5835c58957
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3484588884730890266
+    second: SpearWarrior_blue_0
+  - first:
+      213: 7869211070832939727
+    second: SpearWarrior_blue_1
+  - first:
+      213: 4642287196818170141
+    second: SpearWarrior_blue_2
+  - first:
+      213: -2856308186515393033
+    second: SpearWarrior_blue_3
+  - first:
+      213: -5742054674266977680
+    second: SpearWarrior_blue_4
+  - first:
+      213: 7753666662957080560
+    second: SpearWarrior_blue_5
+  - first:
+      213: -4871977017647960968
+    second: SpearWarrior_blue_6
+  - first:
+      213: -7126521625455995320
+    second: SpearWarrior_blue_7
+  - first:
+      213: -4437030681879285298
+    second: SpearWarrior_blue_8
+  - first:
+      213: 4570129254262561090
+    second: SpearWarrior_blue_9
+  - first:
+      213: -6570038641259584522
+    second: SpearWarrior_blue_10
+  - first:
+      213: 5593052819078603107
+    second: SpearWarrior_blue_11
+  - first:
+      213: -5561512818140372092
+    second: SpearWarrior_blue_12
+  - first:
+      213: 6474950771832818656
+    second: SpearWarrior_blue_13
+  - first:
+      213: -2879456955486871852
+    second: SpearWarrior_blue_14
+  - first:
+      213: 8432202897790846439
+    second: SpearWarrior_blue_15
+  - first:
+      213: -4347103021102141621
+    second: SpearWarrior_blue_16
+  - first:
+      213: 1379893677552961837
+    second: SpearWarrior_blue_17
+  - first:
+      213: 2635005902630143891
+    second: SpearWarrior_blue_18
+  - first:
+      213: -2582408248449213899
+    second: SpearWarrior_blue_19
+  - first:
+      213: 8957689193187839311
+    second: SpearWarrior_blue_20
+  - first:
+      213: 6315622474710113479
+    second: SpearWarrior_blue_21
+  - first:
+      213: -3673755388494416966
+    second: SpearWarrior_blue_22
+  - first:
+      213: 2968699095567855614
+    second: SpearWarrior_blue_23
+  - first:
+      213: -3722288052830078932
+    second: SpearWarrior_blue_24
+  - first:
+      213: 920449809855312039
+    second: SpearWarrior_blue_25
+  - first:
+      213: 2069618215542805383
+    second: SpearWarrior_blue_26
+  - first:
+      213: 8296379323013247469
+    second: SpearWarrior_blue_27
+  - first:
+      213: 990615593913170958
+    second: SpearWarrior_blue_28
+  - first:
+      213: 7764263552156320025
+    second: SpearWarrior_blue_29
+  - first:
+      213: 7767650111791374213
+    second: SpearWarrior_blue_30
+  - first:
+      213: -4194966029415947180
+    second: SpearWarrior_blue_31
+  - first:
+      213: 1510621186185892977
+    second: SpearWarrior_blue_32
+  - first:
+      213: -3356349686579221709
+    second: SpearWarrior_blue_33
+  - first:
+      213: -6199229377718038622
+    second: SpearWarrior_blue_34
+  - first:
+      213: -6971222900800454158
+    second: SpearWarrior_blue_35
+  - first:
+      213: -8058908204809536122
+    second: SpearWarrior_blue_36
+  - first:
+      213: -5942293215010540944
+    second: SpearWarrior_blue_37
+  - first:
+      213: -4072663877932367886
+    second: SpearWarrior_blue_38
+  - first:
+      213: -8233055027713500420
+    second: SpearWarrior_blue_39
+  - first:
+      213: -3960379103328753104
+    second: SpearWarrior_blue_40
+  - first:
+      213: -8313702611208822308
+    second: SpearWarrior_blue_41
+  - first:
+      213: -2263303873978505924
+    second: SpearWarrior_blue_42
+  - first:
+      213: -5989593032811807982
+    second: SpearWarrior_blue_43
+  - first:
+      213: 5792732754620491125
+    second: SpearWarrior_blue_44
+  - first:
+      213: -6155937877320005217
+    second: SpearWarrior_blue_45
+  - first:
+      213: 3729476303342388719
+    second: SpearWarrior_blue_46
+  - first:
+      213: -4724593348506365817
+    second: SpearWarrior_blue_47
+  - first:
+      213: 7301759792904231026
+    second: SpearWarrior_blue_48
+  - first:
+      213: -3800383340274939414
+    second: SpearWarrior_blue_49
+  - first:
+      213: -4164861713362336311
+    second: SpearWarrior_blue_50
+  - first:
+      213: -693402127310286434
+    second: SpearWarrior_blue_51
+  - first:
+      213: 206575404859022693
+    second: SpearWarrior_blue_52
+  - first:
+      213: 5104263803427133895
+    second: SpearWarrior_blue_53
+  - first:
+      213: 5160467172882728106
+    second: SpearWarrior_blue_54
+  - first:
+      213: -2260171453690237941
+    second: SpearWarrior_blue_55
+  - first:
+      213: 6534967317079306385
+    second: SpearWarrior_blue_56
+  - first:
+      213: -5804609107249433833
+    second: SpearWarrior_blue_57
+  - first:
+      213: 4432020864676633942
+    second: SpearWarrior_blue_58
+  - first:
+      213: -2712665742082468549
+    second: SpearWarrior_blue_59
+  - first:
+      213: -5545058333360812002
+    second: SpearWarrior_blue_60
+  - first:
+      213: 576153978032411049
+    second: SpearWarrior_blue_61
+  - first:
+      213: -2686404506446514686
+    second: SpearWarrior_blue_62
+  - first:
+      213: -3516193900574879165
+    second: SpearWarrior_blue_63
+  - first:
+      213: -3154956381087086128
+    second: SpearWarrior_blue_64
+  - first:
+      213: -3465555307743988545
+    second: SpearWarrior_blue_65
+  - first:
+      213: 424274219589873992
+    second: SpearWarrior_blue_66
+  - first:
+      213: -1004139188051254827
+    second: SpearWarrior_blue_67
+  - first:
+      213: -3691166073594135517
+    second: SpearWarrior_blue_68
+  - first:
+      213: -5776234934493690283
+    second: SpearWarrior_blue_69
+  - first:
+      213: 8151328316601363984
+    second: SpearWarrior_blue_70
+  - first:
+      213: 1403762092179633898
+    second: SpearWarrior_blue_71
+  - first:
+      213: -4341494748895751318
+    second: SpearWarrior_blue_72
+  - first:
+      213: -2900449098346254526
+    second: SpearWarrior_blue_73
+  - first:
+      213: 3756868245510007527
+    second: SpearWarrior_blue_74
+  - first:
+      213: 7790817069727367974
+    second: SpearWarrior_blue_75
+  - first:
+      213: -7366135611558344405
+    second: SpearWarrior_blue_76
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SpearWarrior_blue_0
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 605
+        width: 69
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e737591fd044afc0800000000000000
+      internalID: -3484588884730890266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_blue_1
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 605
+        width: 69
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc2919ba6cd053d60800000000000000
+      internalID: 7869211070832939727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_blue_2
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 605
+        width: 69
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d11e0bf0c97bc6040800000000000000
+      internalID: 4642287196818170141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_blue_3
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 605
+        width: 69
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f5b5b576da5c58d0800000000000000
+      internalID: -2856308186515393033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_blue_4
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 605
+        width: 69
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07a027b42bf1050b0800000000000000
+      internalID: -5742054674266977680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_blue_5
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 605
+        width: 69
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ff5850dfbe8a9b60800000000000000
+      internalID: 7753666662957080560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_blue_6
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 605
+        width: 69
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87ce93d17b2436cb0800000000000000
+      internalID: -4871977017647960968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_blue_7
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 605
+        width: 69
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8465e8ee652891d90800000000000000
+      internalID: -7126521625455995320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_blue_8
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 505
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec1731d6a108c62c0800000000000000
+      internalID: -4437030681879285298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_blue_9
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 503
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 249d0f9d75c5c6f30800000000000000
+      internalID: 4570129254262561090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_blue_10
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 504
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f3e1235aa882d4a0800000000000000
+      internalID: -6570038641259584522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_blue_11
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 507
+        width: 54
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3616d2bd7e38e9d40800000000000000
+      internalID: 5593052819078603107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_blue_12
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 508
+        width: 54
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48326fcde8981d2b0800000000000000
+      internalID: -5561512818140372092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_blue_13
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 505
+        width: 54
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0eb8c35db65abd950800000000000000
+      internalID: 6474950771832818656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_blue_14
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 505
+        width: 54
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4de5d2ea72d1a08d0800000000000000
+      internalID: -2879456955486871852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_blue_15
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 505
+        width: 45
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e5c7dc1cd3350570800000000000000
+      internalID: 8432202897790846439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_blue_16
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 405
+        width: 58
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4fed2195dcfba3c0800000000000000
+      internalID: -4347103021102141621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_blue_17
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 405
+        width: 56
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d290a5e1dfd562310800000000000000
+      internalID: 1379893677552961837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_blue_18
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 405
+        width: 64
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 397c35758eb619420800000000000000
+      internalID: 2635005902630143891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_blue_19
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 405
+        width: 52
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53a55265161792cd0800000000000000
+      internalID: -2582408248449213899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_blue_20
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 405
+        width: 38
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4d01508cda105c70800000000000000
+      internalID: 8957689193187839311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_blue_21
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 405
+        width: 77
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ccd19cdd2995a750800000000000000
+      internalID: 6315622474710113479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_blue_22
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 405
+        width: 73
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab3fc1540f2340dc0800000000000000
+      internalID: -3673755388494416966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_blue_23
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 405
+        width: 61
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eff685c3910f23920800000000000000
+      internalID: 2968699095567855614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_blue_24
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 405
+        width: 52
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c28f16bccb6c75cc0800000000000000
+      internalID: -3722288052830078932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_blue_25
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 405
+        width: 51
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a0700ea93816cc00800000000000000
+      internalID: 920449809855312039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_blue_26
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 405
+        width: 58
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7835b1e3dc2c8bc10800000000000000
+      internalID: 2069618215542805383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_blue_27
+      rect:
+        serializedVersion: 2
+        x: 1126
+        y: 405
+        width: 67
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de1b916c909a22370800000000000000
+      internalID: 8296379323013247469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_blue_28
+      rect:
+        serializedVersion: 2
+        x: 1226
+        y: 405
+        width: 67
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0c382852af5fbd00800000000000000
+      internalID: 990615593913170958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_blue_29
+      rect:
+        serializedVersion: 2
+        x: 1322
+        y: 405
+        width: 60
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9114ac8509430cb60800000000000000
+      internalID: 7764263552156320025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_blue_30
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 305
+        width: 59
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58f19d43f9c3ccb60800000000000000
+      internalID: 7767650111791374213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_blue_31
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 305
+        width: 56
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 454e4d34f9c78c5c0800000000000000
+      internalID: -4194966029415947180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_blue_32
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 305
+        width: 53
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1741ac817fdc6f410800000000000000
+      internalID: 1510621186185892977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_blue_33
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 305
+        width: 46
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33ba3752eb9db61d0800000000000000
+      internalID: -3356349686579221709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_blue_34
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 305
+        width: 38
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2af43f3d9b9e7f9a0800000000000000
+      internalID: -6199229377718038622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_blue_35
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 305
+        width: 38
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f188b3f4bd314f90800000000000000
+      internalID: -6971222900800454158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_blue_36
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 305
+        width: 38
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68db8d68fa1092090800000000000000
+      internalID: -8058908204809536122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_blue_37
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 305
+        width: 38
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0723518fdcbb88da0800000000000000
+      internalID: -5942293215010540944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_blue_38
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 305
+        width: 38
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ffb64ae7cdfa77c0800000000000000
+      internalID: -4072663877932367886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_blue_39
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 304
+        width: 78
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfa94e8a2105ebd80800000000000000
+      internalID: -8233055027713500420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_blue_40
+      rect:
+        serializedVersion: 2
+        x: 1012
+        y: 304
+        width: 76
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03aa5324038e909c0800000000000000
+      internalID: -3960379103328753104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_blue_41
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 302
+        width: 82
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd129a2e58bcf9c80800000000000000
+      internalID: -8313702611208822308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_blue_42
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 302
+        width: 74
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c35eebc3e112790e0800000000000000
+      internalID: -2263303873978505924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_blue_43
+      rect:
+        serializedVersion: 2
+        x: 1310
+        y: 301
+        width: 72
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21bf812fed0b0eca0800000000000000
+      internalID: -5989593032811807982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_blue_44
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 303
+        width: 57
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 575ace5cfbbe36050800000000000000
+      internalID: 5792732754620491125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_blue_45
+      rect:
+        serializedVersion: 2
+        x: 1513
+        y: 303
+        width: 54
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9908fabd17b19aa0800000000000000
+      internalID: -6155937877320005217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_blue_46
+      rect:
+        serializedVersion: 2
+        x: 1614
+        y: 305
+        width: 53
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe5c5f230f2c1c330800000000000000
+      internalID: 3729476303342388719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_blue_47
+      rect:
+        serializedVersion: 2
+        x: 1711
+        y: 304
+        width: 56
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 780da1aa16fde6eb0800000000000000
+      internalID: -4724593348506365817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_blue_48
+      rect:
+        serializedVersion: 2
+        x: 1822
+        y: 305
+        width: 58
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 278594368df055560800000000000000
+      internalID: 7301759792904231026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_blue_49
+      rect:
+        serializedVersion: 2
+        x: 1922
+        y: 305
+        width: 58
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae98990cc73524bc0800000000000000
+      internalID: -3800383340274939414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_blue_50
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 205
+        width: 38
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c5c96c86507336c0800000000000000
+      internalID: -4164861713362336311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_blue_51
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 205
+        width: 38
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e919b23607a8066f0800000000000000
+      internalID: -693402127310286434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_blue_52
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 205
+        width: 38
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56d54f97c37edd200800000000000000
+      internalID: 206575404859022693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_blue_53
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 205
+        width: 38
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c9982bb2ecf5d640800000000000000
+      internalID: 5104263803427133895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_blue_54
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 205
+        width: 38
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa44dba6d89ad9740800000000000000
+      internalID: 5160467172882728106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_blue_55
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 205
+        width: 38
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0ca05ba90242a0e0800000000000000
+      internalID: -2260171453690237941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_blue_56
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 205
+        width: 38
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 190bc41b62ed0ba50800000000000000
+      internalID: 6534967317079306385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_blue_57
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 205
+        width: 38
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 713766665c2e17fa0800000000000000
+      internalID: -5804609107249433833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_blue_58
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 105
+        width: 58
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65d9b2c9e73b18d30800000000000000
+      internalID: 4432020864676633942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_blue_59
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 105
+        width: 58
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b359dc041ecaa5ad0800000000000000
+      internalID: -2712665742082468549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_blue_60
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 105
+        width: 58
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e10953523defb03b0800000000000000
+      internalID: -5545058333360812002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_blue_61
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 5
+        width: 58
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a1dc8c8df8eef700800000000000000
+      internalID: 576153978032411049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_blue_62
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 5
+        width: 58
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2063f36a559f7bad0800000000000000
+      internalID: -2686404506446514686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_blue_63
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 5
+        width: 58
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 342d6dae648f33fc0800000000000000
+      internalID: -3516193900574879165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_blue_64
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 5
+        width: 58
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d9c37713e75734d0800000000000000
+      internalID: -3154956381087086128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_blue_65
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 5
+        width: 58
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb433741fcfd7efc0800000000000000
+      internalID: -3465555307743988545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_blue_66
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 5
+        width: 60
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 841b202a72353e500800000000000000
+      internalID: 424274219589873992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_blue_67
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 5
+        width: 57
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d1e7278ab49012f0800000000000000
+      internalID: -1004139188051254827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_blue_68
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 5
+        width: 44
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32cb270430856ccc0800000000000000
+      internalID: -3691166073594135517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_blue_69
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 5
+        width: 36
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5564d4e4ee0b6dfa0800000000000000
+      internalID: -5776234934493690283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_blue_70
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 3
+        width: 38
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01e6b969ae55f1170800000000000000
+      internalID: 8151328316601363984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_blue_71
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 4
+        width: 33
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae6b6857f2a2b7310800000000000000
+      internalID: 1403762092179633898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_blue_72
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 9
+        width: 30
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6358d13789efb3c0800000000000000
+      internalID: -4341494748895751318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_blue_73
+      rect:
+        serializedVersion: 2
+        x: 1236
+        y: 14
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24f28fb89e88fb7d0800000000000000
+      internalID: -2900449098346254526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_blue_74
+      rect:
+        serializedVersion: 2
+        x: 1340
+        y: 18
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7eaa199b3c3132430800000000000000
+      internalID: 3756868245510007527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_blue_75
+      rect:
+        serializedVersion: 2
+        x: 1443
+        y: 21
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 623462fe8da8e1c60800000000000000
+      internalID: 7790817069727367974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearWarrior_blue_76
+      rect:
+        serializedVersion: 2
+        x: 1543
+        y: 22
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b29c5b150ba36c990800000000000000
+      internalID: -7366135611558344405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
