@@ -11,7 +11,7 @@ public class PublicStatus : MonoBehaviour
     public float curHp;
     public float def;
     public int jamStack;
-    public bool canMove = true;
+    
     void Start()
     {
         atk = obData.atk;

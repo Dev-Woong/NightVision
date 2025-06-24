@@ -10,20 +10,20 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 38f85f06c6083884bafdd011d55a8f0e, type: 3}
-  m_Name: Samurai_AttackData
+  m_Name: Thief_AttackData
   m_EditorClassIdentifier: 
   targetMask:
     serializedVersion: 2
     m_Bits: 64
   knockBack: 1
-  knockBackForceX: 3
-  knockBackForceY: 3
+  knockBackForceX: 1
+  knockBackForceY: 0
   getEnergy: 0
   skillType: 0
   animSpot: 
   hitCount: 1
-  damageValue: 10
-  HitEffect: {fileID: 5295936817183097829, guid: 4a12568d27798834cb68a1ec2c2f08dd, type: 3}
+  damageValue: 20
+  HitEffect: {fileID: 0}
   effectPos: {x: 0, y: 0, z: 0}
-  hitBoxSize: {x: 1.5, y: 1, z: 0}
-  rangeOffset: -0.75
+  hitBoxSize: {x: 2, y: 1, z: 0}
+  rangeOffset: -2

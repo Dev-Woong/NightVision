@@ -13,7 +13,10 @@ public class DamageHandler : MonoBehaviour
     Vector3 hitPos;
     private readonly HashSet<IDamageable> damagedTargets = new();
     private readonly WaitForSeconds Interval = new(0.04f);
-    
+    public void Start()
+    {
+        ps = GetComponent<PublicStatus>();
+    }
     public void PlayerCreateAttackBox(AttackData data)
     {
         Debug.Log("어택박스 구축");
@@ -32,8 +35,6 @@ public class DamageHandler : MonoBehaviour
             hitPos = target.position;
         }
         Collider2D[] hits = Physics2D.OverlapBoxAll(hitPos, data.hitBoxSize, 0, data.targetMask);
-        Debug.Log("콜라이더 감지");
-        Debug.Log($"[OverlapBoxAll] 감지된 수: {hits.Length}");
         Debug.DrawLine(transform.position, hitPos, Color.red, 1f);
         foreach (var hit in hits)
         {
@@ -41,7 +42,6 @@ public class DamageHandler : MonoBehaviour
             if (dmg != null && !damagedTargets.Contains(dmg))
             {
                 damagedTargets.Add(dmg);
-                Debug.Log("코루틴까지");
                 StartCoroutine(HitDamage(dmg, data, x, hit.transform.position, hit.gameObject));
                 
             }
@@ -50,9 +50,15 @@ public class DamageHandler : MonoBehaviour
     IEnumerator HitDamage(IDamageable dmg, AttackData data,float x,Vector3 targetPos,GameObject target)
     {
         int currentHits = 0;
-        ps.canMove = false;
+       
         if (data.knockBack == KnockBack.Done)
         {
+            if (target.layer == 6 && data.knockBackForceY > 1f)
+            {
+                target.GetComponent<PlayerController>().moveAble = false;
+                target.GetComponent<Rigidbody2D>().gravityScale= 1;
+                Debug.Log("적용");
+            }
             if (targetPos.x < transform.position.x)
             {
                 target.GetComponent<Rigidbody2D>().linearVelocity = Vector3.zero;
@@ -63,6 +69,7 @@ public class DamageHandler : MonoBehaviour
                 target.GetComponent<Rigidbody2D>().linearVelocity = Vector3.zero;
                 target.GetComponent<Rigidbody2D>().AddForce(new Vector3(data.knockBackForceX, data.knockBackForceY, 0), ForceMode2D.Impulse);
             } 
+
         }
         while (currentHits < data.hitCount)
         {
@@ -85,8 +92,6 @@ public class DamageHandler : MonoBehaviour
             currentHits++;
             yield return Interval;
         }
-        Debug.Log("코루틴 실행 완료");
-        ps.canMove = true;
         yield return new WaitForSeconds(0.4f);
     }
     
