@@ -1,0 +1,3867 @@
+fileFormatVersion: 2
+guid: 8e4c6c750a6dc3e459a9ddd54d6df8b5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4393043568805082156
+    second: Crystal_golem_magenta - Sheet_0
+  - first:
+      213: 6327447273167567947
+    second: Crystal_golem_magenta - Sheet_1
+  - first:
+      213: 2505496646126304292
+    second: Crystal_golem_magenta - Sheet_2
+  - first:
+      213: -5180200053530792023
+    second: Crystal_golem_magenta - Sheet_3
+  - first:
+      213: -4220911651841707015
+    second: Crystal_golem_magenta - Sheet_4
+  - first:
+      213: -4463503982403577959
+    second: Crystal_golem_magenta - Sheet_5
+  - first:
+      213: 7544219173941744586
+    second: Crystal_golem_magenta - Sheet_6
+  - first:
+      213: -6759587590866857709
+    second: Crystal_golem_magenta - Sheet_7
+  - first:
+      213: 5825607887926405975
+    second: Crystal_golem_magenta - Sheet_8
+  - first:
+      213: 1927406160029632655
+    second: Crystal_golem_magenta - Sheet_9
+  - first:
+      213: -7367821299310218546
+    second: Crystal_golem_magenta - Sheet_10
+  - first:
+      213: -8207063186656714023
+    second: Crystal_golem_magenta - Sheet_11
+  - first:
+      213: -2877969694793713153
+    second: Crystal_golem_magenta - Sheet_12
+  - first:
+      213: -326446284226758402
+    second: Crystal_golem_magenta - Sheet_13
+  - first:
+      213: 4623848828367745942
+    second: Crystal_golem_magenta - Sheet_14
+  - first:
+      213: 4504520605790643565
+    second: Crystal_golem_magenta - Sheet_15
+  - first:
+      213: 4444028039348928949
+    second: Crystal_golem_magenta - Sheet_16
+  - first:
+      213: 2781474533532119076
+    second: Crystal_golem_magenta - Sheet_17
+  - first:
+      213: -5793900194686307120
+    second: Crystal_golem_magenta - Sheet_18
+  - first:
+      213: 5939503217071847540
+    second: Crystal_golem_magenta - Sheet_19
+  - first:
+      213: 4921318746653463304
+    second: Crystal_golem_magenta - Sheet_20
+  - first:
+      213: -4186363842574107891
+    second: Crystal_golem_magenta - Sheet_21
+  - first:
+      213: -268728138116315112
+    second: Crystal_golem_magenta - Sheet_22
+  - first:
+      213: -5369866968674269572
+    second: Crystal_golem_magenta - Sheet_23
+  - first:
+      213: 3978362355107858207
+    second: Crystal_golem_magenta - Sheet_24
+  - first:
+      213: 6141032552500387258
+    second: Crystal_golem_magenta - Sheet_25
+  - first:
+      213: 614298341279346476
+    second: Crystal_golem_magenta - Sheet_26
+  - first:
+      213: 4767125271887246869
+    second: Crystal_golem_magenta - Sheet_27
+  - first:
+      213: -2754519875057563709
+    second: Crystal_golem_magenta - Sheet_28
+  - first:
+      213: -2197041682091507151
+    second: Crystal_golem_magenta - Sheet_29
+  - first:
+      213: -7744801614752831225
+    second: Crystal_golem_magenta - Sheet_30
+  - first:
+      213: 5673588827189101701
+    second: Crystal_golem_magenta - Sheet_31
+  - first:
+      213: -7295048559647490332
+    second: Crystal_golem_magenta - Sheet_32
+  - first:
+      213: 2914646770657800673
+    second: Crystal_golem_magenta - Sheet_33
+  - first:
+      213: 6566772648948797901
+    second: Crystal_golem_magenta - Sheet_34
+  - first:
+      213: -2848360771893100398
+    second: Crystal_golem_magenta - Sheet_35
+  - first:
+      213: -6370805531953873072
+    second: Crystal_golem_magenta - Sheet_36
+  - first:
+      213: 4488066145681320587
+    second: Crystal_golem_magenta - Sheet_37
+  - first:
+      213: 4512364336720873380
+    second: Crystal_golem_magenta - Sheet_38
+  - first:
+      213: -7634508047375003521
+    second: Crystal_golem_magenta - Sheet_39
+  - first:
+      213: -7152448168007353572
+    second: Crystal_golem_magenta - Sheet_40
+  - first:
+      213: -7155211430683611524
+    second: Crystal_golem_magenta - Sheet_41
+  - first:
+      213: -1608030309683511483
+    second: Crystal_golem_magenta - Sheet_42
+  - first:
+      213: 1828364564937470944
+    second: Crystal_golem_magenta - Sheet_43
+  - first:
+      213: -3868707168762157778
+    second: Crystal_golem_magenta - Sheet_44
+  - first:
+      213: -7157371552942729559
+    second: Crystal_golem_magenta - Sheet_45
+  - first:
+      213: -6423366118618443630
+    second: Crystal_golem_magenta - Sheet_46
+  - first:
+      213: -4142570161643875883
+    second: Crystal_golem_magenta - Sheet_47
+  - first:
+      213: 4379131941109979775
+    second: Crystal_golem_magenta - Sheet_48
+  - first:
+      213: 3619689992794505795
+    second: Crystal_golem_magenta - Sheet_49
+  - first:
+      213: -7748062376855330004
+    second: Crystal_golem_magenta - Sheet_50
+  - first:
+      213: -2857892406634829713
+    second: Crystal_golem_magenta - Sheet_51
+  - first:
+      213: -7134962364431945096
+    second: Crystal_golem_magenta - Sheet_52
+  - first:
+      213: -289938903695747803
+    second: Crystal_golem_magenta - Sheet_53
+  - first:
+      213: -3395862331062888640
+    second: Crystal_golem_magenta - Sheet_54
+  - first:
+      213: -6544799240509318449
+    second: Crystal_golem_magenta - Sheet_55
+  - first:
+      213: -2395189850670457156
+    second: Crystal_golem_magenta - Sheet_56
+  - first:
+      213: -1025188240529940768
+    second: Crystal_golem_magenta - Sheet_57
+  - first:
+      213: 9109453740646872858
+    second: Crystal_golem_magenta - Sheet_58
+  - first:
+      213: 3253147941714004047
+    second: Crystal_golem_magenta - Sheet_59
+  - first:
+      213: -8677857640668282516
+    second: Crystal_golem_magenta - Sheet_60
+  - first:
+      213: 7426912478512956277
+    second: Crystal_golem_magenta - Sheet_61
+  - first:
+      213: 3893035002190513144
+    second: Crystal_golem_magenta - Sheet_62
+  - first:
+      213: -6758211619763046550
+    second: Crystal_golem_magenta - Sheet_63
+  - first:
+      213: -2383651202982755654
+    second: Crystal_golem_magenta - Sheet_64
+  - first:
+      213: 8472851272915644154
+    second: Crystal_golem_magenta - Sheet_65
+  - first:
+      213: 1348265289900832033
+    second: Crystal_golem_magenta - Sheet_66
+  - first:
+      213: 5805044993418231564
+    second: Crystal_golem_magenta - Sheet_67
+  - first:
+      213: 3320555012967520142
+    second: Crystal_golem_magenta - Sheet_68
+  - first:
+      213: -5846066052511686241
+    second: Crystal_golem_magenta - Sheet_69
+  - first:
+      213: -1357377177113185434
+    second: Crystal_golem_magenta - Sheet_70
+  - first:
+      213: 7240541549757830120
+    second: Crystal_golem_magenta - Sheet_71
+  - first:
+      213: -7544195639357406861
+    second: Crystal_golem_magenta - Sheet_72
+  - first:
+      213: -3404844437595545772
+    second: Crystal_golem_magenta - Sheet_73
+  - first:
+      213: -4198224744133589148
+    second: Crystal_golem_magenta - Sheet_74
+  - first:
+      213: 875949042552798645
+    second: Crystal_golem_magenta - Sheet_75
+  - first:
+      213: -4842810325568311909
+    second: Crystal_golem_magenta - Sheet_76
+  - first:
+      213: 4639125395433288057
+    second: Crystal_golem_magenta - Sheet_77
+  - first:
+      213: -8735839096338584810
+    second: Crystal_golem_magenta - Sheet_78
+  - first:
+      213: -570116280943503719
+    second: Crystal_golem_magenta - Sheet_79
+  - first:
+      213: 2217140060907460057
+    second: Crystal_golem_magenta - Sheet_80
+  - first:
+      213: -3066563174439779278
+    second: Crystal_golem_magenta - Sheet_81
+  - first:
+      213: 3389432134112289888
+    second: Crystal_golem_magenta - Sheet_82
+  - first:
+      213: 5806449424827850090
+    second: Crystal_golem_magenta - Sheet_83
+  - first:
+      213: -7051172785856549781
+    second: Crystal_golem_magenta - Sheet_84
+  - first:
+      213: -6879002290682893286
+    second: Crystal_golem_magenta - Sheet_85
+  - first:
+      213: 3421679288294939668
+    second: Crystal_golem_magenta - Sheet_86
+  - first:
+      213: 6556139026923647427
+    second: Crystal_golem_magenta - Sheet_87
+  - first:
+      213: -4678499561631132318
+    second: Crystal_golem_magenta - Sheet_88
+  - first:
+      213: 6777189050793953232
+    second: Crystal_golem_magenta - Sheet_89
+  - first:
+      213: 1899590482489880059
+    second: Crystal_golem_magenta - Sheet_90
+  - first:
+      213: 4266541918900865678
+    second: Crystal_golem_magenta - Sheet_91
+  - first:
+      213: 5301555667892017495
+    second: Crystal_golem_magenta - Sheet_92
+  - first:
+      213: -8922806400160176928
+    second: Crystal_golem_magenta - Sheet_93
+  - first:
+      213: -1054856521977406355
+    second: Crystal_golem_magenta - Sheet_94
+  - first:
+      213: -2239072561342980596
+    second: Crystal_golem_magenta - Sheet_95
+  - first:
+      213: -1285661635182823326
+    second: Crystal_golem_magenta - Sheet_96
+  - first:
+      213: 7612039156487848596
+    second: Crystal_golem_magenta - Sheet_97
+  - first:
+      213: 2665968405595047674
+    second: Crystal_golem_magenta - Sheet_98
+  - first:
+      213: 4122214263119594948
+    second: Crystal_golem_magenta - Sheet_99
+  - first:
+      213: 5263961604385132019
+    second: Crystal_golem_magenta - Sheet_100
+  - first:
+      213: 4323868694909436003
+    second: Crystal_golem_magenta - Sheet_101
+  - first:
+      213: 3186968868343999860
+    second: Crystal_golem_magenta - Sheet_102
+  - first:
+      213: -325285531467516366
+    second: Crystal_golem_magenta - Sheet_103
+  - first:
+      213: -5095213048748092599
+    second: Crystal_golem_magenta - Sheet_104
+  - first:
+      213: 5823291983148823501
+    second: Crystal_golem_magenta - Sheet_105
+  - first:
+      213: -789218239557680924
+    second: Crystal_golem_magenta - Sheet_106
+  - first:
+      213: 1415829432888874338
+    second: Crystal_golem_magenta - Sheet_107
+  - first:
+      213: -513520516634139600
+    second: Crystal_golem_magenta - Sheet_108
+  - first:
+      213: -2064929984046079870
+    second: Crystal_golem_magenta - Sheet_109
+  - first:
+      213: -3954074012399000600
+    second: Crystal_golem_magenta - Sheet_110
+  - first:
+      213: -7683029621972400300
+    second: Crystal_golem_magenta - Sheet_111
+  - first:
+      213: 2870111257280502961
+    second: Crystal_golem_magenta - Sheet_112
+  - first:
+      213: 8997418041556591739
+    second: Crystal_golem_magenta - Sheet_113
+  - first:
+      213: -6361341439715806183
+    second: Crystal_golem_magenta - Sheet_114
+  - first:
+      213: -8359599514973868920
+    second: Crystal_golem_magenta - Sheet_115
+  - first:
+      213: 8971937238642749262
+    second: Crystal_golem_magenta - Sheet_116
+  - first:
+      213: 5749508423829895394
+    second: Crystal_golem_magenta - Sheet_117
+  - first:
+      213: -5606229503930835893
+    second: Crystal_golem_magenta - Sheet_118
+  - first:
+      213: 7791870030649935428
+    second: Crystal_golem_magenta - Sheet_119
+  - first:
+      213: 4495688722376581087
+    second: Crystal_golem_magenta - Sheet_120
+  - first:
+      213: 7366071662690248181
+    second: Crystal_golem_magenta - Sheet_121
+  - first:
+      213: 5969365286366074419
+    second: Crystal_golem_magenta - Sheet_122
+  - first:
+      213: 7438392212676002648
+    second: Crystal_golem_magenta - Sheet_123
+  - first:
+      213: -1580711888852278947
+    second: Crystal_golem_magenta - Sheet_124
+  - first:
+      213: 2301009201733087883
+    second: Crystal_golem_magenta - Sheet_125
+  - first:
+      213: -2798166192772415472
+    second: Crystal_golem_magenta - Sheet_126
+  - first:
+      213: 6136624564788128063
+    second: Crystal_golem_magenta - Sheet_127
+  - first:
+      213: 7759570731113099024
+    second: Crystal_golem_magenta - Sheet_128
+  - first:
+      213: 3955055262902029627
+    second: Crystal_golem_magenta - Sheet_129
+  - first:
+      213: -4162322047307716744
+    second: Crystal_golem_magenta - Sheet_130
+  - first:
+      213: -5851346148175177019
+    second: Crystal_golem_magenta - Sheet_131
+  - first:
+      213: -6686975529824821279
+    second: Crystal_golem_magenta - Sheet_132
+  - first:
+      213: 3462991778480264899
+    second: Crystal_golem_magenta - Sheet_133
+  - first:
+      213: 3343503842771057342
+    second: Crystal_golem_magenta - Sheet_134
+  - first:
+      213: 4059275873166471943
+    second: Crystal_golem_magenta - Sheet_135
+  - first:
+      213: 8773823239634348808
+    second: Crystal_golem_magenta - Sheet_136
+  - first:
+      213: -5425539112113505427
+    second: Crystal_golem_magenta - Sheet_137
+  - first:
+      213: 1159643537441776842
+    second: Crystal_golem_magenta - Sheet_138
+  - first:
+      213: 7199954523989357330
+    second: Crystal_golem_magenta - Sheet_139
+  - first:
+      213: -3467322434547909236
+    second: Crystal_golem_magenta - Sheet_140
+  - first:
+      213: 1013566534554728890
+    second: Crystal_golem_magenta - Sheet_141
+  - first:
+      213: 3988536769373376240
+    second: Crystal_golem_magenta - Sheet_142
+  - first:
+      213: -9045767627734525968
+    second: Crystal_golem_magenta - Sheet_143
+  - first:
+      213: -6594297124043055355
+    second: Crystal_golem_magenta - Sheet_144
+  - first:
+      213: -234303840636867214
+    second: Crystal_golem_magenta - Sheet_145
+  - first:
+      213: -2838845209329271354
+    second: Crystal_golem_magenta - Sheet_146
+  - first:
+      213: 5461583271714098846
+    second: Crystal_golem_magenta - Sheet_147
+  - first:
+      213: 4135846426569461744
+    second: Crystal_golem_magenta - Sheet_148
+  - first:
+      213: 6872870917518118919
+    second: Crystal_golem_magenta - Sheet_149
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 597
+        width: 63
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c24f079b9d937fc30800000000000000
+      internalID: 4393043568805082156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 673
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4cba2c45cb9fc750800000000000000
+      internalID: 6327447273167567947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 669
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42c7a4accef45c220800000000000000
+      internalID: 2505496646126304292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 672
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9af66d74f7b3c18b0800000000000000
+      internalID: -5180200053530792023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 598
+        width: 63
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f3faab473f4c65c0800000000000000
+      internalID: -4220911651841707015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 1196
+        y: 598
+        width: 63
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9971b43d6c27e02c0800000000000000
+      internalID: -4463503982403577959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 597
+        width: 64
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac31d722e5372b860800000000000000
+      internalID: 7544219173941744586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 650
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3111e3266ee1132a0800000000000000
+      internalID: -6759587590866857709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 598
+        width: 63
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75b21983287b8d050800000000000000
+      internalID: 5825607887926405975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 651
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f884772d0b58fba10800000000000000
+      internalID: 1927406160029632655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 598
+        width: 63
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec2be0e809d30c990800000000000000
+      internalID: -7367821299310218546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 651
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d2242eb387aa1e80800000000000000
+      internalID: -8207063186656714023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 599
+        width: 63
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff93b7b8fc56f08d0800000000000000
+      internalID: -2877969694793713153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 652
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef8fa6685da387bf0800000000000000
+      internalID: -326446284226758402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 599
+        width: 63
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69337fdd2063b2040800000000000000
+      internalID: 4623848828367745942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 652
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d65249fff95438e30800000000000000
+      internalID: 4504520605790643565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 462
+        width: 64
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b1c441d4fb5cad30800000000000000
+      internalID: 4444028039348928949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 461
+        width: 64
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4203af2f958c99620800000000000000
+      internalID: 2781474533532119076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 530
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d4f7a7687ee79fa0800000000000000
+      internalID: -5793900194686307120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 508
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4787bd305ba5d6250800000000000000
+      internalID: 5939503217071847540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 506
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80310c863590c4440800000000000000
+      internalID: 4921318746653463304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 507
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0bb4d6f34c07e5c0800000000000000
+      internalID: -4186363842574107891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 518
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 818cc62ae29454cf0800000000000000
+      internalID: -268728138116315112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 886
+        y: 523
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c76011951766a75b0800000000000000
+      internalID: -5369866968674269572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 508
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f178df3db7bf53730800000000000000
+      internalID: 3978362355107858207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 520
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abd55e5e194593550800000000000000
+      internalID: 6141032552500387258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 1058
+        y: 509
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2f2112361d668800800000000000000
+      internalID: 614298341279346476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 1226
+        y: 508
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51670ae6d2b382240800000000000000
+      internalID: 4767125271887246869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 462
+        width: 62
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c7c07884caf5c9d0800000000000000
+      internalID: -2754519875057563709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 461
+        width: 62
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13285360b3a8281e0800000000000000
+      internalID: -2197041682091507151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 462
+        width: 62
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70929c017ffe48490800000000000000
+      internalID: -7744801614752831225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 463
+        width: 65
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5844b367af2acbe40800000000000000
+      internalID: 5673588827189101701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 464
+        width: 62
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ee7cfe5cf7c2ca90800000000000000
+      internalID: -7295048559647490332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 463
+        width: 62
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e13cc2abc7e27820800000000000000
+      internalID: 2914646770657800673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 368
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc118559eecd12b50800000000000000
+      internalID: 6566772648948797901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 317
+        width: 66
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 290872f18f69878d0800000000000000
+      internalID: -2848360771893100398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_36
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 321
+        width: 68
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05fbbc66f1a5697a0800000000000000
+      internalID: -6370805531953873072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_37
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 374
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8aaac57160d84e30800000000000000
+      internalID: 4488066145681320587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_38
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 322
+        width: 66
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a7836be4732f9e30800000000000000
+      internalID: 4512364336720873380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_39
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 322
+        width: 67
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f701a595167cc0690800000000000000
+      internalID: -7634508047375003521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_40
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 375
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1b378759466dbc90800000000000000
+      internalID: -7152448168007353572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_41
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 318
+        width: 51
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7ee94d1d1593bc90800000000000000
+      internalID: -7155211430683611524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_42
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 364
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54fb04bf3f02fa9e0800000000000000
+      internalID: -1608030309683511483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_43
+      rect:
+        serializedVersion: 2
+        x: 1225
+        y: 318
+        width: 51
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e3720d72e7af5910800000000000000
+      internalID: 1828364564937470944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_44
+      rect:
+        serializedVersion: 2
+        x: 1406
+        y: 364
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e25ace9c3579f4ac0800000000000000
+      internalID: -3868707168762157778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_45
+      rect:
+        serializedVersion: 2
+        x: 1555
+        y: 318
+        width: 51
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a6dc557e78ebac90800000000000000
+      internalID: -7157371552942729559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_46
+      rect:
+        serializedVersion: 2
+        x: 1736
+        y: 366
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 290d77d2c8e9bd6a0800000000000000
+      internalID: -6423366118618443630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_47
+      rect:
+        serializedVersion: 2
+        x: 1879
+        y: 370
+        width: 37
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d19512e262a286c0800000000000000
+      internalID: -4142570161643875883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_48
+      rect:
+        serializedVersion: 2
+        x: 1893
+        y: 368
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7a5d6e7c4dc5cc30800000000000000
+      internalID: 4379131941109979775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_49
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 315
+        width: 69
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3428d89ded8bb3230800000000000000
+      internalID: 3619689992794505795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_50
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 338
+        width: 64
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2328f9b15a597490800000000000000
+      internalID: -7748062376855330004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_51
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 318
+        width: 120
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f68ae387ff9b658d0800000000000000
+      internalID: -2857892406634829713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_52
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 329
+        width: 67
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 872b04e38858bfc90800000000000000
+      internalID: -7134962364431945096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_53
+      rect:
+        serializedVersion: 2
+        x: 1388
+        y: 318
+        width: 52
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52516ae6a1ee9fbf0800000000000000
+      internalID: -289938903695747803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_54
+      rect:
+        serializedVersion: 2
+        x: 1445
+        y: 340
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 047ddd2b3397fd0d0800000000000000
+      internalID: -3395862331062888640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_55
+      rect:
+        serializedVersion: 2
+        x: 1451
+        y: 329
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fca123f34c33c25a0800000000000000
+      internalID: -6544799240509318449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_56
+      rect:
+        serializedVersion: 2
+        x: 1461
+        y: 342
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbe9a25658392ced0800000000000000
+      internalID: -2395189850670457156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_57
+      rect:
+        serializedVersion: 2
+        x: 1465
+        y: 329
+        width: 21
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ee1e471abcc5c1f0800000000000000
+      internalID: -1025188240529940768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_58
+      rect:
+        serializedVersion: 2
+        x: 1471
+        y: 336
+        width: 18
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a173c15c9e74b6e70800000000000000
+      internalID: 9109453740646872858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_59
+      rect:
+        serializedVersion: 2
+        x: 1479
+        y: 343
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4808ab21d0852d20800000000000000
+      internalID: 3253147941714004047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_60
+      rect:
+        serializedVersion: 2
+        x: 1487
+        y: 329
+        width: 21
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c61ce8cf37e029780800000000000000
+      internalID: -8677857640668282516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_61
+      rect:
+        serializedVersion: 2
+        x: 1489
+        y: 344
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5734eabbc81b11760800000000000000
+      internalID: 7426912478512956277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_62
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 337
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f34ab355b6d60630800000000000000
+      internalID: 3893035002190513144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_63
+      rect:
+        serializedVersion: 2
+        x: 1613
+        y: 330
+        width: 27
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a673b1f96520632a0800000000000000
+      internalID: -6758211619763046550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_64
+      rect:
+        serializedVersion: 2
+        x: 1630
+        y: 327
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab2c7c92cd19beed0800000000000000
+      internalID: -2383651202982755654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_65
+      rect:
+        serializedVersion: 2
+        x: 1648
+        y: 329
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afe6ad4775d959570800000000000000
+      internalID: 8472851272915644154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_66
+      rect:
+        serializedVersion: 2
+        x: 1659
+        y: 335
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1253783432006b210800000000000000
+      internalID: 1348265289900832033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_67
+      rect:
+        serializedVersion: 2
+        x: 1666
+        y: 329
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0f7ad14aa9af8050800000000000000
+      internalID: 5805044993418231564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_68
+      rect:
+        serializedVersion: 2
+        x: 1713
+        y: 313
+        width: 134
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e875215f03bf41e20800000000000000
+      internalID: 3320555012967520142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_69
+      rect:
+        serializedVersion: 2
+        x: 1868
+        y: 315
+        width: 148
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f91229626e99edea0800000000000000
+      internalID: -5846066052511686241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_70
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 227
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66332fb26a0a92de0800000000000000
+      internalID: -1357377177113185434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_71
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 176
+        width: 66
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e395ce6d229b7460800000000000000
+      internalID: 7240541549757830120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_72
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 180
+        width: 68
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3710d007902ad4790800000000000000
+      internalID: -7544195639357406861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_73
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 233
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45f17ad06009fb0d0800000000000000
+      internalID: -3404844437595545772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_74
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 181
+        width: 66
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46789ae96d8ecb5c0800000000000000
+      internalID: -4198224744133589148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_75
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 181
+        width: 67
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bdf3b2630ff72c00800000000000000
+      internalID: 875949042552798645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_76
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 234
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9d28edcaa1eaccb0800000000000000
+      internalID: -4842810325568311909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_77
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 177
+        width: 51
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9717b4fc7fb716040800000000000000
+      internalID: 4639125395433288057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_78
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 223
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61be4c750a014c680800000000000000
+      internalID: -8735839096338584810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_79
+      rect:
+        serializedVersion: 2
+        x: 1225
+        y: 177
+        width: 51
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99612b9534a8618f0800000000000000
+      internalID: -570116280943503719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_80
+      rect:
+        serializedVersion: 2
+        x: 1294
+        y: 225
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d55da3732dd4ce10800000000000000
+      internalID: 2217140060907460057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_81
+      rect:
+        serializedVersion: 2
+        x: 1406
+        y: 223
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 234093a4a016175d0800000000000000
+      internalID: -3066563174439779278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_82
+      rect:
+        serializedVersion: 2
+        x: 1470
+        y: 230
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 064ae08619ea90f20800000000000000
+      internalID: 3389432134112289888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_83
+      rect:
+        serializedVersion: 2
+        x: 1555
+        y: 177
+        width: 51
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6d922decf6a49050800000000000000
+      internalID: 5806449424827850090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_84
+      rect:
+        serializedVersion: 2
+        x: 1646
+        y: 234
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6c6e11c5b3352e90800000000000000
+      internalID: -7051172785856549781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_85
+      rect:
+        serializedVersion: 2
+        x: 1713
+        y: 164
+        width: 65
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1c6fb6fcdfd880a0800000000000000
+      internalID: -6879002290682893286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_86
+      rect:
+        serializedVersion: 2
+        x: 1736
+        y: 225
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41c91221f2f3c7f20800000000000000
+      internalID: 3421679288294939668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_87
+      rect:
+        serializedVersion: 2
+        x: 1793
+        y: 193
+        width: 53
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c1fbd585b51cfa50800000000000000
+      internalID: 6556139026923647427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_88
+      rect:
+        serializedVersion: 2
+        x: 1868
+        y: 143
+        width: 149
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 265d72bbf61a21fb0800000000000000
+      internalID: -4678499561631132318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_89
+      rect:
+        serializedVersion: 2
+        x: 1879
+        y: 229
+        width: 37
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d78d3cd8896d0e50800000000000000
+      internalID: 6777189050793953232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_90
+      rect:
+        serializedVersion: 2
+        x: 1893
+        y: 227
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfda587ba73bc5a10800000000000000
+      internalID: 1899590482489880059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_91
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 174
+        width: 69
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8a4667254dc53b30800000000000000
+      internalID: 4266541918900865678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_92
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 177
+        width: 52
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75999a58ac8e29940800000000000000
+      internalID: 5301555667892017495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_93
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 163
+        width: 59
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e4eed6aad2db2480800000000000000
+      internalID: -8922806400160176928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_94
+      rect:
+        serializedVersion: 2
+        x: 1245
+        y: 162
+        width: 64
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6c588605956c51f0800000000000000
+      internalID: -1054856521977406355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_95
+      rect:
+        serializedVersion: 2
+        x: 1269
+        y: 216
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0ed3da5e573de0e0800000000000000
+      internalID: -2239072561342980596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_96
+      rect:
+        serializedVersion: 2
+        x: 1388
+        y: 177
+        width: 52
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2687495fd89682ee0800000000000000
+      internalID: -1285661635182823326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_97
+      rect:
+        serializedVersion: 2
+        x: 1435
+        y: 219
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49282d2584563a960800000000000000
+      internalID: 7612039156487848596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_98
+      rect:
+        serializedVersion: 2
+        x: 1605
+        y: 225
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af648e5d32c6ff420800000000000000
+      internalID: 2665968405595047674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_99
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 184
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c5ca49280c053930800000000000000
+      internalID: 4122214263119594948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_100
+      rect:
+        serializedVersion: 2
+        x: 1312
+        y: 208
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fdcba480395d0940800000000000000
+      internalID: 5263961604385132019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_101
+      rect:
+        serializedVersion: 2
+        x: 1490
+        y: 210
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 360428f4ba7710c30800000000000000
+      internalID: 4323868694909436003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_102
+      rect:
+        serializedVersion: 2
+        x: 1667
+        y: 213
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47d6fdbec436a3c20800000000000000
+      internalID: 3186968868343999860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_103
+      rect:
+        serializedVersion: 2
+        x: 1313
+        y: 165
+        width: 13
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 236fd46588a5c7bf0800000000000000
+      internalID: -325285531467516366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_104
+      rect:
+        serializedVersion: 2
+        x: 1443
+        y: 183
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9435f6e4aba2a49b0800000000000000
+      internalID: -5095213048748092599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_105
+      rect:
+        serializedVersion: 2
+        x: 1469
+        y: 177
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc337fe943d70d050800000000000000
+      internalID: 5823291983148823501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_106
+      rect:
+        serializedVersion: 2
+        x: 1616
+        y: 191
+        width: 19
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e0c7ec41322c05f0800000000000000
+      internalID: -789218239557680924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_107
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 164
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26552e92e5906a310800000000000000
+      internalID: 1415829432888874338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_108
+      rect:
+        serializedVersion: 2
+        x: 1437
+        y: 174
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 034a5259fcb9fd8f0800000000000000
+      internalID: -513520516634139600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_109
+      rect:
+        serializedVersion: 2
+        x: 1493
+        y: 169
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28061e6be15e753e0800000000000000
+      internalID: -2064929984046079870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_110
+      rect:
+        serializedVersion: 2
+        x: 1603
+        y: 169
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e3aa53a2ae4029c0800000000000000
+      internalID: -3954074012399000600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_111
+      rect:
+        serializedVersion: 2
+        x: 1646
+        y: 177
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4570887e345606590800000000000000
+      internalID: -7683029621972400300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_112
+      rect:
+        serializedVersion: 2
+        x: 1669
+        y: 175
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bcdd046bfea4d720800000000000000
+      internalID: 2870111257280502961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_113
+      rect:
+        serializedVersion: 2
+        x: 1811
+        y: 148
+        width: 36
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b74eba6d9004ddc70800000000000000
+      internalID: 8997418041556591739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_114
+      rect:
+        serializedVersion: 2
+        x: 1464
+        y: 159
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91474c61aa9f7b7a0800000000000000
+      internalID: -6361341439715806183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_115
+      rect:
+        serializedVersion: 2
+        x: 1569
+        y: 155
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88c647d388cbcfb80800000000000000
+      internalID: -8359599514973868920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_116
+      rect:
+        serializedVersion: 2
+        x: 1636
+        y: 153
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4f66681269b28c70800000000000000
+      internalID: 8971937238642749262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_117
+      rect:
+        serializedVersion: 2
+        x: 1735
+        y: 153
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e83f73037b5acf40800000000000000
+      internalID: 5749508423829895394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_118
+      rect:
+        serializedVersion: 2
+        x: 1897
+        y: 152
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4c53e028fba232b0800000000000000
+      internalID: -5606229503930835893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_119
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 87
+        width: 35
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 446c6e08288422c60800000000000000
+      internalID: 7791870030649935428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_120
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 34
+        width: 65
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdf5cf5e215e36e30800000000000000
+      internalID: 4495688722376581087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_121
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 35
+        width: 71
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f529bc662b893660800000000000000
+      internalID: 7366071662690248181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_122
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 94
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 336d564d91277d250800000000000000
+      internalID: 5969365286366074419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_123
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 104
+        width: 19
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 853c590ae4a7a3760800000000000000
+      internalID: 7438392212676002648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_124
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 89
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5129bc79ee201ae0800000000000000
+      internalID: -1580711888852278947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_125
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 98
+        width: 30
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b82b43e7da3deef10800000000000000
+      internalID: 2301009201733087883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_126
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 98
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0100b494caaea29d0800000000000000
+      internalID: -2798166192772415472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_127
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 87
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f39e128478ba92550800000000000000
+      internalID: 6136624564788128063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_128
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 95
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01fa38dc7788fab60800000000000000
+      internalID: 7759570731113099024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_129
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 31
+        width: 82
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3d805c8ecd23e630800000000000000
+      internalID: 3955055262902029627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_130
+      rect:
+        serializedVersion: 2
+        x: 1057
+        y: 85
+        width: 12
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8776271a6267c36c0800000000000000
+      internalID: -4162322047307716744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_131
+      rect:
+        serializedVersion: 2
+        x: 1103
+        y: 101
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ca1b241ea7dbcea0800000000000000
+      internalID: -5851346148175177019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_132
+      rect:
+        serializedVersion: 2
+        x: 1191
+        y: 25
+        width: 89
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1efdf0b4f271333a0800000000000000
+      internalID: -6686975529824821279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_133
+      rect:
+        serializedVersion: 2
+        x: 1226
+        y: 83
+        width: 12
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c61a60cca40f0030800000000000000
+      internalID: 3462991778480264899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_134
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 33
+        width: 64
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebab585c703866e20800000000000000
+      internalID: 3343503842771057342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_135
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 86
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 703b66156e1755830800000000000000
+      internalID: 4059275873166471943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_136
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 34
+        width: 63
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80be87030c1e2c970800000000000000
+      internalID: 8773823239634348808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_137
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 36
+        width: 65
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6b7c7b5cec94b4b0800000000000000
+      internalID: -5425539112113505427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_138
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 78
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac46b4b37a1e71010800000000000000
+      internalID: 1159643537441776842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_139
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 82
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2133a591e706be360800000000000000
+      internalID: 7199954523989357330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_140
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 35
+        width: 61
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8d770fcd9891efc0800000000000000
+      internalID: -3467322434547909236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_141
+      rect:
+        serializedVersion: 2
+        x: 1369
+        y: 17
+        width: 59
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab9bb50a469e01e00800000000000000
+      internalID: 1013566534554728890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_142
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 76
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fe85104f012a5730800000000000000
+      internalID: 3988536769373376240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_143
+      rect:
+        serializedVersion: 2
+        x: 1537
+        y: 18
+        width: 59
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f7d724e44af67280800000000000000
+      internalID: -9045767627734525968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_144
+      rect:
+        serializedVersion: 2
+        x: 1736
+        y: 55
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50f980a24b95c74a0800000000000000
+      internalID: -6594297124043055355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_145
+      rect:
+        serializedVersion: 2
+        x: 1881
+        y: 14
+        width: 57
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27d6459f5e59fbcf0800000000000000
+      internalID: -234303840636867214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_146
+      rect:
+        serializedVersion: 2
+        x: 1710
+        y: 14
+        width: 60
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cdfb9da2556a98d0800000000000000
+      internalID: -2838845209329271354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_147
+      rect:
+        serializedVersion: 2
+        x: 2047
+        y: 13
+        width: 59
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9e0cb58c017bcb40800000000000000
+      internalID: 5461583271714098846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_148
+      rect:
+        serializedVersion: 2
+        x: 2215
+        y: 13
+        width: 67
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ffcd3d896a756930800000000000000
+      internalID: 4135846426569461744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_magenta - Sheet_149
+      rect:
+        serializedVersion: 2
+        x: 2383
+        y: 13
+        width: 68
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 700d7c97fa7516f50800000000000000
+      internalID: 6872870917518118919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
