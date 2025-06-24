@@ -1,10 +1,19 @@
 fileFormatVersion: 2
-guid: 74afe53b4a00b834bafcfb8fa1ee0d5f
+guid: 7b89125d92d27864a8778135a4fb5694
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4736215876436352664
-    second: static idle_0
+      213: -7352877885823856095
+    second: Wake_0
+  - first:
+      213: 321833574819615238
+    second: Wake_1
+  - first:
+      213: 4667194347694412380
+    second: Wake_2
+  - first:
+      213: -5087120285819932038
+    second: Wake_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +46,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -51,7 +60,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 35
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -100,12 +109,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: static idle_0
+      name: Wake_0
       rect:
         serializedVersion: 2
         x: 26
         y: 0
-        width: 11
+        width: 12
         height: 25
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -115,8 +124,74 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 89edd8efe3b6ab140800000000000000
-      internalID: 4736215876436352664
+      spriteID: 122d4a2258455f990800000000000000
+      internalID: -7352877885823856095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wake_1
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 0
+        width: 12
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 602daef5ee1677400800000000000000
+      internalID: 321833574819615238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wake_2
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 0
+        width: 12
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c525908088435c040800000000000000
+      internalID: 4667194347694412380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wake_3
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 0
+        width: 12
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a72f4028d0be669b0800000000000000
+      internalID: -5087120285819932038
       vertices: []
       indices: 
       edges: []
@@ -134,7 +209,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Wake_0: -7352877885823856095
+      Wake_1: 321833574819615238
+      Wake_2: 4667194347694412380
+      Wake_3: -5087120285819932038
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
