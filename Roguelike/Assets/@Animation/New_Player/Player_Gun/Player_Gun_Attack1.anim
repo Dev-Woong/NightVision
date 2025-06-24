@@ -83,7 +83,7 @@ AnimationClip:
   m_HasMotionFloatCurves: 0
   m_Events:
   - time: 0
-    functionName: CreateAttackBox
+    functionName: PlayerCreateAttackBox
     data: 
     objectReferenceParameter: {fileID: 11400000, guid: c88439de52c6e964f8957d10d32b46a9, type: 2}
     floatParameter: 0

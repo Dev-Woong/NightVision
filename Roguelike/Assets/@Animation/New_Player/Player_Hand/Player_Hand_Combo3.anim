@@ -292,16 +292,16 @@ AnimationClip:
     intParameter: 0
     messageOptions: 0
   - time: 0.6666667
-    functionName: Jab
+    functionName: PlayerCreateAttackBox
     data: 
-    objectReferenceParameter: {fileID: 0}
+    objectReferenceParameter: {fileID: 11400000, guid: 873bd29b317b8944cbca4418b2a52a78, type: 2}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
   - time: 0.6666667
-    functionName: PlayerCreateAttackBox
+    functionName: Jab
     data: 
-    objectReferenceParameter: {fileID: 11400000, guid: 873bd29b317b8944cbca4418b2a52a78, type: 2}
+    objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
@@ -404,7 +404,7 @@ AnimationClip:
     intParameter: 0
     messageOptions: 0
   - time: 1.6666666
-    functionName: CreateAttackBox
+    functionName: PlayerCreateAttackBox
     data: 
     objectReferenceParameter: {fileID: 11400000, guid: 873bd29b317b8944cbca4418b2a52a78, type: 2}
     floatParameter: 0
@@ -439,7 +439,7 @@ AnimationClip:
     intParameter: 0
     messageOptions: 0
   - time: 1.8333334
-    functionName: CreateAttackBox
+    functionName: PlayerCreateAttackBox
     data: 
     objectReferenceParameter: {fileID: 11400000, guid: 873bd29b317b8944cbca4418b2a52a78, type: 2}
     floatParameter: 0

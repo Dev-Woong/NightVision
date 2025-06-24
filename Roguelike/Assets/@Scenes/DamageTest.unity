@@ -230,6 +230,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85218ac697715c94d82aadd016dad984, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ps: {fileID: 0}
   damagePos: {fileID: 0}
   damageText: {fileID: 0}
   speed: 2
@@ -3480,6 +3481,8 @@ MonoBehaviour:
   Scope: {fileID: 1445972496}
   PlayerStat: {fileID: 957042075}
   PublicStat: {fileID: 957042078}
+  damagePos: {fileID: 0}
+  damageText: {fileID: 0}
   rc: {fileID: 0}
   weaponType: 0
   jumpCount: 0
@@ -3571,7 +3574,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!95 &957042071
 Animator:
   serializedVersion: 7
@@ -3668,6 +3671,7 @@ Transform:
   - {fileID: 1445972497}
   - {fileID: 8511456296854740545}
   - {fileID: 941382144}
+  - {fileID: 1612212834}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &957042074
@@ -3751,6 +3755,7 @@ MonoBehaviour:
   curHp: 0
   def: 0
   jamStack: 0
+  canMove: 0
 --- !u!1 &1091887125
 GameObject:
   m_ObjectHideFlags: 0
@@ -4218,6 +4223,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85218ac697715c94d82aadd016dad984, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ps: {fileID: 0}
   damagePos: {fileID: 0}
   damageText: {fileID: 0}
   speed: 2
@@ -4429,6 +4435,7 @@ MonoBehaviour:
   curHp: 0
   def: 0
   jamStack: 0
+  canMove: 1
 --- !u!1 &1245839806
 GameObject:
   m_ObjectHideFlags: 0
@@ -5982,6 +5989,37 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1612212833
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1612212834}
+  m_Layer: 6
+  m_Name: hud
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1612212834
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1612212833}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1.54, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 957042073}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1635058772
 GameObject:
@@ -9265,7 +9303,7 @@ SceneRoots:
   - {fileID: 1354328342}
   - {fileID: 1189423534}
   - {fileID: 957042073}
+  - {fileID: 1231932261}
   - {fileID: 1584781635}
   - {fileID: 2033191775}
-  - {fileID: 1231932261}
   - {fileID: 31374598}

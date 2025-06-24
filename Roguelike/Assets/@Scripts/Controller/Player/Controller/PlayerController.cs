@@ -1,12 +1,7 @@
-using JetBrains.Annotations;
 using System.Collections;
-using System.Linq;
-using Unity.Cinemachine;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using UnityEngine.UIElements;
-
 public enum WeaponType
 {
     Hand,
@@ -31,6 +26,9 @@ public class PlayerController :DamageAbleBase,IDamageable
     public GameObject Scope;
     public PlayerStatus PlayerStat;
     public PublicStatus PublicStat;
+
+    public Transform damagePos;
+    public GameObject damageText;
     public RifleController rc;
 
     readonly WaitForSeconds wTime = new(0.04f);
@@ -73,15 +71,16 @@ public class PlayerController :DamageAbleBase,IDamageable
     public override void OnDamage(float causerAtk)
     {
         curHp -= causerAtk;
-        //GameObject hudText = Instantiate(damageText);
-        //hudText.transform.position = damagePos.position;
-        //hudText.GetComponent<DamageText>().damage = causerAtk;
-       
+        GameObject hudText = Instantiate(damageText);
+        hudText.transform.position = damagePos.position;
+        hudText.GetComponent<DamageText>().damage = causerAtk;
+
+        Debug.Log("플레이어 공격당함");
         anim.SetTrigger("Hurt");
-        if (curHp <= 0)
-        {
-           // Die();
-        }
+        //if (curHp <= 0)
+        //{
+        //    Die();
+        //}
     }
     public void EnterSnipeMode()
     {
@@ -496,6 +495,13 @@ public class PlayerController :DamageAbleBase,IDamageable
         }
 
     }
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+        if (collision.collider.CompareTag("Ground"))
+        {
+            anim.SetBool("onAir", true);
+        }
+    }
     private void OnTriggerEnter2D(Collider2D other)
     {
 
@@ -578,11 +584,10 @@ public class PlayerController :DamageAbleBase,IDamageable
         rb.freezeRotation = true;
 
         camChanger = GetComponent<CameraChanger>();
+        damageText = (GameObject)AssetDatabase.LoadAssetAtPath("Assets/@Prefabs/PlayerDamageText.prefab", typeof(GameObject));
+        damagePos = transform.Find("hud").transform;
     }
-    private void FixedUpdate()
-    {
-        //Landing();
-    }
+    
     void Update()
     {
         if( moveAble == true) 
