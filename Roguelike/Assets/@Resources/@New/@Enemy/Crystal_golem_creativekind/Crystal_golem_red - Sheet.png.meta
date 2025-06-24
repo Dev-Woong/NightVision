@@ -1,0 +1,3867 @@
+fileFormatVersion: 2
+guid: a099bee29e8b8d54d9cf90f79cb9536e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -346212029499777400
+    second: Crystal_golem_red - Sheet_0
+  - first:
+      213: 6994744800042244053
+    second: Crystal_golem_red - Sheet_1
+  - first:
+      213: 7782082591271033580
+    second: Crystal_golem_red - Sheet_2
+  - first:
+      213: 8272540344003844415
+    second: Crystal_golem_red - Sheet_3
+  - first:
+      213: -8589487417234020921
+    second: Crystal_golem_red - Sheet_4
+  - first:
+      213: -7244418887409169068
+    second: Crystal_golem_red - Sheet_5
+  - first:
+      213: -4962452677106391976
+    second: Crystal_golem_red - Sheet_6
+  - first:
+      213: -4942633306456717487
+    second: Crystal_golem_red - Sheet_7
+  - first:
+      213: 5024147292643862735
+    second: Crystal_golem_red - Sheet_8
+  - first:
+      213: 8372533867149604188
+    second: Crystal_golem_red - Sheet_9
+  - first:
+      213: -6505627369111305790
+    second: Crystal_golem_red - Sheet_10
+  - first:
+      213: -7611803089895445955
+    second: Crystal_golem_red - Sheet_11
+  - first:
+      213: 9136781788644206119
+    second: Crystal_golem_red - Sheet_12
+  - first:
+      213: 8368376644421063967
+    second: Crystal_golem_red - Sheet_13
+  - first:
+      213: -3221947753066012979
+    second: Crystal_golem_red - Sheet_14
+  - first:
+      213: -6590543922789071117
+    second: Crystal_golem_red - Sheet_15
+  - first:
+      213: -2660886210065930497
+    second: Crystal_golem_red - Sheet_16
+  - first:
+      213: -9051518832344641760
+    second: Crystal_golem_red - Sheet_17
+  - first:
+      213: 3274950300611871647
+    second: Crystal_golem_red - Sheet_18
+  - first:
+      213: 378830461785517930
+    second: Crystal_golem_red - Sheet_19
+  - first:
+      213: -913546328496935638
+    second: Crystal_golem_red - Sheet_20
+  - first:
+      213: 5668602720850305461
+    second: Crystal_golem_red - Sheet_21
+  - first:
+      213: 2092802945357429688
+    second: Crystal_golem_red - Sheet_22
+  - first:
+      213: 4448707180267196002
+    second: Crystal_golem_red - Sheet_23
+  - first:
+      213: 2347364195772534051
+    second: Crystal_golem_red - Sheet_24
+  - first:
+      213: 5053973229403124751
+    second: Crystal_golem_red - Sheet_25
+  - first:
+      213: 4610103746208940963
+    second: Crystal_golem_red - Sheet_26
+  - first:
+      213: 255467863762453209
+    second: Crystal_golem_red - Sheet_27
+  - first:
+      213: -5052261874350712405
+    second: Crystal_golem_red - Sheet_28
+  - first:
+      213: -3255035253271981482
+    second: Crystal_golem_red - Sheet_29
+  - first:
+      213: 8779340671479917378
+    second: Crystal_golem_red - Sheet_30
+  - first:
+      213: 9103729464570876471
+    second: Crystal_golem_red - Sheet_31
+  - first:
+      213: 4015784711732801302
+    second: Crystal_golem_red - Sheet_32
+  - first:
+      213: 6502601013398735391
+    second: Crystal_golem_red - Sheet_33
+  - first:
+      213: 8692100329343905091
+    second: Crystal_golem_red - Sheet_34
+  - first:
+      213: 4085889827113891006
+    second: Crystal_golem_red - Sheet_35
+  - first:
+      213: -2833507932069987439
+    second: Crystal_golem_red - Sheet_36
+  - first:
+      213: 4921476817819831543
+    second: Crystal_golem_red - Sheet_37
+  - first:
+      213: -4477139894716264892
+    second: Crystal_golem_red - Sheet_38
+  - first:
+      213: 1684738866940980149
+    second: Crystal_golem_red - Sheet_39
+  - first:
+      213: 6863411039135776042
+    second: Crystal_golem_red - Sheet_40
+  - first:
+      213: -9113032128714066253
+    second: Crystal_golem_red - Sheet_41
+  - first:
+      213: -3478398531807551260
+    second: Crystal_golem_red - Sheet_42
+  - first:
+      213: 5107114708325916121
+    second: Crystal_golem_red - Sheet_43
+  - first:
+      213: 7539923858792283949
+    second: Crystal_golem_red - Sheet_44
+  - first:
+      213: -4594803224302295601
+    second: Crystal_golem_red - Sheet_45
+  - first:
+      213: -2247352733291482676
+    second: Crystal_golem_red - Sheet_46
+  - first:
+      213: 8076775801145440392
+    second: Crystal_golem_red - Sheet_47
+  - first:
+      213: -3951819871204685416
+    second: Crystal_golem_red - Sheet_48
+  - first:
+      213: 8590952152535914937
+    second: Crystal_golem_red - Sheet_49
+  - first:
+      213: -2732588916623327559
+    second: Crystal_golem_red - Sheet_50
+  - first:
+      213: 3652927598796460330
+    second: Crystal_golem_red - Sheet_51
+  - first:
+      213: -5159015322815784853
+    second: Crystal_golem_red - Sheet_52
+  - first:
+      213: 4114044662426496701
+    second: Crystal_golem_red - Sheet_53
+  - first:
+      213: -5074675428948248368
+    second: Crystal_golem_red - Sheet_54
+  - first:
+      213: 1475647690113936948
+    second: Crystal_golem_red - Sheet_55
+  - first:
+      213: 6331450372471810519
+    second: Crystal_golem_red - Sheet_56
+  - first:
+      213: -8397740645838830207
+    second: Crystal_golem_red - Sheet_57
+  - first:
+      213: -434283267777074106
+    second: Crystal_golem_red - Sheet_58
+  - first:
+      213: -1850659877666489726
+    second: Crystal_golem_red - Sheet_59
+  - first:
+      213: -2409115715340270024
+    second: Crystal_golem_red - Sheet_60
+  - first:
+      213: 6056455712098512879
+    second: Crystal_golem_red - Sheet_61
+  - first:
+      213: 3950221055315177632
+    second: Crystal_golem_red - Sheet_62
+  - first:
+      213: 7094586111904741349
+    second: Crystal_golem_red - Sheet_63
+  - first:
+      213: -4424599900437388581
+    second: Crystal_golem_red - Sheet_64
+  - first:
+      213: -6832260085513439405
+    second: Crystal_golem_red - Sheet_65
+  - first:
+      213: -2749696723859536281
+    second: Crystal_golem_red - Sheet_66
+  - first:
+      213: -4758565357377637758
+    second: Crystal_golem_red - Sheet_67
+  - first:
+      213: -6605506483792815876
+    second: Crystal_golem_red - Sheet_68
+  - first:
+      213: -8816728629555212094
+    second: Crystal_golem_red - Sheet_69
+  - first:
+      213: -7688286116577185582
+    second: Crystal_golem_red - Sheet_70
+  - first:
+      213: 8903364091795632620
+    second: Crystal_golem_red - Sheet_71
+  - first:
+      213: -1756283755903628386
+    second: Crystal_golem_red - Sheet_72
+  - first:
+      213: -5133169374158890264
+    second: Crystal_golem_red - Sheet_73
+  - first:
+      213: 6103139406659338544
+    second: Crystal_golem_red - Sheet_74
+  - first:
+      213: -4538004070616718418
+    second: Crystal_golem_red - Sheet_75
+  - first:
+      213: 5719328725189793843
+    second: Crystal_golem_red - Sheet_76
+  - first:
+      213: 1935322762016270632
+    second: Crystal_golem_red - Sheet_77
+  - first:
+      213: -7279509217164245573
+    second: Crystal_golem_red - Sheet_78
+  - first:
+      213: 6582655520565576194
+    second: Crystal_golem_red - Sheet_79
+  - first:
+      213: -8218393487064809859
+    second: Crystal_golem_red - Sheet_80
+  - first:
+      213: 2719389220219838129
+    second: Crystal_golem_red - Sheet_81
+  - first:
+      213: -8276570205363557852
+    second: Crystal_golem_red - Sheet_82
+  - first:
+      213: 3035407603623615304
+    second: Crystal_golem_red - Sheet_83
+  - first:
+      213: -8821342727320761586
+    second: Crystal_golem_red - Sheet_84
+  - first:
+      213: 163639174418664527
+    second: Crystal_golem_red - Sheet_85
+  - first:
+      213: -5890358665933303683
+    second: Crystal_golem_red - Sheet_86
+  - first:
+      213: -8411043405109727199
+    second: Crystal_golem_red - Sheet_87
+  - first:
+      213: -6189364559205059971
+    second: Crystal_golem_red - Sheet_88
+  - first:
+      213: 157342620786576873
+    second: Crystal_golem_red - Sheet_89
+  - first:
+      213: 2767901238537546970
+    second: Crystal_golem_red - Sheet_90
+  - first:
+      213: 999680347199265056
+    second: Crystal_golem_red - Sheet_91
+  - first:
+      213: 6381115049122617203
+    second: Crystal_golem_red - Sheet_92
+  - first:
+      213: 6153364519179739995
+    second: Crystal_golem_red - Sheet_93
+  - first:
+      213: -4841555953271077182
+    second: Crystal_golem_red - Sheet_94
+  - first:
+      213: 1151155511441052104
+    second: Crystal_golem_red - Sheet_95
+  - first:
+      213: 4913575010483004881
+    second: Crystal_golem_red - Sheet_96
+  - first:
+      213: 1211520280600444624
+    second: Crystal_golem_red - Sheet_97
+  - first:
+      213: -8854302325395332156
+    second: Crystal_golem_red - Sheet_98
+  - first:
+      213: 528937257661204497
+    second: Crystal_golem_red - Sheet_99
+  - first:
+      213: -3927229014247552658
+    second: Crystal_golem_red - Sheet_100
+  - first:
+      213: 2935487097759408807
+    second: Crystal_golem_red - Sheet_101
+  - first:
+      213: -6642545709504745055
+    second: Crystal_golem_red - Sheet_102
+  - first:
+      213: -7619243812819435963
+    second: Crystal_golem_red - Sheet_103
+  - first:
+      213: 8056694060347948220
+    second: Crystal_golem_red - Sheet_104
+  - first:
+      213: 8149018381677029753
+    second: Crystal_golem_red - Sheet_105
+  - first:
+      213: 6550604575973707943
+    second: Crystal_golem_red - Sheet_106
+  - first:
+      213: 8279031933165054909
+    second: Crystal_golem_red - Sheet_107
+  - first:
+      213: -8266976685990137675
+    second: Crystal_golem_red - Sheet_108
+  - first:
+      213: 3397468264155697897
+    second: Crystal_golem_red - Sheet_109
+  - first:
+      213: 4785086233310842896
+    second: Crystal_golem_red - Sheet_110
+  - first:
+      213: 6818224642027709094
+    second: Crystal_golem_red - Sheet_111
+  - first:
+      213: 3655196118869099353
+    second: Crystal_golem_red - Sheet_112
+  - first:
+      213: 328905373559426568
+    second: Crystal_golem_red - Sheet_113
+  - first:
+      213: -3052562472920037774
+    second: Crystal_golem_red - Sheet_114
+  - first:
+      213: -3581640804000560099
+    second: Crystal_golem_red - Sheet_115
+  - first:
+      213: 6998582922783553094
+    second: Crystal_golem_red - Sheet_116
+  - first:
+      213: 7549065413641681019
+    second: Crystal_golem_red - Sheet_117
+  - first:
+      213: 7720531065625802512
+    second: Crystal_golem_red - Sheet_118
+  - first:
+      213: -7319376475827407338
+    second: Crystal_golem_red - Sheet_119
+  - first:
+      213: -9181308301008966745
+    second: Crystal_golem_red - Sheet_120
+  - first:
+      213: 6296302740250546228
+    second: Crystal_golem_red - Sheet_121
+  - first:
+      213: 2581443376447447137
+    second: Crystal_golem_red - Sheet_122
+  - first:
+      213: -8913060945558974707
+    second: Crystal_golem_red - Sheet_123
+  - first:
+      213: -6001995872331942777
+    second: Crystal_golem_red - Sheet_124
+  - first:
+      213: -8452199813831307775
+    second: Crystal_golem_red - Sheet_125
+  - first:
+      213: -290817502546056596
+    second: Crystal_golem_red - Sheet_126
+  - first:
+      213: -2924688480128323141
+    second: Crystal_golem_red - Sheet_127
+  - first:
+      213: -7312232299163984435
+    second: Crystal_golem_red - Sheet_128
+  - first:
+      213: 5802772844305967100
+    second: Crystal_golem_red - Sheet_129
+  - first:
+      213: 343860519109535520
+    second: Crystal_golem_red - Sheet_130
+  - first:
+      213: 1066246003342354123
+    second: Crystal_golem_red - Sheet_131
+  - first:
+      213: 5318832341512434148
+    second: Crystal_golem_red - Sheet_132
+  - first:
+      213: 8633272734713016863
+    second: Crystal_golem_red - Sheet_133
+  - first:
+      213: 8311340539812202347
+    second: Crystal_golem_red - Sheet_134
+  - first:
+      213: 6555785486765005232
+    second: Crystal_golem_red - Sheet_135
+  - first:
+      213: 5317614787396232030
+    second: Crystal_golem_red - Sheet_136
+  - first:
+      213: 2447594101828404203
+    second: Crystal_golem_red - Sheet_137
+  - first:
+      213: 7688183744935084335
+    second: Crystal_golem_red - Sheet_138
+  - first:
+      213: 3401257208916431290
+    second: Crystal_golem_red - Sheet_139
+  - first:
+      213: -4176477458489681596
+    second: Crystal_golem_red - Sheet_140
+  - first:
+      213: -3909369426439253637
+    second: Crystal_golem_red - Sheet_141
+  - first:
+      213: -7473598131585768926
+    second: Crystal_golem_red - Sheet_142
+  - first:
+      213: -9163542948848135524
+    second: Crystal_golem_red - Sheet_143
+  - first:
+      213: 1678255486355622668
+    second: Crystal_golem_red - Sheet_144
+  - first:
+      213: -3332379836154632906
+    second: Crystal_golem_red - Sheet_145
+  - first:
+      213: 4727279820048769251
+    second: Crystal_golem_red - Sheet_146
+  - first:
+      213: -7021461891230181327
+    second: Crystal_golem_red - Sheet_147
+  - first:
+      213: -2336881866785022098
+    second: Crystal_golem_red - Sheet_148
+  - first:
+      213: 3602876093267220863
+    second: Crystal_golem_red - Sheet_149
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 597
+        width: 63
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88ed2b45ef1023bf0800000000000000
+      internalID: -346212029499777400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 673
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d7570df553521160800000000000000
+      internalID: 6994744800042244053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 669
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cea1671b2e28ffb60800000000000000
+      internalID: 7782082591271033580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 672
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f39df62fc97fdc270800000000000000
+      internalID: 8272540344003844415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 598
+        width: 63
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c5241df3b20cc880800000000000000
+      internalID: -8589487417234020921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 1196
+        y: 598
+        width: 63
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45d88db8767a67b90800000000000000
+      internalID: -7244418887409169068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 597
+        width: 64
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85423661593d12bb0800000000000000
+      internalID: -4962452677106391976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 650
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15702a9e13d386bb0800000000000000
+      internalID: -4942633306456717487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 598
+        width: 63
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc82745f75b59b540800000000000000
+      internalID: 5024147292643862735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 651
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c55316d4137313470800000000000000
+      internalID: 8372533867149604188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 598
+        width: 63
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c1cf07406e57b5a0800000000000000
+      internalID: -6505627369111305790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 651
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3aaf863b617d5690800000000000000
+      internalID: -7611803089895445955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 599
+        width: 63
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7266566c0ae5cce70800000000000000
+      internalID: 9136781788644206119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 652
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1594657832722470800000000000000
+      internalID: 8368376644421063967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 599
+        width: 63
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dced1a5d6975943d0800000000000000
+      internalID: -3221947753066012979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 652
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f64c8d683fa984a0800000000000000
+      internalID: -6590543922789071117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 462
+        width: 64
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff6e8450712a21bd0800000000000000
+      internalID: -2660886210065930497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 461
+        width: 64
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02fc658349b826280800000000000000
+      internalID: -9051518832344641760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 530
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f93870d62f5f27d20800000000000000
+      internalID: 3274950300611871647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 508
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6fa2d04c40e14500800000000000000
+      internalID: 378830461785517930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 506
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2de314547e6253f0800000000000000
+      internalID: -913546328496935638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 507
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b1681d142ceaae40800000000000000
+      internalID: 5668602720850305461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 518
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bbbbeec0312b0d10800000000000000
+      internalID: 2092802945357429688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 886
+        y: 523
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26e4e853c9bfcbd30800000000000000
+      internalID: 4448707180267196002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 508
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32d0e779c43839020800000000000000
+      internalID: 2347364195772534051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 520
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0438e200e1532640800000000000000
+      internalID: 5053973229403124751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 1058
+        y: 509
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a34b7a8ee06aff30800000000000000
+      internalID: 4610103746208940963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 1226
+        y: 508
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d2c6172baa9b8300800000000000000
+      internalID: 255467863762453209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 462
+        width: 62
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba99313e792c2e9b0800000000000000
+      internalID: -5052261874350712405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 461
+        width: 62
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 652995ddeaac3d2d0800000000000000
+      internalID: -3255035253271981482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 462
+        width: 62
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24b23b563db76d970800000000000000
+      internalID: 8779340671479917378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 463
+        width: 65
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7321103e6b1f65e70800000000000000
+      internalID: 9103729464570876471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 464
+        width: 62
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61f27453beeeab730800000000000000
+      internalID: 4015784711732801302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 463
+        width: 62
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1a0abf5b21ed3a50800000000000000
+      internalID: 6502601013398735391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 368
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34d6992623b80a870800000000000000
+      internalID: 8692100329343905091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 317
+        width: 66
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb47188562ff3b830800000000000000
+      internalID: 4085889827113891006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_36
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 321
+        width: 68
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19b77b06c8b5da8d0800000000000000
+      internalID: -2833507932069987439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_37
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 374
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fc887837199c4440800000000000000
+      internalID: 4921476817819831543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_38
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 322
+        width: 66
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44e05b59cf00ed1c0800000000000000
+      internalID: -4477139894716264892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_39
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 322
+        width: 67
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bbaf47c215616710800000000000000
+      internalID: 1684738866940980149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_40
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 375
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2dbe27e9fbbf3f50800000000000000
+      internalID: 6863411039135776042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_41
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 318
+        width: 51
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b6b645df81088180800000000000000
+      internalID: -9113032128714066253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_42
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 364
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e0ee54f6fe3abfc0800000000000000
+      internalID: -3478398531807551260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_43
+      rect:
+        serializedVersion: 2
+        x: 1225
+        y: 318
+        width: 51
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dd50f0c4cd10e640800000000000000
+      internalID: 5107114708325916121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_44
+      rect:
+        serializedVersion: 2
+        x: 1406
+        y: 364
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2f7ec42dc033a860800000000000000
+      internalID: 7539923858792283949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_45
+      rect:
+        serializedVersion: 2
+        x: 1555
+        y: 318
+        width: 51
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc564a2dfcafb30c0800000000000000
+      internalID: -4594803224302295601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_46
+      rect:
+        serializedVersion: 2
+        x: 1736
+        y: 366
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc17827989ccfc0e0800000000000000
+      internalID: -2247352733291482676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_47
+      rect:
+        serializedVersion: 2
+        x: 1879
+        y: 370
+        width: 37
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 888bebd6cc8761070800000000000000
+      internalID: 8076775801145440392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_48
+      rect:
+        serializedVersion: 2
+        x: 1893
+        y: 368
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 899c388c3c05829c0800000000000000
+      internalID: -3951819871204685416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_49
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 315
+        width: 69
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b9d7464771393770800000000000000
+      internalID: 8590952152535914937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_50
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 338
+        width: 64
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9be3f73bbd4e31ad0800000000000000
+      internalID: -2732588916623327559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_51
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 318
+        width: 120
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a21db7c0c4ec1b230800000000000000
+      internalID: 3652927598796460330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_52
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 329
+        width: 67
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6894c4c5ee7768b0800000000000000
+      internalID: -5159015322815784853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_53
+      rect:
+        serializedVersion: 2
+        x: 1388
+        y: 318
+        width: 52
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbee506c2d5081930800000000000000
+      internalID: 4114044662426496701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_54
+      rect:
+        serializedVersion: 2
+        x: 1445
+        y: 340
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d8f22b85912399b0800000000000000
+      internalID: -5074675428948248368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_55
+      rect:
+        serializedVersion: 2
+        x: 1451
+        y: 329
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43eedde71cd8a7410800000000000000
+      internalID: 1475647690113936948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_56
+      rect:
+        serializedVersion: 2
+        x: 1461
+        y: 342
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d9623c7194ddd750800000000000000
+      internalID: 6331450372471810519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_57
+      rect:
+        serializedVersion: 2
+        x: 1465
+        y: 329
+        width: 21
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 185cae0306b357b80800000000000000
+      internalID: -8397740645838830207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_58
+      rect:
+        serializedVersion: 2
+        x: 1471
+        y: 336
+        width: 18
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64c604c3bad19f9f0800000000000000
+      internalID: -434283267777074106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_59
+      rect:
+        serializedVersion: 2
+        x: 1479
+        y: 343
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28afe9f75a22156e0800000000000000
+      internalID: -1850659877666489726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_60
+      rect:
+        serializedVersion: 2
+        x: 1487
+        y: 329
+        width: 21
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 836055c550a119ed0800000000000000
+      internalID: -2409115715340270024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_61
+      rect:
+        serializedVersion: 2
+        x: 1489
+        y: 344
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fef6485b16adc0450800000000000000
+      internalID: 6056455712098512879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_62
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 337
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a07452ee1102d630800000000000000
+      internalID: 3950221055315177632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_63
+      rect:
+        serializedVersion: 2
+        x: 1613
+        y: 330
+        width: 27
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e77084ea78057260800000000000000
+      internalID: 7094586111904741349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_64
+      rect:
+        serializedVersion: 2
+        x: 1630
+        y: 327
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd2633545d9a892c0800000000000000
+      internalID: -4424599900437388581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_65
+      rect:
+        serializedVersion: 2
+        x: 1648
+        y: 329
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35734eda6afee21a0800000000000000
+      internalID: -6832260085513439405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_66
+      rect:
+        serializedVersion: 2
+        x: 1659
+        y: 335
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7660c4ee56d17d9d0800000000000000
+      internalID: -2749696723859536281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_67
+      rect:
+        serializedVersion: 2
+        x: 1666
+        y: 329
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 282b609f40e26fdb0800000000000000
+      internalID: -4758565357377637758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_68
+      rect:
+        serializedVersion: 2
+        x: 1713
+        y: 313
+        width: 134
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf85df7b9d68454a0800000000000000
+      internalID: -6605506483792815876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_69
+      rect:
+        serializedVersion: 2
+        x: 1868
+        y: 315
+        width: 148
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c058524600b4a580800000000000000
+      internalID: -8816728629555212094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_70
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 227
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d079d1e288bd4590800000000000000
+      internalID: -7688286116577185582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_71
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 176
+        width: 66
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce1727d287a1f8b70800000000000000
+      internalID: 8903364091795632620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_72
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 180
+        width: 68
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9b439caa3d60a7e0800000000000000
+      internalID: -1756283755903628386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_73
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 233
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ea5851a6a153c8b0800000000000000
+      internalID: -5133169374158890264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_74
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 181
+        width: 66
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0314e9c54f4b2b450800000000000000
+      internalID: 6103139406659338544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_75
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 181
+        width: 67
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea32d955755c501c0800000000000000
+      internalID: -4538004070616718418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_76
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 234
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33810aa5c232f5f40800000000000000
+      internalID: 5719328725189793843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_77
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 177
+        width: 51
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82925bb5cc5abda10800000000000000
+      internalID: 1935322762016270632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_78
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 223
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb54ebb7fecf9fa90800000000000000
+      internalID: -7279509217164245573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_79
+      rect:
+        serializedVersion: 2
+        x: 1225
+        y: 177
+        width: 51
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 202431ec15a4a5b50800000000000000
+      internalID: 6582655520565576194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_80
+      rect:
+        serializedVersion: 2
+        x: 1294
+        y: 225
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7e3e1b9aa662fd80800000000000000
+      internalID: -8218393487064809859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_81
+      rect:
+        serializedVersion: 2
+        x: 1406
+        y: 223
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1beda3d76163db520800000000000000
+      internalID: 2719389220219838129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_82
+      rect:
+        serializedVersion: 2
+        x: 1470
+        y: 230
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42a29b6df37b32d80800000000000000
+      internalID: -8276570205363557852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_83
+      rect:
+        serializedVersion: 2
+        x: 1555
+        y: 177
+        width: 51
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84b518a122fef1a20800000000000000
+      internalID: 3035407603623615304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_84
+      rect:
+        serializedVersion: 2
+        x: 1646
+        y: 234
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0b0218e68b449580800000000000000
+      internalID: -8821342727320761586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_85
+      rect:
+        serializedVersion: 2
+        x: 1713
+        y: 164
+        width: 65
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4c009e46fc554200800000000000000
+      internalID: 163639174418664527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_86
+      rect:
+        serializedVersion: 2
+        x: 1736
+        y: 225
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d70d665700e314ea0800000000000000
+      internalID: -5890358665933303683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_87
+      rect:
+        serializedVersion: 2
+        x: 1793
+        y: 193
+        width: 53
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 120fa003698f54b80800000000000000
+      internalID: -8411043405109727199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_88
+      rect:
+        serializedVersion: 2
+        x: 1868
+        y: 143
+        width: 149
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d72b03fd9b5fa1aa0800000000000000
+      internalID: -6189364559205059971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_89
+      rect:
+        serializedVersion: 2
+        x: 1879
+        y: 229
+        width: 37
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ed430ca74efe2200800000000000000
+      internalID: 157342620786576873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_90
+      rect:
+        serializedVersion: 2
+        x: 1893
+        y: 227
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adce460f28f896620800000000000000
+      internalID: 2767901238537546970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_91
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 174
+        width: 69
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02950cfaaf39fdd00800000000000000
+      internalID: 999680347199265056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_92
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 177
+        width: 52
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3775add14564e8850800000000000000
+      internalID: 6381115049122617203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_93
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 163
+        width: 59
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b536333ad64256550800000000000000
+      internalID: 6153364519179739995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_94
+      rect:
+        serializedVersion: 2
+        x: 1245
+        y: 162
+        width: 64
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c6891d13865fccb0800000000000000
+      internalID: -4841555953271077182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_95
+      rect:
+        serializedVersion: 2
+        x: 1269
+        y: 216
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c15daca6d9b9ff00800000000000000
+      internalID: 1151155511441052104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_96
+      rect:
+        serializedVersion: 2
+        x: 1388
+        y: 177
+        width: 52
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d563155076803440800000000000000
+      internalID: 4913575010483004881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_97
+      rect:
+        serializedVersion: 2
+        x: 1435
+        y: 219
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0defe5bb64f20d010800000000000000
+      internalID: 1211520280600444624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_98
+      rect:
+        serializedVersion: 2
+        x: 1605
+        y: 225
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c365e872f23f1580800000000000000
+      internalID: -8854302325395332156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_99
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 184
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1188d5722a9275700800000000000000
+      internalID: 528937257661204497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_100
+      rect:
+        serializedVersion: 2
+        x: 1312
+        y: 208
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e69ca26d40eaf79c0800000000000000
+      internalID: -3927229014247552658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_101
+      rect:
+        serializedVersion: 2
+        x: 1490
+        y: 210
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a221b866f1fcb820800000000000000
+      internalID: 2935487097759408807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_102
+      rect:
+        serializedVersion: 2
+        x: 1667
+        y: 213
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a1bca4fedfe0d3a0800000000000000
+      internalID: -6642545709504745055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_103
+      rect:
+        serializedVersion: 2
+        x: 1313
+        y: 165
+        width: 13
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54efdc7ee12034690800000000000000
+      internalID: -7619243812819435963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_104
+      rect:
+        serializedVersion: 2
+        x: 1443
+        y: 183
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbcf90bcf802fcf60800000000000000
+      internalID: 8056694060347948220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_105
+      rect:
+        serializedVersion: 2
+        x: 1469
+        y: 177
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 979ecf3fa01271170800000000000000
+      internalID: 8149018381677029753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_106
+      rect:
+        serializedVersion: 2
+        x: 1616
+        y: 191
+        width: 19
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a016feb72c68ea50800000000000000
+      internalID: 6550604575973707943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_107
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 164
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbb2b64dda705e270800000000000000
+      internalID: 8279031933165054909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_108
+      rect:
+        serializedVersion: 2
+        x: 1437
+        y: 174
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b03f11218cc54d80800000000000000
+      internalID: -8266976685990137675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_109
+      rect:
+        serializedVersion: 2
+        x: 1493
+        y: 169
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e2d9acb26b362f20800000000000000
+      internalID: 3397468264155697897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_110
+      rect:
+        serializedVersion: 2
+        x: 1603
+        y: 169
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 010da14a39a086240800000000000000
+      internalID: 4785086233310842896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_111
+      rect:
+        serializedVersion: 2
+        x: 1646
+        y: 177
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a260eaff233f9e50800000000000000
+      internalID: 6818224642027709094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_112
+      rect:
+        serializedVersion: 2
+        x: 1669
+        y: 175
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9534499018dd9b230800000000000000
+      internalID: 3655196118869099353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_113
+      rect:
+        serializedVersion: 2
+        x: 1811
+        y: 148
+        width: 36
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80e0ab3d1b1809400800000000000000
+      internalID: 328905373559426568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_114
+      rect:
+        serializedVersion: 2
+        x: 1464
+        y: 159
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 276c9e2aa9e13a5d0800000000000000
+      internalID: -3052562472920037774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_115
+      rect:
+        serializedVersion: 2
+        x: 1569
+        y: 155
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1c80844aa47b4ec0800000000000000
+      internalID: -3581640804000560099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_116
+      rect:
+        serializedVersion: 2
+        x: 1636
+        y: 153
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 646f0a39616ff1160800000000000000
+      internalID: 6998582922783553094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_117
+      rect:
+        serializedVersion: 2
+        x: 1735
+        y: 153
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b78bc4e3ffaa3c860800000000000000
+      internalID: 7549065413641681019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_118
+      rect:
+        serializedVersion: 2
+        x: 1897
+        y: 152
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0177efb5916d42b60800000000000000
+      internalID: 7720531065625802512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_119
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 87
+        width: 35
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 616f4fcffd95c6a90800000000000000
+      internalID: -7319376475827407338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_120
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 34
+        width: 65
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7abe301beb0759080800000000000000
+      internalID: -9181308301008966745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_121
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 35
+        width: 71
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 430d3f6abf5f06750800000000000000
+      internalID: 6296302740250546228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_122
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 94
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1606fe4e21123d320800000000000000
+      internalID: 2581443376447447137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_123
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 104
+        width: 19
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0fcc8e1b427e4480800000000000000
+      internalID: -8913060945558974707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_124
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 89
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7843b46dd80a4bca0800000000000000
+      internalID: -6001995872331942777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_125
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 98
+        width: 30
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10e46fd0d01c3ba80800000000000000
+      internalID: -8452199813831307775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_126
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 98
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6aa642b50fc6fbf0800000000000000
+      internalID: -290817502546056596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_127
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 87
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb1364fa25b6967d0800000000000000
+      internalID: -2924688480128323141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_128
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 95
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcd513d377bb58a90800000000000000
+      internalID: -7312232299163984435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_129
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 31
+        width: 82
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf7e3215827978050800000000000000
+      internalID: 5802772844305967100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_130
+      rect:
+        serializedVersion: 2
+        x: 1057
+        y: 85
+        width: 12
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0272ecdf153a5c400800000000000000
+      internalID: 343860519109535520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_131
+      rect:
+        serializedVersion: 2
+        x: 1103
+        y: 101
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc6a66047111cce00800000000000000
+      internalID: 1066246003342354123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_132
+      rect:
+        serializedVersion: 2
+        x: 1191
+        y: 25
+        width: 89
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e135bf85d940d940800000000000000
+      internalID: 5318832341512434148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_133
+      rect:
+        serializedVersion: 2
+        x: 1226
+        y: 83
+        width: 12
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1272a9afcb8fc770800000000000000
+      internalID: 8633272734713016863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_134
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 33
+        width: 64
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b674fc28f20d75370800000000000000
+      internalID: 8311340539812202347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_135
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 86
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b91a4a8a24dafa50800000000000000
+      internalID: 6555785486765005232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_136
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 34
+        width: 63
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e53ed17a976fbc940800000000000000
+      internalID: 5317614787396232030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_137
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 36
+        width: 65
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be3c2d12ed997f120800000000000000
+      internalID: 2447594101828404203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_138
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 78
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f21c9ccd16ae1ba60800000000000000
+      internalID: 7688183744935084335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_139
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 82
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab1533f2961b33f20800000000000000
+      internalID: 3401257208916431290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_140
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 35
+        width: 61
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 449db4221eb2a06c0800000000000000
+      internalID: -4176477458489681596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_141
+      rect:
+        serializedVersion: 2
+        x: 1369
+        y: 17
+        width: 59
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b71d05928312fb9c0800000000000000
+      internalID: -3909369426439253637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_142
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 76
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 222aecc9812784890800000000000000
+      internalID: -7473598131585768926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_143
+      rect:
+        serializedVersion: 2
+        x: 1537
+        y: 18
+        width: 59
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c921fd11d3e84d080800000000000000
+      internalID: -9163542948848135524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_144
+      rect:
+        serializedVersion: 2
+        x: 1736
+        y: 55
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0bc39a197c5a4710800000000000000
+      internalID: 1678255486355622668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_145
+      rect:
+        serializedVersion: 2
+        x: 1881
+        y: 14
+        width: 57
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6352459d13201c1d0800000000000000
+      internalID: -3332379836154632906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_146
+      rect:
+        serializedVersion: 2
+        x: 1710
+        y: 14
+        width: 60
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e021eb33fbaa9140800000000000000
+      internalID: 4727279820048769251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_147
+      rect:
+        serializedVersion: 2
+        x: 2047
+        y: 13
+        width: 59
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13858497c91ce8e90800000000000000
+      internalID: -7021461891230181327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_148
+      rect:
+        serializedVersion: 2
+        x: 2215
+        y: 13
+        width: 67
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6f1a30d25ab19fd0800000000000000
+      internalID: -2336881866785022098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_red - Sheet_149
+      rect:
+        serializedVersion: 2
+        x: 2383
+        y: 13
+        width: 68
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7990fcc7bcfff130800000000000000
+      internalID: 3602876093267220863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

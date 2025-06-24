@@ -1,0 +1,1442 @@
+fileFormatVersion: 2
+guid: af51dbe54615d0e429434eac99f56705
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8729815530164924707
+    second: Hellfire_rhino-Sheet_blue_0
+  - first:
+      213: 9054196227787449728
+    second: Hellfire_rhino-Sheet_blue_1
+  - first:
+      213: 1699472157303804896
+    second: Hellfire_rhino-Sheet_blue_2
+  - first:
+      213: 4950841016051114016
+    second: Hellfire_rhino-Sheet_blue_3
+  - first:
+      213: 6361676545334221068
+    second: Hellfire_rhino-Sheet_blue_4
+  - first:
+      213: -5400375812092021430
+    second: Hellfire_rhino-Sheet_blue_5
+  - first:
+      213: 7105387933512026539
+    second: Hellfire_rhino-Sheet_blue_6
+  - first:
+      213: -1066039677967321855
+    second: Hellfire_rhino-Sheet_blue_7
+  - first:
+      213: 4749480369637760773
+    second: Hellfire_rhino-Sheet_blue_8
+  - first:
+      213: 4812241576247052851
+    second: Hellfire_rhino-Sheet_blue_9
+  - first:
+      213: -1921315769108923026
+    second: Hellfire_rhino-Sheet_blue_10
+  - first:
+      213: -4621047065911607684
+    second: Hellfire_rhino-Sheet_blue_11
+  - first:
+      213: -131149152952011382
+    second: Hellfire_rhino-Sheet_blue_12
+  - first:
+      213: 7463457732349779269
+    second: Hellfire_rhino-Sheet_blue_13
+  - first:
+      213: -8287298614035492283
+    second: Hellfire_rhino-Sheet_blue_14
+  - first:
+      213: -2131098194145706572
+    second: Hellfire_rhino-Sheet_blue_15
+  - first:
+      213: 784809615312335109
+    second: Hellfire_rhino-Sheet_blue_16
+  - first:
+      213: 8429978217000115098
+    second: Hellfire_rhino-Sheet_blue_17
+  - first:
+      213: -6430158788084428895
+    second: Hellfire_rhino-Sheet_blue_18
+  - first:
+      213: 4773520148672188458
+    second: Hellfire_rhino-Sheet_blue_19
+  - first:
+      213: -2807806959581388886
+    second: Hellfire_rhino-Sheet_blue_20
+  - first:
+      213: -7027079660266462388
+    second: Hellfire_rhino-Sheet_blue_21
+  - first:
+      213: 5973186523247610324
+    second: Hellfire_rhino-Sheet_blue_22
+  - first:
+      213: 737402244058518313
+    second: Hellfire_rhino-Sheet_blue_23
+  - first:
+      213: 1621020823043596184
+    second: Hellfire_rhino-Sheet_blue_24
+  - first:
+      213: 8901795422965436774
+    second: Hellfire_rhino-Sheet_blue_25
+  - first:
+      213: 1437124663775841873
+    second: Hellfire_rhino-Sheet_blue_26
+  - first:
+      213: 5266148973065400480
+    second: Hellfire_rhino-Sheet_blue_27
+  - first:
+      213: 4635836257979403059
+    second: Hellfire_rhino-Sheet_blue_28
+  - first:
+      213: -4380300856073011578
+    second: Hellfire_rhino-Sheet_blue_29
+  - first:
+      213: 4111792056129334708
+    second: Hellfire_rhino-Sheet_blue_30
+  - first:
+      213: -5441848021877720190
+    second: Hellfire_rhino-Sheet_blue_31
+  - first:
+      213: 4281678078968343324
+    second: Hellfire_rhino-Sheet_blue_32
+  - first:
+      213: -6622909498015145335
+    second: Hellfire_rhino-Sheet_blue_33
+  - first:
+      213: -2616851754309890270
+    second: Hellfire_rhino-Sheet_blue_34
+  - first:
+      213: 6842543687427885052
+    second: Hellfire_rhino-Sheet_blue_35
+  - first:
+      213: -8289615483199123864
+    second: Hellfire_rhino-Sheet_blue_36
+  - first:
+      213: 3528136131954740860
+    second: Hellfire_rhino-Sheet_blue_37
+  - first:
+      213: 3904512970033474680
+    second: Hellfire_rhino-Sheet_blue_38
+  - first:
+      213: -8748325137110924837
+    second: Hellfire_rhino-Sheet_blue_39
+  - first:
+      213: -5407894833529617511
+    second: Hellfire_rhino-Sheet_blue_40
+  - first:
+      213: 199826979393889579
+    second: Hellfire_rhino-Sheet_blue_41
+  - first:
+      213: -4944971805555182140
+    second: Hellfire_rhino-Sheet_blue_42
+  - first:
+      213: -2411575429285431309
+    second: Hellfire_rhino-Sheet_blue_43
+  - first:
+      213: 2057092546992255819
+    second: Hellfire_rhino-Sheet_blue_44
+  - first:
+      213: 6315248704341438260
+    second: Hellfire_rhino-Sheet_blue_45
+  - first:
+      213: -3730056418005803077
+    second: Hellfire_rhino-Sheet_blue_46
+  - first:
+      213: -1113185629262423391
+    second: Hellfire_rhino-Sheet_blue_47
+  - first:
+      213: 7889845183845866895
+    second: Hellfire_rhino-Sheet_blue_48
+  - first:
+      213: -7966206937395784775
+    second: Hellfire_rhino-Sheet_blue_49
+  - first:
+      213: -1548395061357262788
+    second: Hellfire_rhino-Sheet_blue_50
+  - first:
+      213: -3056554907593094922
+    second: Hellfire_rhino-Sheet_blue_51
+  - first:
+      213: 1013155572862793899
+    second: Hellfire_rhino-Sheet_blue_52
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Hellfire_rhino-Sheet_blue_0
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 342
+        width: 59
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3213b2ed8f8862970800000000000000
+      internalID: 8729815530164924707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hellfire_rhino-Sheet_blue_1
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 342
+        width: 59
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 085e3fb7f77f6ad70800000000000000
+      internalID: 9054196227787449728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hellfire_rhino-Sheet_blue_2
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 342
+        width: 59
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e392c14cecb59710800000000000000
+      internalID: 1699472157303804896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hellfire_rhino-Sheet_blue_3
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 342
+        width: 60
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02029256cabe4b440800000000000000
+      internalID: 4950841016051114016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hellfire_rhino-Sheet_blue_4
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 342
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c099494cc17394850800000000000000
+      internalID: 6361676545334221068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hellfire_rhino-Sheet_blue_5
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 342
+        width: 60
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a45b4a2bfc20e05b0800000000000000
+      internalID: -5400375812092021430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hellfire_rhino-Sheet_blue_6
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 342
+        width: 60
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba9c458fda86b9260800000000000000
+      internalID: 7105387933512026539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hellfire_rhino-Sheet_blue_7
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 342
+        width: 59
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 105394e9f8aa431f0800000000000000
+      internalID: -1066039677967321855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hellfire_rhino-Sheet_blue_8
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 230
+        width: 56
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50f13fb7b3b89e140800000000000000
+      internalID: 4749480369637760773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hellfire_rhino-Sheet_blue_9
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 230
+        width: 57
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33a429d973488c240800000000000000
+      internalID: 4812241576247052851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hellfire_rhino-Sheet_blue_10
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 231
+        width: 58
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6df7e0dc7d1655e0800000000000000
+      internalID: -1921315769108923026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hellfire_rhino-Sheet_blue_11
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 231
+        width: 59
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7e3af94d2ebedfb0800000000000000
+      internalID: -4621047065911607684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hellfire_rhino-Sheet_blue_12
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 230
+        width: 59
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a85b3bd4a801e2ef0800000000000000
+      internalID: -131149152952011382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hellfire_rhino-Sheet_blue_13
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 230
+        width: 55
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54dd9d4b347839760800000000000000
+      internalID: 7463457732349779269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hellfire_rhino-Sheet_blue_14
+      rect:
+        serializedVersion: 2
+        x: 1186
+        y: 118
+        width: 102
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 542d3da81d99dfc80800000000000000
+      internalID: -8287298614035492283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hellfire_rhino-Sheet_blue_15
+      rect:
+        serializedVersion: 2
+        x: 1394
+        y: 172
+        width: 36
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bdf774cb71dc62e0800000000000000
+      internalID: -2131098194145706572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hellfire_rhino-Sheet_blue_16
+      rect:
+        serializedVersion: 2
+        x: 1520
+        y: 204
+        width: 23
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 501b001ef2434ea00800000000000000
+      internalID: 784809615312335109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hellfire_rhino-Sheet_blue_17
+      rect:
+        serializedVersion: 2
+        x: 1542
+        y: 200
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9b9290468c4df470800000000000000
+      internalID: 8429978217000115098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hellfire_rhino-Sheet_blue_18
+      rect:
+        serializedVersion: 2
+        x: 1656
+        y: 164
+        width: 59
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1af0fd296ac73c6a0800000000000000
+      internalID: -6430158788084428895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hellfire_rhino-Sheet_blue_19
+      rect:
+        serializedVersion: 2
+        x: 1757
+        y: 118
+        width: 99
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2096c5b843fe3240800000000000000
+      internalID: 4773520148672188458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hellfire_rhino-Sheet_blue_20
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 118
+        width: 102
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaf1848527aa809d0800000000000000
+      internalID: -2807806959581388886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hellfire_rhino-Sheet_blue_21
+      rect:
+        serializedVersion: 2
+        x: 1548
+        y: 179
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c43e171b74cca7e90800000000000000
+      internalID: -7027079660266462388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hellfire_rhino-Sheet_blue_22
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 118
+        width: 59
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d9035fde7505e250800000000000000
+      internalID: 5973186523247610324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hellfire_rhino-Sheet_blue_23
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 118
+        width: 56
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9231fad1f67cb3a00800000000000000
+      internalID: 737402244058518313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hellfire_rhino-Sheet_blue_24
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 118
+        width: 57
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89f560b99d50f7610800000000000000
+      internalID: 1621020823043596184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hellfire_rhino-Sheet_blue_25
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 118
+        width: 57
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6619d0106c7898b70800000000000000
+      internalID: 8901795422965436774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hellfire_rhino-Sheet_blue_26
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 118
+        width: 57
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15ecf4a7441b1f310800000000000000
+      internalID: 1437124663775841873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hellfire_rhino-Sheet_blue_27
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 118
+        width: 56
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a0f9d9f69e151940800000000000000
+      internalID: 5266148973065400480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hellfire_rhino-Sheet_blue_28
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 118
+        width: 77
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33b0db1d38cc55040800000000000000
+      internalID: 4635836257979403059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hellfire_rhino-Sheet_blue_29
+      rect:
+        serializedVersion: 2
+        x: 1329
+        y: 118
+        width: 95
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68ebd68449b0633c0800000000000000
+      internalID: -4380300856073011578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hellfire_rhino-Sheet_blue_30
+      rect:
+        serializedVersion: 2
+        x: 1421
+        y: 155
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bdacdff615001930800000000000000
+      internalID: 4111792056129334708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hellfire_rhino-Sheet_blue_31
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 6
+        width: 98
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28bf0566e0caa74b0800000000000000
+      internalID: -5441848021877720190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hellfire_rhino-Sheet_blue_32
+      rect:
+        serializedVersion: 2
+        x: 1614
+        y: 6
+        width: 98
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1b2c7b07839b6b30800000000000000
+      internalID: 4281678078968343324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hellfire_rhino-Sheet_blue_33
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 6
+        width: 59
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9822f37b6e2b614a0800000000000000
+      internalID: -6622909498015145335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hellfire_rhino-Sheet_blue_34
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 6
+        width: 61
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22f4082b1331fabd0800000000000000
+      internalID: -2616851754309890270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hellfire_rhino-Sheet_blue_35
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 6
+        width: 61
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf70b39fa3995fe50800000000000000
+      internalID: 6842543687427885052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hellfire_rhino-Sheet_blue_36
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 6
+        width: 65
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86e865763ae55fc80800000000000000
+      internalID: -8289615483199123864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hellfire_rhino-Sheet_blue_37
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 6
+        width: 68
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7e02608e1576f030800000000000000
+      internalID: 3528136131954740860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hellfire_rhino-Sheet_blue_38
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 6
+        width: 65
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87c20c7fbdd9f2630800000000000000
+      internalID: 3904512970033474680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hellfire_rhino-Sheet_blue_39
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 49
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd102ee63a4b79680800000000000000
+      internalID: -8748325137110924837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hellfire_rhino-Sheet_blue_40
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 48
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9930cc81d4c43f4b0800000000000000
+      internalID: -5407894833529617511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hellfire_rhino-Sheet_blue_41
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 41
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b25ef4b349de5c200800000000000000
+      internalID: 199826979393889579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hellfire_rhino-Sheet_blue_42
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 38
+        width: 31
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c5bf89a75eef5bb0800000000000000
+      internalID: -4944971805555182140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hellfire_rhino-Sheet_blue_43
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 45
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f7b1649cec588ed0800000000000000
+      internalID: -2411575429285431309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hellfire_rhino-Sheet_blue_44
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 26
+        width: 56
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b43b395c5c24c8c10800000000000000
+      internalID: 2057092546992255819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hellfire_rhino-Sheet_blue_45
+      rect:
+        serializedVersion: 2
+        x: 1207
+        y: 18
+        width: 57
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43f648aac3544a750800000000000000
+      internalID: 6315248704341438260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hellfire_rhino-Sheet_blue_46
+      rect:
+        serializedVersion: 2
+        x: 1351
+        y: 6
+        width: 56
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbf1994537d2c3cc0800000000000000
+      internalID: -3730056418005803077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hellfire_rhino-Sheet_blue_47
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 6
+        width: 63
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1aa5ebe619b2d80f0800000000000000
+      internalID: -1113185629262423391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hellfire_rhino-Sheet_blue_48
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 36
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8d95fb746c5e7d60800000000000000
+      internalID: 7889845183845866895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hellfire_rhino-Sheet_blue_49
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 35
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b395494ff8527190800000000000000
+      internalID: -7966206937395784775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hellfire_rhino-Sheet_blue_50
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 6
+        width: 45
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c38c4db35eef28ae0800000000000000
+      internalID: -1548395061357262788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hellfire_rhino-Sheet_blue_51
+      rect:
+        serializedVersion: 2
+        x: 1105
+        y: 19
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f8cf60818fe495d0800000000000000
+      internalID: -3056554907593094922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hellfire_rhino-Sheet_blue_52
+      rect:
+        serializedVersion: 2
+        x: 1211
+        y: 6
+        width: 37
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba8b1b620a37f0e00800000000000000
+      internalID: 1013155572862793899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

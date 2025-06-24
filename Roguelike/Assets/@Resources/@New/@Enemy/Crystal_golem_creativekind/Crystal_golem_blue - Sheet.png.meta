@@ -1,0 +1,3867 @@
+fileFormatVersion: 2
+guid: 10d4bdafbb6b9a945801bc2399617784
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4502669164503347120
+    second: Crystal_golem_blue - Sheet_0
+  - first:
+      213: 4779579536378976081
+    second: Crystal_golem_blue - Sheet_1
+  - first:
+      213: -5039251258920895546
+    second: Crystal_golem_blue - Sheet_2
+  - first:
+      213: 3999762867915586214
+    second: Crystal_golem_blue - Sheet_3
+  - first:
+      213: 1610054445785207058
+    second: Crystal_golem_blue - Sheet_4
+  - first:
+      213: 5165665715638323240
+    second: Crystal_golem_blue - Sheet_5
+  - first:
+      213: 2160899543966909170
+    second: Crystal_golem_blue - Sheet_6
+  - first:
+      213: 151954670705323929
+    second: Crystal_golem_blue - Sheet_7
+  - first:
+      213: 1377987966468194360
+    second: Crystal_golem_blue - Sheet_8
+  - first:
+      213: -7637497461419554857
+    second: Crystal_golem_blue - Sheet_9
+  - first:
+      213: 908086373794058648
+    second: Crystal_golem_blue - Sheet_10
+  - first:
+      213: 5269148541827645067
+    second: Crystal_golem_blue - Sheet_11
+  - first:
+      213: 4082486773487997968
+    second: Crystal_golem_blue - Sheet_12
+  - first:
+      213: -84387241603207936
+    second: Crystal_golem_blue - Sheet_13
+  - first:
+      213: 4992494558873673642
+    second: Crystal_golem_blue - Sheet_14
+  - first:
+      213: -6292103641734507448
+    second: Crystal_golem_blue - Sheet_15
+  - first:
+      213: 7427952471598982394
+    second: Crystal_golem_blue - Sheet_16
+  - first:
+      213: -850354357779049384
+    second: Crystal_golem_blue - Sheet_17
+  - first:
+      213: -5328935747254875350
+    second: Crystal_golem_blue - Sheet_18
+  - first:
+      213: -5355625005857825335
+    second: Crystal_golem_blue - Sheet_19
+  - first:
+      213: 8771989220396252907
+    second: Crystal_golem_blue - Sheet_20
+  - first:
+      213: -671774717801314377
+    second: Crystal_golem_blue - Sheet_21
+  - first:
+      213: -3048788187852619548
+    second: Crystal_golem_blue - Sheet_22
+  - first:
+      213: -6207951095879534004
+    second: Crystal_golem_blue - Sheet_23
+  - first:
+      213: 4817532493607406894
+    second: Crystal_golem_blue - Sheet_24
+  - first:
+      213: -1467602008627428324
+    second: Crystal_golem_blue - Sheet_25
+  - first:
+      213: 1478476787679205897
+    second: Crystal_golem_blue - Sheet_26
+  - first:
+      213: 9150896332797845310
+    second: Crystal_golem_blue - Sheet_27
+  - first:
+      213: -1994267825331374505
+    second: Crystal_golem_blue - Sheet_28
+  - first:
+      213: -8037846143074974915
+    second: Crystal_golem_blue - Sheet_29
+  - first:
+      213: -4067591081999039973
+    second: Crystal_golem_blue - Sheet_30
+  - first:
+      213: 1682199469187712364
+    second: Crystal_golem_blue - Sheet_31
+  - first:
+      213: 2597056403172547598
+    second: Crystal_golem_blue - Sheet_32
+  - first:
+      213: 7089507064082676335
+    second: Crystal_golem_blue - Sheet_33
+  - first:
+      213: -3795011315401910849
+    second: Crystal_golem_blue - Sheet_34
+  - first:
+      213: -1672187716618470340
+    second: Crystal_golem_blue - Sheet_35
+  - first:
+      213: -891623190717157057
+    second: Crystal_golem_blue - Sheet_36
+  - first:
+      213: -1181941569271993197
+    second: Crystal_golem_blue - Sheet_37
+  - first:
+      213: 9110241449248378752
+    second: Crystal_golem_blue - Sheet_38
+  - first:
+      213: -6936550699847218176
+    second: Crystal_golem_blue - Sheet_39
+  - first:
+      213: -6457742504031809311
+    second: Crystal_golem_blue - Sheet_40
+  - first:
+      213: -5799502846618326226
+    second: Crystal_golem_blue - Sheet_41
+  - first:
+      213: 5630812795182601286
+    second: Crystal_golem_blue - Sheet_42
+  - first:
+      213: -884124205714694351
+    second: Crystal_golem_blue - Sheet_43
+  - first:
+      213: 1548579398681426850
+    second: Crystal_golem_blue - Sheet_44
+  - first:
+      213: -181704511383422311
+    second: Crystal_golem_blue - Sheet_45
+  - first:
+      213: -1364213329880627051
+    second: Crystal_golem_blue - Sheet_46
+  - first:
+      213: 3971095570682139036
+    second: Crystal_golem_blue - Sheet_47
+  - first:
+      213: 4203576696649225811
+    second: Crystal_golem_blue - Sheet_48
+  - first:
+      213: 2497713311969722237
+    second: Crystal_golem_blue - Sheet_49
+  - first:
+      213: 3247325225825485688
+    second: Crystal_golem_blue - Sheet_50
+  - first:
+      213: 9082882719973629169
+    second: Crystal_golem_blue - Sheet_51
+  - first:
+      213: -6185441788299641181
+    second: Crystal_golem_blue - Sheet_52
+  - first:
+      213: 8206783428033517381
+    second: Crystal_golem_blue - Sheet_53
+  - first:
+      213: -406378823129503677
+    second: Crystal_golem_blue - Sheet_54
+  - first:
+      213: 3852542641367577691
+    second: Crystal_golem_blue - Sheet_55
+  - first:
+      213: 7537245326382387874
+    second: Crystal_golem_blue - Sheet_56
+  - first:
+      213: -5738152728127281334
+    second: Crystal_golem_blue - Sheet_57
+  - first:
+      213: -4086779821340382857
+    second: Crystal_golem_blue - Sheet_58
+  - first:
+      213: -5118394580727736068
+    second: Crystal_golem_blue - Sheet_59
+  - first:
+      213: -1524665579783672704
+    second: Crystal_golem_blue - Sheet_60
+  - first:
+      213: 5136211656805718286
+    second: Crystal_golem_blue - Sheet_61
+  - first:
+      213: 4956001011260943298
+    second: Crystal_golem_blue - Sheet_62
+  - first:
+      213: 5254870946746037408
+    second: Crystal_golem_blue - Sheet_63
+  - first:
+      213: 702799197725759308
+    second: Crystal_golem_blue - Sheet_64
+  - first:
+      213: -8048058993010787463
+    second: Crystal_golem_blue - Sheet_65
+  - first:
+      213: -9110524104544498742
+    second: Crystal_golem_blue - Sheet_66
+  - first:
+      213: 254943169119219721
+    second: Crystal_golem_blue - Sheet_67
+  - first:
+      213: 138805751514215076
+    second: Crystal_golem_blue - Sheet_68
+  - first:
+      213: -5764014645589636288
+    second: Crystal_golem_blue - Sheet_69
+  - first:
+      213: -2315050726464142083
+    second: Crystal_golem_blue - Sheet_70
+  - first:
+      213: -2046679612131566699
+    second: Crystal_golem_blue - Sheet_71
+  - first:
+      213: 4437428772713220527
+    second: Crystal_golem_blue - Sheet_72
+  - first:
+      213: 6784228497526228396
+    second: Crystal_golem_blue - Sheet_73
+  - first:
+      213: -8062498826707081866
+    second: Crystal_golem_blue - Sheet_74
+  - first:
+      213: -1843554622346895197
+    second: Crystal_golem_blue - Sheet_75
+  - first:
+      213: -7541469077014465163
+    second: Crystal_golem_blue - Sheet_76
+  - first:
+      213: -6612115130051076120
+    second: Crystal_golem_blue - Sheet_77
+  - first:
+      213: 1091871630236751563
+    second: Crystal_golem_blue - Sheet_78
+  - first:
+      213: 416293211240275242
+    second: Crystal_golem_blue - Sheet_79
+  - first:
+      213: 9114204090859095613
+    second: Crystal_golem_blue - Sheet_80
+  - first:
+      213: 1218374341667508775
+    second: Crystal_golem_blue - Sheet_81
+  - first:
+      213: -676871206349478031
+    second: Crystal_golem_blue - Sheet_82
+  - first:
+      213: -6680337886852976587
+    second: Crystal_golem_blue - Sheet_83
+  - first:
+      213: 2621112356495646101
+    second: Crystal_golem_blue - Sheet_84
+  - first:
+      213: 8108242837446791922
+    second: Crystal_golem_blue - Sheet_85
+  - first:
+      213: -176758160076390916
+    second: Crystal_golem_blue - Sheet_86
+  - first:
+      213: -5663188328776730240
+    second: Crystal_golem_blue - Sheet_87
+  - first:
+      213: -8358821084062956476
+    second: Crystal_golem_blue - Sheet_88
+  - first:
+      213: -2355625026250534464
+    second: Crystal_golem_blue - Sheet_89
+  - first:
+      213: -2189599989750899821
+    second: Crystal_golem_blue - Sheet_90
+  - first:
+      213: -5872119257410738478
+    second: Crystal_golem_blue - Sheet_91
+  - first:
+      213: 3066249592758407749
+    second: Crystal_golem_blue - Sheet_92
+  - first:
+      213: 1973331924441093979
+    second: Crystal_golem_blue - Sheet_93
+  - first:
+      213: 6686290136295572954
+    second: Crystal_golem_blue - Sheet_94
+  - first:
+      213: -2277195143034603315
+    second: Crystal_golem_blue - Sheet_95
+  - first:
+      213: 7014173766666894702
+    second: Crystal_golem_blue - Sheet_96
+  - first:
+      213: 2129625837931187685
+    second: Crystal_golem_blue - Sheet_97
+  - first:
+      213: 2070352642916207785
+    second: Crystal_golem_blue - Sheet_98
+  - first:
+      213: -1345783154821413263
+    second: Crystal_golem_blue - Sheet_99
+  - first:
+      213: 9134943580050691438
+    second: Crystal_golem_blue - Sheet_100
+  - first:
+      213: 6828648093270927367
+    second: Crystal_golem_blue - Sheet_101
+  - first:
+      213: 4062291682832647708
+    second: Crystal_golem_blue - Sheet_102
+  - first:
+      213: -4492485934166779478
+    second: Crystal_golem_blue - Sheet_103
+  - first:
+      213: 8736048000842057654
+    second: Crystal_golem_blue - Sheet_104
+  - first:
+      213: -8744415803785427136
+    second: Crystal_golem_blue - Sheet_105
+  - first:
+      213: -4980744238621356952
+    second: Crystal_golem_blue - Sheet_106
+  - first:
+      213: 8815614446007067087
+    second: Crystal_golem_blue - Sheet_107
+  - first:
+      213: -7182432857481587534
+    second: Crystal_golem_blue - Sheet_108
+  - first:
+      213: -3943199834062125789
+    second: Crystal_golem_blue - Sheet_109
+  - first:
+      213: -6029296268871503280
+    second: Crystal_golem_blue - Sheet_110
+  - first:
+      213: -169814719493441274
+    second: Crystal_golem_blue - Sheet_111
+  - first:
+      213: -8586006181225403532
+    second: Crystal_golem_blue - Sheet_112
+  - first:
+      213: 3326288762613307665
+    second: Crystal_golem_blue - Sheet_113
+  - first:
+      213: -2054334025416526082
+    second: Crystal_golem_blue - Sheet_114
+  - first:
+      213: -4653798348580009898
+    second: Crystal_golem_blue - Sheet_115
+  - first:
+      213: 235287984598082656
+    second: Crystal_golem_blue - Sheet_116
+  - first:
+      213: 4165440256471531143
+    second: Crystal_golem_blue - Sheet_117
+  - first:
+      213: -9016805651441926633
+    second: Crystal_golem_blue - Sheet_118
+  - first:
+      213: -5892465462727210425
+    second: Crystal_golem_blue - Sheet_119
+  - first:
+      213: 3591381429034406180
+    second: Crystal_golem_blue - Sheet_120
+  - first:
+      213: -8750299957966995262
+    second: Crystal_golem_blue - Sheet_121
+  - first:
+      213: 5225898216332889804
+    second: Crystal_golem_blue - Sheet_122
+  - first:
+      213: -7404601794267858809
+    second: Crystal_golem_blue - Sheet_123
+  - first:
+      213: -8063135751917920315
+    second: Crystal_golem_blue - Sheet_124
+  - first:
+      213: -54278275080972244
+    second: Crystal_golem_blue - Sheet_125
+  - first:
+      213: -961799875711721814
+    second: Crystal_golem_blue - Sheet_126
+  - first:
+      213: -5557340246993368820
+    second: Crystal_golem_blue - Sheet_127
+  - first:
+      213: 2766829277870977426
+    second: Crystal_golem_blue - Sheet_128
+  - first:
+      213: 8597101424541832276
+    second: Crystal_golem_blue - Sheet_129
+  - first:
+      213: -4994429179536313372
+    second: Crystal_golem_blue - Sheet_130
+  - first:
+      213: 2373918429652714889
+    second: Crystal_golem_blue - Sheet_131
+  - first:
+      213: 6922651563636199339
+    second: Crystal_golem_blue - Sheet_132
+  - first:
+      213: -7509858042659427455
+    second: Crystal_golem_blue - Sheet_133
+  - first:
+      213: -5008396132891835782
+    second: Crystal_golem_blue - Sheet_134
+  - first:
+      213: 6754988615045176916
+    second: Crystal_golem_blue - Sheet_135
+  - first:
+      213: -6075649918816383439
+    second: Crystal_golem_blue - Sheet_136
+  - first:
+      213: 3142821484783905139
+    second: Crystal_golem_blue - Sheet_137
+  - first:
+      213: -838841295193793020
+    second: Crystal_golem_blue - Sheet_138
+  - first:
+      213: 5893363291583911567
+    second: Crystal_golem_blue - Sheet_139
+  - first:
+      213: 7627965331833242736
+    second: Crystal_golem_blue - Sheet_140
+  - first:
+      213: -5380062962243073430
+    second: Crystal_golem_blue - Sheet_141
+  - first:
+      213: -938976635546872485
+    second: Crystal_golem_blue - Sheet_142
+  - first:
+      213: -8336073949224962345
+    second: Crystal_golem_blue - Sheet_143
+  - first:
+      213: 8678435313348390676
+    second: Crystal_golem_blue - Sheet_144
+  - first:
+      213: 4748625592644302620
+    second: Crystal_golem_blue - Sheet_145
+  - first:
+      213: 6549657217703895668
+    second: Crystal_golem_blue - Sheet_146
+  - first:
+      213: -6511776780409186820
+    second: Crystal_golem_blue - Sheet_147
+  - first:
+      213: -1557937423697322998
+    second: Crystal_golem_blue - Sheet_148
+  - first:
+      213: -1351724810538463437
+    second: Crystal_golem_blue - Sheet_149
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 597
+        width: 63
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0505ca4404e4381c0800000000000000
+      internalID: -4502669164503347120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 673
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1575899d34a745240800000000000000
+      internalID: 4779579536378976081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 669
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cb741addabf01ab0800000000000000
+      internalID: -5039251258920895546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 672
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6aaf7eff223028730800000000000000
+      internalID: 3999762867915586214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 598
+        width: 63
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 211d01eecff085610800000000000000
+      internalID: 1610054445785207058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 1196
+        y: 598
+        width: 63
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8284909799120b740800000000000000
+      internalID: 5165665715638323240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 597
+        width: 64
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f28371bfae0dfd10800000000000000
+      internalID: 2160899543966909170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 650
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99f2a59c7f9db1200800000000000000
+      internalID: 151954670705323929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 598
+        width: 63
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 830891e21c89f1310800000000000000
+      internalID: 1377987966468194360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 651
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d7c3272688220690800000000000000
+      internalID: -7637497461419554857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 598
+        width: 63
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8911e57eebb2a9c00800000000000000
+      internalID: 908086373794058648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 651
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8e77608ea6cf1940800000000000000
+      internalID: 5269148541827645067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 599
+        width: 63
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0149bfd2718e7a830800000000000000
+      internalID: 4082486773487997968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 652
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00d6aa8304234def0800000000000000
+      internalID: -84387241603207936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 599
+        width: 63
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaf5cb49957e84540800000000000000
+      internalID: 4992494558873673642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 652
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84419782315fda8a0800000000000000
+      internalID: -6292103641734507448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 462
+        width: 64
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af4642efa63651760800000000000000
+      internalID: 7427952471598982394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 461
+        width: 64
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 854df5b873fe234f0800000000000000
+      internalID: -850354357779049384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 530
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2b0ef9fb21db06b0800000000000000
+      internalID: -5328935747254875350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 508
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cd15a7be6ffca5b0800000000000000
+      internalID: -5355625005857825335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 506
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bee364f48bd5cb970800000000000000
+      internalID: 8771989220396252907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 507
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b74d5014706da6f0800000000000000
+      internalID: -671774717801314377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 518
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e043abdb4780b5d0800000000000000
+      internalID: -3048788187852619548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 886
+        y: 523
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4a7a139e5de8d9a0800000000000000
+      internalID: -6207951095879534004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 508
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2d0f5f47405bd240800000000000000
+      internalID: 4817532493607406894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 520
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c14cc14bfb702abe0800000000000000
+      internalID: -1467602008627428324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 1058
+        y: 509
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90a974a1eca948410800000000000000
+      internalID: 1478476787679205897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 1226
+        y: 508
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3f17dc2bb38efe70800000000000000
+      internalID: 9150896332797845310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 462
+        width: 62
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 756f12c9affe254e0800000000000000
+      internalID: -1994267825331374505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 461
+        width: 62
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d33c5cae485d37090800000000000000
+      internalID: -8037846143074974915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 462
+        width: 62
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1286e146730d87c0800000000000000
+      internalID: -4067591081999039973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 463
+        width: 65
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c65c84a218f585710800000000000000
+      internalID: 1682199469187712364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 464
+        width: 62
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0cd0c4f9099a0420800000000000000
+      internalID: 2597056403172547598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 463
+        width: 62
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6a354bec1df26260800000000000000
+      internalID: 7089507064082676335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 368
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb591e2c059655bc0800000000000000
+      internalID: -3795011315401910849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 317
+        width: 66
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3c3f21a1223bc8e0800000000000000
+      internalID: -1672187716618470340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_36
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 321
+        width: 68
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f31bdcb9e6150a3f0800000000000000
+      internalID: -891623190717157057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_37
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 374
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39c664aa766e89fe0800000000000000
+      internalID: -1181941569271993197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_38
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 322
+        width: 66
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08f4d7874541e6e70800000000000000
+      internalID: 9110241449248378752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_39
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 322
+        width: 67
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00c8e11d3eb6cbf90800000000000000
+      internalID: -6936550699847218176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_40
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 375
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e01e3c386d7166a0800000000000000
+      internalID: -6457742504031809311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_41
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 318
+        width: 51
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2ba27953e6048fa0800000000000000
+      internalID: -5799502846618326226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_42
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 364
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6445595676aa42e40800000000000000
+      internalID: 5630812795182601286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_43
+      rect:
+        serializedVersion: 2
+        x: 1225
+        y: 318
+        width: 51
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13f1d0d18b5fab3f0800000000000000
+      internalID: -884124205714694351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_44
+      rect:
+        serializedVersion: 2
+        x: 1406
+        y: 364
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2abf4e422c8ad7510800000000000000
+      internalID: 1548579398681426850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_45
+      rect:
+        serializedVersion: 2
+        x: 1555
+        y: 318
+        width: 51
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99ab7e8a5b47a7df0800000000000000
+      internalID: -181704511383422311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_46
+      rect:
+        serializedVersion: 2
+        x: 1736
+        y: 366
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 598cc925437511de0800000000000000
+      internalID: -1364213329880627051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_47
+      rect:
+        serializedVersion: 2
+        x: 1879
+        y: 370
+        width: 37
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c91d2abb16a2c1730800000000000000
+      internalID: 3971095570682139036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_48
+      rect:
+        serializedVersion: 2
+        x: 1893
+        y: 368
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35613edebba165a30800000000000000
+      internalID: 4203576696649225811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_49
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 315
+        width: 69
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7f38b61609a9a220800000000000000
+      internalID: 2497713311969722237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_50
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 338
+        width: 64
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8734e7b7611d01d20800000000000000
+      internalID: 3247325225825485688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_51
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 318
+        width: 120
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fcdf8ce5b1ec0e70800000000000000
+      internalID: 9082882719973629169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_52
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 329
+        width: 67
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3aefa852775e82aa0800000000000000
+      internalID: -6185441788299641181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_53
+      rect:
+        serializedVersion: 2
+        x: 1388
+        y: 318
+        width: 52
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5471080eb0a54e170800000000000000
+      internalID: 8206783428033517381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_54
+      rect:
+        serializedVersion: 2
+        x: 1445
+        y: 340
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 348ef1b0d904c5af0800000000000000
+      internalID: -406378823129503677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_55
+      rect:
+        serializedVersion: 2
+        x: 1451
+        y: 329
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5472c4ee1bf67530800000000000000
+      internalID: 3852542641367577691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_56
+      rect:
+        serializedVersion: 2
+        x: 1461
+        y: 342
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a2def7b0bca99860800000000000000
+      internalID: 7537245326382387874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_57
+      rect:
+        serializedVersion: 2
+        x: 1465
+        y: 329
+        width: 21
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a47e80dee7cfd50b0800000000000000
+      internalID: -5738152728127281334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_58
+      rect:
+        serializedVersion: 2
+        x: 1471
+        y: 336
+        width: 18
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 779a5c9b767d847c0800000000000000
+      internalID: -4086779821340382857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_59
+      rect:
+        serializedVersion: 2
+        x: 1479
+        y: 343
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf8507b4f3fc7f8b0800000000000000
+      internalID: -5118394580727736068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_60
+      rect:
+        serializedVersion: 2
+        x: 1487
+        y: 329
+        width: 21
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08caab3bbbc47dae0800000000000000
+      internalID: -1524665579783672704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_61
+      rect:
+        serializedVersion: 2
+        x: 1489
+        y: 344
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e09102ff94d774740800000000000000
+      internalID: 5136211656805718286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_62
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 337
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cb6fa669a047c440800000000000000
+      internalID: 4956001011260943298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_63
+      rect:
+        serializedVersion: 2
+        x: 1613
+        y: 330
+        width: 27
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a47159d84d0de840800000000000000
+      internalID: 5254870946746037408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_64
+      rect:
+        serializedVersion: 2
+        x: 1630
+        y: 327
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c479fd09528d0c900800000000000000
+      internalID: 702799197725759308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_65
+      rect:
+        serializedVersion: 2
+        x: 1648
+        y: 329
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97b343e7cfc8f4090800000000000000
+      internalID: -8048058993010787463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_66
+      rect:
+        serializedVersion: 2
+        x: 1659
+        y: 335
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acbcdf6b89ae09180800000000000000
+      internalID: -9110524104544498742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_67
+      rect:
+        serializedVersion: 2
+        x: 1666
+        y: 329
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9007349267db98300800000000000000
+      internalID: 254943169119219721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_68
+      rect:
+        serializedVersion: 2
+        x: 1713
+        y: 313
+        width: 134
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a239c778132de100800000000000000
+      internalID: 138805751514215076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_69
+      rect:
+        serializedVersion: 2
+        x: 1868
+        y: 315
+        width: 148
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04b0b79083b1200b0800000000000000
+      internalID: -5764014645589636288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_70
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 227
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df4481441a94fdfd0800000000000000
+      internalID: -2315050726464142083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_71
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 176
+        width: 66
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59b1ddd8cbbb893e0800000000000000
+      internalID: -2046679612131566699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_72
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 180
+        width: 68
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa94ba155f9e49d30800000000000000
+      internalID: 4437428772713220527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_73
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 233
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca50226cfdb662e50800000000000000
+      internalID: 6784228497526228396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_74
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 181
+        width: 66
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 675ee18b8004c1090800000000000000
+      internalID: -8062498826707081866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_75
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 181
+        width: 67
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a0ebfaa6d06a66e0800000000000000
+      internalID: -1843554622346895197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_76
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 234
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 575b5f3b4d1575790800000000000000
+      internalID: -7541469077014465163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_77
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 177
+        width: 51
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8efd15b525c0d34a0800000000000000
+      internalID: -6612115130051076120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_78
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 223
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc69694767b172f00800000000000000
+      internalID: 1091871630236751563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_79
+      rect:
+        serializedVersion: 2
+        x: 1225
+        y: 177
+        width: 51
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2d12625878f6c500800000000000000
+      internalID: 416293211240275242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_80
+      rect:
+        serializedVersion: 2
+        x: 1294
+        y: 225
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d36811ed4582c7e70800000000000000
+      internalID: 9114204090859095613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_81
+      rect:
+        serializedVersion: 2
+        x: 1406
+        y: 223
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 722da8e220988e010800000000000000
+      internalID: 1218374341667508775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_82
+      rect:
+        serializedVersion: 2
+        x: 1470
+        y: 230
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17769da59354b96f0800000000000000
+      internalID: -676871206349478031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_83
+      rect:
+        serializedVersion: 2
+        x: 1555
+        y: 177
+        width: 51
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5307b8af51caa43a0800000000000000
+      internalID: -6680337886852976587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_84
+      rect:
+        serializedVersion: 2
+        x: 1646
+        y: 234
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59d5f4d0dcf006420800000000000000
+      internalID: 2621112356495646101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_85
+      rect:
+        serializedVersion: 2
+        x: 1713
+        y: 164
+        width: 65
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f21f9eb6e3468070800000000000000
+      internalID: 8108242837446791922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_86
+      rect:
+        serializedVersion: 2
+        x: 1736
+        y: 225
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfdbe71d3670c8df0800000000000000
+      internalID: -176758160076390916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_87
+      rect:
+        serializedVersion: 2
+        x: 1793
+        y: 193
+        width: 53
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 089ff1748305861b0800000000000000
+      internalID: -5663188328776730240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_88
+      rect:
+        serializedVersion: 2
+        x: 1868
+        y: 143
+        width: 149
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 444c16fc2808ffb80800000000000000
+      internalID: -8358821084062956476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_89
+      rect:
+        serializedVersion: 2
+        x: 1879
+        y: 229
+        width: 37
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c1115ee4832f4fd0800000000000000
+      internalID: -2355625026250534464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_90
+      rect:
+        serializedVersion: 2
+        x: 1893
+        y: 227
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39bd2ba096afc91e0800000000000000
+      internalID: -2189599989750899821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_91
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 174
+        width: 69
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d66d4fa5aa028ea0800000000000000
+      internalID: -5872119257410738478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_92
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 177
+        width: 52
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5421d0942c18d8a20800000000000000
+      internalID: 3066249592758407749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_93
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 163
+        width: 59
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b57df3c1eeea26b10800000000000000
+      internalID: 1973331924441093979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_94
+      rect:
+        serializedVersion: 2
+        x: 1245
+        y: 162
+        width: 64
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad5881714797acc50800000000000000
+      internalID: 6686290136295572954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_95
+      rect:
+        serializedVersion: 2
+        x: 1269
+        y: 216
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc87d2f1517c560e0800000000000000
+      internalID: -2277195143034603315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_96
+      rect:
+        serializedVersion: 2
+        x: 1388
+        y: 177
+        width: 52
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6d3b0bc0e9575160800000000000000
+      internalID: 7014173766666894702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_97
+      rect:
+        serializedVersion: 2
+        x: 1435
+        y: 219
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5edc1669a63fd8d10800000000000000
+      internalID: 2129625837931187685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_98
+      rect:
+        serializedVersion: 2
+        x: 1605
+        y: 225
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9accfc072ce5bbc10800000000000000
+      internalID: 2070352642916207785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_99
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 184
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1764a28d951d25de0800000000000000
+      internalID: -1345783154821413263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_100
+      rect:
+        serializedVersion: 2
+        x: 1312
+        y: 208
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e65182c79c6d5ce70800000000000000
+      internalID: 9134943580050691438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_101
+      rect:
+        serializedVersion: 2
+        x: 1490
+        y: 210
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 708ef87d24b34ce50800000000000000
+      internalID: 6828648093270927367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_102
+      rect:
+        serializedVersion: 2
+        x: 1667
+        y: 213
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c16834933c8206830800000000000000
+      internalID: 4062291682832647708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_103
+      rect:
+        serializedVersion: 2
+        x: 1313
+        y: 165
+        width: 13
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa9dc8758db77a1c0800000000000000
+      internalID: -4492485934166779478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_104
+      rect:
+        serializedVersion: 2
+        x: 1443
+        y: 183
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b7c3f60f5dac3970800000000000000
+      internalID: 8736048000842057654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_105
+      rect:
+        serializedVersion: 2
+        x: 1469
+        y: 177
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 047ce07082895a680800000000000000
+      internalID: -8744415803785427136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_106
+      rect:
+        serializedVersion: 2
+        x: 1616
+        y: 191
+        width: 19
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86c86eb0187d0eab0800000000000000
+      internalID: -4980744238621356952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_107
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 164
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc1ad0ba1aa575a70800000000000000
+      internalID: 8815614446007067087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_108
+      rect:
+        serializedVersion: 2
+        x: 1437
+        y: 174
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b457bace5fd25c90800000000000000
+      internalID: -7182432857481587534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_109
+      rect:
+        serializedVersion: 2
+        x: 1493
+        y: 169
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 325095494a0f649c0800000000000000
+      internalID: -3943199834062125789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_110
+      rect:
+        serializedVersion: 2
+        x: 1603
+        y: 169
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0527350fcf2a35ca0800000000000000
+      internalID: -6029296268871503280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_111
+      rect:
+        serializedVersion: 2
+        x: 1646
+        y: 177
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 609f5fe8962b4adf0800000000000000
+      internalID: -169814719493441274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_112
+      rect:
+        serializedVersion: 2
+        x: 1669
+        y: 175
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47b60c86ed068d880800000000000000
+      internalID: -8586006181225403532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_113
+      rect:
+        serializedVersion: 2
+        x: 1811
+        y: 148
+        width: 36
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11990f3910a592e20800000000000000
+      internalID: 3326288762613307665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_114
+      rect:
+        serializedVersion: 2
+        x: 1464
+        y: 159
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef6bc05961a8d73e0800000000000000
+      internalID: -2054334025416526082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_115
+      rect:
+        serializedVersion: 2
+        x: 1569
+        y: 155
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 658c6901f036a6fb0800000000000000
+      internalID: -4653798348580009898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_116
+      rect:
+        serializedVersion: 2
+        x: 1636
+        y: 153
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 064e2e5ec29e34300800000000000000
+      internalID: 235287984598082656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_117
+      rect:
+        serializedVersion: 2
+        x: 1735
+        y: 153
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78ef81408dd9ec930800000000000000
+      internalID: 4165440256471531143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_118
+      rect:
+        serializedVersion: 2
+        x: 1897
+        y: 152
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71eb119780fddd280800000000000000
+      internalID: -9016805651441926633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_119
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 87
+        width: 35
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74a03ea91e1c93ea0800000000000000
+      internalID: -5892465462727210425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_120
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 34
+        width: 65
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 421d78ab16627d130800000000000000
+      internalID: 3591381429034406180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_121
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 35
+        width: 71
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c0034f9c80b09680800000000000000
+      internalID: -8750299957966995262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_122
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 94
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cce8ed06dbe168840800000000000000
+      internalID: 5225898216332889804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_123
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 104
+        width: 19
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 788b17d36e19d3990800000000000000
+      internalID: -7404601794267858809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_124
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 89
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cf1e2301ccf91090800000000000000
+      internalID: -8063135751917920315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_125
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 98
+        width: 30
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2817c6423a2f3ff0800000000000000
+      internalID: -54278275080972244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_126
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 98
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aae103fdb1007a2f0800000000000000
+      internalID: -961799875711721814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_127
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 87
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c098af94d7c50e2b0800000000000000
+      internalID: -5557340246993368820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_128
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 95
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29176a5a190c56620800000000000000
+      internalID: 2766829277870977426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_129
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 31
+        width: 82
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45412db323a0f4770800000000000000
+      internalID: 8597101424541832276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_130
+      rect:
+        serializedVersion: 2
+        x: 1057
+        y: 85
+        width: 12
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e374e17f1930bab0800000000000000
+      internalID: -4994429179536313372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_131
+      rect:
+        serializedVersion: 2
+        x: 1103
+        y: 101
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9850435fb3ad1f020800000000000000
+      internalID: 2373918429652714889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_132
+      rect:
+        serializedVersion: 2
+        x: 1191
+        y: 25
+        width: 89
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baf865a5be2321060800000000000000
+      internalID: 6922651563636199339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_133
+      rect:
+        serializedVersion: 2
+        x: 1226
+        y: 83
+        width: 12
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18bacad26ef97c790800000000000000
+      internalID: -7509858042659427455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_134
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 33
+        width: 64
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a72ca84b04a9e7ab0800000000000000
+      internalID: -5008396132891835782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_135
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 86
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45e539d1b5a8ebd50800000000000000
+      internalID: 6754988615045176916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_136
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 34
+        width: 63
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13e8159c694feaba0800000000000000
+      internalID: -6075649918816383439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_137
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 36
+        width: 65
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 379a2013d7b8d9b20800000000000000
+      internalID: 3142821484783905139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_138
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 78
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40e9b015946db54f0800000000000000
+      internalID: -838841295193793020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_139
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 82
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f869f2770be69c150800000000000000
+      internalID: 5893363291583911567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_140
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 35
+        width: 61
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0744aeafd0afbd960800000000000000
+      internalID: 7627965331833242736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_141
+      rect:
+        serializedVersion: 2
+        x: 1369
+        y: 17
+        width: 59
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6a044a9d3d2655b0800000000000000
+      internalID: -5380062962243073430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_142
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 76
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5556d199b518f2f0800000000000000
+      internalID: -938976635546872485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_143
+      rect:
+        serializedVersion: 2
+        x: 1537
+        y: 18
+        width: 59
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d6fe0bd8e0505c80800000000000000
+      internalID: -8336073949224962345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_144
+      rect:
+        serializedVersion: 2
+        x: 1736
+        y: 55
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41f265aefeeff6870800000000000000
+      internalID: 8678435313348390676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_145
+      rect:
+        serializedVersion: 2
+        x: 1881
+        y: 14
+        width: 57
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1774e431d186e140800000000000000
+      internalID: 4748625592644302620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_146
+      rect:
+        serializedVersion: 2
+        x: 1710
+        y: 14
+        width: 60
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47260d5b98e05ea50800000000000000
+      internalID: 6549657217703895668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_147
+      rect:
+        serializedVersion: 2
+        x: 2047
+        y: 13
+        width: 59
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf5d213e48581a5a0800000000000000
+      internalID: -6511776780409186820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_148
+      rect:
+        serializedVersion: 2
+        x: 2215
+        y: 13
+        width: 67
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0cdb3eda28116ae0800000000000000
+      internalID: -1557937423697322998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_golem_blue - Sheet_149
+      rect:
+        serializedVersion: 2
+        x: 2383
+        y: 13
+        width: 68
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33fc5c15275bd3de0800000000000000
+      internalID: -1351724810538463437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
