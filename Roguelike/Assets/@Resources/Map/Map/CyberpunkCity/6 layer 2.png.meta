@@ -1,10 +1,55 @@
 fileFormatVersion: 2
-guid: 510b134934b499a4b8a6e5361d1e033e
+guid: 005dc157bdabe814dbececfe1591c543
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6270953770400647376
-    second: 14_0
+      213: 3863015044857793980
+    second: 6 layer_0
+  - first:
+      213: 8598651436773972138
+    second: 6 layer_1
+  - first:
+      213: -7251852933173421163
+    second: 6 layer_2
+  - first:
+      213: 3493304409887082721
+    second: 6 layer_3
+  - first:
+      213: 2603989586538033382
+    second: 6 layer_4
+  - first:
+      213: -3296158459645167387
+    second: 6 layer_5
+  - first:
+      213: -824178737533459198
+    second: 6 layer_6
+  - first:
+      213: 6825879843530827680
+    second: 6 layer_7
+  - first:
+      213: -3013239884068025790
+    second: 6 layer_8
+  - first:
+      213: 4638695781104147816
+    second: 6 layer_9
+  - first:
+      213: 2798704727614036216
+    second: 6 layer_10
+  - first:
+      213: -2491214166195539598
+    second: 6 layer_11
+  - first:
+      213: 1838139172107360381
+    second: 6 layer_12
+  - first:
+      213: -5478522334884143058
+    second: 6 layer_13
+  - first:
+      213: 7221504303641984904
+    second: 6 layer_14
+  - first:
+      213: 7667590850274514867
+    second: 6 layer_15
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -51,7 +96,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 46
+  spritePixelsToUnits: 12
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -113,23 +158,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 14_0
+      name: 6 layer 2_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 62
-        height: 62
+        width: 695
+        height: 284
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 0377f5055c819f8a0800000000000000
-      internalID: -6270953770400647376
+      spriteID: 493bcacc5697bad43abf5b19b6bbdc83
+      internalID: 1065983389
       vertices: []
       indices: 
       edges: []
@@ -138,7 +183,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: e49b7674c7d49dd4487f5f86b69f313d
     internalID: 0
     vertices: []
     indices: 
@@ -146,9 +191,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":695.0,"y":284.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      14_0: -6270953770400647376
+      6 layer 2_0: 1065983389
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

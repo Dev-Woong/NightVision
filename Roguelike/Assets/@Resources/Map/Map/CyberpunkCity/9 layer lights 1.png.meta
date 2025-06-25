@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: f2bb19230f7893d4090103c7b047c79a
+guid: fa2aaa78654a80243801a628bf9a2c5e
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -227,8 +227,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 40b95e433a1af3e4b9bb56b799fd6fd1
-      internalID: -1269666199
+      spriteID: c4590528011cbcc45bd0a43d37863edb
+      internalID: -446000346
       vertices: []
       indices: 
       edges: []
@@ -237,7 +237,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 018f01d16393d7b4bb3cb252349a0e81
+    spriteID: e07ec789624b897499beac2d0ea86d34
     internalID: 0
     vertices: []
     indices: 
@@ -249,7 +249,7 @@ TextureImporter:
       - key: SpriteEditor.SliceSettings
         value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":695.0,"y":284.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      9 layer lights 1_0: -1269666199
+      9 layer lights 1_0: -446000346
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
