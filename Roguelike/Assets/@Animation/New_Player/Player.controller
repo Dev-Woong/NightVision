@@ -951,7 +951,7 @@ AnimatorStateMachine:
   m_ChildStates:
   - serializedVersion: 1
     m_State: {fileID: 3186535954055296089}
-    m_Position: {x: 10, y: -160, z: 0}
+    m_Position: {x: 30, y: -160, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -2225398792535991779}
     m_Position: {x: 30, y: 30, z: 0}
@@ -995,7 +995,7 @@ AnimatorStateMachine:
   m_StateMachineBehaviours: []
   m_AnyStatePosition: {x: 50, y: -70, z: 0}
   m_EntryPosition: {x: 340, y: 140, z: 0}
-  m_ExitPosition: {x: -230, y: -150, z: 0}
+  m_ExitPosition: {x: -230, y: -160, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
   m_DefaultState: {fileID: -4213245892995955309}
 --- !u!1101 &-4712844246231837115
@@ -1300,7 +1300,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Player_Hand_Combo2
-  m_Speed: 1
+  m_Speed: 1.3
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: -5665327486953028440}
@@ -3509,7 +3509,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Player_Hand_Combo3
-  m_Speed: 1
+  m_Speed: 1.5
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: 7454327518098419878}

@@ -315,6 +315,10 @@ public class PlayerController :DamageAbleBase,IDamageable
             }
         }
     }
+    public void OnAirTool()
+    {
+        anim.SetBool("onAir", true);
+    }
     #region Jump
     void Jump()
     {
@@ -498,13 +502,7 @@ public class PlayerController :DamageAbleBase,IDamageable
         }
 
     }
-    private void OnCollisionExit2D(Collision2D collision)
-    {
-        if (collision.collider.CompareTag("Ground"))
-        {
-            anim.SetBool("onAir", true);
-        }
-    }
+    
     private void OnTriggerEnter2D(Collider2D other)
     {
 

@@ -12,7 +12,7 @@ public class PublicStatus : MonoBehaviour
     public float def;
     public int jamStack;
     
-    void Start()
+    void Awake()
     {
         atk = obData.atk;
         speed = obData.speed;   

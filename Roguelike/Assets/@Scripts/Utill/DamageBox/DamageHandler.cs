@@ -42,7 +42,10 @@ public class DamageHandler : MonoBehaviour
             if (dmg != null && !damagedTargets.Contains(dmg))
             {
                 damagedTargets.Add(dmg);
-                StartCoroutine(HitDamage(dmg, data, x, hit.transform.position, hit.gameObject));
+                if (hit.GetComponent<DamageAbleBase>().damageAble == true)
+                {
+                    StartCoroutine(HitDamage(dmg, data, x, hit.transform.position, hit.gameObject));
+                }
                 
             }
         }      
@@ -53,12 +56,7 @@ public class DamageHandler : MonoBehaviour
        
         if (data.knockBack == KnockBack.Done)
         {
-            if (target.layer == 6 && data.knockBackForceY > 1f)
-            {
-                target.GetComponent<PlayerController>().moveAble = false;
-                target.GetComponent<Rigidbody2D>().gravityScale= 1;
-                Debug.Log("Àû¿ë");
-            }
+            
             if (targetPos.x < transform.position.x)
             {
                 target.GetComponent<Rigidbody2D>().linearVelocity = Vector3.zero;
@@ -68,8 +66,17 @@ public class DamageHandler : MonoBehaviour
             {
                 target.GetComponent<Rigidbody2D>().linearVelocity = Vector3.zero;
                 target.GetComponent<Rigidbody2D>().AddForce(new Vector3(data.knockBackForceX, data.knockBackForceY, 0), ForceMode2D.Impulse);
-            } 
-
+            }
+            if (target.layer == 6 && data.knockBackForceY > 0f)
+            {
+                target.GetComponent<PlayerController>().moveAble = false;
+                target.GetComponent<PlayerController>().OnAirTool();
+                target.GetComponent<Rigidbody2D>().gravityScale = 1;
+            }
+            if (target.layer == 7 && data.knockBackForceY > 0f)
+            {
+                target.GetComponent<EnemyController>().isGround = false;
+            }
         }
         while (currentHits < data.hitCount)
         {

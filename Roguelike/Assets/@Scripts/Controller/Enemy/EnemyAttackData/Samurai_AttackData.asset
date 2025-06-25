@@ -16,8 +16,8 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   knockBack: 1
-  knockBackForceX: 3
-  knockBackForceY: 3
+  knockBackForceX: 4
+  knockBackForceY: 4
   getEnergy: 0
   skillType: 0
   animSpot: 
