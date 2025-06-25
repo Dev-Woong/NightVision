@@ -156,6 +156,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -634,7 +647,28 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      spr_WarriorIdle_strip21_0: 8372662151288275037
+      spr_WarriorIdle_strip21_1: -6920846198511607521
+      spr_WarriorIdle_strip21_10: 2102907501895797891
+      spr_WarriorIdle_strip21_11: -369814381237045498
+      spr_WarriorIdle_strip21_12: -4687145979634093381
+      spr_WarriorIdle_strip21_13: 4007623926635133189
+      spr_WarriorIdle_strip21_14: 7478338554305628194
+      spr_WarriorIdle_strip21_15: 11677062502196009
+      spr_WarriorIdle_strip21_16: 8639052489187464969
+      spr_WarriorIdle_strip21_17: 1888185769672108327
+      spr_WarriorIdle_strip21_18: -3850999403000530126
+      spr_WarriorIdle_strip21_19: -5291198091108025772
+      spr_WarriorIdle_strip21_2: 1260340098253554269
+      spr_WarriorIdle_strip21_20: 6303212635650756079
+      spr_WarriorIdle_strip21_3: -3223107535171075354
+      spr_WarriorIdle_strip21_4: 8078489295161934854
+      spr_WarriorIdle_strip21_5: -6414232600022744125
+      spr_WarriorIdle_strip21_6: -2992095251970960823
+      spr_WarriorIdle_strip21_7: -6928217252118522884
+      spr_WarriorIdle_strip21_8: 1520540740200878648
+      spr_WarriorIdle_strip21_9: -700759980561262627
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

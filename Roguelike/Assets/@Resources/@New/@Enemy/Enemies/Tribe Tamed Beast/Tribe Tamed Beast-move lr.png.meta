@@ -111,6 +111,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -259,7 +272,13 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Tribe Tamed Beast-move lr_0: 4010958232419277061
+      Tribe Tamed Beast-move lr_1: -2399379385318800888
+      Tribe Tamed Beast-move lr_2: -6664695473186298512
+      Tribe Tamed Beast-move lr_3: 309133363316860446
+      Tribe Tamed Beast-move lr_4: -5471822376122839028
+      Tribe Tamed Beast-move lr_5: -7192369093411701608
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

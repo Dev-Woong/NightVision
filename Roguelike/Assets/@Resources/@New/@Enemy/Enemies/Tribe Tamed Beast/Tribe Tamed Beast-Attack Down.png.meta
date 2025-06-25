@@ -444,6 +444,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -3034,7 +3047,124 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Tribe Tamed Beast-Attack Down_0: 408787389958363488
+      Tribe Tamed Beast-Attack Down_1: 7457175968368471449
+      Tribe Tamed Beast-Attack Down_10: -1097398918338800280
+      Tribe Tamed Beast-Attack Down_100: -2590172710792679130
+      Tribe Tamed Beast-Attack Down_101: -1031092743638136452
+      Tribe Tamed Beast-Attack Down_102: 4354949864839522803
+      Tribe Tamed Beast-Attack Down_103: -2757879976769868901
+      Tribe Tamed Beast-Attack Down_104: 6509403365850028979
+      Tribe Tamed Beast-Attack Down_105: 8853698226380378780
+      Tribe Tamed Beast-Attack Down_106: -7921130165012801396
+      Tribe Tamed Beast-Attack Down_107: 7926109037913302644
+      Tribe Tamed Beast-Attack Down_108: 8427638906835589415
+      Tribe Tamed Beast-Attack Down_109: -2211434845049693504
+      Tribe Tamed Beast-Attack Down_11: -1826291285255391773
+      Tribe Tamed Beast-Attack Down_110: -5335735663440557580
+      Tribe Tamed Beast-Attack Down_111: -8634772936251869120
+      Tribe Tamed Beast-Attack Down_112: 7619639429118010927
+      Tribe Tamed Beast-Attack Down_113: -3320216505693380278
+      Tribe Tamed Beast-Attack Down_114: 3093540747429498183
+      Tribe Tamed Beast-Attack Down_115: 4246735392383615892
+      Tribe Tamed Beast-Attack Down_116: -2434726922926290718
+      Tribe Tamed Beast-Attack Down_12: -4015002223078310275
+      Tribe Tamed Beast-Attack Down_13: -5769464075879437251
+      Tribe Tamed Beast-Attack Down_14: -291931129440902156
+      Tribe Tamed Beast-Attack Down_15: 4984533784022550296
+      Tribe Tamed Beast-Attack Down_16: -3893912977888568611
+      Tribe Tamed Beast-Attack Down_17: -2186900196232306402
+      Tribe Tamed Beast-Attack Down_18: -5042886420436057183
+      Tribe Tamed Beast-Attack Down_19: 2155314775538801051
+      Tribe Tamed Beast-Attack Down_2: -6139505580949386918
+      Tribe Tamed Beast-Attack Down_20: -5612153567500476986
+      Tribe Tamed Beast-Attack Down_21: 3938350936352992452
+      Tribe Tamed Beast-Attack Down_22: -112421614312713642
+      Tribe Tamed Beast-Attack Down_23: 5187005230378711403
+      Tribe Tamed Beast-Attack Down_24: 7880259558079455896
+      Tribe Tamed Beast-Attack Down_25: 6907274912792920135
+      Tribe Tamed Beast-Attack Down_26: 4347276698915873680
+      Tribe Tamed Beast-Attack Down_27: -6815637572794870985
+      Tribe Tamed Beast-Attack Down_28: -7291878578666891043
+      Tribe Tamed Beast-Attack Down_29: -8950974322410384680
+      Tribe Tamed Beast-Attack Down_3: 8416656629751999191
+      Tribe Tamed Beast-Attack Down_30: -4672220150403858610
+      Tribe Tamed Beast-Attack Down_31: -1799419673925350985
+      Tribe Tamed Beast-Attack Down_32: -909258988688358143
+      Tribe Tamed Beast-Attack Down_33: -1088607628065709025
+      Tribe Tamed Beast-Attack Down_34: 4742359564813629826
+      Tribe Tamed Beast-Attack Down_35: 1160359088956111288
+      Tribe Tamed Beast-Attack Down_36: -12163630661060102
+      Tribe Tamed Beast-Attack Down_37: -4753400628454896606
+      Tribe Tamed Beast-Attack Down_38: 7757837896795900630
+      Tribe Tamed Beast-Attack Down_39: 1031831774078444287
+      Tribe Tamed Beast-Attack Down_4: 4274539005141135045
+      Tribe Tamed Beast-Attack Down_40: 373579972190246469
+      Tribe Tamed Beast-Attack Down_41: -3879329696137190434
+      Tribe Tamed Beast-Attack Down_42: 5398538457223486110
+      Tribe Tamed Beast-Attack Down_43: -7807015946141509497
+      Tribe Tamed Beast-Attack Down_44: 2931895921702362569
+      Tribe Tamed Beast-Attack Down_45: 2265705226563690104
+      Tribe Tamed Beast-Attack Down_46: 6258815152536059333
+      Tribe Tamed Beast-Attack Down_47: -6491327473307013602
+      Tribe Tamed Beast-Attack Down_48: -4061236972777642420
+      Tribe Tamed Beast-Attack Down_49: -7351957263623437421
+      Tribe Tamed Beast-Attack Down_5: -5454909264015752603
+      Tribe Tamed Beast-Attack Down_50: -2181567980922195770
+      Tribe Tamed Beast-Attack Down_51: -1987394467180542565
+      Tribe Tamed Beast-Attack Down_52: 6748331212275870583
+      Tribe Tamed Beast-Attack Down_53: 6772748349945408201
+      Tribe Tamed Beast-Attack Down_54: 5798702409698097575
+      Tribe Tamed Beast-Attack Down_55: -8457437436626680894
+      Tribe Tamed Beast-Attack Down_56: -6444282645896974195
+      Tribe Tamed Beast-Attack Down_57: 1474519015074088063
+      Tribe Tamed Beast-Attack Down_58: 4676568292623058260
+      Tribe Tamed Beast-Attack Down_59: -7678844800263944032
+      Tribe Tamed Beast-Attack Down_6: -4549354405093720033
+      Tribe Tamed Beast-Attack Down_60: -8184694073765361486
+      Tribe Tamed Beast-Attack Down_61: 5715205411828700261
+      Tribe Tamed Beast-Attack Down_62: -7956244660869796060
+      Tribe Tamed Beast-Attack Down_63: -7133942974984475368
+      Tribe Tamed Beast-Attack Down_64: -2462071456479767682
+      Tribe Tamed Beast-Attack Down_65: -1017451162487270258
+      Tribe Tamed Beast-Attack Down_66: -5103385150020597716
+      Tribe Tamed Beast-Attack Down_67: 4799792860660449691
+      Tribe Tamed Beast-Attack Down_68: -1307711882729861623
+      Tribe Tamed Beast-Attack Down_69: -6843790923085284416
+      Tribe Tamed Beast-Attack Down_7: 6684397645120329568
+      Tribe Tamed Beast-Attack Down_70: 7601618256674976911
+      Tribe Tamed Beast-Attack Down_71: 4674301021292091524
+      Tribe Tamed Beast-Attack Down_72: -1972449953942528480
+      Tribe Tamed Beast-Attack Down_73: -5814841214921537717
+      Tribe Tamed Beast-Attack Down_74: -4361198138722568787
+      Tribe Tamed Beast-Attack Down_75: 4643777415579726891
+      Tribe Tamed Beast-Attack Down_76: 3041855550656185130
+      Tribe Tamed Beast-Attack Down_77: 3104246344003030967
+      Tribe Tamed Beast-Attack Down_78: 5084614611713301086
+      Tribe Tamed Beast-Attack Down_79: -249535668914460002
+      Tribe Tamed Beast-Attack Down_8: -352508827742647073
+      Tribe Tamed Beast-Attack Down_80: -1357812340862073030
+      Tribe Tamed Beast-Attack Down_81: -461274532946507536
+      Tribe Tamed Beast-Attack Down_82: 148744098819384934
+      Tribe Tamed Beast-Attack Down_83: 7308080207902916355
+      Tribe Tamed Beast-Attack Down_84: -1137285849995179067
+      Tribe Tamed Beast-Attack Down_85: 7622961683774254940
+      Tribe Tamed Beast-Attack Down_86: -6795598944615006806
+      Tribe Tamed Beast-Attack Down_87: -3813677243278238263
+      Tribe Tamed Beast-Attack Down_88: -7424489307171524291
+      Tribe Tamed Beast-Attack Down_89: -8494159430293547728
+      Tribe Tamed Beast-Attack Down_9: 7217274973130487960
+      Tribe Tamed Beast-Attack Down_90: -4276102688088652090
+      Tribe Tamed Beast-Attack Down_91: 6466336744274106488
+      Tribe Tamed Beast-Attack Down_92: -5211732927769425922
+      Tribe Tamed Beast-Attack Down_93: 1057561745083604491
+      Tribe Tamed Beast-Attack Down_94: 1815096250298034724
+      Tribe Tamed Beast-Attack Down_95: -4252245857684133342
+      Tribe Tamed Beast-Attack Down_96: -2612571339847451452
+      Tribe Tamed Beast-Attack Down_97: -964463951550487582
+      Tribe Tamed Beast-Attack Down_98: -6404337515241905241
+      Tribe Tamed Beast-Attack Down_99: -3078759445031360530
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

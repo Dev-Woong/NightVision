@@ -863,7 +863,7 @@ MonoBehaviour:
     CustomLookAtTarget: 0
   Lens:
     FieldOfView: 60
-    OrthographicSize: 5
+    OrthographicSize: 7
     NearClipPlane: 0.3
     FarClipPlane: 1000
     Dutch: 0
@@ -1026,8 +1026,8 @@ Transform:
   m_GameObject: {fileID: 353083539}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.5, y: 9.38, z: 0}
-  m_LocalScale: {x: 45, y: 30, z: 1}
+  m_LocalPosition: {x: -12.19, y: 2.58, z: 0}
+  m_LocalScale: {x: 20, y: 9, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1007521879}
@@ -3918,7 +3918,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 7
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -3943,7 +3943,7 @@ Transform:
   m_GameObject: {fileID: 1236702237}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 19.583937, y: -2.5853798, z: -10}
+  m_LocalPosition: {x: 23.138428, y: -0.5446, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6212,6 +6212,10 @@ PrefabInstance:
     - target: {fileID: 1417253394573063270, guid: b730c3542a29faa4bb5a08ada1b597e1, type: 3}
       propertyPath: m_Name
       value: Bg_Buildings
+      objectReference: {fileID: 0}
+    - target: {fileID: 1417253394573063270, guid: b730c3542a29faa4bb5a08ada1b597e1, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6175806398478176976, guid: b730c3542a29faa4bb5a08ada1b597e1, type: 3}
       propertyPath: m_LocalPosition.x

@@ -138,6 +138,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -484,7 +497,22 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Slam Attack VFX 98x67_0: 3243158982660552958
+      Slam Attack VFX 98x67_1: 5948355311377646088
+      Slam Attack VFX 98x67_10: 6044411927915002423
+      Slam Attack VFX 98x67_11: 4720350743005728074
+      Slam Attack VFX 98x67_12: -8422055427525547733
+      Slam Attack VFX 98x67_13: 8175005756971581934
+      Slam Attack VFX 98x67_14: -7910970626773749044
+      Slam Attack VFX 98x67_2: 2243749245996243969
+      Slam Attack VFX 98x67_3: -5875663268294980346
+      Slam Attack VFX 98x67_4: -6897408132949334998
+      Slam Attack VFX 98x67_5: 2449181762740761789
+      Slam Attack VFX 98x67_6: -3593287144497631502
+      Slam Attack VFX 98x67_7: -3367903218257925493
+      Slam Attack VFX 98x67_8: 7445864121720725641
+      Slam Attack VFX 98x67_9: -5759235938529096329
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
