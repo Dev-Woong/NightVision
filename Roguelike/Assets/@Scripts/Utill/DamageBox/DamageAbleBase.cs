@@ -6,9 +6,13 @@ public interface IDamageable
 
 public abstract class DamageAbleBase : PoolAble, IDamageable 
 {
+    public bool damageAble = true;
     public void TakeDamage(float Damage)
     {
-        OnDamage(Damage);
+        if (damageAble == true)
+        {
+            OnDamage(Damage);
+        }
     }
     
     public abstract void OnDamage(float causerAtk);

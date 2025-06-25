@@ -75,7 +75,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 35
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -127,10 +127,10 @@ TextureImporter:
       name: Walk_0
       rect:
         serializedVersion: 2
-        x: 25
+        x: 0
         y: 0
-        width: 14
-        height: 24
+        width: 62
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -149,10 +149,10 @@ TextureImporter:
       name: Walk_1
       rect:
         serializedVersion: 2
-        x: 86
+        x: 62
         y: 0
-        width: 15
-        height: 23
+        width: 62
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -171,10 +171,10 @@ TextureImporter:
       name: Walk_2
       rect:
         serializedVersion: 2
-        x: 149
+        x: 124
         y: 0
-        width: 14
-        height: 22
+        width: 62
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -193,10 +193,10 @@ TextureImporter:
       name: Walk_3
       rect:
         serializedVersion: 2
-        x: 212
+        x: 186
         y: 0
-        width: 12
-        height: 23
+        width: 62
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -215,10 +215,10 @@ TextureImporter:
       name: Walk_4
       rect:
         serializedVersion: 2
-        x: 274
+        x: 248
         y: 0
-        width: 12
-        height: 25
+        width: 62
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -237,10 +237,10 @@ TextureImporter:
       name: Walk_5
       rect:
         serializedVersion: 2
-        x: 336
+        x: 310
         y: 0
-        width: 13
-        height: 24
+        width: 62
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -259,10 +259,10 @@ TextureImporter:
       name: Walk_6
       rect:
         serializedVersion: 2
-        x: 398
+        x: 372
         y: 0
-        width: 13
-        height: 22
+        width: 62
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -281,10 +281,10 @@ TextureImporter:
       name: Walk_7
       rect:
         serializedVersion: 2
-        x: 460
+        x: 434
         y: 0
-        width: 12
-        height: 23
+        width: 62
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -303,10 +303,10 @@ TextureImporter:
       name: Walk_8
       rect:
         serializedVersion: 2
-        x: 522
+        x: 496
         y: 0
-        width: 12
-        height: 25
+        width: 62
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -325,7 +325,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 09a6a7aef91807a4ea2fe3451bc8cc2c
     internalID: 0
     vertices: []
     indices: 
@@ -333,7 +333,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":9.0,"y":1.0},"gridSpriteSize":{"x":62.0,"y":33.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       Walk_0: 4035959289877228764
       Walk_1: -982904232830982447
