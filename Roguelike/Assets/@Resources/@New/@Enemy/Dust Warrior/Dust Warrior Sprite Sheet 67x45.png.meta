@@ -297,6 +297,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -1809,7 +1822,75 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Dust Warrior Sprite Sheet 67x45_0: -5940409360295689829
+      Dust Warrior Sprite Sheet 67x45_1: -4189484581199089615
+      Dust Warrior Sprite Sheet 67x45_10: 562498160308172543
+      Dust Warrior Sprite Sheet 67x45_11: 78805202470589068
+      Dust Warrior Sprite Sheet 67x45_12: -8039538696027705649
+      Dust Warrior Sprite Sheet 67x45_13: -7945361772378621181
+      Dust Warrior Sprite Sheet 67x45_14: -1640456095041974796
+      Dust Warrior Sprite Sheet 67x45_15: 7999622845653838295
+      Dust Warrior Sprite Sheet 67x45_16: -129627947667264331
+      Dust Warrior Sprite Sheet 67x45_17: 1894755383468458505
+      Dust Warrior Sprite Sheet 67x45_18: -2033296475504860344
+      Dust Warrior Sprite Sheet 67x45_19: 5357364707163259660
+      Dust Warrior Sprite Sheet 67x45_2: -783328608092385085
+      Dust Warrior Sprite Sheet 67x45_20: 3678100091781375972
+      Dust Warrior Sprite Sheet 67x45_21: 2884735800827982025
+      Dust Warrior Sprite Sheet 67x45_22: -5730267534963590706
+      Dust Warrior Sprite Sheet 67x45_23: 8366847364204414301
+      Dust Warrior Sprite Sheet 67x45_24: 8369905523991182590
+      Dust Warrior Sprite Sheet 67x45_25: 3253765637099184715
+      Dust Warrior Sprite Sheet 67x45_26: 3825258310786093685
+      Dust Warrior Sprite Sheet 67x45_27: -3108551396656487750
+      Dust Warrior Sprite Sheet 67x45_28: 4207825528907522344
+      Dust Warrior Sprite Sheet 67x45_29: 9185963128955531651
+      Dust Warrior Sprite Sheet 67x45_3: -5565073615064058310
+      Dust Warrior Sprite Sheet 67x45_30: 8665136901378471172
+      Dust Warrior Sprite Sheet 67x45_31: -1897379063889753951
+      Dust Warrior Sprite Sheet 67x45_32: -1308395797116913330
+      Dust Warrior Sprite Sheet 67x45_33: -7883527682845363065
+      Dust Warrior Sprite Sheet 67x45_34: -4418416534722573813
+      Dust Warrior Sprite Sheet 67x45_35: -2585269293755283474
+      Dust Warrior Sprite Sheet 67x45_36: -8009042856388514967
+      Dust Warrior Sprite Sheet 67x45_37: -4805785759845674934
+      Dust Warrior Sprite Sheet 67x45_38: 2772827657169973494
+      Dust Warrior Sprite Sheet 67x45_39: -5327770713502476455
+      Dust Warrior Sprite Sheet 67x45_4: 2592584818124381556
+      Dust Warrior Sprite Sheet 67x45_40: -3917272326482807549
+      Dust Warrior Sprite Sheet 67x45_41: 3926278880797296721
+      Dust Warrior Sprite Sheet 67x45_42: -4778349920527707679
+      Dust Warrior Sprite Sheet 67x45_43: -747452228960227515
+      Dust Warrior Sprite Sheet 67x45_44: -655653414183032457
+      Dust Warrior Sprite Sheet 67x45_45: -2622042882890926247
+      Dust Warrior Sprite Sheet 67x45_46: 1715226738722908657
+      Dust Warrior Sprite Sheet 67x45_47: 1936002836693859416
+      Dust Warrior Sprite Sheet 67x45_48: 288046908049586631
+      Dust Warrior Sprite Sheet 67x45_49: -347801982578623814
+      Dust Warrior Sprite Sheet 67x45_5: 5287564084120138580
+      Dust Warrior Sprite Sheet 67x45_50: -6467384256471481432
+      Dust Warrior Sprite Sheet 67x45_51: 6942673705687650057
+      Dust Warrior Sprite Sheet 67x45_52: 9054811487270603598
+      Dust Warrior Sprite Sheet 67x45_53: 141077677492262163
+      Dust Warrior Sprite Sheet 67x45_54: -6981218221724850146
+      Dust Warrior Sprite Sheet 67x45_55: 6419513294680058635
+      Dust Warrior Sprite Sheet 67x45_56: 8427219196117925503
+      Dust Warrior Sprite Sheet 67x45_57: 8095662415889750878
+      Dust Warrior Sprite Sheet 67x45_58: 3736545566395006465
+      Dust Warrior Sprite Sheet 67x45_59: -1910798099305715717
+      Dust Warrior Sprite Sheet 67x45_6: 577520524969750569
+      Dust Warrior Sprite Sheet 67x45_60: 3977606910635827697
+      Dust Warrior Sprite Sheet 67x45_61: 8453305670891106679
+      Dust Warrior Sprite Sheet 67x45_62: 1658730669068974183
+      Dust Warrior Sprite Sheet 67x45_63: 4011240988980312586
+      Dust Warrior Sprite Sheet 67x45_64: -2996831308987510739
+      Dust Warrior Sprite Sheet 67x45_65: 7501198621934237789
+      Dust Warrior Sprite Sheet 67x45_66: -8422676151185600878
+      Dust Warrior Sprite Sheet 67x45_67: 8051577220467708161
+      Dust Warrior Sprite Sheet 67x45_7: -2849670809001717143
+      Dust Warrior Sprite Sheet 67x45_8: -81558936229858567
+      Dust Warrior Sprite Sheet 67x45_9: 8376566830217921114
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

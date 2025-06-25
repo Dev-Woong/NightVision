@@ -468,6 +468,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -3234,7 +3247,132 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Tribe Tamed Beast - Attack Left Right_0: 1224284351616494284
+      Tribe Tamed Beast - Attack Left Right_1: 3359465109718735302
+      Tribe Tamed Beast - Attack Left Right_10: 6228729615262031485
+      Tribe Tamed Beast - Attack Left Right_100: -4484205516807542961
+      Tribe Tamed Beast - Attack Left Right_101: 7249770535248527027
+      Tribe Tamed Beast - Attack Left Right_102: -4543100033928596207
+      Tribe Tamed Beast - Attack Left Right_103: 823169152807106787
+      Tribe Tamed Beast - Attack Left Right_104: 7577588107233021488
+      Tribe Tamed Beast - Attack Left Right_105: -1175312603976664156
+      Tribe Tamed Beast - Attack Left Right_106: 4526062457667473089
+      Tribe Tamed Beast - Attack Left Right_107: -7307360534987419662
+      Tribe Tamed Beast - Attack Left Right_108: -4251334217695979205
+      Tribe Tamed Beast - Attack Left Right_109: -7029330894282491669
+      Tribe Tamed Beast - Attack Left Right_11: 1512630991129813998
+      Tribe Tamed Beast - Attack Left Right_110: -8180101614295835424
+      Tribe Tamed Beast - Attack Left Right_111: 4764770790689087818
+      Tribe Tamed Beast - Attack Left Right_112: -3695046366778594073
+      Tribe Tamed Beast - Attack Left Right_113: 62704317190260966
+      Tribe Tamed Beast - Attack Left Right_114: 4396927711330781237
+      Tribe Tamed Beast - Attack Left Right_115: -6281083462248742100
+      Tribe Tamed Beast - Attack Left Right_116: -4237572427293432194
+      Tribe Tamed Beast - Attack Left Right_117: -6805575989804931364
+      Tribe Tamed Beast - Attack Left Right_118: -4187986895271746302
+      Tribe Tamed Beast - Attack Left Right_119: -5499643711377720298
+      Tribe Tamed Beast - Attack Left Right_12: 7849250617013031210
+      Tribe Tamed Beast - Attack Left Right_120: 3914796206109924320
+      Tribe Tamed Beast - Attack Left Right_121: -26254158056675509
+      Tribe Tamed Beast - Attack Left Right_122: 8978952500208457081
+      Tribe Tamed Beast - Attack Left Right_123: -5480030100305545149
+      Tribe Tamed Beast - Attack Left Right_124: -4699017692003491190
+      Tribe Tamed Beast - Attack Left Right_13: 8926944324676526670
+      Tribe Tamed Beast - Attack Left Right_14: 6999078828408849677
+      Tribe Tamed Beast - Attack Left Right_15: -9163274130765356318
+      Tribe Tamed Beast - Attack Left Right_16: 3947724472906361916
+      Tribe Tamed Beast - Attack Left Right_17: -5248658438391951262
+      Tribe Tamed Beast - Attack Left Right_18: -4821347200899338716
+      Tribe Tamed Beast - Attack Left Right_19: 2605756282968774699
+      Tribe Tamed Beast - Attack Left Right_2: 2164764456835619717
+      Tribe Tamed Beast - Attack Left Right_20: 4361659573443680858
+      Tribe Tamed Beast - Attack Left Right_21: -147051679432962656
+      Tribe Tamed Beast - Attack Left Right_22: 4972030986376773569
+      Tribe Tamed Beast - Attack Left Right_23: 8523263745612075755
+      Tribe Tamed Beast - Attack Left Right_24: -5995662109064818682
+      Tribe Tamed Beast - Attack Left Right_25: -899801072749933868
+      Tribe Tamed Beast - Attack Left Right_26: 6776370609873329121
+      Tribe Tamed Beast - Attack Left Right_27: -343320496563091527
+      Tribe Tamed Beast - Attack Left Right_28: -3008261019404627864
+      Tribe Tamed Beast - Attack Left Right_29: -8984880098778651758
+      Tribe Tamed Beast - Attack Left Right_3: 1108642717717422069
+      Tribe Tamed Beast - Attack Left Right_30: 6630624695406203404
+      Tribe Tamed Beast - Attack Left Right_31: -7157639734857665638
+      Tribe Tamed Beast - Attack Left Right_32: 8530577425316899361
+      Tribe Tamed Beast - Attack Left Right_33: -2406223967313719722
+      Tribe Tamed Beast - Attack Left Right_34: -3553130453837322067
+      Tribe Tamed Beast - Attack Left Right_35: -4042408175227768933
+      Tribe Tamed Beast - Attack Left Right_36: 2577122049336299615
+      Tribe Tamed Beast - Attack Left Right_37: -3252958785752517251
+      Tribe Tamed Beast - Attack Left Right_38: -1181493543326970130
+      Tribe Tamed Beast - Attack Left Right_39: 5096310625703667527
+      Tribe Tamed Beast - Attack Left Right_4: 2856978239185686997
+      Tribe Tamed Beast - Attack Left Right_40: -7039877081794472716
+      Tribe Tamed Beast - Attack Left Right_41: -5932310500327204282
+      Tribe Tamed Beast - Attack Left Right_42: -7848181674518960051
+      Tribe Tamed Beast - Attack Left Right_43: 5781297537767240787
+      Tribe Tamed Beast - Attack Left Right_44: -1935995965747547421
+      Tribe Tamed Beast - Attack Left Right_45: 11847297243543202
+      Tribe Tamed Beast - Attack Left Right_46: -5148837846940939366
+      Tribe Tamed Beast - Attack Left Right_47: -4083627881072759922
+      Tribe Tamed Beast - Attack Left Right_48: -424720327043922741
+      Tribe Tamed Beast - Attack Left Right_49: 6546147286449464304
+      Tribe Tamed Beast - Attack Left Right_5: -5032639841577297721
+      Tribe Tamed Beast - Attack Left Right_50: -7141999814599183259
+      Tribe Tamed Beast - Attack Left Right_51: -4339185410796212628
+      Tribe Tamed Beast - Attack Left Right_52: -7026076928011666101
+      Tribe Tamed Beast - Attack Left Right_53: -2182432781283043574
+      Tribe Tamed Beast - Attack Left Right_54: -733941438993692632
+      Tribe Tamed Beast - Attack Left Right_55: 7120427390367152843
+      Tribe Tamed Beast - Attack Left Right_56: 790220300234279260
+      Tribe Tamed Beast - Attack Left Right_57: -9008297911677436512
+      Tribe Tamed Beast - Attack Left Right_58: 5344672535880946987
+      Tribe Tamed Beast - Attack Left Right_59: 4441828876226474037
+      Tribe Tamed Beast - Attack Left Right_6: -8212373937145611066
+      Tribe Tamed Beast - Attack Left Right_60: -1292854601954490438
+      Tribe Tamed Beast - Attack Left Right_61: -1470093127999530747
+      Tribe Tamed Beast - Attack Left Right_62: 5697658290246325231
+      Tribe Tamed Beast - Attack Left Right_63: 1040114109278798224
+      Tribe Tamed Beast - Attack Left Right_64: 2285527296232889128
+      Tribe Tamed Beast - Attack Left Right_65: -431327494066824415
+      Tribe Tamed Beast - Attack Left Right_66: 8605851912547418415
+      Tribe Tamed Beast - Attack Left Right_67: 2358867284387652500
+      Tribe Tamed Beast - Attack Left Right_68: 3391127653876497198
+      Tribe Tamed Beast - Attack Left Right_69: 941483876172984500
+      Tribe Tamed Beast - Attack Left Right_7: -196075436580270068
+      Tribe Tamed Beast - Attack Left Right_70: 7317113136958456003
+      Tribe Tamed Beast - Attack Left Right_71: -5989025898535059374
+      Tribe Tamed Beast - Attack Left Right_72: 2553860073553427234
+      Tribe Tamed Beast - Attack Left Right_73: 22170453460501195
+      Tribe Tamed Beast - Attack Left Right_74: -3999919186696781210
+      Tribe Tamed Beast - Attack Left Right_75: -743011123505177001
+      Tribe Tamed Beast - Attack Left Right_76: -5076283479677802751
+      Tribe Tamed Beast - Attack Left Right_77: 5469539998639144333
+      Tribe Tamed Beast - Attack Left Right_78: 7868050128510454654
+      Tribe Tamed Beast - Attack Left Right_79: 7970188693223690879
+      Tribe Tamed Beast - Attack Left Right_8: 4991552470130897937
+      Tribe Tamed Beast - Attack Left Right_80: -1547956680680840315
+      Tribe Tamed Beast - Attack Left Right_81: 6546932185874280734
+      Tribe Tamed Beast - Attack Left Right_82: 5368177912412804943
+      Tribe Tamed Beast - Attack Left Right_83: 8756635892928496192
+      Tribe Tamed Beast - Attack Left Right_84: -7708056248091762720
+      Tribe Tamed Beast - Attack Left Right_85: -133809639905297381
+      Tribe Tamed Beast - Attack Left Right_86: -7825370937607375822
+      Tribe Tamed Beast - Attack Left Right_87: 9042347276990177866
+      Tribe Tamed Beast - Attack Left Right_88: 4221906375809556692
+      Tribe Tamed Beast - Attack Left Right_89: -2007947789913650951
+      Tribe Tamed Beast - Attack Left Right_9: 8774071398968633558
+      Tribe Tamed Beast - Attack Left Right_90: -441123488407001817
+      Tribe Tamed Beast - Attack Left Right_91: -3475993753050365153
+      Tribe Tamed Beast - Attack Left Right_92: -1635197831817154653
+      Tribe Tamed Beast - Attack Left Right_93: -3597510418452219715
+      Tribe Tamed Beast - Attack Left Right_94: -3860420906364249774
+      Tribe Tamed Beast - Attack Left Right_95: -1537564925411074914
+      Tribe Tamed Beast - Attack Left Right_96: -8851120672577607471
+      Tribe Tamed Beast - Attack Left Right_97: -5042502775232521646
+      Tribe Tamed Beast - Attack Left Right_98: 2521713370000590152
+      Tribe Tamed Beast - Attack Left Right_99: 7037397886368067618
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

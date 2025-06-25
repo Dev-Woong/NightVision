@@ -123,6 +123,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -359,7 +372,17 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      VFX for Stab and spin throw (168x79)_0: -8764344924239434759
+      VFX for Stab and spin throw (168x79)_1: -6584900010008189862
+      VFX for Stab and spin throw (168x79)_2: 8976989809897323360
+      VFX for Stab and spin throw (168x79)_3: 3854506849579769716
+      VFX for Stab and spin throw (168x79)_4: 4086560043294924559
+      VFX for Stab and spin throw (168x79)_5: -5660252592618094580
+      VFX for Stab and spin throw (168x79)_6: 6194374592840838670
+      VFX for Stab and spin throw (168x79)_7: -7259333974024479448
+      VFX for Stab and spin throw (168x79)_8: -9053994003598485572
+      VFX for Stab and spin throw (168x79)_9: 5560401609860399987
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

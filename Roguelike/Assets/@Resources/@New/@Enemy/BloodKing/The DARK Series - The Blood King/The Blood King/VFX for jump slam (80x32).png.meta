@@ -111,6 +111,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -259,7 +272,13 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      VFX for jump slam (80x32)_0: -4291786772202057414
+      VFX for jump slam (80x32)_1: -7235682257510921514
+      VFX for jump slam (80x32)_2: -1787043280845382334
+      VFX for jump slam (80x32)_3: 9212485503307998832
+      VFX for jump slam (80x32)_4: 6547316605897387081
+      VFX for jump slam (80x32)_5: -645366666710666529
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

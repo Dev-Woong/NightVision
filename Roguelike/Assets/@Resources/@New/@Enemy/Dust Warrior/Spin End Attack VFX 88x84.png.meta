@@ -150,6 +150,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -584,7 +597,26 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Spin End Attack VFX 88x84_0: 3788422188829324298
+      Spin End Attack VFX 88x84_1: -3534599483998130915
+      Spin End Attack VFX 88x84_10: -5186985271124418421
+      Spin End Attack VFX 88x84_11: 6156843347250733357
+      Spin End Attack VFX 88x84_12: -7874808136137424461
+      Spin End Attack VFX 88x84_13: 3555420994559836408
+      Spin End Attack VFX 88x84_14: 5092419334218269159
+      Spin End Attack VFX 88x84_15: 1550916423660764808
+      Spin End Attack VFX 88x84_16: -6580739396022995305
+      Spin End Attack VFX 88x84_17: 8249603196586869861
+      Spin End Attack VFX 88x84_18: 794415398531187422
+      Spin End Attack VFX 88x84_2: 3669283157213023381
+      Spin End Attack VFX 88x84_3: 7678837357475473705
+      Spin End Attack VFX 88x84_4: 77342927768487162
+      Spin End Attack VFX 88x84_5: -1531743118841544398
+      Spin End Attack VFX 88x84_6: 6655833700206706828
+      Spin End Attack VFX 88x84_7: -7346984688977080487
+      Spin End Attack VFX 88x84_8: 3962281025004258731
+      Spin End Attack VFX 88x84_9: 4468759609442564196
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

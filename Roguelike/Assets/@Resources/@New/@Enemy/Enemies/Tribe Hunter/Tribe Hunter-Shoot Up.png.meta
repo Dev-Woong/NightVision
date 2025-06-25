@@ -114,6 +114,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -284,7 +297,14 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Tribe Hunter-Shoot Up_0: 2731942963170821239
+      Tribe Hunter-Shoot Up_1: 1842981802283464973
+      Tribe Hunter-Shoot Up_2: 5841874961284416789
+      Tribe Hunter-Shoot Up_3: -2898427374113851059
+      Tribe Hunter-Shoot Up_4: -4090556340952450768
+      Tribe Hunter-Shoot Up_5: -6511657321328491698
+      Tribe Hunter-Shoot Up_6: 4548797175448147008
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

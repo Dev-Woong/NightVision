@@ -543,6 +543,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -3859,7 +3872,157 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Crystal_golem_magenta - Sheet_0: 4393043568805082156
+      Crystal_golem_magenta - Sheet_1: 6327447273167567947
+      Crystal_golem_magenta - Sheet_10: -7367821299310218546
+      Crystal_golem_magenta - Sheet_100: 5263961604385132019
+      Crystal_golem_magenta - Sheet_101: 4323868694909436003
+      Crystal_golem_magenta - Sheet_102: 3186968868343999860
+      Crystal_golem_magenta - Sheet_103: -325285531467516366
+      Crystal_golem_magenta - Sheet_104: -5095213048748092599
+      Crystal_golem_magenta - Sheet_105: 5823291983148823501
+      Crystal_golem_magenta - Sheet_106: -789218239557680924
+      Crystal_golem_magenta - Sheet_107: 1415829432888874338
+      Crystal_golem_magenta - Sheet_108: -513520516634139600
+      Crystal_golem_magenta - Sheet_109: -2064929984046079870
+      Crystal_golem_magenta - Sheet_11: -8207063186656714023
+      Crystal_golem_magenta - Sheet_110: -3954074012399000600
+      Crystal_golem_magenta - Sheet_111: -7683029621972400300
+      Crystal_golem_magenta - Sheet_112: 2870111257280502961
+      Crystal_golem_magenta - Sheet_113: 8997418041556591739
+      Crystal_golem_magenta - Sheet_114: -6361341439715806183
+      Crystal_golem_magenta - Sheet_115: -8359599514973868920
+      Crystal_golem_magenta - Sheet_116: 8971937238642749262
+      Crystal_golem_magenta - Sheet_117: 5749508423829895394
+      Crystal_golem_magenta - Sheet_118: -5606229503930835893
+      Crystal_golem_magenta - Sheet_119: 7791870030649935428
+      Crystal_golem_magenta - Sheet_12: -2877969694793713153
+      Crystal_golem_magenta - Sheet_120: 4495688722376581087
+      Crystal_golem_magenta - Sheet_121: 7366071662690248181
+      Crystal_golem_magenta - Sheet_122: 5969365286366074419
+      Crystal_golem_magenta - Sheet_123: 7438392212676002648
+      Crystal_golem_magenta - Sheet_124: -1580711888852278947
+      Crystal_golem_magenta - Sheet_125: 2301009201733087883
+      Crystal_golem_magenta - Sheet_126: -2798166192772415472
+      Crystal_golem_magenta - Sheet_127: 6136624564788128063
+      Crystal_golem_magenta - Sheet_128: 7759570731113099024
+      Crystal_golem_magenta - Sheet_129: 3955055262902029627
+      Crystal_golem_magenta - Sheet_13: -326446284226758402
+      Crystal_golem_magenta - Sheet_130: -4162322047307716744
+      Crystal_golem_magenta - Sheet_131: -5851346148175177019
+      Crystal_golem_magenta - Sheet_132: -6686975529824821279
+      Crystal_golem_magenta - Sheet_133: 3462991778480264899
+      Crystal_golem_magenta - Sheet_134: 3343503842771057342
+      Crystal_golem_magenta - Sheet_135: 4059275873166471943
+      Crystal_golem_magenta - Sheet_136: 8773823239634348808
+      Crystal_golem_magenta - Sheet_137: -5425539112113505427
+      Crystal_golem_magenta - Sheet_138: 1159643537441776842
+      Crystal_golem_magenta - Sheet_139: 7199954523989357330
+      Crystal_golem_magenta - Sheet_14: 4623848828367745942
+      Crystal_golem_magenta - Sheet_140: -3467322434547909236
+      Crystal_golem_magenta - Sheet_141: 1013566534554728890
+      Crystal_golem_magenta - Sheet_142: 3988536769373376240
+      Crystal_golem_magenta - Sheet_143: -9045767627734525968
+      Crystal_golem_magenta - Sheet_144: -6594297124043055355
+      Crystal_golem_magenta - Sheet_145: -234303840636867214
+      Crystal_golem_magenta - Sheet_146: -2838845209329271354
+      Crystal_golem_magenta - Sheet_147: 5461583271714098846
+      Crystal_golem_magenta - Sheet_148: 4135846426569461744
+      Crystal_golem_magenta - Sheet_149: 6872870917518118919
+      Crystal_golem_magenta - Sheet_15: 4504520605790643565
+      Crystal_golem_magenta - Sheet_16: 4444028039348928949
+      Crystal_golem_magenta - Sheet_17: 2781474533532119076
+      Crystal_golem_magenta - Sheet_18: -5793900194686307120
+      Crystal_golem_magenta - Sheet_19: 5939503217071847540
+      Crystal_golem_magenta - Sheet_2: 2505496646126304292
+      Crystal_golem_magenta - Sheet_20: 4921318746653463304
+      Crystal_golem_magenta - Sheet_21: -4186363842574107891
+      Crystal_golem_magenta - Sheet_22: -268728138116315112
+      Crystal_golem_magenta - Sheet_23: -5369866968674269572
+      Crystal_golem_magenta - Sheet_24: 3978362355107858207
+      Crystal_golem_magenta - Sheet_25: 6141032552500387258
+      Crystal_golem_magenta - Sheet_26: 614298341279346476
+      Crystal_golem_magenta - Sheet_27: 4767125271887246869
+      Crystal_golem_magenta - Sheet_28: -2754519875057563709
+      Crystal_golem_magenta - Sheet_29: -2197041682091507151
+      Crystal_golem_magenta - Sheet_3: -5180200053530792023
+      Crystal_golem_magenta - Sheet_30: -7744801614752831225
+      Crystal_golem_magenta - Sheet_31: 5673588827189101701
+      Crystal_golem_magenta - Sheet_32: -7295048559647490332
+      Crystal_golem_magenta - Sheet_33: 2914646770657800673
+      Crystal_golem_magenta - Sheet_34: 6566772648948797901
+      Crystal_golem_magenta - Sheet_35: -2848360771893100398
+      Crystal_golem_magenta - Sheet_36: -6370805531953873072
+      Crystal_golem_magenta - Sheet_37: 4488066145681320587
+      Crystal_golem_magenta - Sheet_38: 4512364336720873380
+      Crystal_golem_magenta - Sheet_39: -7634508047375003521
+      Crystal_golem_magenta - Sheet_4: -4220911651841707015
+      Crystal_golem_magenta - Sheet_40: -7152448168007353572
+      Crystal_golem_magenta - Sheet_41: -7155211430683611524
+      Crystal_golem_magenta - Sheet_42: -1608030309683511483
+      Crystal_golem_magenta - Sheet_43: 1828364564937470944
+      Crystal_golem_magenta - Sheet_44: -3868707168762157778
+      Crystal_golem_magenta - Sheet_45: -7157371552942729559
+      Crystal_golem_magenta - Sheet_46: -6423366118618443630
+      Crystal_golem_magenta - Sheet_47: -4142570161643875883
+      Crystal_golem_magenta - Sheet_48: 4379131941109979775
+      Crystal_golem_magenta - Sheet_49: 3619689992794505795
+      Crystal_golem_magenta - Sheet_5: -4463503982403577959
+      Crystal_golem_magenta - Sheet_50: -7748062376855330004
+      Crystal_golem_magenta - Sheet_51: -2857892406634829713
+      Crystal_golem_magenta - Sheet_52: -7134962364431945096
+      Crystal_golem_magenta - Sheet_53: -289938903695747803
+      Crystal_golem_magenta - Sheet_54: -3395862331062888640
+      Crystal_golem_magenta - Sheet_55: -6544799240509318449
+      Crystal_golem_magenta - Sheet_56: -2395189850670457156
+      Crystal_golem_magenta - Sheet_57: -1025188240529940768
+      Crystal_golem_magenta - Sheet_58: 9109453740646872858
+      Crystal_golem_magenta - Sheet_59: 3253147941714004047
+      Crystal_golem_magenta - Sheet_6: 7544219173941744586
+      Crystal_golem_magenta - Sheet_60: -8677857640668282516
+      Crystal_golem_magenta - Sheet_61: 7426912478512956277
+      Crystal_golem_magenta - Sheet_62: 3893035002190513144
+      Crystal_golem_magenta - Sheet_63: -6758211619763046550
+      Crystal_golem_magenta - Sheet_64: -2383651202982755654
+      Crystal_golem_magenta - Sheet_65: 8472851272915644154
+      Crystal_golem_magenta - Sheet_66: 1348265289900832033
+      Crystal_golem_magenta - Sheet_67: 5805044993418231564
+      Crystal_golem_magenta - Sheet_68: 3320555012967520142
+      Crystal_golem_magenta - Sheet_69: -5846066052511686241
+      Crystal_golem_magenta - Sheet_7: -6759587590866857709
+      Crystal_golem_magenta - Sheet_70: -1357377177113185434
+      Crystal_golem_magenta - Sheet_71: 7240541549757830120
+      Crystal_golem_magenta - Sheet_72: -7544195639357406861
+      Crystal_golem_magenta - Sheet_73: -3404844437595545772
+      Crystal_golem_magenta - Sheet_74: -4198224744133589148
+      Crystal_golem_magenta - Sheet_75: 875949042552798645
+      Crystal_golem_magenta - Sheet_76: -4842810325568311909
+      Crystal_golem_magenta - Sheet_77: 4639125395433288057
+      Crystal_golem_magenta - Sheet_78: -8735839096338584810
+      Crystal_golem_magenta - Sheet_79: -570116280943503719
+      Crystal_golem_magenta - Sheet_8: 5825607887926405975
+      Crystal_golem_magenta - Sheet_80: 2217140060907460057
+      Crystal_golem_magenta - Sheet_81: -3066563174439779278
+      Crystal_golem_magenta - Sheet_82: 3389432134112289888
+      Crystal_golem_magenta - Sheet_83: 5806449424827850090
+      Crystal_golem_magenta - Sheet_84: -7051172785856549781
+      Crystal_golem_magenta - Sheet_85: -6879002290682893286
+      Crystal_golem_magenta - Sheet_86: 3421679288294939668
+      Crystal_golem_magenta - Sheet_87: 6556139026923647427
+      Crystal_golem_magenta - Sheet_88: -4678499561631132318
+      Crystal_golem_magenta - Sheet_89: 6777189050793953232
+      Crystal_golem_magenta - Sheet_9: 1927406160029632655
+      Crystal_golem_magenta - Sheet_90: 1899590482489880059
+      Crystal_golem_magenta - Sheet_91: 4266541918900865678
+      Crystal_golem_magenta - Sheet_92: 5301555667892017495
+      Crystal_golem_magenta - Sheet_93: -8922806400160176928
+      Crystal_golem_magenta - Sheet_94: -1054856521977406355
+      Crystal_golem_magenta - Sheet_95: -2239072561342980596
+      Crystal_golem_magenta - Sheet_96: -1285661635182823326
+      Crystal_golem_magenta - Sheet_97: 7612039156487848596
+      Crystal_golem_magenta - Sheet_98: 2665968405595047674
+      Crystal_golem_magenta - Sheet_99: 4122214263119594948
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

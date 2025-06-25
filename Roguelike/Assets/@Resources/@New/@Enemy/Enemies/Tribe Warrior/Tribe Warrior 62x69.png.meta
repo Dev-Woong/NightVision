@@ -465,6 +465,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -3209,7 +3222,131 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Tribe Warrior 62x69_0: 8309498534314147640
+      Tribe Warrior 62x69_1: -3865122063023343654
+      Tribe Warrior 62x69_10: 8226999979903402264
+      Tribe Warrior 62x69_100: 732414162142464454
+      Tribe Warrior 62x69_101: 6332592347154000709
+      Tribe Warrior 62x69_102: 2174591960342858883
+      Tribe Warrior 62x69_103: -4053976120215595695
+      Tribe Warrior 62x69_104: -4036343101787405812
+      Tribe Warrior 62x69_105: 3788682808646174687
+      Tribe Warrior 62x69_106: -5591347559913215875
+      Tribe Warrior 62x69_107: 1940382512018094971
+      Tribe Warrior 62x69_108: 2731626386909487923
+      Tribe Warrior 62x69_109: 5608278754766464910
+      Tribe Warrior 62x69_11: -6548543807521718034
+      Tribe Warrior 62x69_110: 2851122893613194262
+      Tribe Warrior 62x69_111: -9051925398232598136
+      Tribe Warrior 62x69_112: -994751695214505439
+      Tribe Warrior 62x69_113: 5644700372375401614
+      Tribe Warrior 62x69_114: -2013645374750776208
+      Tribe Warrior 62x69_115: 3697469110779013842
+      Tribe Warrior 62x69_116: -7651097837350723757
+      Tribe Warrior 62x69_117: -918375780372370802
+      Tribe Warrior 62x69_118: 234896916294801678
+      Tribe Warrior 62x69_119: 1916870905484879154
+      Tribe Warrior 62x69_12: -4658250182889892979
+      Tribe Warrior 62x69_120: -3048888423553864727
+      Tribe Warrior 62x69_121: -4929782198787188333
+      Tribe Warrior 62x69_122: 1785241832446430553
+      Tribe Warrior 62x69_123: -3522624550735602812
+      Tribe Warrior 62x69_13: -1021180272861937862
+      Tribe Warrior 62x69_14: -4168916420760023982
+      Tribe Warrior 62x69_15: -8668364566666416125
+      Tribe Warrior 62x69_16: -8929700827958552524
+      Tribe Warrior 62x69_17: -2973526558113711787
+      Tribe Warrior 62x69_18: -7598065047803465489
+      Tribe Warrior 62x69_19: -1547254896566920417
+      Tribe Warrior 62x69_2: 3429196430397631967
+      Tribe Warrior 62x69_20: 7949632016004611459
+      Tribe Warrior 62x69_21: 7995477682182147410
+      Tribe Warrior 62x69_22: -3560326683257569144
+      Tribe Warrior 62x69_23: -6816877095923637156
+      Tribe Warrior 62x69_24: -1268636044567779707
+      Tribe Warrior 62x69_25: -3672204196933601610
+      Tribe Warrior 62x69_26: -684627622734393618
+      Tribe Warrior 62x69_27: -4728273794092011638
+      Tribe Warrior 62x69_28: -6368855253276819556
+      Tribe Warrior 62x69_29: 4387517365809968200
+      Tribe Warrior 62x69_3: -5567396342940702042
+      Tribe Warrior 62x69_30: -4116337003413138828
+      Tribe Warrior 62x69_31: -3027872795948506763
+      Tribe Warrior 62x69_32: -1856134647956904491
+      Tribe Warrior 62x69_33: 5536310378107200051
+      Tribe Warrior 62x69_34: -3538929293186876464
+      Tribe Warrior 62x69_35: -8536650474736312844
+      Tribe Warrior 62x69_36: 4301091253904636293
+      Tribe Warrior 62x69_37: -2082007445645677422
+      Tribe Warrior 62x69_38: 4521526762087732936
+      Tribe Warrior 62x69_39: 8460749334208230927
+      Tribe Warrior 62x69_4: -4793361245394378822
+      Tribe Warrior 62x69_40: 6149734911746750176
+      Tribe Warrior 62x69_41: -4322828610128284417
+      Tribe Warrior 62x69_42: 3778912756403315571
+      Tribe Warrior 62x69_43: -8748359318235750939
+      Tribe Warrior 62x69_44: 2886492255313240547
+      Tribe Warrior 62x69_45: 1449622062716067734
+      Tribe Warrior 62x69_46: -1480245912995905692
+      Tribe Warrior 62x69_47: -5281587698949515930
+      Tribe Warrior 62x69_48: -577786448785529348
+      Tribe Warrior 62x69_49: -4404865270546602476
+      Tribe Warrior 62x69_5: -6814282270710772553
+      Tribe Warrior 62x69_50: -2132650477209037884
+      Tribe Warrior 62x69_51: 2148853397160060055
+      Tribe Warrior 62x69_52: 3682394783651340849
+      Tribe Warrior 62x69_53: 4666407991805558064
+      Tribe Warrior 62x69_54: -7843413381834539187
+      Tribe Warrior 62x69_55: -4843310494883305229
+      Tribe Warrior 62x69_56: -2248981579781148763
+      Tribe Warrior 62x69_57: -4219323386299246660
+      Tribe Warrior 62x69_58: -7781304351167705403
+      Tribe Warrior 62x69_59: 4753565344850415537
+      Tribe Warrior 62x69_6: -1698815541866072887
+      Tribe Warrior 62x69_60: 1788442259145676085
+      Tribe Warrior 62x69_61: -5018366814887437643
+      Tribe Warrior 62x69_62: 8227505085880405181
+      Tribe Warrior 62x69_63: -3142842921300791301
+      Tribe Warrior 62x69_64: -8332934757995656329
+      Tribe Warrior 62x69_65: 5053839471613814753
+      Tribe Warrior 62x69_66: 1745437736398254471
+      Tribe Warrior 62x69_67: -5619957856225328657
+      Tribe Warrior 62x69_68: 2908267437764267297
+      Tribe Warrior 62x69_69: 4464231121334378033
+      Tribe Warrior 62x69_7: -8653942333922240256
+      Tribe Warrior 62x69_70: -4450374554110468447
+      Tribe Warrior 62x69_71: -1454777299382702872
+      Tribe Warrior 62x69_72: -92077564828090055
+      Tribe Warrior 62x69_73: -7558216607443030626
+      Tribe Warrior 62x69_74: -208683118471741973
+      Tribe Warrior 62x69_75: 5012368215283967787
+      Tribe Warrior 62x69_76: -2365477609635243356
+      Tribe Warrior 62x69_77: 1018187670453572165
+      Tribe Warrior 62x69_78: 1535671103827780083
+      Tribe Warrior 62x69_79: 143430227699112613
+      Tribe Warrior 62x69_8: -4185130597881359843
+      Tribe Warrior 62x69_80: -7343820558625152664
+      Tribe Warrior 62x69_81: 4963528658198908852
+      Tribe Warrior 62x69_82: 9041620977406254713
+      Tribe Warrior 62x69_83: 8068914496901998617
+      Tribe Warrior 62x69_84: -3518001296173205566
+      Tribe Warrior 62x69_85: -3440931274434910841
+      Tribe Warrior 62x69_86: -2587168267195648880
+      Tribe Warrior 62x69_87: 1371913066081119335
+      Tribe Warrior 62x69_88: 8765778339097662861
+      Tribe Warrior 62x69_89: -4682144841434871022
+      Tribe Warrior 62x69_9: 1907388849778541001
+      Tribe Warrior 62x69_90: 5956321502477716668
+      Tribe Warrior 62x69_91: -7580720112156082132
+      Tribe Warrior 62x69_92: -7502582540899643490
+      Tribe Warrior 62x69_93: 1803122256630738025
+      Tribe Warrior 62x69_94: 370487652755462767
+      Tribe Warrior 62x69_95: -2443153211480612987
+      Tribe Warrior 62x69_96: 6987460046666350772
+      Tribe Warrior 62x69_97: -3377188247720996153
+      Tribe Warrior 62x69_98: -26094689796753852
+      Tribe Warrior 62x69_99: -317761050837748328
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
