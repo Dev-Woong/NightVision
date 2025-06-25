@@ -1,43 +1,28 @@
 fileFormatVersion: 2
-guid: 3670742f74917e6498dfee90ca897d05
+guid: a070260f4acbbb447a01f47a3cf79ce0
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5480610180666307007
-    second: 5 layer_0
+      213: -7063599996671428997
+    second: 7 layer_0
   - first:
-      213: -8844941276343546798
-    second: 5 layer_1
+      213: -5684795673329853818
+    second: 7 layer_1
   - first:
-      213: 1792351090416164898
-    second: 5 layer_2
+      213: -8739105271720394210
+    second: 7 layer_2
   - first:
-      213: -6246499062743184326
-    second: 5 layer_3
+      213: 6692015094447087308
+    second: 7 layer_3
   - first:
-      213: -5230019762510731375
-    second: 5 layer_4
+      213: 7495279112128806968
+    second: 7 layer_4
   - first:
-      213: 549852700472184388
-    second: 5 layer_5
+      213: 1331486301540007908
+    second: 7 layer_5
   - first:
-      213: 6425425973606045081
-    second: 5 layer_6
-  - first:
-      213: 3454188676580719702
-    second: 5 layer_7
-  - first:
-      213: -7394853424422264057
-    second: 5 layer_8
-  - first:
-      213: -22325850622341671
-    second: 5 layer_9
-  - first:
-      213: 292566029013561838
-    second: 5 layer_10
-  - first:
-      213: 1074724417461610837
-    second: 5 layer_11
+      213: 8655388723099844777
+    second: 7 layer_6
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -84,7 +69,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 35
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -146,7 +131,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 5 layer 1_0
+      name: 7 layer 1_0
       rect:
         serializedVersion: 2
         x: 0
@@ -161,8 +146,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f91f0c9d41dceae4fb996bfd334a3404
-      internalID: 588420007
+      spriteID: 926fcc85c30380245906d3a8e7317417
+      internalID: -1031415042
       vertices: []
       indices: 
       edges: []
@@ -171,7 +156,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 47bd5f1320ecaa046a01e2b82e247534
+    spriteID: d943483b0b7b53f439d063710f9f682c
     internalID: 0
     vertices: []
     indices: 
@@ -183,7 +168,7 @@ TextureImporter:
       - key: SpriteEditor.SliceSettings
         value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":695.0,"y":284.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      5 layer 1_0: 588420007
+      7 layer 1_0: -1031415042
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

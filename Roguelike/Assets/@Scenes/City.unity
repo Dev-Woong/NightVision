@@ -11971,7 +11971,6 @@ MonoBehaviour:
   curHp: 0
   def: 0
   jamStack: 0
-  canMove: 0
 --- !u!114 &1533319758
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12142,21 +12141,10 @@ MonoBehaviour:
   DashEffect: {fileID: 36312249568226427, guid: d5c5866b485145446a3cc86f83b2b4f1, type: 3}
   DoubleJumpEffet: {fileID: 1432662399882269447, guid: 9293d72710d39e24cb22b2b6a595bd46, type: 3}
   Scope: {fileID: 1396636982}
-  PlayerStat: {fileID: 1533319760}
-  PublicStat: {fileID: 1533319757}
-  damagePos: {fileID: 0}
-  damageText: {fileID: 0}
-  rc: {fileID: 0}
-  weaponType: 0
-  jumpCount: 0
-  mode: 0
-  magazineDrum: 5
-  maxHp: 0
   curHp: 0
-  canJump: 1
+  magazineDrum: 5
+  moveAble: 1
   snipeMode: 0
-  rifleMode: 0
-  modeSelection: 0
   portalMovePosition: {x: 0, y: 0, z: 0}
   gunModes:
   - {fileID: 1876768875}

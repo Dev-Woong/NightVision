@@ -134,6 +134,248 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: 3 layer_1
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 60
+        width: 45
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98182a591462e2641ad27af1f11a067a
+      internalID: 2063512798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3 layer_2
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 78
+        width: 34
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 463d31008eb07b54582d85e59be45921
+      internalID: -201934708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3 layer_3
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 84
+        width: 42
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9210e21312ded36459585a3c06e28367
+      internalID: 1601925405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3 layer_4
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 82
+        width: 49
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cac390bcd834394aad7b4923ea7a21d
+      internalID: -1170518557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3 layer_5
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 79
+        width: 44
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e739603912d45644c8b49b00ce6907a2
+      internalID: -1762270521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3 layer_6
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 68
+        width: 47
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a7f553e09f09704091efae803d29caa
+      internalID: -1562192456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3 layer_7
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 69
+        width: 47
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc2349063b041a14daa032d5166ce01f
+      internalID: -192059560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3 layer_8
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 69
+        width: 45
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d471f2cec5eb92344909d027e50218c0
+      internalID: 210695615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3 layer_9
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 72
+        width: 42
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c371bb8b433883f4795926156115a4be
+      internalID: 540572565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3 layer_10
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 73
+        width: 44
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8668dbbaae0ed05449ddefcf8d9cc3b8
+      internalID: 1267358990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3 layer_11
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 72
+        width: 34
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60ed2fd336f855241ba1bee7ff6ac393
+      internalID: -1270191129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
@@ -149,6 +391,17 @@ TextureImporter:
       entries: []
     nameFileIdTable:
       3 layer_0: 7835958260291619143
+      3 layer_1: 2063512798
+      3 layer_10: 1267358990
+      3 layer_11: -1270191129
+      3 layer_2: -201934708
+      3 layer_3: 1601925405
+      3 layer_4: -1170518557
+      3 layer_5: -1762270521
+      3 layer_6: -1562192456
+      3 layer_7: -192059560
+      3 layer_8: 210695615
+      3 layer_9: 540572565
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
