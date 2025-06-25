@@ -207,6 +207,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -1059,7 +1072,45 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Tribe Hunter-death_0: 2282319150929539477
+      Tribe Hunter-death_1: 1522344166898730708
+      Tribe Hunter-death_10: -2496051042403993871
+      Tribe Hunter-death_11: -535042265298477610
+      Tribe Hunter-death_12: -8369825759424693240
+      Tribe Hunter-death_13: -5281044288188098203
+      Tribe Hunter-death_14: -4106231059247171365
+      Tribe Hunter-death_15: 1064592688769468271
+      Tribe Hunter-death_16: 7765170787211758219
+      Tribe Hunter-death_17: 6719820922691300787
+      Tribe Hunter-death_18: -5201418314883066772
+      Tribe Hunter-death_19: 3449937511356304147
+      Tribe Hunter-death_2: 8714752282974932953
+      Tribe Hunter-death_20: 3993370225570297484
+      Tribe Hunter-death_21: 3710029251614660604
+      Tribe Hunter-death_22: -8635980270573947647
+      Tribe Hunter-death_23: 3456416873412493784
+      Tribe Hunter-death_24: -9090281138748526855
+      Tribe Hunter-death_25: -4647849168929762475
+      Tribe Hunter-death_26: 4183434679194898384
+      Tribe Hunter-death_27: 8244342750057022674
+      Tribe Hunter-death_28: 3478098145770559388
+      Tribe Hunter-death_29: 5710650418025860388
+      Tribe Hunter-death_3: 368088571627581616
+      Tribe Hunter-death_30: 5097759338524539483
+      Tribe Hunter-death_31: 3455556006336344241
+      Tribe Hunter-death_32: 764776819492871718
+      Tribe Hunter-death_33: 4894139321007204336
+      Tribe Hunter-death_34: -3483061954243765523
+      Tribe Hunter-death_35: -9056174356706723712
+      Tribe Hunter-death_36: 6478677964646631165
+      Tribe Hunter-death_37: 1245933148850148387
+      Tribe Hunter-death_4: -744767529992473859
+      Tribe Hunter-death_5: 8811618567136992570
+      Tribe Hunter-death_6: 8044281575159509305
+      Tribe Hunter-death_7: -4859023600063623041
+      Tribe Hunter-death_8: -4304600589624922813
+      Tribe Hunter-death_9: 9106495369717526819
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

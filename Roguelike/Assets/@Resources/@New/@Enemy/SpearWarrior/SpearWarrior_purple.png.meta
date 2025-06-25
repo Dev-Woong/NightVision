@@ -324,6 +324,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -2034,7 +2047,84 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      SpearWarrior_purple_0: 8666698665813477107
+      SpearWarrior_purple_1: 4982399377599955195
+      SpearWarrior_purple_10: 7322834684044693582
+      SpearWarrior_purple_11: -5636959748944460811
+      SpearWarrior_purple_12: 7768499912673210473
+      SpearWarrior_purple_13: 9056298513686777270
+      SpearWarrior_purple_14: 6350400168033636030
+      SpearWarrior_purple_15: -3542981261097166748
+      SpearWarrior_purple_16: -7296949809689402509
+      SpearWarrior_purple_17: 6943320674794533967
+      SpearWarrior_purple_18: 5397077436387814189
+      SpearWarrior_purple_19: -5068760939531298946
+      SpearWarrior_purple_2: 1952506766028885158
+      SpearWarrior_purple_20: 403743552249016736
+      SpearWarrior_purple_21: 3591607202266483246
+      SpearWarrior_purple_22: 8716502011971155294
+      SpearWarrior_purple_23: -333933060271981341
+      SpearWarrior_purple_24: 2669547636520459406
+      SpearWarrior_purple_25: -3539417594595634451
+      SpearWarrior_purple_26: -681364962848539464
+      SpearWarrior_purple_27: -4594821794809951431
+      SpearWarrior_purple_28: -2599451463411161706
+      SpearWarrior_purple_29: 3727350492615564571
+      SpearWarrior_purple_3: -6330119199120956555
+      SpearWarrior_purple_30: -1425076950427582278
+      SpearWarrior_purple_31: 1224715475240332697
+      SpearWarrior_purple_32: 8856577647395022207
+      SpearWarrior_purple_33: -2740236996176641999
+      SpearWarrior_purple_34: 5220140144754722210
+      SpearWarrior_purple_35: -7773596267658211585
+      SpearWarrior_purple_36: -2417012766245129862
+      SpearWarrior_purple_37: -4400717618412430393
+      SpearWarrior_purple_38: 6622513093053517748
+      SpearWarrior_purple_39: 3027248848974033383
+      SpearWarrior_purple_4: -3854328945455734360
+      SpearWarrior_purple_40: -8223157446239446567
+      SpearWarrior_purple_41: 2810115948278187836
+      SpearWarrior_purple_42: -8474714671895415025
+      SpearWarrior_purple_43: 5861105753700853985
+      SpearWarrior_purple_44: -496561165373329944
+      SpearWarrior_purple_45: -7397651461955727117
+      SpearWarrior_purple_46: 373800530824004664
+      SpearWarrior_purple_47: 8543663464406438049
+      SpearWarrior_purple_48: -733434066476665809
+      SpearWarrior_purple_49: 6327709824027003479
+      SpearWarrior_purple_5: -1045786117774303222
+      SpearWarrior_purple_50: 8097151792765165912
+      SpearWarrior_purple_51: -6220162912532386983
+      SpearWarrior_purple_52: 3060672637335777711
+      SpearWarrior_purple_53: -7109133571126476836
+      SpearWarrior_purple_54: 2513929436089635625
+      SpearWarrior_purple_55: 5684231830132244691
+      SpearWarrior_purple_56: -5986586243109253144
+      SpearWarrior_purple_57: -2285022817784769206
+      SpearWarrior_purple_58: 6546758059704730672
+      SpearWarrior_purple_59: 5559598955210886903
+      SpearWarrior_purple_6: -6714564881920195558
+      SpearWarrior_purple_60: 6677423142135003038
+      SpearWarrior_purple_61: 911956188270847833
+      SpearWarrior_purple_62: -6112517556970354186
+      SpearWarrior_purple_63: -1913118691504057745
+      SpearWarrior_purple_64: 4044727023319235975
+      SpearWarrior_purple_65: 3018654254675621802
+      SpearWarrior_purple_66: -3021396167672305592
+      SpearWarrior_purple_67: 752422990209968041
+      SpearWarrior_purple_68: 6067940575511278529
+      SpearWarrior_purple_69: 8950332025666364711
+      SpearWarrior_purple_7: -3354770496028457596
+      SpearWarrior_purple_70: 5035207634566845050
+      SpearWarrior_purple_71: 1742988340738701976
+      SpearWarrior_purple_72: -1327741088054506890
+      SpearWarrior_purple_73: -7772958537281152925
+      SpearWarrior_purple_74: -1297169182754848103
+      SpearWarrior_purple_75: 6112119729037201579
+      SpearWarrior_purple_76: 5303694871219538454
+      SpearWarrior_purple_8: -4692608872451347918
+      SpearWarrior_purple_9: 2597328203975719568
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

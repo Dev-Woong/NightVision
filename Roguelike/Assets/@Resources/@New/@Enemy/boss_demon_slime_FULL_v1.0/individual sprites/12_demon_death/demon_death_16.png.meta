@@ -126,6 +126,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -384,7 +397,18 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      demon_death_16_0: 5787112614526047144
+      demon_death_16_1: -4649167073290785731
+      demon_death_16_10: 7553771979112897904
+      demon_death_16_2: -3588672792017555765
+      demon_death_16_3: -4482501953497894407
+      demon_death_16_4: 6183013376036772417
+      demon_death_16_5: -5710147081266696332
+      demon_death_16_6: 7901855087666250619
+      demon_death_16_7: -2908355487077543979
+      demon_death_16_8: -7150579213286908169
+      demon_death_16_9: 5877811285727191556
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

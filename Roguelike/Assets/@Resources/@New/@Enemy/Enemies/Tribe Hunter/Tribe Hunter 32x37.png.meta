@@ -411,6 +411,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -2759,7 +2772,113 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Tribe Hunter 32x37_0: -342193692437870243
+      Tribe Hunter 32x37_1: 4389315514445984518
+      Tribe Hunter 32x37_10: -8704478458535027189
+      Tribe Hunter 32x37_100: -5532103356706444198
+      Tribe Hunter 32x37_101: -3135762262953432123
+      Tribe Hunter 32x37_102: 1337237366111319431
+      Tribe Hunter 32x37_103: -6015754749578665143
+      Tribe Hunter 32x37_104: 7026705665854664781
+      Tribe Hunter 32x37_105: 2248043238565855070
+      Tribe Hunter 32x37_11: -3361339215285743327
+      Tribe Hunter 32x37_12: 3509565788573265598
+      Tribe Hunter 32x37_13: -1441985567921983029
+      Tribe Hunter 32x37_14: 3798296895190606582
+      Tribe Hunter 32x37_15: 5621954385168195199
+      Tribe Hunter 32x37_16: 7875066030116121586
+      Tribe Hunter 32x37_17: -7240641153749068043
+      Tribe Hunter 32x37_18: 395063908314407396
+      Tribe Hunter 32x37_19: -4966294174203858114
+      Tribe Hunter 32x37_2: 1614723339500034821
+      Tribe Hunter 32x37_20: -1878081340276558819
+      Tribe Hunter 32x37_21: 1820974083906548230
+      Tribe Hunter 32x37_22: 4739417949551387478
+      Tribe Hunter 32x37_23: -2604795165657307718
+      Tribe Hunter 32x37_24: -3153996817417916319
+      Tribe Hunter 32x37_25: -7307842217213520513
+      Tribe Hunter 32x37_26: -776134927413699427
+      Tribe Hunter 32x37_27: 3137616938128930707
+      Tribe Hunter 32x37_28: 7277215742473218797
+      Tribe Hunter 32x37_29: -3083991350370424387
+      Tribe Hunter 32x37_3: -8662970843444098984
+      Tribe Hunter 32x37_30: -6451022917801351932
+      Tribe Hunter 32x37_31: -1666661845268029346
+      Tribe Hunter 32x37_32: -711565596733709314
+      Tribe Hunter 32x37_33: -325648036260880521
+      Tribe Hunter 32x37_34: 281239646699427848
+      Tribe Hunter 32x37_35: 3083833971737032939
+      Tribe Hunter 32x37_36: -3752777570542810716
+      Tribe Hunter 32x37_37: 8543050280903417840
+      Tribe Hunter 32x37_38: 5014928929198197231
+      Tribe Hunter 32x37_39: -1416402059374460269
+      Tribe Hunter 32x37_4: 7043498610480681662
+      Tribe Hunter 32x37_40: -4548022878841088988
+      Tribe Hunter 32x37_41: -6420897467777724425
+      Tribe Hunter 32x37_42: -4182632008875742417
+      Tribe Hunter 32x37_43: -6177006814586837711
+      Tribe Hunter 32x37_44: 6686937132420881404
+      Tribe Hunter 32x37_45: -6188634054770586644
+      Tribe Hunter 32x37_46: 91213113599359811
+      Tribe Hunter 32x37_47: -8789945842620568026
+      Tribe Hunter 32x37_48: -327004774244757517
+      Tribe Hunter 32x37_49: 7685378085185357866
+      Tribe Hunter 32x37_5: -19923422602910085
+      Tribe Hunter 32x37_50: 3704185838069680914
+      Tribe Hunter 32x37_51: -6100816809121896845
+      Tribe Hunter 32x37_52: -6556530838249457046
+      Tribe Hunter 32x37_53: -1467445555517733513
+      Tribe Hunter 32x37_54: -3854231749803138787
+      Tribe Hunter 32x37_55: -3380944534898977559
+      Tribe Hunter 32x37_56: -1464989012654938646
+      Tribe Hunter 32x37_57: 4928201766682972721
+      Tribe Hunter 32x37_58: 6675589329596578745
+      Tribe Hunter 32x37_59: 7148151473756393120
+      Tribe Hunter 32x37_6: -5520855371240664035
+      Tribe Hunter 32x37_60: 9106770544957586978
+      Tribe Hunter 32x37_61: 6200666562942383571
+      Tribe Hunter 32x37_62: 7371757781012144736
+      Tribe Hunter 32x37_63: 7398182359395051687
+      Tribe Hunter 32x37_64: -5216546216639963180
+      Tribe Hunter 32x37_65: 9023507391637847363
+      Tribe Hunter 32x37_66: 4514279329069680373
+      Tribe Hunter 32x37_67: 4157723451814332951
+      Tribe Hunter 32x37_68: 932355535204986645
+      Tribe Hunter 32x37_69: -7231204339889988464
+      Tribe Hunter 32x37_7: -6187043393267409738
+      Tribe Hunter 32x37_70: -1187155326204436197
+      Tribe Hunter 32x37_71: 429521263538595942
+      Tribe Hunter 32x37_72: 8572781535715968569
+      Tribe Hunter 32x37_73: -8785958621735471296
+      Tribe Hunter 32x37_74: 1429076221784572489
+      Tribe Hunter 32x37_75: 2740640728408966062
+      Tribe Hunter 32x37_76: -6353393543746756996
+      Tribe Hunter 32x37_77: 3609866913609929429
+      Tribe Hunter 32x37_78: 3889659666716791554
+      Tribe Hunter 32x37_79: 3040930297886447353
+      Tribe Hunter 32x37_8: 4488253266274079573
+      Tribe Hunter 32x37_80: 2041902282421401925
+      Tribe Hunter 32x37_81: -297114132098370646
+      Tribe Hunter 32x37_82: 4402119988204442048
+      Tribe Hunter 32x37_83: 4852814501765532554
+      Tribe Hunter 32x37_84: -3350103373992469264
+      Tribe Hunter 32x37_85: -7127233522910686671
+      Tribe Hunter 32x37_86: -7365429394940884618
+      Tribe Hunter 32x37_87: 2157871275543180245
+      Tribe Hunter 32x37_88: 3577307684411245869
+      Tribe Hunter 32x37_89: 2256173095117480990
+      Tribe Hunter 32x37_9: 7079220391508397134
+      Tribe Hunter 32x37_90: -6847084887891532555
+      Tribe Hunter 32x37_91: 4862190989275685345
+      Tribe Hunter 32x37_92: -8315250071192657240
+      Tribe Hunter 32x37_93: -4368121142728467547
+      Tribe Hunter 32x37_94: -4791725062657975974
+      Tribe Hunter 32x37_95: 7821531863058056312
+      Tribe Hunter 32x37_96: 7835063760258525121
+      Tribe Hunter 32x37_97: -6858059538319023143
+      Tribe Hunter 32x37_98: 2289683332761305679
+      Tribe Hunter 32x37_99: -4777535500132913800
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -297,6 +297,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -1809,7 +1822,75 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Tribe Tamed Beast-death_0: 4116540847373522409
+      Tribe Tamed Beast-death_1: 87000336998575607
+      Tribe Tamed Beast-death_10: 2796845634079324288
+      Tribe Tamed Beast-death_11: -455168760162106566
+      Tribe Tamed Beast-death_12: -3451926957776111452
+      Tribe Tamed Beast-death_13: -1151762224092174792
+      Tribe Tamed Beast-death_14: 2209899557446079450
+      Tribe Tamed Beast-death_15: 3041611872857939352
+      Tribe Tamed Beast-death_16: 8777061475746886741
+      Tribe Tamed Beast-death_17: -3431800847709680626
+      Tribe Tamed Beast-death_18: 1282339376784834577
+      Tribe Tamed Beast-death_19: 779724688188404458
+      Tribe Tamed Beast-death_2: -4513132478456746016
+      Tribe Tamed Beast-death_20: 5207955160509991190
+      Tribe Tamed Beast-death_21: -7578434522713321633
+      Tribe Tamed Beast-death_22: 1984697086337893477
+      Tribe Tamed Beast-death_23: -3582859260038090639
+      Tribe Tamed Beast-death_24: -294620619504650707
+      Tribe Tamed Beast-death_25: -6643814483859319317
+      Tribe Tamed Beast-death_26: 2417254276797957436
+      Tribe Tamed Beast-death_27: -5409209792761106326
+      Tribe Tamed Beast-death_28: 7213316494881576033
+      Tribe Tamed Beast-death_29: -8727439466340342416
+      Tribe Tamed Beast-death_3: 7125199125599975876
+      Tribe Tamed Beast-death_30: 8621493027300579445
+      Tribe Tamed Beast-death_31: 7514690321469579708
+      Tribe Tamed Beast-death_32: 8472223621772627031
+      Tribe Tamed Beast-death_33: 4415898959416340035
+      Tribe Tamed Beast-death_34: 2470175821174874777
+      Tribe Tamed Beast-death_35: -8658114968333936439
+      Tribe Tamed Beast-death_36: -7171107840809562129
+      Tribe Tamed Beast-death_37: 8667880605301143746
+      Tribe Tamed Beast-death_38: 4128859459368301179
+      Tribe Tamed Beast-death_39: -4593686057680606366
+      Tribe Tamed Beast-death_4: -2762140541411618608
+      Tribe Tamed Beast-death_40: -5945341771643294350
+      Tribe Tamed Beast-death_41: 7410250761123531400
+      Tribe Tamed Beast-death_42: -6483804410443935120
+      Tribe Tamed Beast-death_43: -8602921806208060849
+      Tribe Tamed Beast-death_44: 4338192506624758338
+      Tribe Tamed Beast-death_45: 9211042058552931026
+      Tribe Tamed Beast-death_46: -5633556822870961399
+      Tribe Tamed Beast-death_47: 5965735793363661247
+      Tribe Tamed Beast-death_48: -320873685395988171
+      Tribe Tamed Beast-death_49: -8785856744018275824
+      Tribe Tamed Beast-death_5: 7205600862953769894
+      Tribe Tamed Beast-death_50: 6798995478057781968
+      Tribe Tamed Beast-death_51: 8495731430230574725
+      Tribe Tamed Beast-death_52: -5989425080247149620
+      Tribe Tamed Beast-death_53: -7623115368410926846
+      Tribe Tamed Beast-death_54: 4369708403534997300
+      Tribe Tamed Beast-death_55: 5674437122057728097
+      Tribe Tamed Beast-death_56: 5578709944793394305
+      Tribe Tamed Beast-death_57: 6686514837351583779
+      Tribe Tamed Beast-death_58: 4587140885650103073
+      Tribe Tamed Beast-death_59: -1878599545809005322
+      Tribe Tamed Beast-death_6: -3201521305722877860
+      Tribe Tamed Beast-death_60: 2664951842337547568
+      Tribe Tamed Beast-death_61: 5751874860125695964
+      Tribe Tamed Beast-death_62: -9194965411201587769
+      Tribe Tamed Beast-death_63: -1059961068561839038
+      Tribe Tamed Beast-death_64: 3431422384976916396
+      Tribe Tamed Beast-death_65: 1763061036025720788
+      Tribe Tamed Beast-death_66: 979298412095669348
+      Tribe Tamed Beast-death_67: 5913066320941152284
+      Tribe Tamed Beast-death_7: 13146508855948324
+      Tribe Tamed Beast-death_8: -1090171927962265357
+      Tribe Tamed Beast-death_9: 2858371654822680431
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

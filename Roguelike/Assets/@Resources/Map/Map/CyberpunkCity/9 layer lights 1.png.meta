@@ -1,0 +1,257 @@
+fileFormatVersion: 2
+guid: f2bb19230f7893d4090103c7b047c79a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8703945010127588188
+    second: 9 layer lights_0
+  - first:
+      213: -3362788281686882352
+    second: 9 layer lights_1
+  - first:
+      213: -3264236548341349548
+    second: 9 layer lights_2
+  - first:
+      213: 3381499428054127509
+    second: 9 layer lights_3
+  - first:
+      213: -2337979146988503591
+    second: 9 layer lights_4
+  - first:
+      213: -2917469549183908028
+    second: 9 layer lights_5
+  - first:
+      213: -6605469000641423610
+    second: 9 layer lights_6
+  - first:
+      213: 6115660034366671411
+    second: 9 layer lights_7
+  - first:
+      213: -3128243612556852688
+    second: 9 layer lights_8
+  - first:
+      213: -2003711145653299515
+    second: 9 layer lights_9
+  - first:
+      213: -7195006290536391149
+    second: 9 layer lights_10
+  - first:
+      213: 8001204347270399280
+    second: 9 layer lights_11
+  - first:
+      213: 4712001192695763635
+    second: 9 layer lights_12
+  - first:
+      213: -5126708187994466780
+    second: 9 layer lights_13
+  - first:
+      213: -3457464646672671517
+    second: 9 layer lights_14
+  - first:
+      213: -6473951021977642068
+    second: 9 layer lights_15
+  - first:
+      213: -3573466614029742635
+    second: 9 layer lights_16
+  - first:
+      213: -8542901965914838403
+    second: 9 layer lights_17
+  - first:
+      213: -9197587198545755874
+    second: 9 layer lights_18
+  - first:
+      213: 6958870780139177181
+    second: 9 layer lights_19
+  - first:
+      213: 6840173988873079111
+    second: 9 layer lights_20
+  - first:
+      213: 1936764564669129331
+    second: 9 layer lights_21
+  - first:
+      213: 7167306733799897558
+    second: 9 layer lights_22
+  - first:
+      213: -754513718644635164
+    second: 9 layer lights_23
+  - first:
+      213: -7969225046426218167
+    second: 9 layer lights_24
+  - first:
+      213: -536116436782416368
+    second: 9 layer lights_25
+  - first:
+      213: 911932431239823865
+    second: 9 layer lights_26
+  - first:
+      213: 6256753116005359238
+    second: 9 layer lights_27
+  - first:
+      213: 2946448350120472888
+    second: 9 layer lights_28
+  - first:
+      213: 7378151152791884591
+    second: 9 layer lights_29
+  - first:
+      213: 2090451828629532236
+    second: 9 layer lights_30
+  - first:
+      213: 6365575492545250470
+    second: 9 layer lights_31
+  - first:
+      213: 1709193355031764442
+    second: 9 layer lights_32
+  - first:
+      213: 6247992662759981973
+    second: 9 layer lights_33
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 10
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 9 layer lights 1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 695
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40b95e433a1af3e4b9bb56b799fd6fd1
+      internalID: -1269666199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 018f01d16393d7b4bb3cb252349a0e81
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":695.0,"y":284.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      9 layer lights 1_0: -1269666199
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

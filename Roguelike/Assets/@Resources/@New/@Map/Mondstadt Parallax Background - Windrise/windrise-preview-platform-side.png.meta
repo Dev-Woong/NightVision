@@ -138,6 +138,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -484,7 +497,22 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      windrise-preview-platform-side_0: -8632763533591841723
+      windrise-preview-platform-side_1: -4696588032776562421
+      windrise-preview-platform-side_10: -5292177055602400981
+      windrise-preview-platform-side_11: -3692979175141771947
+      windrise-preview-platform-side_12: 1907609507853589611
+      windrise-preview-platform-side_13: 4110955502200782372
+      windrise-preview-platform-side_14: -4788952891518637363
+      windrise-preview-platform-side_2: -9168613048275149804
+      windrise-preview-platform-side_3: -2559406053254527920
+      windrise-preview-platform-side_4: -5749720929417729608
+      windrise-preview-platform-side_5: -2074189287736175935
+      windrise-preview-platform-side_6: 2340994917945155405
+      windrise-preview-platform-side_7: -4022907788040029271
+      windrise-preview-platform-side_8: 2421311401537498528
+      windrise-preview-platform-side_9: 1537912441854892265
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

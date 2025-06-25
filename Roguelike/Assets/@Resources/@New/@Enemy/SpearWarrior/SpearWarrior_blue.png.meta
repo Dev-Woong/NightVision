@@ -324,6 +324,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -2034,7 +2047,84 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      SpearWarrior_blue_0: -3484588884730890266
+      SpearWarrior_blue_1: 7869211070832939727
+      SpearWarrior_blue_10: -6570038641259584522
+      SpearWarrior_blue_11: 5593052819078603107
+      SpearWarrior_blue_12: -5561512818140372092
+      SpearWarrior_blue_13: 6474950771832818656
+      SpearWarrior_blue_14: -2879456955486871852
+      SpearWarrior_blue_15: 8432202897790846439
+      SpearWarrior_blue_16: -4347103021102141621
+      SpearWarrior_blue_17: 1379893677552961837
+      SpearWarrior_blue_18: 2635005902630143891
+      SpearWarrior_blue_19: -2582408248449213899
+      SpearWarrior_blue_2: 4642287196818170141
+      SpearWarrior_blue_20: 8957689193187839311
+      SpearWarrior_blue_21: 6315622474710113479
+      SpearWarrior_blue_22: -3673755388494416966
+      SpearWarrior_blue_23: 2968699095567855614
+      SpearWarrior_blue_24: -3722288052830078932
+      SpearWarrior_blue_25: 920449809855312039
+      SpearWarrior_blue_26: 2069618215542805383
+      SpearWarrior_blue_27: 8296379323013247469
+      SpearWarrior_blue_28: 990615593913170958
+      SpearWarrior_blue_29: 7764263552156320025
+      SpearWarrior_blue_3: -2856308186515393033
+      SpearWarrior_blue_30: 7767650111791374213
+      SpearWarrior_blue_31: -4194966029415947180
+      SpearWarrior_blue_32: 1510621186185892977
+      SpearWarrior_blue_33: -3356349686579221709
+      SpearWarrior_blue_34: -6199229377718038622
+      SpearWarrior_blue_35: -6971222900800454158
+      SpearWarrior_blue_36: -8058908204809536122
+      SpearWarrior_blue_37: -5942293215010540944
+      SpearWarrior_blue_38: -4072663877932367886
+      SpearWarrior_blue_39: -8233055027713500420
+      SpearWarrior_blue_4: -5742054674266977680
+      SpearWarrior_blue_40: -3960379103328753104
+      SpearWarrior_blue_41: -8313702611208822308
+      SpearWarrior_blue_42: -2263303873978505924
+      SpearWarrior_blue_43: -5989593032811807982
+      SpearWarrior_blue_44: 5792732754620491125
+      SpearWarrior_blue_45: -6155937877320005217
+      SpearWarrior_blue_46: 3729476303342388719
+      SpearWarrior_blue_47: -4724593348506365817
+      SpearWarrior_blue_48: 7301759792904231026
+      SpearWarrior_blue_49: -3800383340274939414
+      SpearWarrior_blue_5: 7753666662957080560
+      SpearWarrior_blue_50: -4164861713362336311
+      SpearWarrior_blue_51: -693402127310286434
+      SpearWarrior_blue_52: 206575404859022693
+      SpearWarrior_blue_53: 5104263803427133895
+      SpearWarrior_blue_54: 5160467172882728106
+      SpearWarrior_blue_55: -2260171453690237941
+      SpearWarrior_blue_56: 6534967317079306385
+      SpearWarrior_blue_57: -5804609107249433833
+      SpearWarrior_blue_58: 4432020864676633942
+      SpearWarrior_blue_59: -2712665742082468549
+      SpearWarrior_blue_6: -4871977017647960968
+      SpearWarrior_blue_60: -5545058333360812002
+      SpearWarrior_blue_61: 576153978032411049
+      SpearWarrior_blue_62: -2686404506446514686
+      SpearWarrior_blue_63: -3516193900574879165
+      SpearWarrior_blue_64: -3154956381087086128
+      SpearWarrior_blue_65: -3465555307743988545
+      SpearWarrior_blue_66: 424274219589873992
+      SpearWarrior_blue_67: -1004139188051254827
+      SpearWarrior_blue_68: -3691166073594135517
+      SpearWarrior_blue_69: -5776234934493690283
+      SpearWarrior_blue_7: -7126521625455995320
+      SpearWarrior_blue_70: 8151328316601363984
+      SpearWarrior_blue_71: 1403762092179633898
+      SpearWarrior_blue_72: -4341494748895751318
+      SpearWarrior_blue_73: -2900449098346254526
+      SpearWarrior_blue_74: 3756868245510007527
+      SpearWarrior_blue_75: 7790817069727367974
+      SpearWarrior_blue_76: -7366135611558344405
+      SpearWarrior_blue_8: -4437030681879285298
+      SpearWarrior_blue_9: 4570129254262561090
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -201,6 +201,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -1009,7 +1022,43 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Tribe Warrior-death_0: -1041949628740331985
+      Tribe Warrior-death_1: -7695418127213251178
+      Tribe Warrior-death_10: -757888929228516969
+      Tribe Warrior-death_11: -5859512366524395526
+      Tribe Warrior-death_12: -5765948715526065204
+      Tribe Warrior-death_13: -6733513983032453906
+      Tribe Warrior-death_14: 4701232813841850510
+      Tribe Warrior-death_15: -2699340816247748110
+      Tribe Warrior-death_16: 8350937474413203114
+      Tribe Warrior-death_17: 275082005292937028
+      Tribe Warrior-death_18: 5043476438934879857
+      Tribe Warrior-death_19: 3321440337901957382
+      Tribe Warrior-death_2: 5780679189157795631
+      Tribe Warrior-death_20: -2149705476996579035
+      Tribe Warrior-death_21: -1367534311446138978
+      Tribe Warrior-death_22: -3866270371285177555
+      Tribe Warrior-death_23: -3383805343427141593
+      Tribe Warrior-death_24: -3185222548017304708
+      Tribe Warrior-death_25: -8486753920258379983
+      Tribe Warrior-death_26: -2852436176827686942
+      Tribe Warrior-death_27: 6471437900537923200
+      Tribe Warrior-death_28: -3779557719927528943
+      Tribe Warrior-death_29: -8282299023950828479
+      Tribe Warrior-death_3: -6490451961310362278
+      Tribe Warrior-death_30: -2134224740009277162
+      Tribe Warrior-death_31: 4488222478478305326
+      Tribe Warrior-death_32: -11575866005028086
+      Tribe Warrior-death_33: 7951412604434972420
+      Tribe Warrior-death_34: -8497537551876957945
+      Tribe Warrior-death_35: -5033241170062050203
+      Tribe Warrior-death_4: -6223019296274561692
+      Tribe Warrior-death_5: -5422346723044509469
+      Tribe Warrior-death_6: 3930535355327469818
+      Tribe Warrior-death_7: -3338048643587776002
+      Tribe Warrior-death_8: 4814075598233565982
+      Tribe Warrior-death_9: -2959722533011374367
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

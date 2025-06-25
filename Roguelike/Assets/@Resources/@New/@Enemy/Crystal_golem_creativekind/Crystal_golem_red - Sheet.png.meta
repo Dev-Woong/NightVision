@@ -543,6 +543,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -3859,7 +3872,157 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Crystal_golem_red - Sheet_0: -346212029499777400
+      Crystal_golem_red - Sheet_1: 6994744800042244053
+      Crystal_golem_red - Sheet_10: -6505627369111305790
+      Crystal_golem_red - Sheet_100: -3927229014247552658
+      Crystal_golem_red - Sheet_101: 2935487097759408807
+      Crystal_golem_red - Sheet_102: -6642545709504745055
+      Crystal_golem_red - Sheet_103: -7619243812819435963
+      Crystal_golem_red - Sheet_104: 8056694060347948220
+      Crystal_golem_red - Sheet_105: 8149018381677029753
+      Crystal_golem_red - Sheet_106: 6550604575973707943
+      Crystal_golem_red - Sheet_107: 8279031933165054909
+      Crystal_golem_red - Sheet_108: -8266976685990137675
+      Crystal_golem_red - Sheet_109: 3397468264155697897
+      Crystal_golem_red - Sheet_11: -7611803089895445955
+      Crystal_golem_red - Sheet_110: 4785086233310842896
+      Crystal_golem_red - Sheet_111: 6818224642027709094
+      Crystal_golem_red - Sheet_112: 3655196118869099353
+      Crystal_golem_red - Sheet_113: 328905373559426568
+      Crystal_golem_red - Sheet_114: -3052562472920037774
+      Crystal_golem_red - Sheet_115: -3581640804000560099
+      Crystal_golem_red - Sheet_116: 6998582922783553094
+      Crystal_golem_red - Sheet_117: 7549065413641681019
+      Crystal_golem_red - Sheet_118: 7720531065625802512
+      Crystal_golem_red - Sheet_119: -7319376475827407338
+      Crystal_golem_red - Sheet_12: 9136781788644206119
+      Crystal_golem_red - Sheet_120: -9181308301008966745
+      Crystal_golem_red - Sheet_121: 6296302740250546228
+      Crystal_golem_red - Sheet_122: 2581443376447447137
+      Crystal_golem_red - Sheet_123: -8913060945558974707
+      Crystal_golem_red - Sheet_124: -6001995872331942777
+      Crystal_golem_red - Sheet_125: -8452199813831307775
+      Crystal_golem_red - Sheet_126: -290817502546056596
+      Crystal_golem_red - Sheet_127: -2924688480128323141
+      Crystal_golem_red - Sheet_128: -7312232299163984435
+      Crystal_golem_red - Sheet_129: 5802772844305967100
+      Crystal_golem_red - Sheet_13: 8368376644421063967
+      Crystal_golem_red - Sheet_130: 343860519109535520
+      Crystal_golem_red - Sheet_131: 1066246003342354123
+      Crystal_golem_red - Sheet_132: 5318832341512434148
+      Crystal_golem_red - Sheet_133: 8633272734713016863
+      Crystal_golem_red - Sheet_134: 8311340539812202347
+      Crystal_golem_red - Sheet_135: 6555785486765005232
+      Crystal_golem_red - Sheet_136: 5317614787396232030
+      Crystal_golem_red - Sheet_137: 2447594101828404203
+      Crystal_golem_red - Sheet_138: 7688183744935084335
+      Crystal_golem_red - Sheet_139: 3401257208916431290
+      Crystal_golem_red - Sheet_14: -3221947753066012979
+      Crystal_golem_red - Sheet_140: -4176477458489681596
+      Crystal_golem_red - Sheet_141: -3909369426439253637
+      Crystal_golem_red - Sheet_142: -7473598131585768926
+      Crystal_golem_red - Sheet_143: -9163542948848135524
+      Crystal_golem_red - Sheet_144: 1678255486355622668
+      Crystal_golem_red - Sheet_145: -3332379836154632906
+      Crystal_golem_red - Sheet_146: 4727279820048769251
+      Crystal_golem_red - Sheet_147: -7021461891230181327
+      Crystal_golem_red - Sheet_148: -2336881866785022098
+      Crystal_golem_red - Sheet_149: 3602876093267220863
+      Crystal_golem_red - Sheet_15: -6590543922789071117
+      Crystal_golem_red - Sheet_16: -2660886210065930497
+      Crystal_golem_red - Sheet_17: -9051518832344641760
+      Crystal_golem_red - Sheet_18: 3274950300611871647
+      Crystal_golem_red - Sheet_19: 378830461785517930
+      Crystal_golem_red - Sheet_2: 7782082591271033580
+      Crystal_golem_red - Sheet_20: -913546328496935638
+      Crystal_golem_red - Sheet_21: 5668602720850305461
+      Crystal_golem_red - Sheet_22: 2092802945357429688
+      Crystal_golem_red - Sheet_23: 4448707180267196002
+      Crystal_golem_red - Sheet_24: 2347364195772534051
+      Crystal_golem_red - Sheet_25: 5053973229403124751
+      Crystal_golem_red - Sheet_26: 4610103746208940963
+      Crystal_golem_red - Sheet_27: 255467863762453209
+      Crystal_golem_red - Sheet_28: -5052261874350712405
+      Crystal_golem_red - Sheet_29: -3255035253271981482
+      Crystal_golem_red - Sheet_3: 8272540344003844415
+      Crystal_golem_red - Sheet_30: 8779340671479917378
+      Crystal_golem_red - Sheet_31: 9103729464570876471
+      Crystal_golem_red - Sheet_32: 4015784711732801302
+      Crystal_golem_red - Sheet_33: 6502601013398735391
+      Crystal_golem_red - Sheet_34: 8692100329343905091
+      Crystal_golem_red - Sheet_35: 4085889827113891006
+      Crystal_golem_red - Sheet_36: -2833507932069987439
+      Crystal_golem_red - Sheet_37: 4921476817819831543
+      Crystal_golem_red - Sheet_38: -4477139894716264892
+      Crystal_golem_red - Sheet_39: 1684738866940980149
+      Crystal_golem_red - Sheet_4: -8589487417234020921
+      Crystal_golem_red - Sheet_40: 6863411039135776042
+      Crystal_golem_red - Sheet_41: -9113032128714066253
+      Crystal_golem_red - Sheet_42: -3478398531807551260
+      Crystal_golem_red - Sheet_43: 5107114708325916121
+      Crystal_golem_red - Sheet_44: 7539923858792283949
+      Crystal_golem_red - Sheet_45: -4594803224302295601
+      Crystal_golem_red - Sheet_46: -2247352733291482676
+      Crystal_golem_red - Sheet_47: 8076775801145440392
+      Crystal_golem_red - Sheet_48: -3951819871204685416
+      Crystal_golem_red - Sheet_49: 8590952152535914937
+      Crystal_golem_red - Sheet_5: -7244418887409169068
+      Crystal_golem_red - Sheet_50: -2732588916623327559
+      Crystal_golem_red - Sheet_51: 3652927598796460330
+      Crystal_golem_red - Sheet_52: -5159015322815784853
+      Crystal_golem_red - Sheet_53: 4114044662426496701
+      Crystal_golem_red - Sheet_54: -5074675428948248368
+      Crystal_golem_red - Sheet_55: 1475647690113936948
+      Crystal_golem_red - Sheet_56: 6331450372471810519
+      Crystal_golem_red - Sheet_57: -8397740645838830207
+      Crystal_golem_red - Sheet_58: -434283267777074106
+      Crystal_golem_red - Sheet_59: -1850659877666489726
+      Crystal_golem_red - Sheet_6: -4962452677106391976
+      Crystal_golem_red - Sheet_60: -2409115715340270024
+      Crystal_golem_red - Sheet_61: 6056455712098512879
+      Crystal_golem_red - Sheet_62: 3950221055315177632
+      Crystal_golem_red - Sheet_63: 7094586111904741349
+      Crystal_golem_red - Sheet_64: -4424599900437388581
+      Crystal_golem_red - Sheet_65: -6832260085513439405
+      Crystal_golem_red - Sheet_66: -2749696723859536281
+      Crystal_golem_red - Sheet_67: -4758565357377637758
+      Crystal_golem_red - Sheet_68: -6605506483792815876
+      Crystal_golem_red - Sheet_69: -8816728629555212094
+      Crystal_golem_red - Sheet_7: -4942633306456717487
+      Crystal_golem_red - Sheet_70: -7688286116577185582
+      Crystal_golem_red - Sheet_71: 8903364091795632620
+      Crystal_golem_red - Sheet_72: -1756283755903628386
+      Crystal_golem_red - Sheet_73: -5133169374158890264
+      Crystal_golem_red - Sheet_74: 6103139406659338544
+      Crystal_golem_red - Sheet_75: -4538004070616718418
+      Crystal_golem_red - Sheet_76: 5719328725189793843
+      Crystal_golem_red - Sheet_77: 1935322762016270632
+      Crystal_golem_red - Sheet_78: -7279509217164245573
+      Crystal_golem_red - Sheet_79: 6582655520565576194
+      Crystal_golem_red - Sheet_8: 5024147292643862735
+      Crystal_golem_red - Sheet_80: -8218393487064809859
+      Crystal_golem_red - Sheet_81: 2719389220219838129
+      Crystal_golem_red - Sheet_82: -8276570205363557852
+      Crystal_golem_red - Sheet_83: 3035407603623615304
+      Crystal_golem_red - Sheet_84: -8821342727320761586
+      Crystal_golem_red - Sheet_85: 163639174418664527
+      Crystal_golem_red - Sheet_86: -5890358665933303683
+      Crystal_golem_red - Sheet_87: -8411043405109727199
+      Crystal_golem_red - Sheet_88: -6189364559205059971
+      Crystal_golem_red - Sheet_89: 157342620786576873
+      Crystal_golem_red - Sheet_9: 8372533867149604188
+      Crystal_golem_red - Sheet_90: 2767901238537546970
+      Crystal_golem_red - Sheet_91: 999680347199265056
+      Crystal_golem_red - Sheet_92: 6381115049122617203
+      Crystal_golem_red - Sheet_93: 6153364519179739995
+      Crystal_golem_red - Sheet_94: -4841555953271077182
+      Crystal_golem_red - Sheet_95: 1151155511441052104
+      Crystal_golem_red - Sheet_96: 4913575010483004881
+      Crystal_golem_red - Sheet_97: 1211520280600444624
+      Crystal_golem_red - Sheet_98: -8854302325395332156
+      Crystal_golem_red - Sheet_99: 528937257661204497
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

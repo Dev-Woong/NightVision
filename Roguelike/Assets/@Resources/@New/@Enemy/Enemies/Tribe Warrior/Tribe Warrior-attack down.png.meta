@@ -126,6 +126,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -384,7 +397,18 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Tribe Warrior-attack down_0: -8646733395697758851
+      Tribe Warrior-attack down_1: 8879867215196334995
+      Tribe Warrior-attack down_10: 7306817605158166281
+      Tribe Warrior-attack down_2: -4975379273812669319
+      Tribe Warrior-attack down_3: -255153086662199954
+      Tribe Warrior-attack down_4: -7736588272437639683
+      Tribe Warrior-attack down_5: 7681294538461832492
+      Tribe Warrior-attack down_6: 5732340895455918481
+      Tribe Warrior-attack down_7: -1112832165115030162
+      Tribe Warrior-attack down_8: -506086662043450098
+      Tribe Warrior-attack down_9: 6716949270838251838
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

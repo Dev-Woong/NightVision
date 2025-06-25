@@ -252,6 +252,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -1434,7 +1447,60 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Hellfire_rhino-Sheet_blue_0: 8729815530164924707
+      Hellfire_rhino-Sheet_blue_1: 9054196227787449728
+      Hellfire_rhino-Sheet_blue_10: -1921315769108923026
+      Hellfire_rhino-Sheet_blue_11: -4621047065911607684
+      Hellfire_rhino-Sheet_blue_12: -131149152952011382
+      Hellfire_rhino-Sheet_blue_13: 7463457732349779269
+      Hellfire_rhino-Sheet_blue_14: -8287298614035492283
+      Hellfire_rhino-Sheet_blue_15: -2131098194145706572
+      Hellfire_rhino-Sheet_blue_16: 784809615312335109
+      Hellfire_rhino-Sheet_blue_17: 8429978217000115098
+      Hellfire_rhino-Sheet_blue_18: -6430158788084428895
+      Hellfire_rhino-Sheet_blue_19: 4773520148672188458
+      Hellfire_rhino-Sheet_blue_2: 1699472157303804896
+      Hellfire_rhino-Sheet_blue_20: -2807806959581388886
+      Hellfire_rhino-Sheet_blue_21: -7027079660266462388
+      Hellfire_rhino-Sheet_blue_22: 5973186523247610324
+      Hellfire_rhino-Sheet_blue_23: 737402244058518313
+      Hellfire_rhino-Sheet_blue_24: 1621020823043596184
+      Hellfire_rhino-Sheet_blue_25: 8901795422965436774
+      Hellfire_rhino-Sheet_blue_26: 1437124663775841873
+      Hellfire_rhino-Sheet_blue_27: 5266148973065400480
+      Hellfire_rhino-Sheet_blue_28: 4635836257979403059
+      Hellfire_rhino-Sheet_blue_29: -4380300856073011578
+      Hellfire_rhino-Sheet_blue_3: 4950841016051114016
+      Hellfire_rhino-Sheet_blue_30: 4111792056129334708
+      Hellfire_rhino-Sheet_blue_31: -5441848021877720190
+      Hellfire_rhino-Sheet_blue_32: 4281678078968343324
+      Hellfire_rhino-Sheet_blue_33: -6622909498015145335
+      Hellfire_rhino-Sheet_blue_34: -2616851754309890270
+      Hellfire_rhino-Sheet_blue_35: 6842543687427885052
+      Hellfire_rhino-Sheet_blue_36: -8289615483199123864
+      Hellfire_rhino-Sheet_blue_37: 3528136131954740860
+      Hellfire_rhino-Sheet_blue_38: 3904512970033474680
+      Hellfire_rhino-Sheet_blue_39: -8748325137110924837
+      Hellfire_rhino-Sheet_blue_4: 6361676545334221068
+      Hellfire_rhino-Sheet_blue_40: -5407894833529617511
+      Hellfire_rhino-Sheet_blue_41: 199826979393889579
+      Hellfire_rhino-Sheet_blue_42: -4944971805555182140
+      Hellfire_rhino-Sheet_blue_43: -2411575429285431309
+      Hellfire_rhino-Sheet_blue_44: 2057092546992255819
+      Hellfire_rhino-Sheet_blue_45: 6315248704341438260
+      Hellfire_rhino-Sheet_blue_46: -3730056418005803077
+      Hellfire_rhino-Sheet_blue_47: -1113185629262423391
+      Hellfire_rhino-Sheet_blue_48: 7889845183845866895
+      Hellfire_rhino-Sheet_blue_49: -7966206937395784775
+      Hellfire_rhino-Sheet_blue_5: -5400375812092021430
+      Hellfire_rhino-Sheet_blue_50: -1548395061357262788
+      Hellfire_rhino-Sheet_blue_51: -3056554907593094922
+      Hellfire_rhino-Sheet_blue_52: 1013155572862793899
+      Hellfire_rhino-Sheet_blue_6: 7105387933512026539
+      Hellfire_rhino-Sheet_blue_7: -1066039677967321855
+      Hellfire_rhino-Sheet_blue_8: 4749480369637760773
+      Hellfire_rhino-Sheet_blue_9: 4812241576247052851
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
