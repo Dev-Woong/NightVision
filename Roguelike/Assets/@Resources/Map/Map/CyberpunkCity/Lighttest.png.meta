@@ -1,0 +1,1014 @@
+fileFormatVersion: 2
+guid: cc6e0f02c0a0a784db0a3e7cefea9555
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8703945010127588188
+    second: 9 layer lights_0
+  - first:
+      213: -3362788281686882352
+    second: 9 layer lights_1
+  - first:
+      213: -3264236548341349548
+    second: 9 layer lights_2
+  - first:
+      213: 3381499428054127509
+    second: 9 layer lights_3
+  - first:
+      213: -2337979146988503591
+    second: 9 layer lights_4
+  - first:
+      213: -2917469549183908028
+    second: 9 layer lights_5
+  - first:
+      213: -6605469000641423610
+    second: 9 layer lights_6
+  - first:
+      213: 6115660034366671411
+    second: 9 layer lights_7
+  - first:
+      213: -3128243612556852688
+    second: 9 layer lights_8
+  - first:
+      213: -2003711145653299515
+    second: 9 layer lights_9
+  - first:
+      213: -7195006290536391149
+    second: 9 layer lights_10
+  - first:
+      213: 8001204347270399280
+    second: 9 layer lights_11
+  - first:
+      213: 4712001192695763635
+    second: 9 layer lights_12
+  - first:
+      213: -5126708187994466780
+    second: 9 layer lights_13
+  - first:
+      213: -3457464646672671517
+    second: 9 layer lights_14
+  - first:
+      213: -6473951021977642068
+    second: 9 layer lights_15
+  - first:
+      213: -3573466614029742635
+    second: 9 layer lights_16
+  - first:
+      213: -8542901965914838403
+    second: 9 layer lights_17
+  - first:
+      213: -9197587198545755874
+    second: 9 layer lights_18
+  - first:
+      213: 6958870780139177181
+    second: 9 layer lights_19
+  - first:
+      213: 6840173988873079111
+    second: 9 layer lights_20
+  - first:
+      213: 1936764564669129331
+    second: 9 layer lights_21
+  - first:
+      213: 7167306733799897558
+    second: 9 layer lights_22
+  - first:
+      213: -754513718644635164
+    second: 9 layer lights_23
+  - first:
+      213: -7969225046426218167
+    second: 9 layer lights_24
+  - first:
+      213: -536116436782416368
+    second: 9 layer lights_25
+  - first:
+      213: 911932431239823865
+    second: 9 layer lights_26
+  - first:
+      213: 6256753116005359238
+    second: 9 layer lights_27
+  - first:
+      213: 2946448350120472888
+    second: 9 layer lights_28
+  - first:
+      213: 7378151152791884591
+    second: 9 layer lights_29
+  - first:
+      213: 2090451828629532236
+    second: 9 layer lights_30
+  - first:
+      213: 6365575492545250470
+    second: 9 layer lights_31
+  - first:
+      213: 1709193355031764442
+    second: 9 layer lights_32
+  - first:
+      213: 6247992662759981973
+    second: 9 layer lights_33
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 9 layer lights_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 37
+        width: 17
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5b40390fdf9ac870800000000000000
+      internalID: 8703945010127588188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9 layer lights_1
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 37
+        width: 11
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d70537efd9f451d0800000000000000
+      internalID: -3362788281686882352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9 layer lights_2
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 37
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4534449672a13b2d0800000000000000
+      internalID: -3264236548341349548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9 layer lights_3
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 37
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5935a5950df7dee20800000000000000
+      internalID: 3381499428054127509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9 layer lights_4
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 37
+        width: 12
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ddba7b5a54dd8fd0800000000000000
+      internalID: -2337979146988503591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9 layer lights_5
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 37
+        width: 9
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 447cfd507e01387d0800000000000000
+      internalID: -2917469549183908028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9 layer lights_6
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 37
+        width: 9
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 607d9e1f0f8a454a0800000000000000
+      internalID: -6605469000641423610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9 layer lights_7
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 37
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33a8a7b26603fd450800000000000000
+      internalID: 6115660034366671411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9 layer lights_8
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 37
+        width: 59
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0320aae220f3694d0800000000000000
+      internalID: -3128243612556852688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9 layer lights_9
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 37
+        width: 9
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c618d244536134e0800000000000000
+      internalID: -2003711145653299515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9 layer lights_10
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 37
+        width: 17
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31e90e746e3362c90800000000000000
+      internalID: -7195006290536391149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9 layer lights_11
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 37
+        width: 9
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0350d5e26fcf90f60800000000000000
+      internalID: 8001204347270399280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9 layer lights_12
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 37
+        width: 13
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b219d79e14646140800000000000000
+      internalID: 4712001192695763635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9 layer lights_13
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 37
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 426d083c0164ad8b0800000000000000
+      internalID: -5126708187994466780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9 layer lights_14
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 37
+        width: 34
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ec9a97e83e9400d0800000000000000
+      internalID: -3457464646672671517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9 layer lights_15
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 37
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cabdeb198d7e726a0800000000000000
+      internalID: -6473951021977642068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9 layer lights_16
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 37
+        width: 9
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dd0a0e2c0f786ec0800000000000000
+      internalID: -3573466614029742635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9 layer lights_17
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 37
+        width: 39
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7ae8aa9ce3817980800000000000000
+      internalID: -8542901965914838403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9 layer lights_18
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 37
+        width: 9
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1100008c2b9b5080800000000000000
+      internalID: -9197587198545755874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9 layer lights_19
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 37
+        width: 9
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd48a08da10e29060800000000000000
+      internalID: 6958870780139177181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9 layer lights_20
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 37
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74985a8800e2dee50800000000000000
+      internalID: 6840173988873079111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9 layer lights_21
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 37
+        width: 9
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 372eaa23c15c0ea10800000000000000
+      internalID: 1936764564669129331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9 layer lights_22
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 37
+        width: 63
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d978681083677360800000000000000
+      internalID: 7167306733799897558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9 layer lights_23
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 37
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e9070e35cd6785f0800000000000000
+      internalID: -754513718644635164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9 layer lights_24
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 37
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9419e940b00a76190800000000000000
+      internalID: -7969225046426218167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9 layer lights_25
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 37
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01ef553f0f45f88f0800000000000000
+      internalID: -536116436782416368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9 layer lights_26
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 37
+        width: 13
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f1453fe6b5d7ac00800000000000000
+      internalID: 911932431239823865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9 layer lights_27
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 37
+        width: 13
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68e51de2fc374d650800000000000000
+      internalID: 6256753116005359238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9 layer lights_28
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 37
+        width: 13
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83177f9d923e3e820800000000000000
+      internalID: 2946448350120472888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9 layer lights_29
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 37
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f239c41e165746660800000000000000
+      internalID: 7378151152791884591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9 layer lights_30
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 37
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4e6789ccd6c20d10800000000000000
+      internalID: 2090451828629532236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9 layer lights_31
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 37
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a487182f21175850800000000000000
+      internalID: 6365575492545250470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9 layer lights_32
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 37
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: add502bfc4648b710800000000000000
+      internalID: 1709193355031764442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9 layer lights_33
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 37
+        width: 9
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5934e07393455b650800000000000000
+      internalID: 6247992662759981973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      9 layer lights_0: 8703945010127588188
+      9 layer lights_1: -3362788281686882352
+      9 layer lights_10: -7195006290536391149
+      9 layer lights_11: 8001204347270399280
+      9 layer lights_12: 4712001192695763635
+      9 layer lights_13: -5126708187994466780
+      9 layer lights_14: -3457464646672671517
+      9 layer lights_15: -6473951021977642068
+      9 layer lights_16: -3573466614029742635
+      9 layer lights_17: -8542901965914838403
+      9 layer lights_18: -9197587198545755874
+      9 layer lights_19: 6958870780139177181
+      9 layer lights_2: -3264236548341349548
+      9 layer lights_20: 6840173988873079111
+      9 layer lights_21: 1936764564669129331
+      9 layer lights_22: 7167306733799897558
+      9 layer lights_23: -754513718644635164
+      9 layer lights_24: -7969225046426218167
+      9 layer lights_25: -536116436782416368
+      9 layer lights_26: 911932431239823865
+      9 layer lights_27: 6256753116005359238
+      9 layer lights_28: 2946448350120472888
+      9 layer lights_29: 7378151152791884591
+      9 layer lights_3: 3381499428054127509
+      9 layer lights_30: 2090451828629532236
+      9 layer lights_31: 6365575492545250470
+      9 layer lights_32: 1709193355031764442
+      9 layer lights_33: 6247992662759981973
+      9 layer lights_4: -2337979146988503591
+      9 layer lights_5: -2917469549183908028
+      9 layer lights_6: -6605469000641423610
+      9 layer lights_7: 6115660034366671411
+      9 layer lights_8: -3128243612556852688
+      9 layer lights_9: -2003711145653299515
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
