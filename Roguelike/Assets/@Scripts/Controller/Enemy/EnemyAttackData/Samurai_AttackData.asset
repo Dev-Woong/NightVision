@@ -26,4 +26,4 @@ MonoBehaviour:
   HitEffect: {fileID: 5295936817183097829, guid: 4a12568d27798834cb68a1ec2c2f08dd, type: 3}
   effectPos: {x: 0, y: 0, z: 0}
   hitBoxSize: {x: 1.5, y: 1, z: 0}
-  rangeOffset: -0.75
+  rangeOffset: -1

@@ -6,10 +6,10 @@ using UnityEngine.UIElements;
 
 public class EnemyController : DamageAbleBase, IDamageable
 { 
-    Rigidbody2D rb;
-    Animator animator;
-    public PublicStatus ps;
-
+    protected Rigidbody2D rb;
+    protected Animator animator;
+    protected PublicStatus ps;
+    public WeaponType wType;
     public Transform damagePos;
     public GameObject damageText;
 
@@ -26,25 +26,22 @@ public class EnemyController : DamageAbleBase, IDamageable
     public bool moveAble = true;
     public bool isGround = false;
     //public bool damageAble = true;
-    private Coroutine coAttack;
-    Transform closest;
-    Vector2 direction;
+    protected Coroutine coAttack;
+    public Transform closest;
+    public Vector2 direction;
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         ps = GetComponent<PublicStatus>();
-        damageText = (GameObject)AssetDatabase.LoadAssetAtPath("Assets/@Prefabs/DamageText.prefab", typeof(GameObject));
-        damagePos = transform.Find("hud").transform;
         curHp = gameObject.GetComponent<PublicStatus>().maxHp;
         speed = GetComponent<PublicStatus>().speed;
     }
     void Update()
     {
         Move();
-        
     }
-    void Move()
+    protected virtual void Move()
     {
         Collider2D[] hits = Physics2D.OverlapCircleAll(transform.position, detectionRadius, PlayerLayer);
 
@@ -63,28 +60,27 @@ public class EnemyController : DamageAbleBase, IDamageable
             if (closest != null && moveAble == true && isGround==true)
             {
                 float distanceToTarget = Vector2.Distance(transform.position, closest.position);
-
+                direction = new Vector2(closest.position.x - rb.position.x, 0);
                 if (distanceToTarget < stopDistance)
                 {
-                    //rb.linearVelocity = Vector2.zero;
                     animator.SetBool("isWalk", false);
                     if (canAttack == true)
                         coAttack = StartCoroutine(EnAttack());
                 }
                 else
                 {
-                    direction = new Vector2(closest.position.x - rb.position.x, 0);
+                    
                     animator.SetBool("isWalk", true);
                     rb.linearVelocity = (direction.normalized * speed);
                     if (closest.position.x >= transform.position.x)
                     {
-                        //transform.localScale = new Vector3(-1, 1, 1);
-                        GetComponent<SpriteRenderer>().flipX = true;
+                        transform.localScale = new Vector3(-1, 1, 1);
+                       
                     }
                     if (closest.position.x < transform.position.x)
                     {
-                        //transform.localScale = new Vector3(1, 1, 1);
-                        GetComponent<SpriteRenderer>().flipX = false;
+                        transform.localScale = new Vector3(1, 1, 1);
+                        
                     }
                     
                 }
@@ -93,6 +89,7 @@ public class EnemyController : DamageAbleBase, IDamageable
         else
         {
             animator.SetBool("isWalk", false);
+            rb.linearVelocity = Vector3.zero;
         }
     }
     private void OnCollisionEnter2D(Collision2D collision)
@@ -102,13 +99,15 @@ public class EnemyController : DamageAbleBase, IDamageable
             isGround = true;
         }
     }
-    IEnumerator EnAttack()
+    public IEnumerator EnAttack()
     {
         canAttack = false;
+        moveAble = false;
         yield return new WaitForSeconds(0.1f);
         animator.SetTrigger("Attack");
-        yield return new WaitForSeconds(1.5f);
+        yield return new WaitForSeconds(2f);
         canAttack = true;
+        coAttack = null;
         yield return null; 
     }
     void OnDrawGizmosSelected()
@@ -140,12 +139,30 @@ public class EnemyController : DamageAbleBase, IDamageable
             hudText.transform.position = damagePos.position;
             hudText.GetComponent<DamageText>().damage = causerAtk;
             moveAble = false;
-            animator.SetTrigger("Hit");
+            PlayHitAnimation(wType, causerAtk);
             if (curHp <= 0)
             {
                 damageAble = false;
                 animator.SetTrigger("Die");
             }
+        }
+    }
+    protected virtual void PlayHitAnimation(WeaponType wType, float causerAtk)
+    {
+        switch (wType)
+        {
+            case WeaponType.Gun:
+                animator.SetTrigger("Hit");
+                curHp -= causerAtk / 4;
+                break;
+            case WeaponType.Hand:
+                animator.SetTrigger("Hit");
+                curHp -= causerAtk;
+                break;
+            case WeaponType.Sword:
+                animator.SetTrigger("Hit");
+                curHp -= causerAtk;
+                break;
         }
     }
 }
