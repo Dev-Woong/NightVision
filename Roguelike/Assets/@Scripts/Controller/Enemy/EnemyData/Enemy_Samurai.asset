@@ -12,8 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b40c404938ad2c3428c88cfe41803072, type: 3}
   m_Name: Enemy_Samurai
   m_EditorClassIdentifier: 
-  ID: 
-  moveSpeed: 2
+  ID: 1
   atk: 1
   def: 2
   maxHp: 100

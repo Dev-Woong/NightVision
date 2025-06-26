@@ -1,5 +1,6 @@
 using System.Collections;
 using UnityEditor;
+using UnityEditor.U2D.Sprites;
 using UnityEngine;
 using UnityEngine.UIElements;
 
@@ -12,7 +13,7 @@ public class EnemyController : DamageAbleBase, IDamageable
     public Transform damagePos;
     public GameObject damageText;
 
-    public float speed = 50f;
+    public float speed;
     public float stopDistance;
     public float detectionRadius;
 
@@ -20,6 +21,7 @@ public class EnemyController : DamageAbleBase, IDamageable
     
     public float curHp;
     public bool OnHit = false;
+    public bool canAttack = true;
 
     public bool moveAble = true;
     public bool isGround = false;
@@ -35,7 +37,7 @@ public class EnemyController : DamageAbleBase, IDamageable
         damageText = (GameObject)AssetDatabase.LoadAssetAtPath("Assets/@Prefabs/DamageText.prefab", typeof(GameObject));
         damagePos = transform.Find("hud").transform;
         curHp = gameObject.GetComponent<PublicStatus>().maxHp;
-        
+        speed = GetComponent<PublicStatus>().speed;
     }
     void Update()
     {
@@ -66,33 +68,31 @@ public class EnemyController : DamageAbleBase, IDamageable
                 {
                     //rb.linearVelocity = Vector2.zero;
                     animator.SetBool("isWalk", false);
-                    if (coAttack == null)
+                    if (canAttack == true)
                         coAttack = StartCoroutine(EnAttack());
-                    else return;
                 }
                 else
                 {
                     direction = new Vector2(closest.position.x - rb.position.x, 0);
+                    animator.SetBool("isWalk", true);
                     rb.linearVelocity = (direction.normalized * speed);
                     if (closest.position.x >= transform.position.x)
                     {
-                        transform.localScale = new Vector3(-1, 1, 1);
+                        //transform.localScale = new Vector3(-1, 1, 1);
+                        GetComponent<SpriteRenderer>().flipX = true;
                     }
                     if (closest.position.x < transform.position.x)
                     {
-                        transform.localScale = new Vector3(1, 1, 1);
+                        //transform.localScale = new Vector3(1, 1, 1);
+                        GetComponent<SpriteRenderer>().flipX = false;
                     }
-                    animator.SetBool("isWalk", true);
-
-                    animator.SetBool("isIdle", false);
+                    
                 }
             }
         }
         else
         {
             animator.SetBool("isWalk", false);
-            animator.SetBool("isIdle", true);
-            moveAble = false;
         }
     }
     private void OnCollisionEnter2D(Collision2D collision)
@@ -104,13 +104,12 @@ public class EnemyController : DamageAbleBase, IDamageable
     }
     IEnumerator EnAttack()
     {
-        yield return new WaitForSeconds(0.2f);
+        canAttack = false;
+        yield return new WaitForSeconds(0.1f);
         animator.SetTrigger("Attack");
-        moveAble = false;
         yield return new WaitForSeconds(1.5f);
-        moveAble = true;
-        coAttack = null;
-        animator.SetBool("isWalk", true);
+        canAttack = true;
+        yield return null; 
     }
     void OnDrawGizmosSelected()
     {
@@ -142,14 +141,11 @@ public class EnemyController : DamageAbleBase, IDamageable
             hudText.GetComponent<DamageText>().damage = causerAtk;
             moveAble = false;
             animator.SetTrigger("Hit");
-            //if (curHp <= 0)
-            //{
-            //    damageAble = false;
-            //    Debug.Log("Die");
-            //    animator.SetTrigger("Die");
-            //}
+            if (curHp <= 0)
+            {
+                damageAble = false;
+                animator.SetTrigger("Die");
+            }
         }
-        
-
     }
 }

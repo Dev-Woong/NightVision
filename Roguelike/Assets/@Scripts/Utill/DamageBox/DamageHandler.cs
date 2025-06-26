@@ -25,12 +25,12 @@ public class DamageHandler : MonoBehaviour
         float x = transform.localScale.x;
         if (data.skillType != SkillType.AOE)
         {
-            Debug.Log("Normal");
+            
             hitPos = transform.position + transform.right * data.rangeOffset * x;
         }
         else 
         {
-            Debug.Log("AOE");
+            
             if (target == null) { Debug.LogWarning("지정 타겟이 없음! "); return; }
             hitPos = target.position;
         }
@@ -46,7 +46,6 @@ public class DamageHandler : MonoBehaviour
                 {
                     StartCoroutine(HitDamage(dmg, data, x, hit.transform.position, hit.gameObject));
                 }
-                
             }
         }      
     }
@@ -56,7 +55,21 @@ public class DamageHandler : MonoBehaviour
        
         if (data.knockBack == KnockBack.Done)
         {
-            
+            if (target.GetComponent<PublicStatus>().obData.ID == 6 && data.skillType == SkillType.AOE)
+            {
+                target.GetComponent<RiotPoliceController>().isGround = false;
+                target.GetComponent<RiotPoliceController>().animator.SetTrigger("Parring");
+                target.GetComponent<Rigidbody2D>().linearVelocity = Vector3.zero;
+                if (targetPos.x < transform.position.x)
+                {
+                    target.GetComponent<Rigidbody2D>().AddForce(new Vector3(-0.5f, 0, 0), ForceMode2D.Impulse);
+                }
+                else
+                {
+                    target.GetComponent<Rigidbody2D>().AddForce(new Vector3(0.5f,0, 0), ForceMode2D.Impulse);
+                }
+                
+            }
             if (targetPos.x < transform.position.x)
             {
                 target.GetComponent<Rigidbody2D>().linearVelocity = Vector3.zero;
@@ -75,17 +88,28 @@ public class DamageHandler : MonoBehaviour
             }
             if (target.layer == 7 && data.knockBackForceY > 0f)
             {
-                target.GetComponent<EnemyController>().isGround = false;
+                if (target.GetComponent<PublicStatus>().obData.ID ==3)
+                {
+                    target.GetComponent<GhoulController>().isGround = false;
+                }
+                else
+                    target.GetComponent<EnemyController>().isGround = false;
             }
         }
         while (currentHits < data.hitCount)
         {
             float finalDmg = data.damageValue * ps.atk;
             float randDmg = Mathf.RoundToInt(Random.Range(finalDmg * 0.9f, finalDmg *1.1f));
-            dmg.TakeDamage((randDmg));
-            
+            if (target.GetComponent<PublicStatus>().obData.ID == 5 && data.skillType == SkillType.AOE)
+            {
+                dmg.TakeDamage((randDmg/4));
+            }
+            else 
+            {
+                dmg.TakeDamage((randDmg));
+            }
             //audioSource.PlayOneShot(data.SFX);
-            if (data.HitEffect != null) 
+            if (data.HitEffect != null)
             {
                 Vector3 effectPos = targetPos + new Vector3(data.effectPos.x * x, data.effectPos.y, data.effectPos.z);
                 var effect = Instantiate(data.HitEffect, effectPos, Quaternion.identity);
@@ -95,7 +119,6 @@ public class DamageHandler : MonoBehaviour
                     effect.GetComponent<SpriteRenderer>().flipX = true;
                 }
             }
-            
             currentHits++;
             yield return Interval;
         }
