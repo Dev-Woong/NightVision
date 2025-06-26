@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 38f85f06c6083884bafdd011d55a8f0e, type: 3}
   m_Name: SnipeAttack
   m_EditorClassIdentifier: 
+  wType: 2
   targetMask:
     serializedVersion: 2
     m_Bits: 128

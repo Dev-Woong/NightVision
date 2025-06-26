@@ -10,9 +10,11 @@ public enum KnockBack
     None,
     Done
 }
+
 [CreateAssetMenu(fileName = "SkillData", menuName = "Skill/AttackSkill")]
 public class AttackData : ScriptableObject   
 {
+    public WeaponType wType;
 
     public LayerMask targetMask;
 

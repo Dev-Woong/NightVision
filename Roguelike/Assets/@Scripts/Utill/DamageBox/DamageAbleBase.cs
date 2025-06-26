@@ -14,7 +14,6 @@ public abstract class DamageAbleBase : PoolAble, IDamageable
             OnDamage(Damage);
         }
     }
-    
     public abstract void OnDamage(float causerAtk);
 
 }

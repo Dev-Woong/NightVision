@@ -1,9 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
-using System.Data;
-using System.Diagnostics.CodeAnalysis;
 using UnityEngine;
-using UnityEngine.UIElements;
 
 public class DamageHandler : MonoBehaviour 
 {
@@ -52,24 +49,11 @@ public class DamageHandler : MonoBehaviour
     IEnumerator HitDamage(IDamageable dmg, AttackData data,float x,Vector3 targetPos,GameObject target)
     {
         int currentHits = 0;
-       
+
         if (data.knockBack == KnockBack.Done)
         {
-            if (target.GetComponent<PublicStatus>().obData.ID == 6 && data.skillType == SkillType.AOE)
-            {
-                target.GetComponent<RiotPoliceController>().isGround = false;
-                target.GetComponent<RiotPoliceController>().animator.SetTrigger("Parring");
-                target.GetComponent<Rigidbody2D>().linearVelocity = Vector3.zero;
-                if (targetPos.x < transform.position.x)
-                {
-                    target.GetComponent<Rigidbody2D>().AddForce(new Vector3(-0.5f, 0, 0), ForceMode2D.Impulse);
-                }
-                else
-                {
-                    target.GetComponent<Rigidbody2D>().AddForce(new Vector3(0.5f,0, 0), ForceMode2D.Impulse);
-                }
-                
-            }
+
+
             if (targetPos.x < transform.position.x)
             {
                 target.GetComponent<Rigidbody2D>().linearVelocity = Vector3.zero;
@@ -88,13 +72,16 @@ public class DamageHandler : MonoBehaviour
             }
             if (target.layer == 7 && data.knockBackForceY > 0f)
             {
-                if (target.GetComponent<PublicStatus>().obData.ID ==3)
+                if (target.GetComponent<PublicStatus>().obData.ID == 3)
                 {
                     target.GetComponent<GhoulController>().isGround = false;
                 }
                 else
+                {
                     target.GetComponent<EnemyController>().isGround = false;
+                }
             }
+
         }
         while (currentHits < data.hitCount)
         {

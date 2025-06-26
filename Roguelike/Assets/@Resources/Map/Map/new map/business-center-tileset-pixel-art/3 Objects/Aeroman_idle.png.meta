@@ -130,6 +130,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -322,7 +335,15 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Aeroman_idle_0: -7078397648072914521
+      Aeroman_idle_1: -1677526362063155100
+      Aeroman_idle_2: 3594369847161683051
+      Aeroman_idle_3: 7787323513877681193
+      Aeroman_idle_4: -8024220787559946623
+      Aeroman_idle_5: 5658176904264992489
+      Aeroman_idle_6: 5244090058611142245
+      Aeroman_idle_7: -5128265987569027288
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
