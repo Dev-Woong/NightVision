@@ -2,11 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DamageHandler : MonoBehaviour 
+public class DamageHandler : MonoBehaviour
 {
     public AudioSource audioSource;
     public Transform target;
     public PublicStatus ps;
+    
     Vector3 hitPos;
     private readonly HashSet<IDamageable> damagedTargets = new();
     private readonly WaitForSeconds Interval = new(0.04f);
@@ -16,18 +17,17 @@ public class DamageHandler : MonoBehaviour
     }
     public void PlayerCreateAttackBox(AttackData data)
     {
-        Debug.Log("어택박스 구축");
         if (data == null) return;
         damagedTargets.Clear();
         float x = transform.localScale.x;
         if (data.skillType != SkillType.AOE)
         {
-            
+
             hitPos = transform.position + transform.right * data.rangeOffset * x;
         }
-        else 
+        else
         {
-            
+
             if (target == null) { Debug.LogWarning("지정 타겟이 없음! "); return; }
             hitPos = target.position;
         }
@@ -44,9 +44,9 @@ public class DamageHandler : MonoBehaviour
                     StartCoroutine(HitDamage(dmg, data, x, hit.transform.position, hit.gameObject));
                 }
             }
-        }      
+        }
     }
-    IEnumerator HitDamage(IDamageable dmg, AttackData data,float x,Vector3 targetPos,GameObject target)
+    IEnumerator HitDamage(IDamageable dmg, AttackData data, float x, Vector3 targetPos, GameObject target)
     {
         int currentHits = 0;
 
@@ -86,15 +86,10 @@ public class DamageHandler : MonoBehaviour
         while (currentHits < data.hitCount)
         {
             float finalDmg = data.damageValue * ps.atk;
-            float randDmg = Mathf.RoundToInt(Random.Range(finalDmg * 0.9f, finalDmg *1.1f));
-            if (target.GetComponent<PublicStatus>().obData.ID == 5 && data.skillType == SkillType.AOE)
-            {
-                dmg.TakeDamage((randDmg/4));
-            }
-            else 
-            {
-                dmg.TakeDamage((randDmg));
-            }
+            float randDmg = Mathf.RoundToInt(Random.Range(finalDmg * 0.9f, finalDmg * 1.1f));
+
+            dmg.TakeDamage((randDmg), data.wType);
+
             //audioSource.PlayOneShot(data.SFX);
             if (data.HitEffect != null)
             {
@@ -111,5 +106,4 @@ public class DamageHandler : MonoBehaviour
         }
         yield return new WaitForSeconds(0.4f);
     }
-    
 }
