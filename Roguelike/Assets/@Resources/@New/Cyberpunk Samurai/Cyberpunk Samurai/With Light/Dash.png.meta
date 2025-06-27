@@ -55,7 +55,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -69,7 +69,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 35
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -134,10 +134,10 @@ TextureImporter:
       name: Dash_0
       rect:
         serializedVersion: 2
-        x: 23
-        y: 25
-        width: 9
-        height: 9
+        x: 0
+        y: 0
+        width: 96
+        height: 80
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -156,10 +156,10 @@ TextureImporter:
       name: Dash_1
       rect:
         serializedVersion: 2
-        x: 27
-        y: 15
-        width: 44
-        height: 28
+        x: 96
+        y: 0
+        width: 96
+        height: 80
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -178,10 +178,10 @@ TextureImporter:
       name: Dash_2
       rect:
         serializedVersion: 2
-        x: 133
-        y: 15
-        width: 34
-        height: 28
+        x: 192
+        y: 0
+        width: 96
+        height: 80
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -200,10 +200,10 @@ TextureImporter:
       name: Dash_3
       rect:
         serializedVersion: 2
-        x: 218
-        y: 14
-        width: 31
-        height: 31
+        x: 288
+        y: 0
+        width: 96
+        height: 80
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -222,10 +222,10 @@ TextureImporter:
       name: Dash_4
       rect:
         serializedVersion: 2
-        x: 320
-        y: 15
-        width: 25
-        height: 29
+        x: 384
+        y: 0
+        width: 96
+        height: 80
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -240,55 +240,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: Dash_5
-      rect:
-        serializedVersion: 2
-        x: 414
-        y: 15
-        width: 29
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: dc49313db96c9a780800000000000000
-      internalID: -8671181234961673011
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Dash_6
-      rect:
-        serializedVersion: 2
-        x: 314
-        y: 16
-        width: 11
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c8d00af86b2a4a060800000000000000
-      internalID: 6963869828799008140
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 9c71894be82e8a44ba8f8d03bf88c04e
     internalID: 0
     vertices: []
     indices: 
@@ -296,15 +252,15 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":5.0,"y":1.0},"gridSpriteSize":{"x":96.0,"y":80.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       Dash_0: -7848039375673857549
       Dash_1: 1228786266525858794
       Dash_2: -8184982077848143418
       Dash_3: 3821791876570597701
       Dash_4: -7909655948837581255
-      Dash_5: -8671181234961673011
-      Dash_6: 6963869828799008140
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

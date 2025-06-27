@@ -140,11 +140,12 @@ public class Anim_SwordCombo3Spectrum : MonoBehaviour
         // 캐릭터 스워드 콤보3 애니메이션 재생 후 위치 보간
         if (tr.localScale.x == 1)
         {
-            tr.position += new Vector3(0.28f, 0, 0); 
+            tr.position += new Vector3(0.3f, 0, 0); 
         }
         else if (tr.localScale.x == -1)
         {
-            tr.position += new Vector3(-0.28f, 0, 0); 
+            tr.position += new Vector3(-0.3f, 0, 0); 
         }
     }
+    
 }

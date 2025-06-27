@@ -1,4 +1,5 @@
 using System.Collections;
+using Unity.VisualScripting;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -27,8 +28,8 @@ public class PlayerController :DamageAbleBase,IDamageable
     private PlayerStatus PlayerStat;
     private PublicStatus PublicStat;
 
-    private Transform damagePos;
-    private GameObject damageText;
+    public Transform damagePos;
+    public GameObject damageText;
     private RifleController rc;
 
     readonly WaitForSeconds wTime = new(0.04f);
@@ -53,7 +54,7 @@ public class PlayerController :DamageAbleBase,IDamageable
     private bool modeSelection = false;
     public bool moveAble = true;
     public bool snipeMode = false;
-
+    public bool isParring = false;
     public Vector3 portalMovePosition;
     private Coroutine comboResetCoroutine;
     private Coroutine JumpCountCoroutine;
@@ -68,14 +69,12 @@ public class PlayerController :DamageAbleBase,IDamageable
     #endregion
 
    
-    public override void OnDamage(float causerAtk)
+    public override void OnDamage(float causerAtk, WeaponType wType)
     {
         curHp -= causerAtk;
         GameObject hudText = Instantiate(damageText);
         hudText.transform.position = damagePos.position;
         hudText.GetComponent<DamageText>().damage = causerAtk;
-
-        Debug.Log("플레이어 공격당함");
         anim.SetTrigger("Hurt");
         //if (curHp <= 0)
         //{
@@ -122,7 +121,7 @@ public class PlayerController :DamageAbleBase,IDamageable
     {
         if (modeSelection == true)
         {
-
+            rb.gravityScale = 1;
             if (Input.GetKeyDown(KeyCode.F))
             {
                 mode++;
@@ -130,7 +129,6 @@ public class PlayerController :DamageAbleBase,IDamageable
                 {
                     mode = 0;
                 }
-
             }
             if (Input.GetKeyDown(KeyCode.G))
             {
@@ -167,6 +165,7 @@ public class PlayerController :DamageAbleBase,IDamageable
     public void GunModeUI()
     {
         gunModePanel.SetActive(modeSelection);
+        
         if (mode == 0)
         {
             gunModes[0].SetActive(modeSelection);
@@ -191,6 +190,7 @@ public class PlayerController :DamageAbleBase,IDamageable
     {
         if (Input.GetKeyDown(KeyCode.Z))
         {
+           
             weaponType++;
             if (weaponType > WeaponType.Gun)
             {
@@ -208,7 +208,9 @@ public class PlayerController :DamageAbleBase,IDamageable
             comboCount = 0;
         }
         wType = (int)weaponType;
-        if (weaponType != WeaponType.Gun) {
+        
+        if (weaponType != WeaponType.Gun) 
+        {
             modeSelection = false; gunModePanel.SetActive(false);
         }
     }
@@ -290,7 +292,24 @@ public class PlayerController :DamageAbleBase,IDamageable
             anim.SetTrigger("Attack");
         }
     }
-
+    public void Parring()
+    {
+        if (weaponType == WeaponType.Sword)
+        {
+            if (Input.GetKeyDown(KeyCode.F))
+            {
+                isParring = true;
+                moveAble = false;
+                
+            }
+            anim.SetBool("isParring", isParring);
+        }
+    }
+    public void ExitParring() // Animation Event
+    {
+        isParring = false;
+        moveAble = true;
+    }
     void UseSkill()
     {
         if (Input.GetKeyDown(KeyCode.C))
@@ -510,31 +529,33 @@ public class PlayerController :DamageAbleBase,IDamageable
 
         if (portal == null)
         {
-            Debug.Log("MapManager not found in scene");
             return;
         }
 
-        Debug.Log("MapManager found");
-        Debug.Log("Collider tag :" + other.tag);
-
-        //var mapData = mapManager.GetMapData(other.tag);
         var mapData = portal.targetMapData;
 
         if (mapData == null)
         {
-            Debug.Log("No MapData found for tag" + other.tag);
+            return;
         }
-
         if (mapData != null)
         {
             HandleMapTransition(mapData);
         }
-
-
-
         if (other.CompareTag("SpeedTool"))
         {
             PublicStat.speed = 1;
+        }
+        if (other.gameObject.layer == 8 && isParring == true)
+        {
+            anim.SetTrigger("EnterBullet");
+            other.gameObject.GetComponent<Rigidbody2D>().linearVelocity = Vector3.zero;
+            other.gameObject.GetComponent<Rigidbody2D>().AddForce(transform.forward* 20,ForceMode2D.Impulse);
+            other.gameObject.GetComponent<Transform>().localScale = new Vector3(other.gameObject.transform.localScale.x * -1, other.gameObject.transform.localScale.y, 1);
+            /*
+             * other.GetComponent<Bullet>().데미지 변경? 플레이어기준으로?
+             * other.Getcomponent<Bullet>().레이어마스크 타겟 변경
+             */
         }
 
     }
@@ -573,7 +594,7 @@ public class PlayerController :DamageAbleBase,IDamageable
         tr = GetComponent<Transform>();
         anim = GetComponent<Animator>();
         rc = GetComponentInChildren<RifleController>();
-        maxHp = 100;
+        maxHp = PublicStat.maxHp;
         curHp = maxHp;
     }
     
@@ -586,8 +607,6 @@ public class PlayerController :DamageAbleBase,IDamageable
         rb.freezeRotation = true;
 
         camChanger = GetComponent<CameraChanger>();
-        damageText = (GameObject)AssetDatabase.LoadAssetAtPath("Assets/@Prefabs/PlayerDamageText.prefab", typeof(GameObject));
-        damagePos = transform.Find("hud").transform;
     }
     
     void Update()
@@ -601,6 +620,7 @@ public class PlayerController :DamageAbleBase,IDamageable
             GetWeaponState();
             Attack();
         }
+        Parring();
         EnterRifleMode();
         GunModeUI();
         SelectGunMode();

@@ -57,20 +57,27 @@ public class RiotPoliceController : EnemyController
     }
     protected override void PlayHitAnimation(WeaponType wType, float causerAtk)
     {
+        float finalDmg = 0;
         switch (wType)
         {
             case WeaponType.Gun:
                 animator.SetTrigger("Parring");
-                curHp -= causerAtk / 4;
+                finalDmg = causerAtk / 4;
+                curHp -= Mathf.RoundToInt(finalDmg);
                 break;
             case WeaponType.Hand:
                 animator.SetTrigger("Hit");
-                curHp -= causerAtk;
+                finalDmg = causerAtk;
+                curHp -= finalDmg;
                 break;
             case WeaponType.Sword:
                 animator.SetTrigger("Hit");
-                curHp -= causerAtk;
+                finalDmg = causerAtk;
+                curHp -= finalDmg;
                 break;
         }
+        GameObject hudText = Instantiate(damageText);
+        hudText.transform.position = damagePos.position;
+        hudText.GetComponent<DamageText>().damage = Mathf.RoundToInt(finalDmg);
     }
 }

@@ -15,7 +15,6 @@ TagManager:
   - LeftTrigger
   - HomePortal
   - MapManager
-  - TrainPortal
   layers:
   - Default
   - TransparentFX

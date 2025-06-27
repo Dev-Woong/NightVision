@@ -171,6 +171,8 @@ AnimationClip:
       value: {fileID: -49186010906550935, guid: 66e8c5fc4847da04c918947fee7a0bd6, type: 3}
     - time: 1.1904762
       value: {fileID: -49186010906550935, guid: 66e8c5fc4847da04c918947fee7a0bd6, type: 3}
+    - time: 1.2142857
+      value: {fileID: -5592714129841367499, guid: 66e8c5fc4847da04c918947fee7a0bd6, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -240,12 +242,13 @@ AnimationClip:
     - {fileID: -49186010906550935, guid: 66e8c5fc4847da04c918947fee7a0bd6, type: 3}
     - {fileID: -49186010906550935, guid: 66e8c5fc4847da04c918947fee7a0bd6, type: 3}
     - {fileID: -49186010906550935, guid: 66e8c5fc4847da04c918947fee7a0bd6, type: 3}
+    - {fileID: -5592714129841367499, guid: 66e8c5fc4847da04c918947fee7a0bd6, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 1.2142857
+    m_StopTime: 1.2380953
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -475,13 +478,6 @@ AnimationClip:
     messageOptions: 0
   - time: 1.1666666
     functionName: FinishAttack
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 0
-    messageOptions: 0
-  - time: 1.1904762
-    functionName: TransformLerp
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0

@@ -5,11 +5,11 @@ using UnityEngine;
 using UnityEngine.UIElements;
 
 public class EnemyController : DamageAbleBase, IDamageable
-{ 
+{
     protected Rigidbody2D rb;
     protected Animator animator;
     protected PublicStatus ps;
-    public WeaponType wType;
+    //public WeaponType wType;
     public Transform damagePos;
     public GameObject damageText;
 
@@ -18,7 +18,7 @@ public class EnemyController : DamageAbleBase, IDamageable
     public float detectionRadius;
 
     public LayerMask PlayerLayer;
-    
+
     public float curHp;
     public bool OnHit = false;
     public bool canAttack = true;
@@ -57,7 +57,7 @@ public class EnemyController : DamageAbleBase, IDamageable
                     closest = hit.transform;
                 }
             }
-            if (closest != null && moveAble == true && isGround==true)
+            if (closest != null && moveAble == true && isGround == true)
             {
                 float distanceToTarget = Vector2.Distance(transform.position, closest.position);
                 direction = new Vector2(closest.position.x - rb.position.x, 0);
@@ -69,20 +69,20 @@ public class EnemyController : DamageAbleBase, IDamageable
                 }
                 else
                 {
-                    
+
                     animator.SetBool("isWalk", true);
                     rb.linearVelocity = (direction.normalized * speed);
                     if (closest.position.x >= transform.position.x)
                     {
                         transform.localScale = new Vector3(-1, 1, 1);
-                       
+
                     }
                     if (closest.position.x < transform.position.x)
                     {
                         transform.localScale = new Vector3(1, 1, 1);
-                        
+
                     }
-                    
+
                 }
             }
         }
@@ -108,7 +108,7 @@ public class EnemyController : DamageAbleBase, IDamageable
         yield return new WaitForSeconds(2f);
         canAttack = true;
         coAttack = null;
-        yield return null; 
+        yield return null;
     }
     void OnDrawGizmosSelected()
     {
@@ -116,28 +116,26 @@ public class EnemyController : DamageAbleBase, IDamageable
         Vector3 offsetPosition = transform.position;
         Gizmos.DrawWireSphere(offsetPosition, detectionRadius);
     }
-    
-    
+
+
     void Die()
     {
         gameObject.SetActive(false);
         //ReleaseObject();
     }
 
-    
+
     public void OnMoveAble() // Animation Event
     {
         moveAble = true;
     }
-    
-    public override void OnDamage(float causerAtk)
+
+    public override void OnDamage(float causerAtk, WeaponType wType)
     {
         if (damageAble == true)
         {
-            curHp -= causerAtk;
-            GameObject hudText = Instantiate(damageText);
-            hudText.transform.position = damagePos.position;
-            hudText.GetComponent<DamageText>().damage = causerAtk;
+            //curHp -= causerAtk;
+
             moveAble = false;
             PlayHitAnimation(wType, causerAtk);
             if (curHp <= 0)
@@ -149,20 +147,28 @@ public class EnemyController : DamageAbleBase, IDamageable
     }
     protected virtual void PlayHitAnimation(WeaponType wType, float causerAtk)
     {
+        float finalDmg = 0;
         switch (wType)
         {
             case WeaponType.Gun:
                 animator.SetTrigger("Hit");
-                curHp -= causerAtk / 4;
+                finalDmg = causerAtk;
+                curHp -= finalDmg;
                 break;
             case WeaponType.Hand:
                 animator.SetTrigger("Hit");
-                curHp -= causerAtk;
+                finalDmg = causerAtk;
+                curHp -= finalDmg;
                 break;
             case WeaponType.Sword:
                 animator.SetTrigger("Hit");
-                curHp -= causerAtk;
+                finalDmg = causerAtk;
+                curHp -= finalDmg;
                 break;
         }
+        GameObject hudText = Instantiate(damageText);
+        hudText.transform.position = damagePos.position;
+        hudText.GetComponent<DamageText>().damage = Mathf.RoundToInt(finalDmg);
     }
 }
+
