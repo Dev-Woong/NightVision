@@ -1,6 +1,4 @@
 using System.Collections;
-using Unity.VisualScripting;
-using UnityEditor;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 public enum WeaponType
@@ -21,9 +19,11 @@ public class PlayerController :DamageAbleBase,IDamageable
     public Transform JumpEffectPoint;
     public Transform FireEffectPoint;
     public Transform DashEffectPoint;
+    public Transform ParringEffectPoint;
     public GameObject FireEffect;
     public GameObject DashEffect;
     public GameObject DoubleJumpEffet;
+    public GameObject ParringEffect;
     public GameObject Scope;
     private PlayerStatus PlayerStat;
     private PublicStatus PublicStat;
@@ -81,6 +81,7 @@ public class PlayerController :DamageAbleBase,IDamageable
         //    Die();
         //}
     }
+    #region GunMode
     public void EnterSnipeMode()
     {
         if (snipeMode == true)
@@ -186,6 +187,8 @@ public class PlayerController :DamageAbleBase,IDamageable
         }
 
     }
+    #endregion
+    #region Weapon
     void SetWeaponState()
     {
         if (Input.GetKeyDown(KeyCode.Z))
@@ -229,7 +232,8 @@ public class PlayerController :DamageAbleBase,IDamageable
                 break;
         }
     }
-
+    #endregion
+    #region PlayerController
     void Move()
     {
         if (Input.GetButton(Define.Horizontal) /* && (isAttacking == false || weaponType==WeaponType.Gun)*/)
@@ -294,27 +298,24 @@ public class PlayerController :DamageAbleBase,IDamageable
     }
     public void Parring()
     {
-        if (weaponType == WeaponType.Sword)
+        if (Input.GetKeyDown(KeyCode.F) && isParring == false)
         {
-            if (Input.GetKeyDown(KeyCode.F))
-            {
-                isParring = true;
-                moveAble = false;
-                
-            }
-            anim.SetBool("isParring", isParring);
+            anim.SetTrigger("Parring");
+            isParring = true;
+            moveAble = false;
         }
     }
-    public void ExitParring() // Animation Event
+    public void ExitParring()
     {
         isParring = false;
         moveAble = true;
+        Time.timeScale = 1;
     }
     void UseSkill()
     {
         if (Input.GetKeyDown(KeyCode.C))
         {
-            lastInputTime = Time.time;
+            lastInputTime = Time.time;  
             if (weaponType != WeaponType.Gun)
             {
                 if (comboResetCoroutine != null)
@@ -334,6 +335,7 @@ public class PlayerController :DamageAbleBase,IDamageable
             }
         }
     }
+    #endregion
     public void OnAirTool()
     {
         anim.SetBool("onAir", true);
@@ -524,7 +526,30 @@ public class PlayerController :DamageAbleBase,IDamageable
     
     private void OnTriggerEnter2D(Collider2D other)
     {
-
+        if (other.CompareTag("Bullet"))
+        {
+            if (other.GetComponent<Bullet>().targetMask == 6)
+            {
+                if (isParring == true)
+                {
+                    anim.SetTrigger("EnterBullet");
+                   
+                        Time.timeScale = 0.2f;
+                    
+                    var parringEffect = Instantiate(ParringEffect, ParringEffectPoint.position,Quaternion.identity);
+                    parringEffect.transform.localScale = transform.localScale;
+                    other.GetComponent<Rigidbody2D>().linearVelocity = -other.GetComponent<Rigidbody2D>().linearVelocity;
+                    other.GetComponent<Bullet>().targetMask = LayerMask.NameToLayer("Enemy");
+                }
+                else
+                {
+                    anim.SetTrigger("Hurt");
+                    float bulletAtk = other.gameObject.GetComponent<Bullet>().atk;
+                    OnDamage(bulletAtk, weaponType);
+                    other.gameObject.SetActive(false);
+                }
+            }
+        }
         var portal = other.GetComponent<MapPortal>();
 
         if (portal == null)
@@ -546,17 +571,7 @@ public class PlayerController :DamageAbleBase,IDamageable
         {
             PublicStat.speed = 1;
         }
-        if (other.gameObject.layer == 8 && isParring == true)
-        {
-            anim.SetTrigger("EnterBullet");
-            other.gameObject.GetComponent<Rigidbody2D>().linearVelocity = Vector3.zero;
-            other.gameObject.GetComponent<Rigidbody2D>().AddForce(transform.forward* 20,ForceMode2D.Impulse);
-            other.gameObject.GetComponent<Transform>().localScale = new Vector3(other.gameObject.transform.localScale.x * -1, other.gameObject.transform.localScale.y, 1);
-            /*
-             * other.GetComponent<Bullet>().데미지 변경? 플레이어기준으로?
-             * other.Getcomponent<Bullet>().레이어마스크 타겟 변경
-             */
-        }
+        
 
     }
 
@@ -619,8 +634,8 @@ public class PlayerController :DamageAbleBase,IDamageable
             SetWeaponState();
             GetWeaponState();
             Attack();
-        }
         Parring();
+        }
         EnterRifleMode();
         GunModeUI();
         SelectGunMode();
