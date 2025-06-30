@@ -1011,7 +1011,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &372334235
 Transform:
   m_ObjectHideFlags: 0
@@ -3494,10 +3494,12 @@ MonoBehaviour:
   FireEffectPoint: {fileID: 586429955}
   DashEffectPoint: {fileID: 1387831628}
   ParringEffectPoint: {fileID: 1672584953}
+  ParringSpecPoint: {fileID: 0}
   FireEffect: {fileID: 1591541330853397869, guid: 54112f193dd853c4885f0819bc0cee81, type: 3}
   DashEffect: {fileID: 36312249568226427, guid: d5c5866b485145446a3cc86f83b2b4f1, type: 3}
   DoubleJumpEffet: {fileID: 1432662399882269447, guid: 9293d72710d39e24cb22b2b6a595bd46, type: 3}
   ParringEffect: {fileID: 2994933762513531246, guid: 3c2d6afbaa7cb54439c8bb01bb5f60f3, type: 3}
+  ParringSpectrum: {fileID: 1553655214722935066, guid: 1ddce0c8bb3ff2e4bad897d3eec4da55, type: 3}
   Scope: {fileID: 1445972496}
   damagePos: {fileID: 1612212834}
   damageText: {fileID: 2707642217791368709, guid: 1f3b5ba7680ea6f45a8e8c8e06b20e81, type: 3}
@@ -4182,6 +4184,7 @@ Transform:
   - {fileID: 1227160352}
   - {fileID: 1229010675}
   - {fileID: 1672584953}
+  - {fileID: 1976415343}
   m_Father: {fileID: 957042073}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1245839806
@@ -6092,7 +6095,7 @@ Transform:
   m_GameObject: {fileID: 1672584952}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.5, y: 0.9, z: 0}
+  m_LocalPosition: {x: 1.98, y: 0.9, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6753,6 +6756,37 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 587145942}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1976415342
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1976415343}
+  m_Layer: 0
+  m_Name: ParringSpecPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1976415343
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1976415342}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.29, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1230097232}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1994972533
 GameObject:

@@ -20,10 +20,12 @@ public class PlayerController :DamageAbleBase,IDamageable
     public Transform FireEffectPoint;
     public Transform DashEffectPoint;
     public Transform ParringEffectPoint;
+    public Transform ParringSpecPoint;
     public GameObject FireEffect;
     public GameObject DashEffect;
     public GameObject DoubleJumpEffet;
     public GameObject ParringEffect;
+    public GameObject ParringSpectrum;
     public GameObject Scope;
     private PlayerStatus PlayerStat;
     private PublicStatus PublicStat;
@@ -309,7 +311,6 @@ public class PlayerController :DamageAbleBase,IDamageable
     {
         isParring = false;
         moveAble = true;
-        Time.timeScale = 1;
     }
     void UseSkill()
     {
@@ -523,7 +524,14 @@ public class PlayerController :DamageAbleBase,IDamageable
         }
 
     }
-    
+    public void ParringSpectrumProcess()
+    {
+        var dd = Instantiate(ParringSpectrum, ParringSpecPoint.position, Quaternion.identity);
+        dd.transform.localScale = transform.localScale;
+        var parringEffect = Instantiate(ParringEffect, ParringEffectPoint.position, Quaternion.identity);
+        parringEffect.transform.localScale = transform.localScale;
+        Debug.Log($"이펙트 생성!{dd.transform.position}{parringEffect.transform.position}");
+    }
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Bullet"))
@@ -533,12 +541,9 @@ public class PlayerController :DamageAbleBase,IDamageable
                 if (isParring == true)
                 {
                     anim.SetTrigger("EnterBullet");
-                   
-                        Time.timeScale = 0.2f;
                     
-                    var parringEffect = Instantiate(ParringEffect, ParringEffectPoint.position,Quaternion.identity);
-                    parringEffect.transform.localScale = transform.localScale;
-                    other.GetComponent<Rigidbody2D>().linearVelocity = -other.GetComponent<Rigidbody2D>().linearVelocity;
+                   
+                    other.GetComponent<Rigidbody2D>().linearVelocity = -other.GetComponent<Rigidbody2D>().linearVelocity*2;
                     other.GetComponent<Bullet>().targetMask = LayerMask.NameToLayer("Enemy");
                 }
                 else
