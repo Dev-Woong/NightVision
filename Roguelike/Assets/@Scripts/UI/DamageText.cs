@@ -11,7 +11,7 @@ public class DamageText : PoolAble
     public float maxFontSize = 15;
     public float currentAlpha = 1;
     public float fontMinusSpeed = 10;
-    TMP_Text damageText;
+    public TMP_Text damageText;
     Color alpha;
     VertexGradient criticalColor;
     WaitForSeconds DelTime;
@@ -22,11 +22,11 @@ public class DamageText : PoolAble
         damageText = GetComponent<TMP_Text>();
         if (damage <= 0)
         { damageText.text = "Miss"; }
-        else if (damage >= 99)
+        else if (damage >= 999)
         {
             maxFontSize = 21;
             damageText.GetComponent<TMP_Text>().colorGradient = criticalColor;
-            damageText.text = "99";
+            damageText.text = "999";
         }
         else { damageText.text = damage.ToString(); }
         

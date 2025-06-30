@@ -82,7 +82,14 @@ AnimationClip:
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
   m_Events:
-  - time: 0.26666668
+  - time: 0.06666667
+    functionName: PlayerCreateAttackBox
+    data: 
+    objectReferenceParameter: {fileID: 11400000, guid: 1973e1147380e9a4e91a3e5b7249ec51, type: 2}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0.2
     functionName: OnMoveAble
     data: 
     objectReferenceParameter: {fileID: 0}

@@ -49,9 +49,9 @@ TextureImporter:
   spriteMode: 1
   spriteExtrude: 7
   spriteMeshType: 1
-  alignment: 9
+  alignment: 0
   spritePivot: {x: 0.19556677, y: 0.3540965}
-  spritePixelsToUnits: 25
+  spritePixelsToUnits: 35
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1

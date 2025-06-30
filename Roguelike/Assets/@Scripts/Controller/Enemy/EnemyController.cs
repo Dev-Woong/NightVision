@@ -37,7 +37,7 @@ public class EnemyController : DamageAbleBase, IDamageable
         curHp = gameObject.GetComponent<PublicStatus>().maxHp;
         speed = GetComponent<PublicStatus>().speed;
     }
-    void Update()
+    private void Update()
     {
         Move();
     }
@@ -169,6 +169,18 @@ public class EnemyController : DamageAbleBase, IDamageable
         GameObject hudText = Instantiate(damageText);
         hudText.transform.position = damagePos.position;
         hudText.GetComponent<DamageText>().damage = Mathf.RoundToInt(finalDmg);
+    }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.layer == 8)
+        {
+            if (collision.gameObject.GetComponent<Bullet>().targetMask == 7)
+            {
+                GameObject hudText = Instantiate(damageText);
+                hudText.transform.position = damagePos.position;
+                hudText.GetComponent<DamageText>().damage  = 999;
+            }
+        }
     }
 }
 

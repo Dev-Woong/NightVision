@@ -15,6 +15,7 @@ TagManager:
   - LeftTrigger
   - HomePortal
   - MapManager
+  - Bullet
   layers:
   - Default
   - TransparentFX
