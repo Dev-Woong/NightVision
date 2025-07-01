@@ -11,6 +11,8 @@ public class CameraChanger : MonoBehaviour
     public GameObject[] mapCam;
     public PolygonCollider2D[] mappol;
 
+    public GameObject Guard;
+
     public int a;
 
     int c = 0;
@@ -24,6 +26,7 @@ public class CameraChanger : MonoBehaviour
     private void Start()
     {
         Initialize();
+        Guard.SetActive(false);
     }
 
 
@@ -93,17 +96,22 @@ public class CameraChanger : MonoBehaviour
             if (portalUseAble == true && moveRight == true)
             {
                 a++;
-                UpdateCamera(a-1, a);
+                UpdateCamera(a - 1, a);
                 portalUseAble = false;
+                if (Guard != null)
+                {
+                    Guard.SetActive(true);
+                }
+                else return;
                 
             }
-            else if (portalUseAble == true && moveLeft == true)
-            {
-                a--;
-                UpdateCamera(a+1, a );
-                portalUseAble = false;
+            //else if (portalUseAble == true && moveLeft == true)
+            //{
+            //    a--;
+            //    UpdateCamera(a+1, a );
+            //    portalUseAble = false;
                
-            }
+            //}
             else return;
         }
         if (collision.CompareTag("RightTrigger") && moveRight == true)
