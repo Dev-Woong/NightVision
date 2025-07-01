@@ -34,12 +34,22 @@ public class CyberSamuraiController : EnemyController
             {
                 float distanceToTarget = Vector2.Distance(transform.position, closest.position);
                 direction = new Vector2(closest.position.x - rb.position.x, 0);
+                if (closest.position.x >= transform.position.x)
+                {
+                    transform.localScale = new Vector3(1, 1, 1);
+                }
+                else if (closest.position.x < transform.position.x)
+                {
+                    transform.localScale = new Vector3(-1, 1, 1);
+                }
                 if (canRush == true)
                 {
+                    animator.SetBool("isWalk", false);
                     RushAttack(closest);
                 }
-                else if (canShoot == true)
+                if (canShoot == true)
                 {
+                    animator.SetBool("isWalk", false);
                     animator.SetTrigger("Shoot");
                 }
                 else
@@ -54,14 +64,7 @@ public class CyberSamuraiController : EnemyController
                     {
                         animator.SetBool("isWalk", true);
                         rb.linearVelocity = (direction.normalized * speed);
-                        if (closest.position.x >= transform.position.x)
-                        {
-                            transform.localScale = new Vector3(1, 1, 1);
-                        }
-                        else if (closest.position.x < transform.position.x)
-                        {
-                            transform.localScale = new Vector3(-1, 1, 1);
-                        }
+                        
                     }
                 }
             }
@@ -76,11 +79,11 @@ public class CyberSamuraiController : EnemyController
     {
         if (closest.localScale.x == 1)
         {
-            transform.position = closest.position + new Vector3(-stopDistance, 0.7f, 0);
+            transform.position = closest.position + new Vector3(-stopDistance*1.5f, 0.7f, 0);
         }
         else if (closest.localScale.x == -1)
         {
-            transform.position = closest.position + new Vector3(stopDistance, 0.7f, 0);
+            transform.position = closest.position + new Vector3(stopDistance*1.5f, 0.7f, 0);
         }
         if (closest.position.x >= transform.position.x)
         {
@@ -111,10 +114,10 @@ public class CyberSamuraiController : EnemyController
     
     public void RushAttack(Transform targetPos)
     {
+        
         animator.SetTrigger("Rush");
-        canRush = false;
-        moveAble = false; 
         canRushTime = rushCoolTime;
+        canRush = false;
     }
     protected void CoolTimeProcess()
     {
