@@ -4,6 +4,11 @@ using UnityEditor.U2D.Sprites;
 using UnityEngine;
 using UnityEngine.UIElements;
 
+public enum EnemyType
+{
+    Normal,
+    Boss
+}
 public class EnemyController : DamageAbleBase, IDamageable
 {
     protected Rigidbody2D rb;
@@ -24,7 +29,7 @@ public class EnemyController : DamageAbleBase, IDamageable
     public bool canAttack = true;
 
     public bool moveAble = true;
-    public bool isGround = false;
+    public bool isGround = false; 
     //public bool damageAble = true;
     protected Coroutine coAttack;
     public Transform closest;
