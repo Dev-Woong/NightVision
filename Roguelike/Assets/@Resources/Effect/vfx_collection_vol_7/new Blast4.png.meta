@@ -59,8 +59,8 @@ TextureImporter:
   spriteExtrude: 7
   spriteMeshType: 1
   alignment: 0
-  spritePivot: {x: 0.12682374, y: 0.3092031}
-  spritePixelsToUnits: 35
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 20
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -112,12 +112,12 @@ TextureImporter:
       name: new Blast4_0
       rect:
         serializedVersion: 2
-        x: 10
-        y: 27
-        width: 22
-        height: 20
+        x: 0
+        y: 0
+        width: 36
+        height: 52
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -126,72 +126,6 @@ TextureImporter:
       bones: []
       spriteID: 89e565ca5cad07470800000000000000
       internalID: 8390446648325987992
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: new Blast4_1
-      rect:
-        serializedVersion: 2
-        x: 10
-        y: 22
-        width: 86
-        height: 6
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 91333580673bf5690800000000000000
-      internalID: -7611167525705665767
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: new Blast4_2
-      rect:
-        serializedVersion: 2
-        x: 11
-        y: 14
-        width: 8
-        height: 9
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4bb5426701c597d10800000000000000
-      internalID: 2123829925053225908
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: new Blast4_3
-      rect:
-        serializedVersion: 2
-        x: 15
-        y: 7
-        width: 11
-        height: 12
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8f723d5631ae32d70800000000000000
-      internalID: 9017308247959480312
       vertices: []
       indices: 
       edges: []

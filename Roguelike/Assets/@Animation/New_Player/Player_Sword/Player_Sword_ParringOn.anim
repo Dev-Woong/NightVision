@@ -20,18 +20,22 @@ AnimationClip:
   m_PPtrCurves:
   - serializedVersion: 2
     curve:
-    - time: 0
+    - time: 0.055555556
+      value: {fileID: -2416370251844783846, guid: 66e8c5fc4847da04c918947fee7a0bd6, type: 3}
+    - time: 0.11111111
       value: {fileID: 6601653432379909036, guid: 66e8c5fc4847da04c918947fee7a0bd6, type: 3}
-    - time: 0.04761905
+    - time: 0.16666667
       value: {fileID: -9133391826815923994, guid: 66e8c5fc4847da04c918947fee7a0bd6, type: 3}
-    - time: 0.0952381
+    - time: 0.22222222
       value: {fileID: -8282608251374073128, guid: 66e8c5fc4847da04c918947fee7a0bd6, type: 3}
+    - time: 0.2777778
+      value: {fileID: 7060105887483552509, guid: 66e8c5fc4847da04c918947fee7a0bd6, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
     script: {fileID: 0}
     flags: 2
-  m_SampleRate: 21
+  m_SampleRate: 18
   m_WrapMode: 0
   m_Bounds:
     m_Center: {x: 0, y: 0, z: 0}
@@ -48,15 +52,17 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     pptrCurveMapping:
+    - {fileID: -2416370251844783846, guid: 66e8c5fc4847da04c918947fee7a0bd6, type: 3}
     - {fileID: 6601653432379909036, guid: 66e8c5fc4847da04c918947fee7a0bd6, type: 3}
     - {fileID: -9133391826815923994, guid: 66e8c5fc4847da04c918947fee7a0bd6, type: 3}
     - {fileID: -8282608251374073128, guid: 66e8c5fc4847da04c918947fee7a0bd6, type: 3}
+    - {fileID: 7060105887483552509, guid: 66e8c5fc4847da04c918947fee7a0bd6, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.14285715
+    m_StopTime: 0.33333334
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -77,21 +83,14 @@ AnimationClip:
   m_HasMotionFloatCurves: 0
   m_Events:
   - time: 0
-    functionName: MoveAble
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 0
-    messageOptions: 0
-  - time: 0
-    functionName: ExitParring
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 0
-    messageOptions: 0
-  - time: 0
     functionName: ParringSpectrumProcess
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0.16666667
+    functionName: ExitParring
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0

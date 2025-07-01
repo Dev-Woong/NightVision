@@ -61,11 +61,22 @@ public class EnemyController : DamageAbleBase, IDamageable
             {
                 float distanceToTarget = Vector2.Distance(transform.position, closest.position);
                 direction = new Vector2(closest.position.x - rb.position.x, 0);
+                if (closest.position.x >= transform.position.x)
+                {
+                    transform.localScale = new Vector3(-1, 1, 1);
+                }
+                else if (closest.position.x < transform.position.x)
+                {
+                    transform.localScale = new Vector3(1, 1, 1);
+                }
                 if (distanceToTarget < stopDistance)
                 {
                     animator.SetBool("isWalk", false);
                     if (canAttack == true)
+                    {
+                        
                         coAttack = StartCoroutine(EnAttack());
+                    }
                 }
                 else
                 {
@@ -82,14 +93,12 @@ public class EnemyController : DamageAbleBase, IDamageable
                         transform.localScale = new Vector3(1, 1, 1);
 
                     }
-
                 }
             }
         }
         else
         {
             animator.SetBool("isWalk", false);
-            rb.linearVelocity = Vector3.zero;
         }
     }
     private void OnCollisionEnter2D(Collision2D collision)
@@ -101,6 +110,7 @@ public class EnemyController : DamageAbleBase, IDamageable
     }
     public IEnumerator EnAttack()
     {
+
         canAttack = false;
         moveAble = false;
         yield return new WaitForSeconds(0.1f);
@@ -179,6 +189,7 @@ public class EnemyController : DamageAbleBase, IDamageable
                 GameObject hudText = Instantiate(damageText);
                 hudText.transform.position = damagePos.position;
                 hudText.GetComponent<DamageText>().damage  = 999;
+                //animator.SetTrigger("Die");
             }
         }
     }

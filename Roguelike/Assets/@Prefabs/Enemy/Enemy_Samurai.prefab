@@ -63,7 +63,7 @@ Transform:
   m_GameObject: {fileID: 5429238417088985218}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.8, y: -2.12, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: -1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -187,7 +187,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damageAble: 1
-  ps: {fileID: 5371138580197556179}
   damagePos: {fileID: 6150267969792337405}
   damageText: {fileID: 2707642217791368709, guid: 04b8c71144ab0f5478c351bdc7621f7a, type: 3}
   speed: 2
@@ -201,6 +200,8 @@ MonoBehaviour:
   canAttack: 1
   moveAble: 1
   isGround: 1
+  closest: {fileID: 0}
+  direction: {x: 0, y: 0}
 --- !u!61 &4526613081568772660
 BoxCollider2D:
   m_ObjectHideFlags: 0

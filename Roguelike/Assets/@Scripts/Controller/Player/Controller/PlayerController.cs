@@ -16,6 +16,7 @@ public class PlayerController :DamageAbleBase,IDamageable
     Transform tr;
     Rigidbody2D rb;
     Animator anim;
+    BoxCollider2D bc;
     public Transform JumpEffectPoint;
     public Transform FireEffectPoint;
     public Transform DashEffectPoint;
@@ -25,7 +26,7 @@ public class PlayerController :DamageAbleBase,IDamageable
     public GameObject DashEffect;
     public GameObject DoubleJumpEffet;
     public GameObject ParringEffect;
-    public GameObject ParringSpectrum;
+    public GameObject[] ParringSpectrum;
     public GameObject Scope;
     private PlayerStatus PlayerStat;
     private PublicStatus PublicStat;
@@ -58,6 +59,8 @@ public class PlayerController :DamageAbleBase,IDamageable
     public bool snipeMode = false;
     public bool isParring = false;
     public Vector3 portalMovePosition;
+    public Vector2 parringBCSize;
+    public Vector2 normalBCSize;
     private Coroutine comboResetCoroutine;
     private Coroutine JumpCountCoroutine;
 
@@ -300,8 +303,9 @@ public class PlayerController :DamageAbleBase,IDamageable
     }
     public void Parring()
     {
-        if (Input.GetKeyDown(KeyCode.F) && isParring == false)
+        if (Input.GetKeyDown(KeyCode.F) && isParring == false&&weaponType == WeaponType.Sword)
         {
+            bc.size = parringBCSize;
             anim.SetTrigger("Parring");
             isParring = true;
             moveAble = false;
@@ -309,6 +313,7 @@ public class PlayerController :DamageAbleBase,IDamageable
     }
     public void ExitParring()
     {
+        bc.size = normalBCSize;
         isParring = false;
         moveAble = true;
     }
@@ -526,11 +531,12 @@ public class PlayerController :DamageAbleBase,IDamageable
     }
     public void ParringSpectrumProcess()
     {
-        var dd = Instantiate(ParringSpectrum, ParringSpecPoint.position, Quaternion.identity);
+        int a = Random.Range(0, 6);
+        var dd = Instantiate(ParringSpectrum[a], ParringSpecPoint.position, Quaternion.identity);
         dd.transform.localScale = transform.localScale;
         var parringEffect = Instantiate(ParringEffect, ParringEffectPoint.position, Quaternion.identity);
         parringEffect.transform.localScale = transform.localScale;
-        Debug.Log($"이펙트 생성!{dd.transform.position}{parringEffect.transform.position}");
+       // Debug.Log($"이펙트 생성!{dd.transform.position}{parringEffect.transform.position}");
     }
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -540,9 +546,9 @@ public class PlayerController :DamageAbleBase,IDamageable
             {
                 if (isParring == true)
                 {
+                    int a = Random.Range(0, 6);
                     anim.SetTrigger("EnterBullet");
-                    
-                   
+                    anim.SetInteger("RandomParring", a);
                     other.GetComponent<Rigidbody2D>().linearVelocity = -other.GetComponent<Rigidbody2D>().linearVelocity*2;
                     other.GetComponent<Bullet>().targetMask = LayerMask.NameToLayer("Enemy");
                 }
@@ -614,8 +620,11 @@ public class PlayerController :DamageAbleBase,IDamageable
         tr = GetComponent<Transform>();
         anim = GetComponent<Animator>();
         rc = GetComponentInChildren<RifleController>();
+        bc = GetComponent<BoxCollider2D>();
         maxHp = PublicStat.maxHp;
         curHp = maxHp;
+        normalBCSize = bc.size;
+        parringBCSize = new Vector2(2.3f, 0.9f);
     }
     
     void Start()

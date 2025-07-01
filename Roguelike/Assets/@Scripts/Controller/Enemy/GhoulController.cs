@@ -10,7 +10,7 @@ public class GhoulController : EnemyController
     protected override void Move()
     {
         Collider2D[] hits = Physics2D.OverlapCircleAll(transform.position, detectionRadius, PlayerLayer);
-
+        
         if (hits.Length > 0)
         {
             float minDistance = Mathf.Infinity;

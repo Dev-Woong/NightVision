@@ -182,7 +182,6 @@ MonoBehaviour:
   audioSource: {fileID: 0}
   target: {fileID: 0}
   ps: {fileID: 0}
-  type: 0
 --- !u!95 &3782448489281834095
 Animator:
   serializedVersion: 7
