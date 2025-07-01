@@ -29,7 +29,7 @@ public class EnemyController : DamageAbleBase, IDamageable
     public bool canAttack = true;
 
     public bool moveAble = true;
-    public bool isGround = false;
+    public bool isGround = false; 
     //public bool damageAble = true;
     protected Coroutine coAttack;
     public Transform closest;
