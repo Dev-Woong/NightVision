@@ -4,6 +4,11 @@ using UnityEditor.U2D.Sprites;
 using UnityEngine;
 using UnityEngine.UIElements;
 
+public enum EnemyType
+{
+    Normal,
+    Boss
+}
 public class EnemyController : DamageAbleBase, IDamageable
 {
     protected Rigidbody2D rb;
