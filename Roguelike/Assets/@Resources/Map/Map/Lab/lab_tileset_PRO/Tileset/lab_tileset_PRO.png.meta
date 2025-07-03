@@ -1,0 +1,938 @@
+fileFormatVersion: 2
+guid: a97b2b133b083da429825028b0c10388
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3847999223016664315
+    second: lab_tileset_PRO_0
+  - first:
+      213: -1564532273320292219
+    second: lab_tileset_PRO_1
+  - first:
+      213: -23357336890760862
+    second: lab_tileset_PRO_2
+  - first:
+      213: 2779824642530390499
+    second: lab_tileset_PRO_3
+  - first:
+      213: -4837048700636349246
+    second: lab_tileset_PRO_4
+  - first:
+      213: -5106912449826442066
+    second: lab_tileset_PRO_5
+  - first:
+      213: -3875649360768816679
+    second: lab_tileset_PRO_6
+  - first:
+      213: 7868569505750276649
+    second: lab_tileset_PRO_7
+  - first:
+      213: 7815922399531570716
+    second: lab_tileset_PRO_8
+  - first:
+      213: -6885439117494232891
+    second: lab_tileset_PRO_9
+  - first:
+      213: -3059210377777989131
+    second: lab_tileset_PRO_10
+  - first:
+      213: -5966818181305365289
+    second: lab_tileset_PRO_11
+  - first:
+      213: 8804901580714953125
+    second: lab_tileset_PRO_12
+  - first:
+      213: 1063879295632651975
+    second: lab_tileset_PRO_13
+  - first:
+      213: -7016600393545736595
+    second: lab_tileset_PRO_14
+  - first:
+      213: -6030641414140022026
+    second: lab_tileset_PRO_15
+  - first:
+      213: 2011932834452181803
+    second: lab_tileset_PRO_16
+  - first:
+      213: -8419786787445450893
+    second: lab_tileset_PRO_17
+  - first:
+      213: 874955783059434087
+    second: lab_tileset_PRO_18
+  - first:
+      213: 614790446800562147
+    second: lab_tileset_PRO_19
+  - first:
+      213: -2854599830975379429
+    second: lab_tileset_PRO_20
+  - first:
+      213: 526751031966298493
+    second: lab_tileset_PRO_21
+  - first:
+      213: -4550723581856964686
+    second: lab_tileset_PRO_22
+  - first:
+      213: -2569243919361161837
+    second: lab_tileset_PRO_23
+  - first:
+      213: 8829310204535648857
+    second: lab_tileset_PRO_24
+  - first:
+      213: 3812490981574946412
+    second: lab_tileset_PRO_25
+  - first:
+      213: 7576668604442024562
+    second: lab_tileset_PRO_26
+  - first:
+      213: -6699523917480758661
+    second: lab_tileset_PRO_27
+  - first:
+      213: 7252062760426701423
+    second: lab_tileset_PRO_28
+  - first:
+      213: -1357064958265230857
+    second: lab_tileset_PRO_29
+  - first:
+      213: -2416402606297522437
+    second: lab_tileset_PRO_30
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: lab_tileset_PRO_0
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 517
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfc23efd7e6d66530800000000000000
+      internalID: 3847999223016664315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lab_tileset_PRO_1
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 525
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5801c19cf2aa94ae0800000000000000
+      internalID: -1564532273320292219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lab_tileset_PRO_2
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 518
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2612ab730a40daff0800000000000000
+      internalID: -23357336890760862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lab_tileset_PRO_3
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 531
+        width: 27
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e1b6e3c8cbe39620800000000000000
+      internalID: 2779824642530390499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lab_tileset_PRO_4
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 531
+        width: 21
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cc3e45a5d95fdcb0800000000000000
+      internalID: -4837048700636349246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lab_tileset_PRO_5
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 531
+        width: 20
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea433193f2a9029b0800000000000000
+      internalID: -5106912449826442066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lab_tileset_PRO_6
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 531
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d9a761c07de63ac0800000000000000
+      internalID: -3875649360768816679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lab_tileset_PRO_7
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 518
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92a57b8a646c23d60800000000000000
+      internalID: 7868569505750276649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lab_tileset_PRO_8
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 518
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c161918030cb77c60800000000000000
+      internalID: 7815922399531570716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lab_tileset_PRO_9
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 518
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c85d2f6a910270a0800000000000000
+      internalID: -6885439117494232891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lab_tileset_PRO_10
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 518
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f9ba5bae508b85d0800000000000000
+      internalID: -3059210377777989131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lab_tileset_PRO_11
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 516
+        width: 25
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dc83f74a7a913da0800000000000000
+      internalID: -5966818181305365289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lab_tileset_PRO_12
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 517
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a94ac8565b413a70800000000000000
+      internalID: 8804901580714953125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lab_tileset_PRO_13
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 488
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c6b31c2598a3ce00800000000000000
+      internalID: 1063879295632651975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lab_tileset_PRO_14
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 485
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6e17db1e1700ae90800000000000000
+      internalID: -7016600393545736595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lab_tileset_PRO_15
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 484
+        width: 11
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f2bc66e59bde4ca0800000000000000
+      internalID: -6030641414140022026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lab_tileset_PRO_16
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 499
+        width: 27
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b239775d042dbeb10800000000000000
+      internalID: 2011932834452181803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lab_tileset_PRO_17
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 499
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37759c9d688e62b80800000000000000
+      internalID: -8419786787445450893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lab_tileset_PRO_18
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 499
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76a6e6326a7742c00800000000000000
+      internalID: 874955783059434087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lab_tileset_PRO_19
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 499
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e7e9d077ac288800800000000000000
+      internalID: 614790446800562147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lab_tileset_PRO_20
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 491
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1882daf39c6268d0800000000000000
+      internalID: -2854599830975379429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lab_tileset_PRO_21
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 486
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d71fb61d5456f4700800000000000000
+      internalID: 526751031966298493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lab_tileset_PRO_22
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 486
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bf1c68530598d0c0800000000000000
+      internalID: -4550723581856964686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lab_tileset_PRO_23
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 496
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 395452d8446385cd0800000000000000
+      internalID: -2569243919361161837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lab_tileset_PRO_24
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 484
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9523411f9d2088a70800000000000000
+      internalID: 8829310204535648857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lab_tileset_PRO_25
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 485
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6ea72a2950b8e430800000000000000
+      internalID: 3812490981574946412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lab_tileset_PRO_26
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 485
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27a1f9ce3fbb52960800000000000000
+      internalID: 7576668604442024562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lab_tileset_PRO_27
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 485
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b72735e1e728603a0800000000000000
+      internalID: -6699523917480758661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lab_tileset_PRO_28
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 489
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f62821458a084a460800000000000000
+      internalID: 7252062760426701423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lab_tileset_PRO_29
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 483
+        width: 26
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f978794c9cba2de0800000000000000
+      internalID: -1357064958265230857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lab_tileset_PRO_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 352
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfede49d1a6377ed0800000000000000
+      internalID: -2416402606297522437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 2c1aab4dce197af47976c009b36f3bfa
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":32.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      lab_tileset_PRO_0: 3847999223016664315
+      lab_tileset_PRO_1: -1564532273320292219
+      lab_tileset_PRO_10: -3059210377777989131
+      lab_tileset_PRO_11: -5966818181305365289
+      lab_tileset_PRO_12: 8804901580714953125
+      lab_tileset_PRO_13: 1063879295632651975
+      lab_tileset_PRO_14: -7016600393545736595
+      lab_tileset_PRO_15: -6030641414140022026
+      lab_tileset_PRO_16: 2011932834452181803
+      lab_tileset_PRO_17: -8419786787445450893
+      lab_tileset_PRO_18: 874955783059434087
+      lab_tileset_PRO_19: 614790446800562147
+      lab_tileset_PRO_2: -23357336890760862
+      lab_tileset_PRO_20: -2854599830975379429
+      lab_tileset_PRO_21: 526751031966298493
+      lab_tileset_PRO_22: -4550723581856964686
+      lab_tileset_PRO_23: -2569243919361161837
+      lab_tileset_PRO_24: 8829310204535648857
+      lab_tileset_PRO_25: 3812490981574946412
+      lab_tileset_PRO_26: 7576668604442024562
+      lab_tileset_PRO_27: -6699523917480758661
+      lab_tileset_PRO_28: 7252062760426701423
+      lab_tileset_PRO_29: -1357064958265230857
+      lab_tileset_PRO_3: 2779824642530390499
+      lab_tileset_PRO_30: -2416402606297522437
+      lab_tileset_PRO_4: -4837048700636349246
+      lab_tileset_PRO_5: -5106912449826442066
+      lab_tileset_PRO_6: -3875649360768816679
+      lab_tileset_PRO_7: 7868569505750276649
+      lab_tileset_PRO_8: 7815922399531570716
+      lab_tileset_PRO_9: -6885439117494232891
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

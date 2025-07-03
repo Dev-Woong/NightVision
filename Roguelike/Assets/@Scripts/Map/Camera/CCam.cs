@@ -5,13 +5,16 @@ using UnityEngine.SceneManagement;
 public class CCam : MonoBehaviour
 {
     private CinemachineCamera cineCam;
+    private CinemachinePositionComposer cpc;
 
     void Awake()
     {
         // 카메라 컴포넌트 가져오기
         cineCam = GetComponent<CinemachineCamera>();
+        cpc = GetComponent<CinemachinePositionComposer>();
     }
 
+    
     void OnEnable()
     {
         SceneManager.sceneLoaded += OnSceneLoaded;
@@ -36,7 +39,27 @@ public class CCam : MonoBehaviour
         if (cineCam != null)
         {
             cineCam.Target.TrackingTarget = playerObj.transform;
-            Debug.Log("Cinemachine Tracking Target 설정 완료");
+            if (SceneManager.sceneCount == 1)
+            {
+                cpc.TargetOffset = new Vector3(0, -0.65f, 0);
+            }
+            else if (SceneManager.sceneCount == 2)
+            {
+                cpc.TargetOffset = new Vector3(0, -0.65f, 0);
+            }
+            else if (SceneManager.sceneCount == 3)
+            {
+                cpc.TargetOffset = new Vector3(0, -0.75f, 0);
+            }
+            else if (SceneManager.sceneCount == 4)
+            {
+                cpc.TargetOffset = new Vector3(0, 0.32f,0);
+            }
+            else if (SceneManager.sceneCount == 5)
+            {
+                cpc.TargetOffset = new Vector3(0, 4.6f, 0);
+            }
+                Debug.Log("Cinemachine Tracking Target 설정 완료");
         }
     }
 
