@@ -52,7 +52,6 @@ public class RiotPoliceController : EnemyController
         else
         {
             animator.SetBool("isWalk", false);
-            rb.linearVelocity = Vector3.zero;
         }
     }
     protected override void PlayHitAnimation(WeaponType wType, float causerAtk)
@@ -63,19 +62,19 @@ public class RiotPoliceController : EnemyController
             case WeaponType.Gun:
                 animator.SetTrigger("Parring");
                 finalDmg = causerAtk / 4;
-                curHp -= Mathf.RoundToInt(finalDmg);
+                
                 break;
             case WeaponType.Hand:
                 animator.SetTrigger("Hit");
                 finalDmg = causerAtk;
-                curHp -= finalDmg;
+                
                 break;
             case WeaponType.Sword:
                 animator.SetTrigger("Hit");
                 finalDmg = causerAtk;
-                curHp -= finalDmg;
                 break;
         }
+        curHp -= Mathf.RoundToInt(finalDmg-ps.def);
         GameObject hudText = Instantiate(damageText);
         hudText.transform.position = damagePos.position;
         hudText.GetComponent<DamageText>().damage = Mathf.RoundToInt(finalDmg);

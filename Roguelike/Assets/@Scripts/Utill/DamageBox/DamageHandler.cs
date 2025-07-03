@@ -52,18 +52,7 @@ public class DamageHandler : MonoBehaviour
 
         if (data.knockBack == KnockBack.Done)
         {
-
-
-            if (targetPos.x < transform.position.x)
-            {
-                target.GetComponent<Rigidbody2D>().linearVelocity = Vector3.zero;
-                target.GetComponent<Rigidbody2D>().AddForce(new Vector3(-data.knockBackForceX, data.knockBackForceY, 0), ForceMode2D.Impulse);
-            }
-            else
-            {
-                target.GetComponent<Rigidbody2D>().linearVelocity = Vector3.zero;
-                target.GetComponent<Rigidbody2D>().AddForce(new Vector3(data.knockBackForceX, data.knockBackForceY, 0), ForceMode2D.Impulse);
-            }
+            bool thisBoss = false;
             if (target.layer == 6 && data.knockBackForceY > 0f)
             {
                 target.GetComponent<PlayerController>().moveAble = false;
@@ -79,9 +68,26 @@ public class DamageHandler : MonoBehaviour
                 else
                 {
                     target.GetComponent<EnemyController>().isGround = false;
+
+                    if (target.GetComponent<EnemyController>().eType == EnemyType.Boss)
+                    {
+                        thisBoss = true;
+                    }
                 }
             }
-
+            if (thisBoss==false)
+            {
+                if (targetPos.x < transform.position.x)
+                {
+                    target.GetComponent<Rigidbody2D>().linearVelocity = Vector3.zero;
+                    target.GetComponent<Rigidbody2D>().AddForce(new Vector3(-data.knockBackForceX, data.knockBackForceY, 0), ForceMode2D.Impulse);
+                }
+                else
+                {
+                    target.GetComponent<Rigidbody2D>().linearVelocity = Vector3.zero;
+                    target.GetComponent<Rigidbody2D>().AddForce(new Vector3(data.knockBackForceX, data.knockBackForceY, 0), ForceMode2D.Impulse);
+                }
+            }
         }
         while (currentHits < data.hitCount)
         {

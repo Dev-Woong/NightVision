@@ -2,9 +2,9 @@ using UnityEngine;
 
 public class CopController : EnemyController
 {
-    public bool canShoot = true;
+    public bool doShoot = true;
     public float shootCoolTime = 3;
-    public float canShootTime = 0;
+    public float curShootTime = 0;
     public Transform BulletTransform;
     public GameObject Bullet;
     protected override void Move()
@@ -36,7 +36,7 @@ public class CopController : EnemyController
                     transform.localScale = new Vector3(-1, 1, 1);
                 }
 
-                if (canShoot == true)
+                if (doShoot == true)
                 {
                     animator.SetBool("isWalk", false);
                     rb.linearVelocity = Vector3.zero;
@@ -65,16 +65,16 @@ public class CopController : EnemyController
 
     protected void CoolTimeProcess()
     {
-        canShootTime -= Time.deltaTime;
-        if (canShootTime <= 0)
+        curShootTime -= Time.deltaTime;
+        if (curShootTime <= 0)
         {
-            canShoot = true;
+            doShoot = true;
         }
     }
     public void Shoot() // AnimationEvent
     {
-        canShootTime = shootCoolTime;
-        canShoot = false;
+        curShootTime = shootCoolTime;
+        doShoot = false;
         moveAble = false;
         GameObject bullet = Instantiate(Bullet, BulletTransform.position, Quaternion.identity);
         LayerMask playerLayer = 6;

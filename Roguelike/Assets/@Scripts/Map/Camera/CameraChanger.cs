@@ -102,7 +102,6 @@ public class CameraChanger : MonoBehaviour
                 {
                     Guard.SetActive(true);
                 }
-                else return;
                 
             }
             //else if (portalUseAble == true && moveLeft == true)

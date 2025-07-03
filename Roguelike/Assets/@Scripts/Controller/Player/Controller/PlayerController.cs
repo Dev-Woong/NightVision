@@ -550,6 +550,7 @@ public class PlayerController :DamageAbleBase,IDamageable
                     anim.SetTrigger("EnterBullet");
                     anim.SetInteger("RandomParring", a);
                     other.GetComponent<Rigidbody2D>().linearVelocity = -other.GetComponent<Rigidbody2D>().linearVelocity*2;
+                    other.GetComponent<Bullet>().atk *= 2;
                     other.GetComponent<Bullet>().targetMask = LayerMask.NameToLayer("Enemy");
                 }
                 else

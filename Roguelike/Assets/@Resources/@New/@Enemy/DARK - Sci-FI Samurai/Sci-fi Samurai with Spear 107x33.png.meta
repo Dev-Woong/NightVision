@@ -317,10 +317,10 @@ TextureImporter:
       name: Sci-fi Samurai with Spear 107x33_0
       rect:
         serializedVersion: 2
-        x: 5
-        y: 98
-        width: 43
-        height: 28
+        x: 0
+        y: 99
+        width: 107
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -339,10 +339,10 @@ TextureImporter:
       name: Sci-fi Samurai with Spear 107x33_1
       rect:
         serializedVersion: 2
-        x: 112
-        y: 98
-        width: 43
-        height: 29
+        x: 107
+        y: 99
+        width: 107
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -361,10 +361,10 @@ TextureImporter:
       name: Sci-fi Samurai with Spear 107x33_2
       rect:
         serializedVersion: 2
-        x: 219
-        y: 98
-        width: 43
-        height: 29
+        x: 214
+        y: 99
+        width: 107
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -383,10 +383,10 @@ TextureImporter:
       name: Sci-fi Samurai with Spear 107x33_3
       rect:
         serializedVersion: 2
-        x: 326
-        y: 98
-        width: 43
-        height: 29
+        x: 321
+        y: 99
+        width: 107
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -405,10 +405,10 @@ TextureImporter:
       name: Sci-fi Samurai with Spear 107x33_4
       rect:
         serializedVersion: 2
-        x: 433
-        y: 98
-        width: 43
-        height: 28
+        x: 428
+        y: 99
+        width: 107
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -427,10 +427,10 @@ TextureImporter:
       name: Sci-fi Samurai with Spear 107x33_5
       rect:
         serializedVersion: 2
-        x: 540
-        y: 98
-        width: 43
-        height: 28
+        x: 535
+        y: 99
+        width: 107
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -449,10 +449,10 @@ TextureImporter:
       name: Sci-fi Samurai with Spear 107x33_6
       rect:
         serializedVersion: 2
-        x: 647
-        y: 98
-        width: 43
-        height: 28
+        x: 642
+        y: 99
+        width: 107
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -471,10 +471,10 @@ TextureImporter:
       name: Sci-fi Samurai with Spear 107x33_7
       rect:
         serializedVersion: 2
-        x: 754
-        y: 98
-        width: 43
-        height: 27
+        x: 749
+        y: 99
+        width: 107
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -493,10 +493,10 @@ TextureImporter:
       name: Sci-fi Samurai with Spear 107x33_8
       rect:
         serializedVersion: 2
-        x: 861
-        y: 98
-        width: 43
-        height: 27
+        x: 856
+        y: 99
+        width: 107
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -515,10 +515,10 @@ TextureImporter:
       name: Sci-fi Samurai with Spear 107x33_9
       rect:
         serializedVersion: 2
-        x: 968
-        y: 98
-        width: 43
-        height: 27
+        x: 963
+        y: 99
+        width: 107
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -537,10 +537,10 @@ TextureImporter:
       name: Sci-fi Samurai with Spear 107x33_10
       rect:
         serializedVersion: 2
-        x: 1075
-        y: 98
-        width: 43
-        height: 28
+        x: 1070
+        y: 99
+        width: 107
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -559,10 +559,10 @@ TextureImporter:
       name: Sci-fi Samurai with Spear 107x33_11
       rect:
         serializedVersion: 2
-        x: 1182
-        y: 98
-        width: 43
-        height: 28
+        x: 1177
+        y: 99
+        width: 107
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -581,10 +581,10 @@ TextureImporter:
       name: Sci-fi Samurai with Spear 107x33_12
       rect:
         serializedVersion: 2
-        x: 2
-        y: 65
-        width: 43
-        height: 26
+        x: 1284
+        y: 99
+        width: 107
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -603,10 +603,10 @@ TextureImporter:
       name: Sci-fi Samurai with Spear 107x33_13
       rect:
         serializedVersion: 2
-        x: 109
-        y: 65
-        width: 43
-        height: 28
+        x: 1391
+        y: 99
+        width: 107
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -625,10 +625,10 @@ TextureImporter:
       name: Sci-fi Samurai with Spear 107x33_14
       rect:
         serializedVersion: 2
-        x: 216
-        y: 67
-        width: 43
-        height: 27
+        x: 1498
+        y: 99
+        width: 107
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -647,10 +647,10 @@ TextureImporter:
       name: Sci-fi Samurai with Spear 107x33_15
       rect:
         serializedVersion: 2
-        x: 323
-        y: 65
-        width: 43
-        height: 28
+        x: 1605
+        y: 99
+        width: 107
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -669,10 +669,10 @@ TextureImporter:
       name: Sci-fi Samurai with Spear 107x33_16
       rect:
         serializedVersion: 2
-        x: 432
-        y: 65
-        width: 43
-        height: 25
+        x: 1712
+        y: 99
+        width: 107
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -691,10 +691,10 @@ TextureImporter:
       name: Sci-fi Samurai with Spear 107x33_17
       rect:
         serializedVersion: 2
-        x: 539
-        y: 65
-        width: 43
-        height: 28
+        x: 1819
+        y: 99
+        width: 107
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -713,10 +713,10 @@ TextureImporter:
       name: Sci-fi Samurai with Spear 107x33_18
       rect:
         serializedVersion: 2
-        x: 646
-        y: 67
-        width: 43
-        height: 27
+        x: 1926
+        y: 99
+        width: 107
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -735,10 +735,10 @@ TextureImporter:
       name: Sci-fi Samurai with Spear 107x33_19
       rect:
         serializedVersion: 2
-        x: 753
-        y: 65
-        width: 43
-        height: 28
+        x: 2033
+        y: 99
+        width: 107
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -757,10 +757,10 @@ TextureImporter:
       name: Sci-fi Samurai with Spear 107x33_20
       rect:
         serializedVersion: 2
-        x: 5
-        y: 32
-        width: 43
-        height: 28
+        x: 2140
+        y: 99
+        width: 107
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -779,10 +779,10 @@ TextureImporter:
       name: Sci-fi Samurai with Spear 107x33_21
       rect:
         serializedVersion: 2
-        x: 111
-        y: 32
-        width: 31
-        height: 27
+        x: 2247
+        y: 99
+        width: 107
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -801,10 +801,10 @@ TextureImporter:
       name: Sci-fi Samurai with Spear 107x33_22
       rect:
         serializedVersion: 2
-        x: 216
-        y: 32
-        width: 33
-        height: 26
+        x: 2354
+        y: 99
+        width: 107
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -823,10 +823,10 @@ TextureImporter:
       name: Sci-fi Samurai with Spear 107x33_23
       rect:
         serializedVersion: 2
-        x: 322
-        y: 32
-        width: 45
-        height: 26
+        x: 0
+        y: 66
+        width: 107
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -845,10 +845,10 @@ TextureImporter:
       name: Sci-fi Samurai with Spear 107x33_24
       rect:
         serializedVersion: 2
-        x: 428
-        y: 32
-        width: 44
-        height: 26
+        x: 107
+        y: 66
+        width: 107
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -867,10 +867,10 @@ TextureImporter:
       name: Sci-fi Samurai with Spear 107x33_25
       rect:
         serializedVersion: 2
-        x: 551
-        y: 32
-        width: 84
-        height: 21
+        x: 214
+        y: 66
+        width: 107
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -889,10 +889,10 @@ TextureImporter:
       name: Sci-fi Samurai with Spear 107x33_26
       rect:
         serializedVersion: 2
-        x: 658
-        y: 32
-        width: 60
-        height: 22
+        x: 321
+        y: 66
+        width: 107
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -911,10 +911,10 @@ TextureImporter:
       name: Sci-fi Samurai with Spear 107x33_27
       rect:
         serializedVersion: 2
-        x: 765
-        y: 32
-        width: 59
-        height: 23
+        x: 428
+        y: 66
+        width: 107
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -933,10 +933,10 @@ TextureImporter:
       name: Sci-fi Samurai with Spear 107x33_28
       rect:
         serializedVersion: 2
-        x: 872
-        y: 32
-        width: 91
-        height: 23
+        x: 535
+        y: 66
+        width: 107
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -955,10 +955,10 @@ TextureImporter:
       name: Sci-fi Samurai with Spear 107x33_29
       rect:
         serializedVersion: 2
-        x: 979
-        y: 32
-        width: 92
-        height: 23
+        x: 642
+        y: 66
+        width: 107
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -977,10 +977,10 @@ TextureImporter:
       name: Sci-fi Samurai with Spear 107x33_30
       rect:
         serializedVersion: 2
-        x: 1086
-        y: 32
-        width: 58
-        height: 23
+        x: 749
+        y: 66
+        width: 107
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -999,10 +999,10 @@ TextureImporter:
       name: Sci-fi Samurai with Spear 107x33_31
       rect:
         serializedVersion: 2
-        x: 1166
-        y: 32
-        width: 76
-        height: 23
+        x: 856
+        y: 66
+        width: 107
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1021,10 +1021,10 @@ TextureImporter:
       name: Sci-fi Samurai with Spear 107x33_32
       rect:
         serializedVersion: 2
-        x: 1298
-        y: 32
-        width: 51
-        height: 23
+        x: 963
+        y: 66
+        width: 107
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1043,10 +1043,10 @@ TextureImporter:
       name: Sci-fi Samurai with Spear 107x33_33
       rect:
         serializedVersion: 2
-        x: 1299
-        y: 52
-        width: 10
-        height: 7
+        x: 1070
+        y: 66
+        width: 107
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1065,10 +1065,10 @@ TextureImporter:
       name: Sci-fi Samurai with Spear 107x33_34
       rect:
         serializedVersion: 2
-        x: 1400
-        y: 32
-        width: 57
-        height: 28
+        x: 1177
+        y: 66
+        width: 107
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1087,10 +1087,10 @@ TextureImporter:
       name: Sci-fi Samurai with Spear 107x33_35
       rect:
         serializedVersion: 2
-        x: 1501
-        y: 32
-        width: 63
-        height: 29
+        x: 0
+        y: 33
+        width: 107
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1109,10 +1109,10 @@ TextureImporter:
       name: Sci-fi Samurai with Spear 107x33_36
       rect:
         serializedVersion: 2
-        x: 1608
-        y: 32
-        width: 63
-        height: 29
+        x: 107
+        y: 33
+        width: 107
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1131,10 +1131,10 @@ TextureImporter:
       name: Sci-fi Samurai with Spear 107x33_37
       rect:
         serializedVersion: 2
-        x: 1715
-        y: 6
-        width: 62
-        height: 56
+        x: 214
+        y: 33
+        width: 107
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1153,10 +1153,10 @@ TextureImporter:
       name: Sci-fi Samurai with Spear 107x33_38
       rect:
         serializedVersion: 2
-        x: 1823
-        y: 7
-        width: 61
-        height: 55
+        x: 321
+        y: 33
+        width: 107
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1175,10 +1175,10 @@ TextureImporter:
       name: Sci-fi Samurai with Spear 107x33_39
       rect:
         serializedVersion: 2
-        x: 1931
-        y: 8
-        width: 45
-        height: 54
+        x: 428
+        y: 33
+        width: 107
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1197,10 +1197,10 @@ TextureImporter:
       name: Sci-fi Samurai with Spear 107x33_40
       rect:
         serializedVersion: 2
-        x: 140
-        y: 39
-        width: 15
-        height: 7
+        x: 535
+        y: 33
+        width: 107
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1219,10 +1219,10 @@ TextureImporter:
       name: Sci-fi Samurai with Spear 107x33_41
       rect:
         serializedVersion: 2
-        x: 246
-        y: 39
-        width: 15
-        height: 7
+        x: 642
+        y: 33
+        width: 107
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1241,10 +1241,10 @@ TextureImporter:
       name: Sci-fi Samurai with Spear 107x33_42
       rect:
         serializedVersion: 2
-        x: 712
-        y: 43
-        width: 7
-        height: 6
+        x: 749
+        y: 33
+        width: 107
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1263,10 +1263,10 @@ TextureImporter:
       name: Sci-fi Samurai with Spear 107x33_43
       rect:
         serializedVersion: 2
-        x: 731
-        y: 35
-        width: 16
-        height: 11
+        x: 856
+        y: 33
+        width: 107
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1285,10 +1285,10 @@ TextureImporter:
       name: Sci-fi Samurai with Spear 107x33_44
       rect:
         serializedVersion: 2
-        x: 5
-        y: 0
-        width: 43
-        height: 27
+        x: 963
+        y: 33
+        width: 107
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1307,10 +1307,10 @@ TextureImporter:
       name: Sci-fi Samurai with Spear 107x33_45
       rect:
         serializedVersion: 2
-        x: 112
-        y: 0
-        width: 43
-        height: 26
+        x: 1070
+        y: 33
+        width: 107
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1329,10 +1329,10 @@ TextureImporter:
       name: Sci-fi Samurai with Spear 107x33_46
       rect:
         serializedVersion: 2
-        x: 219
-        y: 0
-        width: 43
-        height: 22
+        x: 1177
+        y: 33
+        width: 107
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1351,10 +1351,10 @@ TextureImporter:
       name: Sci-fi Samurai with Spear 107x33_47
       rect:
         serializedVersion: 2
-        x: 328
-        y: 0
-        width: 43
-        height: 20
+        x: 1284
+        y: 33
+        width: 107
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1373,10 +1373,10 @@ TextureImporter:
       name: Sci-fi Samurai with Spear 107x33_48
       rect:
         serializedVersion: 2
-        x: 435
-        y: 0
-        width: 43
-        height: 21
+        x: 1391
+        y: 33
+        width: 107
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1395,10 +1395,10 @@ TextureImporter:
       name: Sci-fi Samurai with Spear 107x33_49
       rect:
         serializedVersion: 2
-        x: 542
-        y: 0
-        width: 43
-        height: 22
+        x: 1498
+        y: 33
+        width: 107
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1417,10 +1417,10 @@ TextureImporter:
       name: Sci-fi Samurai with Spear 107x33_50
       rect:
         serializedVersion: 2
-        x: 649
-        y: 0
-        width: 43
-        height: 22
+        x: 1605
+        y: 33
+        width: 107
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1439,10 +1439,10 @@ TextureImporter:
       name: Sci-fi Samurai with Spear 107x33_51
       rect:
         serializedVersion: 2
-        x: 756
-        y: 0
-        width: 43
-        height: 22
+        x: 1712
+        y: 33
+        width: 107
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1461,10 +1461,10 @@ TextureImporter:
       name: Sci-fi Samurai with Spear 107x33_52
       rect:
         serializedVersion: 2
-        x: 850
-        y: 0
-        width: 56
-        height: 39
+        x: 1819
+        y: 33
+        width: 107
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1483,10 +1483,10 @@ TextureImporter:
       name: Sci-fi Samurai with Spear 107x33_53
       rect:
         serializedVersion: 2
-        x: 970
-        y: 0
-        width: 43
-        height: 22
+        x: 1926
+        y: 33
+        width: 107
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1505,10 +1505,10 @@ TextureImporter:
       name: Sci-fi Samurai with Spear 107x33_54
       rect:
         serializedVersion: 2
-        x: 1077
+        x: 0
         y: 0
-        width: 43
-        height: 22
+        width: 107
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1527,10 +1527,10 @@ TextureImporter:
       name: Sci-fi Samurai with Spear 107x33_55
       rect:
         serializedVersion: 2
-        x: 1184
+        x: 107
         y: 0
-        width: 43
-        height: 21
+        width: 107
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1549,10 +1549,10 @@ TextureImporter:
       name: Sci-fi Samurai with Spear 107x33_56
       rect:
         serializedVersion: 2
-        x: 1290
+        x: 214
         y: 0
-        width: 35
-        height: 19
+        width: 107
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1571,10 +1571,10 @@ TextureImporter:
       name: Sci-fi Samurai with Spear 107x33_57
       rect:
         serializedVersion: 2
-        x: 1319
-        y: 3
-        width: 15
-        height: 8
+        x: 321
+        y: 0
+        width: 107
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1593,10 +1593,10 @@ TextureImporter:
       name: Sci-fi Samurai with Spear 107x33_58
       rect:
         serializedVersion: 2
-        x: 1397
+        x: 428
         y: 0
-        width: 45
-        height: 20
+        width: 107
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1615,10 +1615,10 @@ TextureImporter:
       name: Sci-fi Samurai with Spear 107x33_59
       rect:
         serializedVersion: 2
-        x: 1504
+        x: 535
         y: 0
-        width: 45
-        height: 21
+        width: 107
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1637,10 +1637,10 @@ TextureImporter:
       name: Sci-fi Samurai with Spear 107x33_60
       rect:
         serializedVersion: 2
-        x: 1611
+        x: 642
         y: 0
-        width: 45
-        height: 22
+        width: 107
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1659,10 +1659,10 @@ TextureImporter:
       name: Sci-fi Samurai with Spear 107x33_61
       rect:
         serializedVersion: 2
-        x: 1718
+        x: 749
         y: 0
-        width: 45
-        height: 7
+        width: 107
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1681,10 +1681,10 @@ TextureImporter:
       name: Sci-fi Samurai with Spear 107x33_62
       rect:
         serializedVersion: 2
-        x: 1825
+        x: 856
         y: 0
-        width: 45
-        height: 6
+        width: 107
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1703,10 +1703,10 @@ TextureImporter:
       name: Sci-fi Samurai with Spear 107x33_63
       rect:
         serializedVersion: 2
-        x: 1932
+        x: 963
         y: 0
-        width: 45
-        height: 6
+        width: 107
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1725,10 +1725,10 @@ TextureImporter:
       name: Sci-fi Samurai with Spear 107x33_64
       rect:
         serializedVersion: 2
-        x: 2039
+        x: 1070
         y: 0
-        width: 45
-        height: 25
+        width: 107
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1747,10 +1747,10 @@ TextureImporter:
       name: Sci-fi Samurai with Spear 107x33_65
       rect:
         serializedVersion: 2
-        x: 2146
+        x: 1177
         y: 0
-        width: 45
-        height: 26
+        width: 107
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1769,10 +1769,10 @@ TextureImporter:
       name: Sci-fi Samurai with Spear 107x33_66
       rect:
         serializedVersion: 2
-        x: 2253
+        x: 1284
         y: 0
-        width: 45
-        height: 25
+        width: 107
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1791,20 +1791,218 @@ TextureImporter:
       name: Sci-fi Samurai with Spear 107x33_67
       rect:
         serializedVersion: 2
-        x: 2360
+        x: 1391
         y: 0
-        width: 45
-        height: 5
+        width: 107
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 2ba0f149a7f5b9bb0800000000000000
+      spriteID: 28dec586d0673a54ba405051b5eeac98
       internalID: -4928240387151164750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Samurai with Spear 107x33_68
+      rect:
+        serializedVersion: 2
+        x: 1498
+        y: 0
+        width: 107
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52851e733fc6efb4f9825e10f3e405d7
+      internalID: 921590990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Samurai with Spear 107x33_69
+      rect:
+        serializedVersion: 2
+        x: 1605
+        y: 0
+        width: 107
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ada83b129f719145829cabb4fe0659e
+      internalID: 1272467172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Samurai with Spear 107x33_70
+      rect:
+        serializedVersion: 2
+        x: 1712
+        y: 0
+        width: 107
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c56ccaf3447320340a99433557acbc3e
+      internalID: 920202813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Samurai with Spear 107x33_71
+      rect:
+        serializedVersion: 2
+        x: 1819
+        y: 0
+        width: 107
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2be1b48127f027148b7c1ab0973714ae
+      internalID: -1249056935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Samurai with Spear 107x33_72
+      rect:
+        serializedVersion: 2
+        x: 1926
+        y: 0
+        width: 107
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f5e811881b56854fa2955cacfdde908
+      internalID: 1101035274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Samurai with Spear 107x33_73
+      rect:
+        serializedVersion: 2
+        x: 2033
+        y: 0
+        width: 107
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3e973aa4539e074cbbf61e306e04d43
+      internalID: -1205726031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Samurai with Spear 107x33_74
+      rect:
+        serializedVersion: 2
+        x: 2140
+        y: 0
+        width: 107
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f3d2f7d2a4fa734c922025d29c25ab8
+      internalID: -746443528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Samurai with Spear 107x33_75
+      rect:
+        serializedVersion: 2
+        x: 2247
+        y: 0
+        width: 107
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e91c7f5cbb76b547ae17e04649be94b
+      internalID: 1469530250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Samurai with Spear 107x33_76
+      rect:
+        serializedVersion: 2
+        x: 2354
+        y: 0
+        width: 107
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ea46eb408139a5499e0ed73a0881125
+      internalID: -2096500390
       vertices: []
       indices: 
       edges: []
@@ -1813,7 +2011,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 429d7c0f37804f546a8636f34b866753
     internalID: 0
     vertices: []
     indices: 
@@ -1821,7 +2019,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":23.0,"y":4.0},"gridSpriteSize":{"x":107.0,"y":33.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       Sci-fi Samurai with Spear 107x33_0: 5398165003470169015
       Sci-fi Samurai with Spear 107x33_1: -6096101056661108702
@@ -1888,7 +2088,16 @@ TextureImporter:
       Sci-fi Samurai with Spear 107x33_65: 8496889797236985003
       Sci-fi Samurai with Spear 107x33_66: 7373011959723474663
       Sci-fi Samurai with Spear 107x33_67: -4928240387151164750
+      Sci-fi Samurai with Spear 107x33_68: 921590990
+      Sci-fi Samurai with Spear 107x33_69: 1272467172
       Sci-fi Samurai with Spear 107x33_7: 4853474789754091231
+      Sci-fi Samurai with Spear 107x33_70: 920202813
+      Sci-fi Samurai with Spear 107x33_71: -1249056935
+      Sci-fi Samurai with Spear 107x33_72: 1101035274
+      Sci-fi Samurai with Spear 107x33_73: -1205726031
+      Sci-fi Samurai with Spear 107x33_74: -746443528
+      Sci-fi Samurai with Spear 107x33_75: 1469530250
+      Sci-fi Samurai with Spear 107x33_76: -2096500390
       Sci-fi Samurai with Spear 107x33_8: -4774257105608442332
       Sci-fi Samurai with Spear 107x33_9: -176136692863231319
   mipmapLimitGroupName: 
