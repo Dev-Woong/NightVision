@@ -7142,7 +7142,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 60
+  field of view: 5
   orthographic: 1
   orthographic size: 5
   m_Depth: 0
@@ -7169,7 +7169,7 @@ Transform:
   m_GameObject: {fileID: 178305045}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.851329, y: 4.1624002, z: -10}
+  m_LocalPosition: {x: 6.852769, y: 3.9124002, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -9310,7 +9310,7 @@ MonoBehaviour:
       Size: {x: 0.8, y: 0.8}
       Offset: {x: 0, y: 0}
   CenterOnActivate: 1
-  TargetOffset: {x: 0, y: -0.5, z: 0}
+  TargetOffset: {x: 0, y: -0.75, z: 0}
   Damping: {x: 1, y: 1, z: 1}
   Lookahead:
     Enabled: 0
@@ -9341,7 +9341,7 @@ MonoBehaviour:
     LookAtTarget: {fileID: 0}
     CustomLookAtTarget: 0
   Lens:
-    FieldOfView: 60
+    FieldOfView: 5
     OrthographicSize: 5
     NearClipPlane: 0.3
     FarClipPlane: 1000
@@ -9369,7 +9369,7 @@ Transform:
   m_GameObject: {fileID: 364761798}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -18.84, y: -0.39999962, z: -10}
+  m_LocalPosition: {x: -18.84, y: -0.6499996, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -17371,7 +17371,7 @@ Transform:
   m_GameObject: {fileID: 827588960}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.41, y: 0, z: 0}
+  m_LocalPosition: {x: -1.41, y: -1.36, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -20400,6 +20400,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1526986650912259888, guid: b31ba709a4f69c24b8cca50e93e2a8d9, type: 3}
+      propertyPath: m_Size.x
+      value: 0.17
+      objectReference: {fileID: 0}
     - target: {fileID: 1550072411818828557, guid: b31ba709a4f69c24b8cca50e93e2a8d9, type: 3}
       propertyPath: m_LocalPosition.x
       value: 20.949842
@@ -20443,6 +20447,14 @@ PrefabInstance:
     - target: {fileID: 1597715077835425468, guid: b31ba709a4f69c24b8cca50e93e2a8d9, type: 3}
       propertyPath: m_Name
       value: PortalTrigger
+      objectReference: {fileID: 0}
+    - target: {fileID: 3175316395583342398, guid: b31ba709a4f69c24b8cca50e93e2a8d9, type: 3}
+      propertyPath: m_Size.x
+      value: 0.17
+      objectReference: {fileID: 0}
+    - target: {fileID: 4046810576985635479, guid: b31ba709a4f69c24b8cca50e93e2a8d9, type: 3}
+      propertyPath: m_Size.x
+      value: 0.17
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -29380,7 +29392,7 @@ Transform:
   m_GameObject: {fileID: 1573762485}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.85, y: -0.65, z: 0}
+  m_LocalPosition: {x: -0.85, y: -1.62, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

@@ -16,6 +16,9 @@ TagManager:
   - HomePortal
   - MapManager
   - Bullet
+  - TrainPortal
+  - CityPortal
+  - CompanyPortal
   layers:
   - Default
   - TransparentFX
