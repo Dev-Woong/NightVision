@@ -5,12 +5,12 @@ using UnityEngine.InputSystem.LowLevel;
 
 public class CyberSamuraiController : EnemyController
 {
-    public bool canRush = true;
-    public bool canShoot = true;
+    public bool doRush = true;
+    public bool doShoot = true;
     public float rushCoolTime = 5;
     public float shootCoolTime = 3;
-    public float canRushTime = 0;
-    public float canShootTime = 0;
+    public float curRushTime = 0;
+    public float curShootTime = 0;
     public Transform BulletTransform;
     public GameObject Bullet;
 
@@ -42,12 +42,12 @@ public class CyberSamuraiController : EnemyController
                 {
                     transform.localScale = new Vector3(-1, 1, 1);
                 }
-                if (canRush == true)
+                if (doRush == true)
                 {
                     animator.SetBool("isWalk", false);
                     RushAttack(closest);
                 }
-                if (canShoot == true)
+                else if (doShoot == true)
                 {
                     animator.SetBool("isWalk", false);
                     animator.SetTrigger("Shoot");
@@ -79,11 +79,11 @@ public class CyberSamuraiController : EnemyController
     {
         if (closest.localScale.x == 1)
         {
-            transform.position = closest.position + new Vector3(-stopDistance*1.5f, 0.7f, 0);
+            transform.position = closest.position + new Vector3(-stopDistance*1.1f, 0.7f, 0);
         }
         else if (closest.localScale.x == -1)
         {
-            transform.position = closest.position + new Vector3(stopDistance*1.5f, 0.7f, 0);
+            transform.position = closest.position + new Vector3(stopDistance*1.1f, 0.7f, 0);
         }
         if (closest.position.x >= transform.position.x)
         {
@@ -97,8 +97,8 @@ public class CyberSamuraiController : EnemyController
     
     public void Shoot() // AnimationEvent
     {
-        canShootTime = shootCoolTime;
-        canShoot = false;
+        curShootTime = shootCoolTime;
+        doShoot = false;
         moveAble = false;
         GameObject bullet = Instantiate(Bullet, BulletTransform.position, Quaternion.identity);
         LayerMask playerLayer = 6;
@@ -116,20 +116,20 @@ public class CyberSamuraiController : EnemyController
     {
         
         animator.SetTrigger("Rush");
-        canRushTime = rushCoolTime;
-        canRush = false;
+        curRushTime = rushCoolTime;
+        doRush = false;
     }
     protected void CoolTimeProcess()
     {
-        canRushTime -= Time.deltaTime;  
-        canShootTime -= Time.deltaTime;
-        if (canRushTime <= 0)
+        curRushTime -= Time.deltaTime;  
+        curShootTime -= Time.deltaTime;
+        if (curRushTime <= 0)
         {
-            canRush = true;
+            doRush = true;
         }
-        if (canShootTime <= 0)
+        if (curShootTime <= 0)
         {
-            canShoot = true;
+            doShoot = true;
         }
     }
    

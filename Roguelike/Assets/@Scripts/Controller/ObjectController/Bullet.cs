@@ -33,7 +33,7 @@ public class Bullet : PoolAble
     public void ShootBullet(float speed)
     {
         rb.linearVelocity = Vector2.zero;
-        rb.AddForce(bulletDir*speed,ForceMode2D.Impulse);
+        rb.linearVelocity = bulletDir*speed;
     }
     private void OnTriggerEnter2D(Collider2D other)
     {

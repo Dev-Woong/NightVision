@@ -11,8 +11,10 @@ public enum EnemyType
 }
 public class EnemyController : DamageAbleBase, IDamageable
 {
+    public EnemyType eType;
     protected Rigidbody2D rb;
     protected Animator animator;
+    protected BoxCollider2D bc;
     protected PublicStatus ps;
     //public WeaponType wType;
     public Transform damagePos;
@@ -37,6 +39,7 @@ public class EnemyController : DamageAbleBase, IDamageable
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        bc = GetComponent<BoxCollider2D>();
         animator = GetComponent<Animator>();
         ps = GetComponent<PublicStatus>();
         curHp = gameObject.GetComponent<PublicStatus>().maxHp;
@@ -150,7 +153,6 @@ public class EnemyController : DamageAbleBase, IDamageable
         if (damageAble == true)
         {
             //curHp -= causerAtk;
-
             moveAble = false;
             PlayHitAnimation(wType, causerAtk);
             if (curHp <= 0)
@@ -162,25 +164,25 @@ public class EnemyController : DamageAbleBase, IDamageable
     }
     protected virtual void PlayHitAnimation(WeaponType wType, float causerAtk)
     {
-        float finalDmg = 0;
-        switch (wType)
+        float finalDmg;
+        if (eType == EnemyType.Normal)
         {
-            case WeaponType.Gun:
-                animator.SetTrigger("Hit");
-                finalDmg = causerAtk;
-                curHp -= finalDmg;
-                break;
-            case WeaponType.Hand:
-                animator.SetTrigger("Hit");
-                finalDmg = causerAtk;
-                curHp -= finalDmg;
-                break;
-            case WeaponType.Sword:
-                animator.SetTrigger("Hit");
-                finalDmg = causerAtk;
-                curHp -= finalDmg;
-                break;
+            switch (wType)
+            {
+                case WeaponType.Gun:
+                    animator.SetTrigger("Hit");
+                    break;
+                case WeaponType.Hand:
+                    animator.SetTrigger("Hit");
+                    break;
+                case WeaponType.Sword:
+                    animator.SetTrigger("Hit");
+                    
+                    break;
+            }
         }
+        finalDmg = causerAtk;
+        curHp -= (finalDmg-ps.def);
         GameObject hudText = Instantiate(damageText);
         hudText.transform.position = damagePos.position;
         hudText.GetComponent<DamageText>().damage = Mathf.RoundToInt(finalDmg);
@@ -191,10 +193,23 @@ public class EnemyController : DamageAbleBase, IDamageable
         {
             if (collision.gameObject.GetComponent<Bullet>().targetMask == 7)
             {
-                GameObject hudText = Instantiate(damageText);
-                hudText.transform.position = damagePos.position;
-                hudText.GetComponent<DamageText>().damage  = 999;
-                //animator.SetTrigger("Die");
+                if (eType == EnemyType.Normal)
+                {
+                    GameObject hudText = Instantiate(damageText);
+                    hudText.transform.position = damagePos.position;
+                    hudText.GetComponent<DamageText>().damage = 999;
+                    animator.SetTrigger("Die");
+                }
+                else if (eType == EnemyType.Boss)
+                {
+                    GameObject hudText = Instantiate(damageText);
+                    hudText.transform.position = damagePos.position;
+                    hudText.GetComponent<DamageText>().damage = collision.GetComponent<Bullet>().atk;
+                    if (curHp <= 0)
+                    {
+                        animator.SetTrigger("Die");
+                    }
+                }
             }
         }
     }
