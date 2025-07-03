@@ -17,8 +17,8 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   knockBack: 1
-  knockBackForceX: 2
-  knockBackForceY: 0
+  knockBackForceX: 4
+  knockBackForceY: 54
   getEnergy: 0
   skillType: 0
   animSpot: 
@@ -26,5 +26,5 @@ MonoBehaviour:
   damageValue: 3
   HitEffect: {fileID: 0}
   effectPos: {x: 0, y: 0, z: 0}
-  hitBoxSize: {x: 4, y: 1, z: 0}
-  rangeOffset: 5
+  hitBoxSize: {x: 6, y: 1, z: 0}
+  rangeOffset: 3
