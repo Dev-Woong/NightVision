@@ -1,3 +1,4 @@
+using NUnit.Framework.Constraints;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -11,6 +12,7 @@ public class DamageHandler : MonoBehaviour
     Vector3 hitPos;
     private readonly HashSet<IDamageable> damagedTargets = new();
     private readonly WaitForSeconds Interval = new(0.04f);
+    Coroutine coDamageProcess;
     public void Start()
     {
         ps = GetComponent<PublicStatus>();
@@ -41,7 +43,8 @@ public class DamageHandler : MonoBehaviour
                 damagedTargets.Add(dmg);
                 if (hit.GetComponent<DamageAbleBase>().damageAble == true)
                 {
-                    StartCoroutine(HitDamage(dmg, data, x, hit.transform.position, hit.gameObject));
+                    
+                    coDamageProcess = StartCoroutine(HitDamage(dmg, data, x, hit.transform.position, hit.gameObject));
                 }
             }
         }
@@ -49,44 +52,29 @@ public class DamageHandler : MonoBehaviour
     IEnumerator HitDamage(IDamageable dmg, AttackData data, float x, Vector3 targetPos, GameObject target)
     {
         int currentHits = 0;
-
-        if (data.knockBack == KnockBack.Done)
+        var enemyCtrl = target.GetComponent<EnemyController>();
+        if (data.knockBack == KnockBack.Done && enemyCtrl != null && enemyCtrl.eType != EnemyType.Boss)
         {
-            bool thisBoss = false;
+            
             if (target.layer == 6 && data.knockBackForceY > 0f)
             {
                 target.GetComponent<PlayerController>().moveAble = false;
                 target.GetComponent<PlayerController>().OnAirTool();
                 target.GetComponent<Rigidbody2D>().gravityScale = 1;
             }
-            if (target.layer == 7 && data.knockBackForceY > 0f)
+            else if (target.layer == 7 && data.knockBackForceY > 0f)
             {
-                if (target.GetComponent<PublicStatus>().obData.ID == 3)
-                {
-                    target.GetComponent<GhoulController>().isGround = false;
-                }
-                else
-                {
                     target.GetComponent<EnemyController>().isGround = false;
-
-                    if (target.GetComponent<EnemyController>().eType == EnemyType.Boss)
-                    {
-                        thisBoss = true;
-                    }
-                }
-            }
-            if (thisBoss==false)
+            }  
+            if (targetPos.x < transform.position.x)
             {
-                if (targetPos.x < transform.position.x)
-                {
-                    target.GetComponent<Rigidbody2D>().linearVelocity = Vector3.zero;
-                    target.GetComponent<Rigidbody2D>().AddForce(new Vector3(-data.knockBackForceX, data.knockBackForceY, 0), ForceMode2D.Impulse);
-                }
-                else
-                {
-                    target.GetComponent<Rigidbody2D>().linearVelocity = Vector3.zero;
-                    target.GetComponent<Rigidbody2D>().AddForce(new Vector3(data.knockBackForceX, data.knockBackForceY, 0), ForceMode2D.Impulse);
-                }
+                target.GetComponent<Rigidbody2D>().linearVelocity = Vector3.zero;
+                target.GetComponent<Rigidbody2D>().AddForce(new Vector3(-data.knockBackForceX, data.knockBackForceY, 0), ForceMode2D.Impulse);
+            }
+            else
+            {
+                target.GetComponent<Rigidbody2D>().linearVelocity = Vector3.zero;
+                target.GetComponent<Rigidbody2D>().AddForce(new Vector3(data.knockBackForceX, data.knockBackForceY, 0), ForceMode2D.Impulse);
             }
         }
         while (currentHits < data.hitCount)

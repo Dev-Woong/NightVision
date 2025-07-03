@@ -16,12 +16,13 @@ public class KimeraSpiderController : EnemyController
     public float dropAttackCoolTime = 10;
     public float curDropAttackTime = 0;
 
-    float duration = 5f; // 떠다니는 시간 (초)
+  
     public float elapsed = 0f;
     public Transform BulletTransform;
     public GameObject Bullet;
     public GameObject WarningIndicator;
     public Vector2 distanceToTarget;
+    Coroutine coShoot;
     protected override void Move()
     {
         CoolTimeProcess();
@@ -54,11 +55,12 @@ public class KimeraSpiderController : EnemyController
                 }
                 if (doShoot == true)
                 {
-                    rb.linearVelocity = Vector3.zero;
                     animator.SetBool("isWalk", false);
-                    animator.SetBool("Spit",true);
+                    
+                    coShoot ??= StartCoroutine(nameof(CoShoot)); 
+                    rb.linearVelocity = Vector3.zero;
                 }
-                else if (onDropSequence == true)
+                if (onDropSequence == true && curHp <= ps.maxHp/2)
                 {
                     rb.linearVelocity = Vector3.zero;
                     animator.SetBool("isWalk", false);
@@ -98,10 +100,21 @@ public class KimeraSpiderController : EnemyController
             animator.SetBool("isWalk", false);
         }
     }
-    public void MoveAble()
+    public void SetShootFalseState()
     {
         animator.SetBool("Spit", false);
+        coShoot = null;
         moveAble = true;
+    }
+    IEnumerator CoShoot()
+    {
+        moveAble = false;
+        
+        yield return new WaitForSeconds(0.2f);
+        Debug.Log("1");
+        animator.SetBool("isWalk", false);
+        animator.SetBool("Spit", true);
+        yield return null;
     }
     protected void DropAttackProcess()
     {
@@ -130,18 +143,18 @@ public class KimeraSpiderController : EnemyController
         curShootTime = shootCoolTime;
         doShoot = false;
         moveAble = false;
-        distanceToTarget = (new Vector3(closest.position.x,closest.position.y+0.2f,0) - BulletTransform.position).normalized;
+        //distanceToTarget = (new Vector3(closest.position.x,closest.position.y+0.2f,0) - BulletTransform.position).normalized;
         GameObject bullet = Instantiate(Bullet, BulletTransform.position, Quaternion.identity);
         LayerMask playerLayer = 6;
         if (gameObject.transform.localScale.x == 1)
         {   
             bullet.transform.eulerAngles = new Vector3(0, 0, 90);
-            bullet.GetComponent<Bullet>().SetBullet(playerLayer, transform.right, ps.atk);
+            bullet.GetComponent<Bullet>().SetBullet(playerLayer, transform.right,10, ps.atk);
         }
         else if (gameObject.transform.localScale.x == -1)
         {
             bullet.transform.eulerAngles = new Vector3(0, 0, -90);
-            bullet.GetComponent<Bullet>().SetBullet(playerLayer, -transform.right, ps.atk);
+            bullet.GetComponent<Bullet>().SetBullet(playerLayer, -transform.right,10, ps.atk);
         }
        
     }

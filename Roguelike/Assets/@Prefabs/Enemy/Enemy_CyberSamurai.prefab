@@ -299,6 +299,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damageAble: 1
+  eType: 0
   damagePos: {fileID: 6337855100605087145}
   damageText: {fileID: 2707642217791368709, guid: 04b8c71144ab0f5478c351bdc7621f7a, type: 3}
   speed: 0
@@ -314,11 +315,11 @@ MonoBehaviour:
   isGround: 0
   closest: {fileID: 0}
   direction: {x: 0, y: 0}
-  canRush: 0
-  canShoot: 0
+  doRush: 1
+  doShoot: 1
   rushCoolTime: 5
   shootCoolTime: 4
-  canRushTime: 1
-  canShootTime: 0
+  curRushTime: 0
+  curShootTime: 0
   BulletTransform: {fileID: 5158216928334892121}
   Bullet: {fileID: 525238048956279774, guid: f0d7cb97786765241aeb4054e0599266, type: 3}

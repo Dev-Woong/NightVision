@@ -152,8 +152,6 @@ public class EnemyController : DamageAbleBase, IDamageable
     {
         if (damageAble == true)
         {
-            //curHp -= causerAtk;
-            moveAble = false;
             PlayHitAnimation(wType, causerAtk);
             if (curHp <= 0)
             {
@@ -167,6 +165,7 @@ public class EnemyController : DamageAbleBase, IDamageable
         float finalDmg;
         if (eType == EnemyType.Normal)
         {
+            moveAble = false;
             switch (wType)
             {
                 case WeaponType.Gun:
@@ -177,12 +176,11 @@ public class EnemyController : DamageAbleBase, IDamageable
                     break;
                 case WeaponType.Sword:
                     animator.SetTrigger("Hit");
-                    
                     break;
             }
         }
-        finalDmg = causerAtk;
-        curHp -= (finalDmg-ps.def);
+        finalDmg = causerAtk-ps.def;
+        curHp -= finalDmg;
         GameObject hudText = Instantiate(damageText);
         hudText.transform.position = damagePos.position;
         hudText.GetComponent<DamageText>().damage = Mathf.RoundToInt(finalDmg);

@@ -786,7 +786,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &308057011
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1383,10 +1383,6 @@ PrefabInstance:
     - target: {fileID: 3800592601102424907, guid: ab524e50a6d6f0d4f9c4470e644bf84c, type: 3}
       propertyPath: m_Name
       value: Enemy_RiotPolice
-      objectReference: {fileID: 0}
-    - target: {fileID: 3800592601102424907, guid: ab524e50a6d6f0d4f9c4470e644bf84c, type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7715221119283752004, guid: ab524e50a6d6f0d4f9c4470e644bf84c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4000,10 +3996,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy_Gangster
       objectReference: {fileID: 0}
-    - target: {fileID: 1193536947527482064, guid: d9c32d6202a2be044827d86dd5ab5c6c, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 8064380683569832887, guid: d9c32d6202a2be044827d86dd5ab5c6c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.43
@@ -5150,10 +5142,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy_CyberSamurai
       objectReference: {fileID: 0}
-    - target: {fileID: 8535237874144761951, guid: 46c127af1e36d3349ad0525d2f30fd6a, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5454,10 +5442,6 @@ PrefabInstance:
     - target: {fileID: 7777305772001939875, guid: ee1f3db540b60354dac7647cbfbcb0e3, type: 3}
       propertyPath: m_Name
       value: Enemy_Thief
-      objectReference: {fileID: 0}
-    - target: {fileID: 7777305772001939875, guid: ee1f3db540b60354dac7647cbfbcb0e3, type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6779,10 +6763,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy_Ghoul
       objectReference: {fileID: 0}
-    - target: {fileID: 7029524666091483697, guid: 6ad7a8f431cbc5647b08025c151c671c, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7168,10 +7148,6 @@ PrefabInstance:
     - target: {fileID: 2352562619010275189, guid: a629d960af862ca4d8ccf2b586449fd3, type: 3}
       propertyPath: m_Name
       value: Enemy_Cop
-      objectReference: {fileID: 0}
-    - target: {fileID: 2352562619010275189, guid: a629d960af862ca4d8ccf2b586449fd3, type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3044865409095038535, guid: a629d960af862ca4d8ccf2b586449fd3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7738,10 +7714,6 @@ PrefabInstance:
     - target: {fileID: 5429238417088985218, guid: afabfd3bac08b034c8b4897cfa040910, type: 3}
       propertyPath: m_Name
       value: Enemy_Samurai
-      objectReference: {fileID: 0}
-    - target: {fileID: 5429238417088985218, guid: afabfd3bac08b034c8b4897cfa040910, type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8810835889458634000, guid: afabfd3bac08b034c8b4897cfa040910, type: 3}
       propertyPath: m_LocalPosition.x
