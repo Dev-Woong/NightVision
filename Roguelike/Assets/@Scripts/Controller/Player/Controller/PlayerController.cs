@@ -1,4 +1,5 @@
 using System.Collections;
+using Unity.Jobs;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 public enum WeaponType
@@ -112,12 +113,13 @@ public class PlayerController :DamageAbleBase,IDamageable
     {
         anim.SetBool("onRifle", rifleMode);
         Rifle.SetActive(rifleMode);
+        
     }
     public void ExitRifleMode()
     {
         moveAble = true;
         rifleMode = false;
-
+       
         anim.SetBool("onRifle", rifleMode);
     }
     public void EnterGunMode()
@@ -610,8 +612,8 @@ public class PlayerController :DamageAbleBase,IDamageable
             StartCoroutine(InitializeCamAndItem());
         }
     }
-   
     
+
     #region LifeCycle
     public void Awake()
     {
@@ -627,15 +629,15 @@ public class PlayerController :DamageAbleBase,IDamageable
         maxHp = PublicStat.maxHp;
         curHp = maxHp;
         normalBCSize = bc.size;
+        
         parringBCSize = new Vector2(2.3f, 0.9f);
     }
     
     void Start()
     {
-
         Rifle.SetActive(false);
         Scope.SetActive(false);
-
+        
         rb.freezeRotation = true;
 
         camChanger = GetComponent<CameraChanger>();
@@ -651,7 +653,7 @@ public class PlayerController :DamageAbleBase,IDamageable
             SetWeaponState();
             GetWeaponState();
             Attack();
-        Parring();
+            Parring();
         }
         EnterRifleMode();
         GunModeUI();

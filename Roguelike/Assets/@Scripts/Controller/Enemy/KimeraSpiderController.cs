@@ -17,12 +17,12 @@ public class KimeraSpiderController : EnemyController
     public float curDropAttackTime = 0;
 
     public bool enterBerserkMode = false;
-  
+    public bool onParticles = true;
     public float elapsed = 0f;
     public Transform BulletTransform;
     public GameObject Bullet;
     public GameObject WarningIndicator;
-    public GameObject[] Particles;
+    public GameObject Particles;
     public Vector2 distanceToTarget;
     Coroutine coShoot;
     Coroutine coSetColor;
@@ -30,7 +30,7 @@ public class KimeraSpiderController : EnemyController
     {
         CoolTimeProcess();
         Collider2D[] hits = Physics2D.OverlapCircleAll(transform.position, detectionRadius, PlayerLayer);
-
+        ParticleRot();
         if (hits.Length > 0)
         {
             float minDistance = Mathf.Infinity;
@@ -68,6 +68,7 @@ public class KimeraSpiderController : EnemyController
                     rb.linearVelocity = Vector3.zero;
                     animator.SetBool("isWalk", false);
                     animator.SetBool("DropSequence",true);
+                    //Particles.SetActive(false);
                     onDropSequence = false;
                     rb.linearVelocity = Vector3.zero;
                     moveAble = false;
@@ -106,27 +107,22 @@ public class KimeraSpiderController : EnemyController
         ps.atk *= 3f;
         ps.speed *= 1.8f;
         ps.def *= 0.3f;
-        for (int i = 0; i < Particles.Length - 1; i++)
-        {
-            Particles[i].GetComponent<ParticleSystem>().Play();
-        }
+        Particles.SetActive(true);
         StartCoroutine(nameof(SetColor));
     }
     public void ParticleRot()
     {
         if(transform.localScale.x == 1)
         {
-            for (int i = 0; i < Particles.Length - 1; i++)
-            {
-                Particles[i].transform.eulerAngles = new Vector3(0, 0, 0);
-            }
+            
+                Particles.transform.localScale = new Vector3(1, 1, 1);
+            
         }
         else if (transform.localScale.x == -1)
         {
-            for (int i = 0; i < Particles.Length - 1; i++)
-            {
-                Particles[i].transform.eulerAngles = new Vector3(0, 0, 0);
-            }
+            
+                Particles.transform.localScale = new Vector3(-1,1,1);
+            
         }
     }
     IEnumerator SetColor()
@@ -159,7 +155,8 @@ public class KimeraSpiderController : EnemyController
     }
     protected void DropAttackProcess()
     {
-        damageAble = false; 
+        damageAble = false;
+        
         rb.linearVelocity = (direction.normalized * speed);
         doDropAttack = true;
         sr.color = new Color(0,0,0,0);
@@ -175,6 +172,7 @@ public class KimeraSpiderController : EnemyController
         else sr.color = new Color(1,0 , 0, 1);
         doDropAttack = false;
         animator.SetTrigger("DropAttack");
+        
         damageAble = true;
         rb.linearVelocity = Vector3.zero;
     }
@@ -184,6 +182,12 @@ public class KimeraSpiderController : EnemyController
         curDropAttackTime = dropAttackCoolTime;
         
     }
+    public void SetTParticles()
+    {
+        onParticles = !onParticles;
+        Particles.SetActive(onParticles);
+    }
+
     protected void Shoot() // AnimationEvent
     {
         curShootTime = shootCoolTime;
