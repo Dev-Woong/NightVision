@@ -10,20 +10,19 @@ public class RifleController : MonoBehaviour
     public CinemachineImpulseSource impulseSource;
     public CinemachineCamera rifleCam;
     public AttackData rifleData;
-    public GameObject ShotEffect;
-    public GameObject ParticleCatridge;
+
+    public GameObject CatridgeParticle;
+    public GameObject ShotParticle;
     public float cartridgeForce = 5;
     private void Awake()
     {
         player = GetComponentInParent<PlayerController>();
         dHandle = GetComponentInParent<DamageHandler>();
-
-        ParticleCatridge.GetComponent<ParticleSystem>().Stop();
-        ShotEffect.GetComponent<ParticleSystem>().Stop();   
         rifleCam.Priority = 1;
     }
     void Start()
     {
+       
         this.gameObject.SetActive(false);
     }
     public void Fire()
@@ -34,43 +33,38 @@ public class RifleController : MonoBehaviour
         }
         FireCoroutine = StartCoroutine(FireEffect());
         dHandle.PlayerCreateAttackBox(rifleData);
+        RandomFireEffect();
+        EmptyCartridgeEffect();
     }
-    
     public void RandomFireEffect()
     {
-        ShotEffect.SetActive(true);
         if (player.transform.localScale.x == 1)
         {
-            ShotEffect.transform.eulerAngles = new Vector3(0, 0, 0);
-            ShotEffect.GetComponent<ParticleSystem>().Play();
+            ShotParticle.transform.eulerAngles = new Vector3(0, 0, 0);
         }
         else if (player.transform.localScale.x == -1)
         {
-            ShotEffect.transform.eulerAngles= new Vector3(0, 0, 180);
-            ShotEffect.GetComponent<ParticleSystem>().Play();
+            ShotParticle.transform.eulerAngles = new Vector3(0, 0, 180);
         }
     }
-    
+
     public void EmptyCartridgeEffect()
     {
-        ParticleCatridge.SetActive(true);
         if (player.transform.localScale.x == 1)
         {
-            ParticleCatridge.transform.localScale = new Vector3(4.32f, 0.4f, 2);
-            ParticleCatridge.GetComponent<ParticleSystem>().Play();
+            CatridgeParticle.transform.localScale = new Vector3(4.32f, 0.4f, 2);
         }
         else if (player.transform.localScale.x == -1)
         {
-            ParticleCatridge.transform.localScale = new Vector3(-4.32f, 0.4f, 2);
-            ParticleCatridge.GetComponent<ParticleSystem>().Play();
+            CatridgeParticle.transform.localScale = new Vector3(-4.32f, 0.4f, 2);
         }
     }
+
     IEnumerator FireEffect()
     {
         int a = 0;
         rifleCam.Priority = 50;
-        RandomFireEffect();
-        EmptyCartridgeEffect();
+        yield return null;
         while (a < rifleData.hitCount)
         {
             float b = Random.Range(0f, 0.2f);
@@ -79,11 +73,8 @@ public class RifleController : MonoBehaviour
             a++;
             yield return new WaitForSeconds(0.04f);
         }
-        ParticleCatridge.GetComponent<ParticleSystem>().Stop();
-        ShotEffect.GetComponent<ParticleSystem>().Stop();
         player.ExitRifleMode();
         rifleCam.Priority = 1;
-        
     }
     
 }

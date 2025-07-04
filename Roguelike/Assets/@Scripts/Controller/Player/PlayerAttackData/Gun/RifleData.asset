@@ -16,14 +16,13 @@ MonoBehaviour:
   targetMask:
     serializedVersion: 2
     m_Bits: 128
-  knockBack: 1
   knockBackForceX: 2
   knockBackForceY: 0
   getEnergy: 0
   skillType: 0
   animSpot: '-'
   hitCount: 30
-  damageValue: 1
+  damageValue: 4
   HitEffect: {fileID: 5099289152872433770, guid: 47d68cf229101694f9b0faea8768cdd2, type: 3}
   effectPos: {x: 0.8, y: -0.1, z: 0}
   hitBoxSize: {x: 5, y: 5, z: 0}
