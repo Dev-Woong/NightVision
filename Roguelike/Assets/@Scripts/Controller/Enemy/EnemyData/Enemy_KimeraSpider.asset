@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Enemy_KimeraSpider
   m_EditorClassIdentifier: 
   ID: 8
-  atk: 20
-  def: 50
+  atk: 30
+  def: 40
   maxHp: 10000
-  speed: 3
+  speed: 2
   dropJam: 200

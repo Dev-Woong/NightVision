@@ -18,7 +18,7 @@ public class AttackData : ScriptableObject
 
     public LayerMask targetMask;
 
-    public KnockBack knockBack;
+    
 
     public float knockBackForceX;
     public float knockBackForceY;

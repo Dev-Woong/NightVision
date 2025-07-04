@@ -16,9 +16,8 @@ MonoBehaviour:
   targetMask:
     serializedVersion: 2
     m_Bits: 64
-  knockBack: 1
-  knockBackForceX: 4
-  knockBackForceY: 54
+  knockBackForceX: 2
+  knockBackForceY: 2
   getEnergy: 0
   skillType: 0
   animSpot: 

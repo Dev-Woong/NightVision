@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b40c404938ad2c3428c88cfe41803072, type: 3}
   m_Name: Enemy_Goul
   m_EditorClassIdentifier: 
+  knockBack: 1
   ID: 3
   atk: 2
   def: 2

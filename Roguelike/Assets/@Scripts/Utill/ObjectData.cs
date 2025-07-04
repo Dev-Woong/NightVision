@@ -9,5 +9,4 @@ public class ObjectData : ScriptableObject
     public int maxHp;
     public float speed;
     public int dropJam;
-    
 }

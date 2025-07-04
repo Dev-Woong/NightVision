@@ -239,6 +239,7 @@ MonoBehaviour:
   curHp: 0
   def: 0
   jamStack: 0
+  knockBack: 1
 --- !u!114 &3541141465374513358
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -283,3 +283,4 @@ MonoBehaviour:
   curHp: 0
   def: 0
   jamStack: 0
+  knockBack: 1
