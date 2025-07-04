@@ -16,13 +16,16 @@ public class KimeraSpiderController : EnemyController
     public float dropAttackCoolTime = 10;
     public float curDropAttackTime = 0;
 
+    public bool enterBerserkMode = false;
   
     public float elapsed = 0f;
     public Transform BulletTransform;
     public GameObject Bullet;
     public GameObject WarningIndicator;
+    public GameObject[] Particles;
     public Vector2 distanceToTarget;
     Coroutine coShoot;
+    Coroutine coSetColor;
     protected override void Move()
     {
         CoolTimeProcess();
@@ -45,6 +48,7 @@ public class KimeraSpiderController : EnemyController
             {
                 float distanceToTarget = Vector2.Distance(transform.position, closest.position);
                 
+
                 if (closest.position.x >= transform.position.x)
                 {
                     transform.localScale = new Vector3(1, 1, 1);
@@ -56,11 +60,10 @@ public class KimeraSpiderController : EnemyController
                 if (doShoot == true)
                 {
                     animator.SetBool("isWalk", false);
-                    
                     coShoot ??= StartCoroutine(nameof(CoShoot)); 
                     rb.linearVelocity = Vector3.zero;
                 }
-                if (onDropSequence == true && curHp <= ps.maxHp/2)
+                if (onDropSequence == true && enterBerserkMode == true)
                 {
                     rb.linearVelocity = Vector3.zero;
                     animator.SetBool("isWalk", false);
@@ -85,12 +88,10 @@ public class KimeraSpiderController : EnemyController
                     if (closest.position.x >= transform.position.x)
                     {
                         transform.localScale = new Vector3(1, 1, 1);
-
                     }
                     if (closest.position.x < transform.position.x)
                     {
                         transform.localScale = new Vector3(-1, 1, 1);
-
                     }
                 }
             }
@@ -98,6 +99,48 @@ public class KimeraSpiderController : EnemyController
         else
         {
             animator.SetBool("isWalk", false);
+        }
+    }
+    public void EnterBerserkMode()
+    {
+        ps.atk *= 3f;
+        ps.speed *= 1.8f;
+        ps.def *= 0.3f;
+        for (int i = 0; i < Particles.Length - 1; i++)
+        {
+            Particles[i].GetComponent<ParticleSystem>().Play();
+        }
+        StartCoroutine(nameof(SetColor));
+    }
+    public void ParticleRot()
+    {
+        if(transform.localScale.x == 1)
+        {
+            for (int i = 0; i < Particles.Length - 1; i++)
+            {
+                Particles[i].transform.eulerAngles = new Vector3(0, 0, 0);
+            }
+        }
+        else if (transform.localScale.x == -1)
+        {
+            for (int i = 0; i < Particles.Length - 1; i++)
+            {
+                Particles[i].transform.eulerAngles = new Vector3(0, 0, 0);
+            }
+        }
+    }
+    IEnumerator SetColor()
+    {
+        int a = 0;
+        float g = 1;
+        float b = 1;
+        while (a <40)
+        {
+            g -= 0.025f;
+            b -= 0.025f;
+            sr.color = new Color(1,g, b,1 );
+            a++;
+            yield return new WaitForSeconds(0.05f);
         }
     }
     public void SetShootFalseState()
@@ -109,9 +152,7 @@ public class KimeraSpiderController : EnemyController
     IEnumerator CoShoot()
     {
         moveAble = false;
-        
-        yield return new WaitForSeconds(0.2f);
-        Debug.Log("1");
+        yield return new WaitForSeconds(0.5f);
         animator.SetBool("isWalk", false);
         animator.SetBool("Spit", true);
         yield return null;
@@ -121,12 +162,17 @@ public class KimeraSpiderController : EnemyController
         damageAble = false; 
         rb.linearVelocity = (direction.normalized * speed);
         doDropAttack = true;
-        Debug.Log(elapsed);
+        sr.color = new Color(0,0,0,0);
         WarningIndicator.SetActive(true);
     }
     protected void DoDrop() // Animation Event
     {
         WarningIndicator.SetActive(false);
+        if (enterBerserkMode == false)
+        {
+            sr.color = new Color(1, 1, 1, 1);
+        }
+        else sr.color = new Color(1,0 , 0, 1);
         doDropAttack = false;
         animator.SetTrigger("DropAttack");
         damageAble = true;
@@ -149,14 +195,47 @@ public class KimeraSpiderController : EnemyController
         if (gameObject.transform.localScale.x == 1)
         {   
             bullet.transform.eulerAngles = new Vector3(0, 0, 90);
-            bullet.GetComponent<Bullet>().SetBullet(playerLayer, transform.right,10, ps.atk);
+            bullet.GetComponent<Bullet>().SetBullet(playerLayer, transform.right,20, ps.atk);
         }
         else if (gameObject.transform.localScale.x == -1)
         {
             bullet.transform.eulerAngles = new Vector3(0, 0, -90);
-            bullet.GetComponent<Bullet>().SetBullet(playerLayer, -transform.right,10, ps.atk);
+            bullet.GetComponent<Bullet>().SetBullet(playerLayer, -transform.right,20, ps.atk);
         }
        
+    }
+    protected override void MonsterHitLogic(WeaponType wType, float causerAtk)
+    {
+        float finalDmg;
+        if (eType == EnemyType.Normal)
+        {
+            moveAble = false;
+            switch (wType)
+            {
+                case WeaponType.Gun:
+                    animator.SetTrigger("Hit");
+                    break;
+                case WeaponType.Hand:
+                    animator.SetTrigger("Hit");
+                    break;
+                case WeaponType.Sword:
+                    animator.SetTrigger("Hit");
+                    break;
+            }
+        }
+        finalDmg = causerAtk - ps.def;
+        curHp -= finalDmg;
+        GameObject hudText = Instantiate(damageText);
+        hudText.transform.position = damagePos.position;
+        hudText.GetComponent<DamageText>().damage = Mathf.RoundToInt(finalDmg);
+        if (curHp <= ps.maxHp / 2 && enterBerserkMode == false)
+        {
+            enterBerserkMode = true;
+            animator.SetBool("isWalk", false);
+            animator.SetTrigger("EnterBerserk");
+            moveAble = false;
+        }
+        
     }
     protected void CoolTimeProcess()
     {

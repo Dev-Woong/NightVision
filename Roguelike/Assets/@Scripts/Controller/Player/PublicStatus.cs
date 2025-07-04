@@ -11,7 +11,7 @@ public class PublicStatus : MonoBehaviour
     public float curHp;
     public float def;
     public int jamStack;
-    
+    public KnockBack knockBack;
     void Awake()
     {
         atk = obData.atk;

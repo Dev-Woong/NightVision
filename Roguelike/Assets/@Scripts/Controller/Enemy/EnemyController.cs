@@ -16,7 +16,7 @@ public class EnemyController : DamageAbleBase, IDamageable
     protected Animator animator;
     protected BoxCollider2D bc;
     protected PublicStatus ps;
-    //public WeaponType wType;
+    protected SpriteRenderer sr;
     public Transform damagePos;
     public GameObject damageText;
 
@@ -32,7 +32,6 @@ public class EnemyController : DamageAbleBase, IDamageable
 
     public bool moveAble = true;
     public bool isGround = false; 
-    //public bool damageAble = true;
     protected Coroutine coAttack;
     public Transform closest;
     public Vector2 direction;
@@ -41,6 +40,7 @@ public class EnemyController : DamageAbleBase, IDamageable
         rb = GetComponent<Rigidbody2D>();
         bc = GetComponent<BoxCollider2D>();
         animator = GetComponent<Animator>();
+        sr = GetComponent<SpriteRenderer>();
         ps = GetComponent<PublicStatus>();
         curHp = gameObject.GetComponent<PublicStatus>().maxHp;
         speed = GetComponent<PublicStatus>().speed;
@@ -152,7 +152,7 @@ public class EnemyController : DamageAbleBase, IDamageable
     {
         if (damageAble == true)
         {
-            PlayHitAnimation(wType, causerAtk);
+            MonsterHitLogic(wType, causerAtk);
             if (curHp <= 0)
             {
                 damageAble = false;
@@ -160,7 +160,7 @@ public class EnemyController : DamageAbleBase, IDamageable
             }
         }
     }
-    protected virtual void PlayHitAnimation(WeaponType wType, float causerAtk)
+    protected virtual void MonsterHitLogic(WeaponType wType, float causerAtk)
     {
         float finalDmg;
         if (eType == EnemyType.Normal)

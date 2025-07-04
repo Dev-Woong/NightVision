@@ -52,20 +52,8 @@ public class DamageHandler : MonoBehaviour
     IEnumerator HitDamage(IDamageable dmg, AttackData data, float x, Vector3 targetPos, GameObject target)
     {
         int currentHits = 0;
-        var enemyCtrl = target.GetComponent<EnemyController>();
-        if (data.knockBack == KnockBack.Done && enemyCtrl != null && enemyCtrl.eType != EnemyType.Boss)
+        if (target.GetComponent<PublicStatus>().knockBack == KnockBack.Done)
         {
-            
-            if (target.layer == 6 && data.knockBackForceY > 0f)
-            {
-                target.GetComponent<PlayerController>().moveAble = false;
-                target.GetComponent<PlayerController>().OnAirTool();
-                target.GetComponent<Rigidbody2D>().gravityScale = 1;
-            }
-            else if (target.layer == 7 && data.knockBackForceY > 0f)
-            {
-                    target.GetComponent<EnemyController>().isGround = false;
-            }  
             if (targetPos.x < transform.position.x)
             {
                 target.GetComponent<Rigidbody2D>().linearVelocity = Vector3.zero;
@@ -75,6 +63,15 @@ public class DamageHandler : MonoBehaviour
             {
                 target.GetComponent<Rigidbody2D>().linearVelocity = Vector3.zero;
                 target.GetComponent<Rigidbody2D>().AddForce(new Vector3(data.knockBackForceX, data.knockBackForceY, 0), ForceMode2D.Impulse);
+            }
+            if (target.layer == 6 && data.knockBackForceY > 0f)
+            {
+                target.GetComponent<PlayerController>().OnAirTool();
+                target.GetComponent<Rigidbody2D>().gravityScale = 1;
+            }
+            if (target.layer == 7 && data.knockBackForceY > 0f)
+            {
+                target.GetComponent<EnemyController>().isGround = false;
             }
         }
         while (currentHits < data.hitCount)

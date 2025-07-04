@@ -77,6 +77,7 @@ public class PlayerController :DamageAbleBase,IDamageable
     public override void OnDamage(float causerAtk, WeaponType wType)
     {
         curHp -= causerAtk;
+        moveAble = false;
         GameObject hudText = Instantiate(damageText);
         hudText.transform.position = damagePos.position;
         hudText.GetComponent<DamageText>().damage = causerAtk;
@@ -308,6 +309,7 @@ public class PlayerController :DamageAbleBase,IDamageable
             bc.size = parringBCSize;
             anim.SetTrigger("Parring");
             isParring = true;
+            rb.gravityScale = 1f;
             moveAble = false;
         }
     }

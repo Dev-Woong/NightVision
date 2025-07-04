@@ -54,7 +54,7 @@ public class RiotPoliceController : EnemyController
             animator.SetBool("isWalk", false);
         }
     }
-    protected override void PlayHitAnimation(WeaponType wType, float causerAtk)
+    protected override void MonsterHitLogic(WeaponType wType, float causerAtk)
     {
         float finalDmg = 0;
         switch (wType)

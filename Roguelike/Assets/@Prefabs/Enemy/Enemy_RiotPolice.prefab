@@ -252,6 +252,7 @@ MonoBehaviour:
   curHp: 0
   def: 0
   jamStack: 0
+  knockBack: 1
 --- !u!1 &8605965775870591403
 GameObject:
   m_ObjectHideFlags: 0
