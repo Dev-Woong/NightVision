@@ -108,21 +108,18 @@ public class KimeraSpiderController : EnemyController
         ps.speed *= 1.8f;
         ps.def *= 0.3f;
         Particles.SetActive(true);
+        animator.SetBool("SetBerserk", true);
         StartCoroutine(nameof(SetColor));
     }
     public void ParticleRot()
     {
-        if(transform.localScale.x == 1)
+        if (transform.localScale.x == 1)
         {
-            
-                Particles.transform.localScale = new Vector3(1, 1, 1);
-            
+            Particles.transform.localScale = new Vector3(1, 1, 1);
         }
         else if (transform.localScale.x == -1)
         {
-            
-                Particles.transform.localScale = new Vector3(-1,1,1);
-            
+            Particles.transform.localScale = new Vector3(-1, 1, 1);
         }
     }
     IEnumerator SetColor()
