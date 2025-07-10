@@ -7169,7 +7169,7 @@ Transform:
   m_GameObject: {fileID: 178305045}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.852769, y: 3.9124002, z: -10}
+  m_LocalPosition: {x: 6.8447456, y: 3.9124103, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -19471,6 +19471,7 @@ GameObject:
   - component: {fileID: 1052829681}
   - component: {fileID: 1052829684}
   - component: {fileID: 1052829685}
+  - component: {fileID: 1052829686}
   m_Layer: 0
   m_Name: Cam02
   m_TagString: Cam
@@ -19610,6 +19611,18 @@ MonoBehaviour:
     FrequencyGain: 4
     Duration: 1
     m_NoiseOffsets: {x: 0, y: 0, z: 0}
+--- !u!114 &1052829686
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1052829680}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ec431f0c973a7f4d89eb59daee7f808, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1056099412
 GameObject:
   m_ObjectHideFlags: 0

@@ -45,7 +45,7 @@ public class CCam : MonoBehaviour
             }
             else if (SceneManager.sceneCount == 2)
             {
-                cpc.TargetOffset = new Vector3(0, -0.65f, 0);
+                cpc.TargetOffset = new Vector3(0, 4f, 0);
             }
             else if (SceneManager.sceneCount == 3)
             {
