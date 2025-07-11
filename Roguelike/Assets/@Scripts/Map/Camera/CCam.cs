@@ -42,6 +42,7 @@ public class CCam : MonoBehaviour
             if (SceneManager.sceneCount == 1)
             {
                 cpc.TargetOffset = new Vector3(0, -0.65f, 0);
+                 
             }
             else if (SceneManager.sceneCount == 2)
             {
@@ -61,6 +62,7 @@ public class CCam : MonoBehaviour
             }
                 Debug.Log("Cinemachine Tracking Target 설정 완료");
         }
+        
     }
 
 }
