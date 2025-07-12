@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class DamageHandler : MonoBehaviour
 {
-    public AudioSource audioSource;
+    
     public Transform target;
     public PublicStatus ps;
     
@@ -19,6 +19,8 @@ public class DamageHandler : MonoBehaviour
     }
     public void PlayerCreateAttackBox(AttackData data)
     {
+        if (data.SFX != null)
+            SFXManager.Instance.PlaySFX(data.SFX);
         if (data == null) return;
         damagedTargets.Clear();
         float x = transform.localScale.x;
@@ -80,8 +82,7 @@ public class DamageHandler : MonoBehaviour
             float randDmg = Mathf.RoundToInt(Random.Range(finalDmg * 0.9f, finalDmg * 1.1f));
 
             dmg.TakeDamage((randDmg), data.wType);
-
-            //audioSource.PlayOneShot(data.SFX);
+            
             if (data.HitEffect != null)
             {
                 Vector3 effectPos = targetPos + new Vector3(data.effectPos.x * x, data.effectPos.y, data.effectPos.z);

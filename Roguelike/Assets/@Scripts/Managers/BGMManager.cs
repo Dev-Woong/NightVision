@@ -8,6 +8,7 @@ public class BGMManager : MonoBehaviour
     public static BGMManager Instance;
     public AudioClip[] aClip;
     public AudioSource aSource;
+
     void Awake()
     {
         if (Instance == null)
@@ -45,17 +46,6 @@ public class BGMManager : MonoBehaviour
         {
             aSource.volume += 0.02f;
             yield return new WaitForSeconds(0.05f);
-        }
-    }
-    void Update()
-    {
-        if (aSource.clip != aSource.clip)
-        {
-           BGMChange(SceneManager.sceneCount);
-        }
-        else
-        {
-            return;
         }
     }
 }
