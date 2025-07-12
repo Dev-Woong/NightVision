@@ -32,8 +32,7 @@ public class AttackData : ScriptableObject
 
     public float damageValue;
 
-    //[Header("사운드 이펙트")]
-    //public AudioClip SFX;
+    public AudioClip SFX;
 
     public GameObject HitEffect;
 
