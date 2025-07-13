@@ -1,14 +1,13 @@
 using System.Collections;
 using UnityEngine;
-using UnityEngine.Audio;
 using UnityEngine.SceneManagement;
 
 public class BGMManager : MonoBehaviour
 {
     public static BGMManager Instance;
-    public AudioClip[] aClip;
+    public BGMData[] bData;
     public AudioSource aSource;
-
+    [SerializeField] private Scene curScene;
     void Awake()
     {
         if (Instance == null)
@@ -21,26 +20,39 @@ public class BGMManager : MonoBehaviour
             Destroy(gameObject);
             return;
         }
+        SceneManager.sceneLoaded += OnSceneLoaded;
     }
     void Start()
     {
         aSource = GetComponent<AudioSource>();
-        aSource.clip = aClip[0];
+        ChangeBGM();
         aSource.Play();
     }
-    public void BGMChange(int SceneNum)
+    public void ChangeBGM()
     {
-        aSource.resource = aClip[SceneNum];
-        aSource.Play();
+        curScene = SceneManager.GetActiveScene();
+        for (int i = 0; i < bData.Length; i++)
+        {
+            if (bData[i].sceneNum ==curScene.buildIndex)
+            {
+                aSource.resource = bData[i].BGM;
+                break;
+            }
+        }
     }
-    IEnumerator ChangeBGM()
+     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        StartCoroutine(nameof(PlayBGM));
+    }
+    
+    IEnumerator PlayBGM()
     {
         while (aSource.volume > 0.1f)
         {
             aSource.volume -= 0.02f;
             yield return new WaitForSeconds(0.05f);
         }
-        aSource.clip = aClip[1];
+        ChangeBGM();
         aSource.Play();
         while (aSource.volume < 0.35f)
         {
