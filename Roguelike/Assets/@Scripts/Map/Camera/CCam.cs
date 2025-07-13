@@ -35,7 +35,7 @@ public class CCam : MonoBehaviour
             Debug.LogWarning("플레이어를 찾을 수 없습니다.");
             return;
         }
-
+        //scene.buildIndex = 
         if (cineCam != null)
         {
             cineCam.Target.TrackingTarget = playerObj.transform;
