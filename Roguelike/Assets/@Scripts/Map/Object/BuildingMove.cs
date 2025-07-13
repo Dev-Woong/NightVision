@@ -10,6 +10,7 @@ public class BuildingMove : MonoBehaviour
 
     public GameObject signs;
     public GameObject floor;
+    
 
     Vector2 buildPos;
     Vector2 shadowPos;
@@ -61,6 +62,7 @@ public class BuildingMove : MonoBehaviour
             floorPos.x = 114.3f;
             floor.transform.position = floorPos;
         }
+        
 
         MoveBuildings();  
     }
@@ -73,5 +75,7 @@ public class BuildingMove : MonoBehaviour
         shadow.transform.Translate(Vector2.left * (speed * 2f) * Time.deltaTime);
         signs.transform.Translate(Vector2.left * (speed * 1.5f) * Time.deltaTime);
         floor.transform.Translate(Vector2.left * speed * Time.deltaTime);
+        
+
     }
 }
