@@ -16,6 +16,8 @@ public class BuildingMove1 : MonoBehaviour
     Vector2 shadowPos;
     Vector2 signsPos;
     Vector2 floorPos;
+    Vector2 floor1Pos;
+
 
     public float speed;
 
@@ -59,14 +61,15 @@ public class BuildingMove1 : MonoBehaviour
         if(floor.transform.position.x <= -101.1f)
         {
             floorPos = floor.transform.position;
-            floorPos.x = 114.3f;
+            floorPos.x = 113.5f;
             floor.transform.position = floorPos;
         }
+
         if (floor1.transform.position.x <= -101.1f)
         {
-            floorPos = floor.transform.position;
-            floorPos.x = 107f;
-            floor.transform.position = floorPos;
+            floor1Pos = floor1.transform.position;
+            floor1Pos.x = 107f;
+            floor1.transform.position = floorPos;
         }
 
         MoveBuildings();  
