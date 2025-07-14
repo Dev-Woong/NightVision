@@ -7298,7 +7298,7 @@ Transform:
   m_GameObject: {fileID: 178305045}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.8873034, y: 3.9701102, z: -10}
+  m_LocalPosition: {x: 8.771417, y: 3.9694903, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -9506,7 +9506,7 @@ MonoBehaviour:
   mSlider: {fileID: 1745904940}
   bSlider: {fileID: 506925168}
   sSlider: {fileID: 292667352}
-  aSlider: {fileID: 0}
+  aSlider: {fileID: 1020268463}
 --- !u!1 &376546190
 GameObject:
   m_ObjectHideFlags: 0
