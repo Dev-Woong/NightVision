@@ -9,9 +9,9 @@ public class SoundUIManager : MonoBehaviour
     [SerializeField] private Slider bSlider;
     [SerializeField] private Slider sSlider;
     [SerializeField] private Slider aSlider;
-    void Start()
+    void Awake()
     {
-        if (PlayerPrefs.HasKey("Master"))
+        if (PlayerPrefs.HasKey("Master")|| PlayerPrefs.HasKey("BGM")|| PlayerPrefs.HasKey("SFX")|| PlayerPrefs.HasKey("Ambience"))
         {
             LoadVolume();
         }
@@ -22,7 +22,7 @@ public class SoundUIManager : MonoBehaviour
             SetSFXVolume();
             SetAmbienceVolume();
         }
-       
+
     }
     public void SetMasterVolume()
     {

@@ -3,16 +3,16 @@ using UnityEngine;
 public class RetryPenal : MonoBehaviour
 {
 
-    public GameObject RetryCanvas;
+    public GameObject Rp;
 
     void Start()
     {
-        RetryCanvas.SetActive(false);
+        Rp.SetActive(false);
     }
 
     void OnRetry()
     {
-        RetryCanvas.SetActive(true);  
+        Rp.SetActive(true);  
     }
     
 }

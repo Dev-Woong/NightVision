@@ -4,14 +4,12 @@ using UnityEngine.UI;
 public class PausePenal : MonoBehaviour
 {
 
-    public GameObject pausepenal;
-    public GameObject optionpenal;
+    public GameObject pausepanel;
+    public GameObject settingPanel;
 
     public Button connect;
     public Button option;
     public Button Exit;
-
-    bool on = false;
     
     void Start()
     {
@@ -22,14 +20,14 @@ public class PausePenal : MonoBehaviour
 
     void EnConnect()
     {
-        pausepenal.SetActive(false);
-        optionpenal.SetActive(false);
+        pausepanel.SetActive(false);
+        settingPanel.SetActive(false);
         Time.timeScale = 1;
     }
 
     void EnOption()
     {
-        optionpenal.SetActive(true);
+        settingPanel.SetActive(true);
     }
 
     void EnExit()
