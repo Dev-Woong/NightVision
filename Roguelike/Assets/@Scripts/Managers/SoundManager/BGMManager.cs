@@ -7,7 +7,7 @@ public class BGMManager : MonoBehaviour
     public static BGMManager Instance;
     public BGMData[] bData;
     public AudioSource aSource;
-    [SerializeField] private Scene curScene;
+    public Scene curScene;
     void Awake()
     {
         if (Instance == null)
@@ -20,13 +20,14 @@ public class BGMManager : MonoBehaviour
             Destroy(gameObject);
             return;
         }
-        SceneManager.sceneLoaded += OnSceneLoaded;
+        
     }
     void Start()
     {
         aSource = GetComponent<AudioSource>();
         ChangeBGM();
         aSource.Play();
+        SceneManager.sceneLoaded += OnSceneLoaded;
     }
     public void ChangeBGM()
     {
@@ -35,28 +36,28 @@ public class BGMManager : MonoBehaviour
         {
             if (bData[i].sceneNum ==curScene.buildIndex)
             {
-                aSource.resource = bData[i].BGM;
+                aSource.clip = bData[i].BGM;
                 break;
             }
         }
     }
-     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
         StartCoroutine(nameof(PlayBGM));
     }
     
     IEnumerator PlayBGM()
     {
-        while (aSource.volume > 0.1f)
+        while (aSource.volume > 0.05f)
         {
-            aSource.volume -= 0.02f;
+            aSource.volume -= 0.01f;
             yield return new WaitForSeconds(0.05f);
         }
         ChangeBGM();
         aSource.Play();
-        while (aSource.volume < 0.35f)
+        while (aSource.volume < 0.25f)
         {
-            aSource.volume += 0.02f;
+            aSource.volume += 0.01f;
             yield return new WaitForSeconds(0.05f);
         }
     }
