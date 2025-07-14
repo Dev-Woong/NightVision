@@ -1,9 +1,15 @@
+using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class UIManager : MonoBehaviour
 {
-    public static UIManager Instance { get; private set; }
+    private UIManager Instance;
+    public GameObject pausepenal;
+    public GameObject optionpenal;
 
+    bool on = false;
+    bool inGame = false;
     private void Awake()
     {
         if (Instance == null)
@@ -16,15 +22,22 @@ public class UIManager : MonoBehaviour
             Destroy(gameObject);
         }
     }
-
-    public GameObject pausepenal;
-    public GameObject optionpenal;
-
-    bool on = false;
-
+    private void Start()
+    {
+        SceneManager.sceneLoaded += CheckScene;
+    }
+    private void CheckScene(Scene scene, LoadSceneMode mode)
+    {
+        Scene curScene = SceneManager.GetActiveScene();
+        int sceneNum = curScene.buildIndex;
+        if (sceneNum != 0)
+            inGame = true;
+        else 
+            inGame = false; 
+    }
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape))
+        if (Input.GetKeyDown(KeyCode.Escape)&& inGame == true)
         {
             on = !on;
             pausepenal.SetActive(on);

@@ -4,13 +4,16 @@ using UnityEngine.UI;
 
 public class ButtonController : MonoBehaviour
 {
+    
     public Button startgame;
     public Button setting;
     public Button quit;
 
     public GameObject SettingPanel;
 
-    public Button settingQuit;
+    
+
+    
 
     void Start()
     {

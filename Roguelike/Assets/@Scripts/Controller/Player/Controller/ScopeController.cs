@@ -73,7 +73,7 @@ public class ScopeController: MonoBehaviour
     
     public void Fire()
     {
-        if (Input.GetKeyDown(KeyCode.LeftControl) && player.magazineDrum > 0&&curTime <=0)
+        if (Input.GetKeyDown(KeyCode.A) && player.magazineDrum > 0&&curTime <=0)
         {
             if (FireCoroutine != null)
             {
@@ -86,7 +86,6 @@ public class ScopeController: MonoBehaviour
             dHandle.PlayerCreateAttackBox(snipeData);
             player.magazineDrum--;
             curTime = coolTime;
-            
         }
     }
     public void RandomFireEffect()

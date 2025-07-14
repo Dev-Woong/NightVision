@@ -52,6 +52,7 @@ public class PlayerController :DamageAbleBase,IDamageable
     private float maxHp;
     public float curHp;
     public int magazineDrum = 5;
+    public int shopOpenCount = 1;
 
     private bool canJump = true;
     private bool rifleMode = false;
@@ -131,7 +132,7 @@ public class PlayerController :DamageAbleBase,IDamageable
         if (modeSelection == true)
         {
             rb.gravityScale = 1;
-            if (Input.GetKeyDown(KeyCode.F))
+            if (Input.GetKeyDown(KeyCode.D))
             {
                 mode++;
                 if (mode >= 3)
@@ -139,7 +140,7 @@ public class PlayerController :DamageAbleBase,IDamageable
                     mode = 0;
                 }
             }
-            if (Input.GetKeyDown(KeyCode.G))
+            if (Input.GetKeyDown(KeyCode.F))
             {
                 switch (mode)
                 {
@@ -199,23 +200,19 @@ public class PlayerController :DamageAbleBase,IDamageable
     #region Weapon
     void SetWeaponState()
     {
-        if (Input.GetKeyDown(KeyCode.Z))
+        if (Input.GetKeyDown(KeyCode.Alpha1))
         {
-           
-            weaponType++;
-            if (weaponType > WeaponType.Gun)
-            {
-                weaponType = WeaponType.Hand;
-            }
+            weaponType = WeaponType.Hand;
             comboCount = 0;
         }
-        if (Input.GetKeyDown(KeyCode.X))
+        else if (Input.GetKeyDown(KeyCode.Alpha2))
         {
-            weaponType--;
-            if (weaponType < WeaponType.Hand)
-            {
-                weaponType = WeaponType.Gun;
-            }
+            weaponType = WeaponType.Sword;
+            comboCount = 0;
+        }
+        else if (Input.GetKeyDown(KeyCode.Alpha3))
+        {
+            weaponType = WeaponType.Gun;
             comboCount = 0;
         }
         wType = (int)weaponType;
@@ -299,14 +296,14 @@ public class PlayerController :DamageAbleBase,IDamageable
 
     void Attack()
     {
-        if (Input.GetKeyDown(KeyCode.LeftControl))
+        if (Input.GetKeyDown(KeyCode.A))
         {
             anim.SetTrigger("Attack");
         }
     }
     public void Parring()
     {
-        if (Input.GetKeyDown(KeyCode.F) && isParring == false&&weaponType == WeaponType.Sword)
+        if (Input.GetKeyDown(KeyCode.D) && isParring == false&&weaponType == WeaponType.Sword)
         {
             bc.size = parringBCSize;
             anim.SetTrigger("Parring");
@@ -323,7 +320,7 @@ public class PlayerController :DamageAbleBase,IDamageable
     }
     void UseSkill()
     {
-        if (Input.GetKeyDown(KeyCode.C))
+        if (Input.GetKeyDown(KeyCode.S))
         {
             lastInputTime = Time.time;  
             if (weaponType != WeaponType.Gun)
@@ -353,7 +350,7 @@ public class PlayerController :DamageAbleBase,IDamageable
     #region Jump
     void Jump()
     {
-        if (Input.GetKeyDown(KeyCode.LeftAlt))
+        if (Input.GetKeyDown(KeyCode.C))
         {
             if (jumpCount == 0 && canJump == true)
             {
@@ -378,7 +375,7 @@ public class PlayerController :DamageAbleBase,IDamageable
     }
     void DoubleJump()
     {
-        if (Input.GetKeyDown(KeyCode.LeftAlt) && jumpCount == 1)
+        if (Input.GetKeyDown(KeyCode.C) && jumpCount == 1)
         {
             rb.linearVelocity = Vector3.zero;
             rb.AddForce(Vector3.up * jumpForce, ForceMode2D.Impulse);
