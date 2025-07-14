@@ -25,7 +25,7 @@ public class KimeraSpiderController : EnemyController
     public GameObject Particles;
     public Vector2 distanceToTarget;
     Coroutine coShoot;
-    Coroutine coSetColor;
+    
     protected override void Move()
     {
         CoolTimeProcess();
@@ -68,7 +68,7 @@ public class KimeraSpiderController : EnemyController
                     rb.linearVelocity = Vector3.zero;
                     animator.SetBool("isWalk", false);
                     animator.SetBool("DropSequence",true);
-                    //Particles.SetActive(false);
+                    
                     onDropSequence = false;
                     rb.linearVelocity = Vector3.zero;
                     moveAble = false;

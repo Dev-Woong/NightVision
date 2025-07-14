@@ -79,11 +79,16 @@ public class PlayerController :DamageAbleBase,IDamageable
     public override void OnDamage(float causerAtk, WeaponType wType)
     {
         curHp -= causerAtk;
-        moveAble = false;
         GameObject hudText = Instantiate(damageText);
         hudText.transform.position = damagePos.position;
         hudText.GetComponent<DamageText>().damage = causerAtk;
-        anim.SetTrigger("Hurt");
+        if (weaponType != WeaponType.Hand) 
+        {
+            anim.SetTrigger("Hurt");
+            moveAble = false;
+        }
+        
+        rb.gravityScale = 1.0f;
         //if (curHp <= 0)
         //{
         //    Die();
@@ -425,6 +430,7 @@ public class PlayerController :DamageAbleBase,IDamageable
         rb.gravityScale = 0;
         rb.linearVelocity = Vector3.zero;
         tr.position += Vector3.up * riseHeight;
+        anim.SetBool("onAir", true);
     }
     public void OnAirComboHold()
     {
@@ -537,7 +543,6 @@ public class PlayerController :DamageAbleBase,IDamageable
         dd.transform.localScale = transform.localScale;
         var parringEffect = Instantiate(ParringEffect, ParringEffectPoint.position, Quaternion.identity);
         parringEffect.transform.localScale = transform.localScale;
-       // Debug.Log($"이펙트 생성!{dd.transform.position}{parringEffect.transform.position}");
     }
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -556,6 +561,7 @@ public class PlayerController :DamageAbleBase,IDamageable
                 }
                 else
                 {
+                    if (weaponType != WeaponType.Hand)
                     anim.SetTrigger("Hurt");
                     float bulletAtk = other.gameObject.GetComponent<Bullet>().atk;
                     OnDamage(bulletAtk, weaponType);
