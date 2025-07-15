@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 38f85f06c6083884bafdd011d55a8f0e, type: 3}
   m_Name: SwordCombo 1-2
   m_EditorClassIdentifier: 
+  wType: 0
   targetMask:
     serializedVersion: 2
     m_Bits: 128
-  knockBack: 1
   knockBackForceX: 0.5
   knockBackForceY: 5
   getEnergy: 0
@@ -25,6 +25,7 @@ MonoBehaviour:
 '
   hitCount: 2
   damageValue: 10
+  SFX: {fileID: 8300000, guid: 261b113b61f0f8146a1d540dd3730a83, type: 3}
   HitEffect: {fileID: 5295936817183097829, guid: 4a12568d27798834cb68a1ec2c2f08dd, type: 3}
   effectPos: {x: 0, y: 0, z: 0}
   hitBoxSize: {x: 1.2, y: 4, z: 0}

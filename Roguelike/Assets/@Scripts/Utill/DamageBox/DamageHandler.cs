@@ -19,19 +19,16 @@ public class DamageHandler : MonoBehaviour
     }
     public void PlayerCreateAttackBox(AttackData data)
     {
-        if (data.SFX != null)
-            SFXManager.Instance.PlaySFX(data.SFX);
+        SFXManager.Instance.PlaySFX(data.SFX);
         if (data == null) return;
         damagedTargets.Clear();
         float x = transform.localScale.x;
         if (data.skillType != SkillType.AOE)
         {
-
             hitPos = transform.position + transform.right * data.rangeOffset * x;
         }
         else
         {
-
             if (target == null) { Debug.LogWarning("지정 타겟이 없음! "); return; }
             hitPos = target.position;
         }
@@ -45,7 +42,6 @@ public class DamageHandler : MonoBehaviour
                 damagedTargets.Add(dmg);
                 if (hit.GetComponent<DamageAbleBase>().damageAble == true)
                 {
-                    
                     coDamageProcess = StartCoroutine(HitDamage(dmg, data, x, hit.transform.position, hit.gameObject));
                 }
             }
@@ -54,6 +50,7 @@ public class DamageHandler : MonoBehaviour
     IEnumerator HitDamage(IDamageable dmg, AttackData data, float x, Vector3 targetPos, GameObject target)
     {
         int currentHits = 0;
+        
         if (target.GetComponent<PublicStatus>().knockBack == KnockBack.Done)
         {
             if (targetPos.x < transform.position.x)

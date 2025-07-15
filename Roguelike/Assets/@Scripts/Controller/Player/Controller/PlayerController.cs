@@ -140,7 +140,7 @@ public class PlayerController :DamageAbleBase,IDamageable
             if (Input.GetKeyDown(KeyCode.D))
             {
                 mode++;
-                if (mode >= 3)
+                if (mode >= 2)
                 {
                     mode = 0;
                 }
@@ -161,11 +161,6 @@ public class PlayerController :DamageAbleBase,IDamageable
                         rifleMode = !rifleMode;
                         mode = 0;
                         StartCoroutine(RifleFire());
-                        break;
-                    case 2:
-
-                        modeSelection = !modeSelection;
-                        //snipeMode = !snipeMode;
                         break;
                 }
             }
