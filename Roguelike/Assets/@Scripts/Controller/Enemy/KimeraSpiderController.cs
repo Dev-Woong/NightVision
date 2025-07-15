@@ -1,9 +1,5 @@
 using System.Collections;
-using Unity.Cinemachine;
-using Unity.VisualScripting;
-using UnityEditor.Animations;
 using UnityEngine;
-using UnityEngine.Rendering;
 
 public class KimeraSpiderController : EnemyController
 {
