@@ -1,6 +1,4 @@
 using Unity.Cinemachine;
-using Unity.Properties;
-using UnityEditor.U2D.Sprites;
 using UnityEngine;
 
 public class Bullet : PoolAble

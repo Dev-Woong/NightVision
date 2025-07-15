@@ -19,6 +19,7 @@ public class DamageHandler : MonoBehaviour
     }
     public void PlayerCreateAttackBox(AttackData data)
     {
+        if(data.SFX !=null)
         SFXManager.Instance.PlaySFX(data.SFX);
         if (data == null) return;
         damagedTargets.Clear();
