@@ -6,16 +6,20 @@ public class PausePenal : MonoBehaviour
 
     public GameObject pausepanel;
     public GameObject settingPanel;
+    public GameObject KeyPanel;
 
     public Button connect;
     public Button option;
+    public Button key;
     public Button Exit;
     
     void Start()
     {
         connect.onClick.AddListener(EnConnect);
         option.onClick.AddListener(EnOption);
+        key.onClick.AddListener(EnKey);
         Exit.onClick.AddListener(EnExit);
+
     }
 
     void EnConnect()
@@ -28,6 +32,11 @@ public class PausePenal : MonoBehaviour
     void EnOption()
     {
         settingPanel.SetActive(true);
+    }
+
+    void EnKey()
+    {
+        KeyPanel.SetActive(true);
     }
 
     void EnExit()

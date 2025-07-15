@@ -7,6 +7,7 @@ public class Interaction : MonoBehaviour
 {
     public GameObject[] gameObjects;
     
+    bool ison = false;
     void Start()
     {   
         foreach (GameObject Gb in gameObjects)
@@ -22,18 +23,11 @@ public class Interaction : MonoBehaviour
             foreach (GameObject Gb in gameObjects)
             {
                 Gb.SetActive(true);
+                
             }
         }
+
     }
 
-    private void OnTriggerExit2D(Collider2D collision)
-    {
-        if(collision.CompareTag("Player"))
-        {
-            foreach (GameObject Gb in gameObjects)
-            {
-                Gb.SetActive(false);
-            }
-        }
-    }
+    
 }
