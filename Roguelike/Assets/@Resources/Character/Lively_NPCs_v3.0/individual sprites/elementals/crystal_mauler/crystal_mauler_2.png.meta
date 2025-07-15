@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      crystal_mauler_2_0: -477800076124668424
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

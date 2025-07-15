@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      shady_guy_03_0: -7628750350512628488
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

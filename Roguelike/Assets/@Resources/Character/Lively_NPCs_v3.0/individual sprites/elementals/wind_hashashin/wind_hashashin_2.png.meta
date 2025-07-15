@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      wind_hashashin_2_0: -2528077111328209564
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

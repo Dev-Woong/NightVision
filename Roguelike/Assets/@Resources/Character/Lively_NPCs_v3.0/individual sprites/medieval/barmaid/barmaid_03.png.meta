@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      barmaid_03_0: -7724243081081868980
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

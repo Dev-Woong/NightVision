@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      metal_bladekeeper_3_0: -4922923372386772435
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
