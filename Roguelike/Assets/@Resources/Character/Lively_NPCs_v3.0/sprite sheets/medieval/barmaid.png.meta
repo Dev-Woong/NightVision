@@ -63,7 +63,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 20
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -128,9 +128,9 @@ TextureImporter:
       name: barmaid_0
       rect:
         serializedVersion: 2
-        x: 4
+        x: 0
         y: 0
-        width: 24
+        width: 34
         height: 34
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -150,9 +150,9 @@ TextureImporter:
       name: barmaid_1
       rect:
         serializedVersion: 2
-        x: 38
+        x: 34
         y: 0
-        width: 23
+        width: 34
         height: 34
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -172,9 +172,9 @@ TextureImporter:
       name: barmaid_2
       rect:
         serializedVersion: 2
-        x: 74
+        x: 68
         y: 0
-        width: 24
+        width: 34
         height: 34
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -194,9 +194,9 @@ TextureImporter:
       name: barmaid_3
       rect:
         serializedVersion: 2
-        x: 108
+        x: 102
         y: 0
-        width: 23
+        width: 34
         height: 34
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -216,9 +216,9 @@ TextureImporter:
       name: barmaid_4
       rect:
         serializedVersion: 2
-        x: 140
+        x: 136
         y: 0
-        width: 24
+        width: 34
         height: 34
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -238,7 +238,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 71bcebae666a28a40ae704b152386e84
     internalID: 0
     vertices: []
     indices: 
@@ -246,7 +246,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":5.0,"y":1.0},"gridSpriteSize":{"x":34.0,"y":34.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       barmaid_0: -2216033458992054209
       barmaid_1: 7119462032822436704
