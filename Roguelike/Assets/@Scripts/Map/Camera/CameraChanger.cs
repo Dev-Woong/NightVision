@@ -109,7 +109,6 @@ public class CameraChanger : MonoBehaviour
             //    a--;
             //    UpdateCamera(a+1, a );
             //    portalUseAble = false;
-               
             //}
             else return;
         }
