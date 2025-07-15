@@ -7,6 +7,7 @@ public class UIManager : MonoBehaviour
     private UIManager Instance;
     public GameObject pausepenal;
     public GameObject optionpenal;
+    public GameObject keypenal;
 
     bool on = false;
     bool inGame = false;
@@ -49,6 +50,7 @@ public class UIManager : MonoBehaviour
             {
                 Time.timeScale = 1;
                 optionpenal.SetActive(false);
+                keypenal.SetActive(false);
             }
         }
     }
