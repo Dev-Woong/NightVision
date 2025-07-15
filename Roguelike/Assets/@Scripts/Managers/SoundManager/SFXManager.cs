@@ -21,5 +21,6 @@ public class SFXManager : MonoBehaviour
     {
         if (clip != null)
             sfxSource.PlayOneShot(clip);
+        
     }
 }

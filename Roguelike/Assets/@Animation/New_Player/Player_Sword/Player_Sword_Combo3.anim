@@ -364,7 +364,14 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 0.21428572
+  - time: 0.1904762
+    functionName: PlayerCreateAttackBox
+    data: 
+    objectReferenceParameter: {fileID: 11400000, guid: dbb49f026361ea2438322adfb93d94a2, type: 2}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0.23809524
     functionName: PlayerCreateAttackBox
     data: 
     objectReferenceParameter: {fileID: 11400000, guid: dbb49f026361ea2438322adfb93d94a2, type: 2}
@@ -378,13 +385,6 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 0.26190478
-    functionName: PlayerCreateAttackBox
-    data: 
-    objectReferenceParameter: {fileID: 11400000, guid: dbb49f026361ea2438322adfb93d94a2, type: 2}
-    floatParameter: 0
-    intParameter: 0
-    messageOptions: 0
   - time: 0.2857143
     functionName: Spect3
     data: 
@@ -392,7 +392,7 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 0.30952382
+  - time: 0.2857143
     functionName: PlayerCreateAttackBox
     data: 
     objectReferenceParameter: {fileID: 11400000, guid: dbb49f026361ea2438322adfb93d94a2, type: 2}
@@ -406,7 +406,7 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 0.35714287
+  - time: 0.33333334
     functionName: PlayerCreateAttackBox
     data: 
     objectReferenceParameter: {fileID: 11400000, guid: dbb49f026361ea2438322adfb93d94a2, type: 2}
@@ -420,7 +420,7 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 0.4047619
+  - time: 0.3809524
     functionName: PlayerCreateAttackBox
     data: 
     objectReferenceParameter: {fileID: 11400000, guid: dbb49f026361ea2438322adfb93d94a2, type: 2}
@@ -434,7 +434,7 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 0.45238096
+  - time: 0.42857143
     functionName: PlayerCreateAttackBox
     data: 
     objectReferenceParameter: {fileID: 11400000, guid: dbb49f026361ea2438322adfb93d94a2, type: 2}
@@ -448,7 +448,7 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 0.5
+  - time: 0.47619048
     functionName: PlayerCreateAttackBox
     data: 
     objectReferenceParameter: {fileID: 11400000, guid: dbb49f026361ea2438322adfb93d94a2, type: 2}
