@@ -46,7 +46,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -222,7 +222,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      fire_knight_0: -1512766464214677766
+      fire_knight_1: -5209655014359902119
+      fire_knight_2: 7122775017745229330
+      fire_knight_3: -1275570831667108534
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

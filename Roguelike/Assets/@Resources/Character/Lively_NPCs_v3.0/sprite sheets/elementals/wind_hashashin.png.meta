@@ -46,7 +46,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -222,7 +222,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      wind_hashashin_0: 1553286256858024930
+      wind_hashashin_1: 7491949805830010834
+      wind_hashashin_2: 4542284424263466113
+      wind_hashashin_3: 2640074449400397864
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

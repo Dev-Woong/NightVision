@@ -46,7 +46,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -222,7 +222,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      crystal_mauler_0: 377169971922339295
+      crystal_mauler_1: 8156315515500557807
+      crystal_mauler_2: 4398170745332797680
+      crystal_mauler_3: -1241061098051689761
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

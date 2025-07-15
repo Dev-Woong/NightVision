@@ -46,7 +46,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -222,7 +222,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      metal_bladekeeper_0: -3963609580147510630
+      metal_bladekeeper_1: -6941288421815495248
+      metal_bladekeeper_2: 7286905706962050251
+      metal_bladekeeper_3: -1516913904505608839
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
