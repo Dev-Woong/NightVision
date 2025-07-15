@@ -570,9 +570,7 @@ public class PlayerController :DamageAbleBase,IDamageable
         {
             return;
         }
-
         var mapData = portal.targetMapData;
-
         if (mapData == null)
         {
             return;
@@ -585,8 +583,6 @@ public class PlayerController :DamageAbleBase,IDamageable
         {
             PublicStat.speed = 1;
         }
-        
-
     }
 
     IEnumerator InitializeCamAndItem()
