@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      minstrel_04_0: -5446406603111649914
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
