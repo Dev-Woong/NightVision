@@ -72,7 +72,9 @@ public class PlayerController :DamageAbleBase,IDamageable
 
     CameraChanger camChanger;
     public AttackData normalGunAttack;
-
+    public AudioClip dashSFX;
+    public AudioClip jumpSFX;
+    public AudioClip[] swapSFX;
     #endregion
 
    
@@ -200,18 +202,21 @@ public class PlayerController :DamageAbleBase,IDamageable
     #region Weapon
     void SetWeaponState()
     {
-        if (Input.GetKeyDown(KeyCode.Alpha1))
+        if (Input.GetKeyDown(KeyCode.Q))
         {
+            SFXManager.Instance.PlaySFX(swapSFX[0]);
             weaponType = WeaponType.Hand;
             comboCount = 0;
         }
-        else if (Input.GetKeyDown(KeyCode.Alpha2))
+        else if (Input.GetKeyDown(KeyCode.W))
         {
+            SFXManager.Instance.PlaySFX(swapSFX[1]);
             weaponType = WeaponType.Sword;
             comboCount = 0;
         }
-        else if (Input.GetKeyDown(KeyCode.Alpha3))
+        else if (Input.GetKeyDown(KeyCode.E))
         {
+            SFXManager.Instance.PlaySFX(swapSFX[2]);
             weaponType = WeaponType.Gun;
             comboCount = 0;
         }
@@ -278,6 +283,7 @@ public class PlayerController :DamageAbleBase,IDamageable
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
+            SFXManager.Instance.PlaySFX(dashSFX);
             anim.SetTrigger(Define.DashHash);
             rb.gravityScale = 1;
             if (tr.localScale.x == 1)
@@ -356,7 +362,7 @@ public class PlayerController :DamageAbleBase,IDamageable
             {
                 rb.gravityScale = 1;
                 canJump = false;
-
+                SFXManager.Instance.PlaySFX(jumpSFX);
                 anim.SetTrigger("Jump");
                 rb.AddForce(Vector3.up * jumpForce, ForceMode2D.Impulse);
                 if (JumpCountCoroutine != null)
@@ -377,6 +383,7 @@ public class PlayerController :DamageAbleBase,IDamageable
     {
         if (Input.GetKeyDown(KeyCode.C) && jumpCount == 1)
         {
+            SFXManager.Instance.PlaySFX(jumpSFX);
             rb.linearVelocity = Vector3.zero;
             rb.AddForce(Vector3.up * jumpForce, ForceMode2D.Impulse);
             Instantiate(DoubleJumpEffet, JumpEffectPoint.position, Quaternion.identity);

@@ -25,7 +25,7 @@ MonoBehaviour:
 '
   hitCount: 3
   damageValue: 40
-  SFX: {fileID: 8300000, guid: 8ae320ad6bbc8034796a12ff24070d0a, type: 3}
+  SFX: {fileID: 8300000, guid: 0561f56d6f9f872488dd6db8a9527f32, type: 3}
   HitEffect: {fileID: 5295936817183097829, guid: 4a12568d27798834cb68a1ec2c2f08dd, type: 3}
   effectPos: {x: 0, y: 0, z: 0}
   hitBoxSize: {x: 5, y: 5, z: 0}
