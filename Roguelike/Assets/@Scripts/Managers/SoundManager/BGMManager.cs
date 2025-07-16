@@ -12,6 +12,7 @@ public class BGMManager : MonoBehaviour
     public AudioSource aSource;
     public AudioMixer master;
     public Scene curScene;
+    public int a;
     void Awake()
     {
         if (Instance == null)
@@ -28,20 +29,19 @@ public class BGMManager : MonoBehaviour
     }
     void Start()
     {
-        aSource = GetComponent<AudioSource>();
-       
-        ChangeBGM();
+        aSource = GetComponent<AudioSource>(); 
+        aSource.clip = bData[0].BGM;
         aSource.Play();
-        SceneManager.sceneLoaded += OnSceneLoaded;
+        a = SceneManager.GetActiveScene().buildIndex;
     }
     public void ChangeBGM()
     {
-        curScene = SceneManager.GetActiveScene();
+        
         for (int i = 0; i < bData.Length; i++)
         {
-            if (bData[i].sceneNum == curScene.buildIndex)
+            if (bData[i].sceneNum == a+1)
             {
-                aSource.clip = bData[i].BGM;
+                aSource.clip = bData[a+1].BGM;
                 break;
             }
         }
@@ -56,9 +56,7 @@ public class BGMManager : MonoBehaviour
     }
     public void EnterBossBattle()
     {
-       
-            StartCoroutine(nameof(PlayBossBGM));
-       
+        StartCoroutine(nameof(PlayBossBGM));
     }
     public void EnterShopBGM(bool enterShop)
     {
@@ -70,10 +68,6 @@ public class BGMManager : MonoBehaviour
         {
             BGMCoroutineProcess();
         }
-    }
-    private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
-    {
-        BGMCoroutineProcess();
     }
     public void BGMCoroutineProcess()
     {
@@ -94,6 +88,7 @@ public class BGMManager : MonoBehaviour
             aSource.volume += 0.05f;
             yield return new WaitForSeconds(0.05f);
         }
+        yield break;
     }
     IEnumerator PlayBossBGM()
     {
@@ -110,6 +105,8 @@ public class BGMManager : MonoBehaviour
             aSource.volume += 0.05f;
             yield return new WaitForSeconds(0.05f);
         }
+        a = SceneManager.GetActiveScene().buildIndex-1;
+        yield break;
     }
     IEnumerator PlayBGM()
     {
@@ -126,5 +123,7 @@ public class BGMManager : MonoBehaviour
             aSource.volume += 0.05f;
             yield return new WaitForSeconds(0.05f);
         }
+        a++;
+        yield break;
     }
 }

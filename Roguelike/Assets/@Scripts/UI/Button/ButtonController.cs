@@ -1,3 +1,4 @@
+using UnityEditor.U2D.Aseprite;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -35,7 +36,7 @@ public class ButtonController : MonoBehaviour
     }
     void StartGameScene()
     {
-        SceneManager.LoadScene("Game");
+        LoadingSceneManager.LoadScene("Game");
     }
 
     void OnSetting()
