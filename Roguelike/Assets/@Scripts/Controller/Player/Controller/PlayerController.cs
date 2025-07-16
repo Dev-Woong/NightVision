@@ -1,7 +1,5 @@
 using System.Collections;
-using Unity.Jobs;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 public enum WeaponType
 {
     Hand,

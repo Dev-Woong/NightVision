@@ -1,6 +1,4 @@
-using UnityEditor.U2D.Aseprite;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class ButtonController : MonoBehaviour

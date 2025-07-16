@@ -1,7 +1,4 @@
-using System.Collections;
-using Unity.VisualScripting;
 using UnityEngine;
-using UnityEngine.InputSystem.LowLevel;
 
 public class CyberSamuraiController : EnemyController
 {
@@ -13,7 +10,7 @@ public class CyberSamuraiController : EnemyController
     public float curShootTime = 0;
     public Transform BulletTransform;
     public GameObject Bullet;
-
+    public AudioClip shotClip;
     protected override void Move()
     {
         CoolTimeProcess();
@@ -98,6 +95,7 @@ public class CyberSamuraiController : EnemyController
     public void Shoot() // AnimationEvent
     {
         curShootTime = shootCoolTime;
+        SFXManager.Instance.PlaySFX(shotClip);
         doShoot = false;
         moveAble = false;
         GameObject bullet = Instantiate(Bullet, BulletTransform.position, Quaternion.identity);
