@@ -6,7 +6,7 @@ public class ShopInteraction : MonoBehaviour
 
     public GameObject[] gameObjects;
 
-    private bool isPlayerinRange = false;
+    public bool isPlayerinRange = false;
     private bool isShopOpen = false;
     public int ShopOpenCount;
     void Start()
@@ -49,7 +49,7 @@ public class ShopInteraction : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if ((collision.CompareTag("Player")))
+        if (collision.CompareTag("Player")&&ShopOpenCount==0)
         {
             isPlayerinRange = true;
             ShopOpenCount = collision.GetComponent<PlayerController>().shopOpenCount;

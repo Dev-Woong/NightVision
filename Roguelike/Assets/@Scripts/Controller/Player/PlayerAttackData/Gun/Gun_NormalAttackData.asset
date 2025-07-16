@@ -23,7 +23,7 @@ MonoBehaviour:
   animSpot: Gun_Attack
   hitCount: 1
   damageValue: 5
-  SFX: {fileID: 8300000, guid: d11ce3823cc9d1c45b9cee9dc28adb83, type: 3}
+  SFX: {fileID: 8300000, guid: 412f2c8b92da9cd48ae0e65fa99f2036, type: 3}
   HitEffect: {fileID: 5099289152872433770, guid: 47d68cf229101694f9b0faea8768cdd2, type: 3}
   effectPos: {x: 0.3, y: -0.2, z: 0}
   hitBoxSize: {x: 3, y: 1, z: 0}

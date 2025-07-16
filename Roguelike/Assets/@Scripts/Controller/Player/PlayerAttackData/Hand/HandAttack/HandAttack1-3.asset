@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 38f85f06c6083884bafdd011d55a8f0e, type: 3}
   m_Name: HandAttack1-3
   m_EditorClassIdentifier: 
+  wType: 0
   targetMask:
     serializedVersion: 2
     m_Bits: 128
-  knockBack: 1
   knockBackForceX: 0.5
   knockBackForceY: 0
   getEnergy: 0
@@ -25,6 +25,7 @@ MonoBehaviour:
 '
   hitCount: 2
   damageValue: 6
+  SFX: {fileID: 8300000, guid: 36c03c244f10ff14aa6279f36ec7f55c, type: 3}
   HitEffect: {fileID: 4810739479213797465, guid: d5b09b1c0f6365145be0da7ff3b2e74f, type: 3}
   effectPos: {x: 0, y: -1, z: 0}
   hitBoxSize: {x: 1.2, y: 1, z: 0}

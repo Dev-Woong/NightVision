@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 38f85f06c6083884bafdd011d55a8f0e, type: 3}
   m_Name: HandCombo1-2
   m_EditorClassIdentifier: 
+  wType: 0
   targetMask:
     serializedVersion: 2
     m_Bits: 128
-  knockBack: 1
   knockBackForceX: 0
   knockBackForceY: 3
   getEnergy: 0
@@ -25,6 +25,7 @@ MonoBehaviour:
 '
   hitCount: 1
   damageValue: 12
+  SFX: {fileID: 8300000, guid: 36c03c244f10ff14aa6279f36ec7f55c, type: 3}
   HitEffect: {fileID: 5099289152872433770, guid: 47d68cf229101694f9b0faea8768cdd2, type: 3}
   effectPos: {x: 0.5, y: -0.2, z: 0}
   hitBoxSize: {x: 1, y: 3, z: 0}
