@@ -9,7 +9,7 @@ public class LoadingSceneManager : MonoBehaviour
     public static string nextScene;
 
     [SerializeField]
-    Image progressBar;
+    private Image progressBar;
 
     private void Start()
     {
@@ -31,7 +31,7 @@ public class LoadingSceneManager : MonoBehaviour
 
         float visualProgress = 0f;
         
-        float speed = 0.3f;
+        float speed = 0.5f;
 
         while (!op.isDone)
         {
@@ -47,6 +47,8 @@ public class LoadingSceneManager : MonoBehaviour
             if (op.progress >= 0.9f && visualProgress >= 0.7f)
             {
                 float finalFillTarget = 1f;
+
+                BGMManager.Instance.BGMCoroutineProcess();
                 while (progressBar.fillAmount < 0.999f)
                 {
                     progressBar.fillAmount = Mathf.MoveTowards(progressBar.fillAmount, finalFillTarget, Time.deltaTime * speed);
@@ -54,7 +56,7 @@ public class LoadingSceneManager : MonoBehaviour
                 }
                 yield return new WaitForSeconds(0.5f);
                 op.allowSceneActivation = true;
-                progressBar.fillAmount = 0f;    
+                progressBar.fillAmount = 0f;
                 yield break;
             }
         }

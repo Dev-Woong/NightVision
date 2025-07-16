@@ -2,7 +2,6 @@ using System.Collections;
 using Unity.Cinemachine;
 using UnityEngine;
 using System.Linq;
-using Unity.VisualScripting;
 
 public class CameraChanger : MonoBehaviour
 {
@@ -22,12 +21,7 @@ public class CameraChanger : MonoBehaviour
     private void Start()
     {
         Initialize();
-      
-
     }
-
-
-
     public void Initialize()
     {
         mapCam = GameObject.FindGameObjectsWithTag("Cam");

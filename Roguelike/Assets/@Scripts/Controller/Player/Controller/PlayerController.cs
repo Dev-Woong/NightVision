@@ -593,7 +593,7 @@ public class PlayerController :DamageAbleBase,IDamageable
 
     IEnumerator InitializeCamAndItem()
     {
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(3f);
         camChanger.Initialize();
         ShopManager.Instance.NewShopItems(itemDatabase, 4);
     }

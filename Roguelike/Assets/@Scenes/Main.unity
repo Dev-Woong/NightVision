@@ -411,8 +411,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bData:
-  - {fileID: 11400000, guid: 8130372cea671364fa3d010be06f3799, type: 2}
   - {fileID: 11400000, guid: 45c30d3fb37baf6459d294369ece9eeb, type: 2}
+  - {fileID: 11400000, guid: 8130372cea671364fa3d010be06f3799, type: 2}
   - {fileID: 11400000, guid: 275823ef0c05fec4dbb117d3398e94d6, type: 2}
   - {fileID: 11400000, guid: f56cd920a257f624ea3527f09f113370, type: 2}
   - {fileID: 11400000, guid: 829cbb4db06c95c45845356cb9ea1cf9, type: 2}
@@ -420,6 +420,7 @@ MonoBehaviour:
   ShopBGMData: {fileID: 11400000, guid: 68774c73b23502f4cb04ef4c2e5a6dd7, type: 2}
   BossBGMData: {fileID: 11400000, guid: f8e9607ce22771a4b9db8b3ba7a10651, type: 2}
   aSource: {fileID: 0}
+  master: {fileID: 0}
   curScene:
     m_Handle: 0
 --- !u!82 &17595243
