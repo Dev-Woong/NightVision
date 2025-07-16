@@ -3,6 +3,7 @@ using UnityEngine;
 public class PortalInteraction : MonoBehaviour
 {
     public GameObject portal;
+    
 
     private void Start()
     {

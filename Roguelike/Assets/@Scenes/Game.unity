@@ -33243,14 +33243,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1927184539}
     m_Modifications:
-    - target: {fileID: 1526986650912259888, guid: b31ba709a4f69c24b8cca50e93e2a8d9, type: 3}
-      propertyPath: m_Size.x
-      value: 0.4207096
-      objectReference: {fileID: 0}
-    - target: {fileID: 1526986650912259888, guid: b31ba709a4f69c24b8cca50e93e2a8d9, type: 3}
-      propertyPath: m_Offset.x
-      value: -0.04138279
-      objectReference: {fileID: 0}
     - target: {fileID: 1550072411818828557, guid: b31ba709a4f69c24b8cca50e93e2a8d9, type: 3}
       propertyPath: m_LocalPosition.x
       value: 20.949842
@@ -33295,22 +33287,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PortalTrigger
       objectReference: {fileID: 0}
-    - target: {fileID: 3175316395583342398, guid: b31ba709a4f69c24b8cca50e93e2a8d9, type: 3}
-      propertyPath: m_Size.x
-      value: 0.4231224
-      objectReference: {fileID: 0}
-    - target: {fileID: 3175316395583342398, guid: b31ba709a4f69c24b8cca50e93e2a8d9, type: 3}
-      propertyPath: m_Offset.x
-      value: -0.29329872
-      objectReference: {fileID: 0}
-    - target: {fileID: 4046810576985635479, guid: b31ba709a4f69c24b8cca50e93e2a8d9, type: 3}
-      propertyPath: m_Size.x
-      value: 0.40325737
-      objectReference: {fileID: 0}
-    - target: {fileID: 4046810576985635479, guid: b31ba709a4f69c24b8cca50e93e2a8d9, type: 3}
-      propertyPath: m_Offset.x
-      value: 0.17926502
-      objectReference: {fileID: 0}
+    - target: {fileID: 3182129796735411700, guid: b31ba709a4f69c24b8cca50e93e2a8d9, type: 3}
+      propertyPath: Guard
+      value: 
+      objectReference: {fileID: 2083912785}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -57404,7 +57384,7 @@ MonoBehaviour:
   RifleCam: {fileID: 910484938}
   mapCam: []
   mappol: []
-  Guard: {fileID: 2083912785}
+  Guard: {fileID: 0}
   a: 0
   portalUseAble: 0
   moveLeft: 1
@@ -57551,7 +57531,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damageAble: 1
-  itemDatabase: {fileID: 0}
+  itemDatabase: {fileID: 11400000, guid: 608b8f165ae41554db3b00d5a0cb4753, type: 2}
   JumpEffectPoint: {fileID: 561447540}
   FireEffectPoint: {fileID: 582844064}
   DashEffectPoint: {fileID: 1235128061}
