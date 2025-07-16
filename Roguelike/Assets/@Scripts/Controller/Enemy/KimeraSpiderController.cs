@@ -22,6 +22,10 @@ public class KimeraSpiderController : EnemyController
     public GameObject Particles;
     public Vector2 distanceToTarget;
     Coroutine coShoot;
+    public AudioClip shotClip;
+    public AudioClip walkClip;
+    public AudioClip berserkClip;
+
     
     protected override void Move()
     {
@@ -111,7 +115,7 @@ public class KimeraSpiderController : EnemyController
         speed *= 1.6f;
         ps.def *= 0.4f;
 
-        
+        SFXManager.Instance.PlaySFX(berserkClip);
         Particles.SetActive(true);
         animator.SetBool("SetBerserk", true);
         StartCoroutine(nameof(SetColor));
@@ -126,6 +130,10 @@ public class KimeraSpiderController : EnemyController
         {
             Particles.transform.localScale = new Vector3(-1, 1, 1);
         }
+    }
+    public void WalkSFX()
+    {
+        SFXManager.Instance.PlaySFX(walkClip);
     }
     IEnumerator SetColor()
     {
@@ -193,6 +201,7 @@ public class KimeraSpiderController : EnemyController
     protected void Shoot() // AnimationEvent
     {
         curShootTime = shootCoolTime;
+        SFXManager.Instance.PlaySFX(shotClip);
         doShoot = false;
         moveAble = false;
         //distanceToTarget = (new Vector3(closest.position.x,closest.position.y+0.2f,0) - BulletTransform.position).normalized;

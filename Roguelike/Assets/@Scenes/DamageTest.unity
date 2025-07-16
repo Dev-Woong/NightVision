@@ -2804,7 +2804,7 @@ AudioSource:
   m_audioClip: {fileID: 8300000, guid: 43c4aacc336e35341b0a47eef9453e3f, type: 3}
   m_Resource: {fileID: 8300000, guid: 43c4aacc336e35341b0a47eef9453e3f, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.098
+  m_Volume: 0.055
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -4804,6 +4804,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 204000177859862550, guid: 8d64bcb7f3394e5488acb0991ee7bd48, type: 3}
+      propertyPath: shotClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 7dc2ed7dd709465409835432d2d3970a, type: 3}
+    - target: {fileID: 204000177859862550, guid: 8d64bcb7f3394e5488acb0991ee7bd48, type: 3}
+      propertyPath: walkClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 9eae2f6ebe3e65244ad5db8a533c6dde, type: 3}
+    - target: {fileID: 204000177859862550, guid: 8d64bcb7f3394e5488acb0991ee7bd48, type: 3}
+      propertyPath: berserkClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 4c38b75bb4932e340a74500eaf352e89, type: 3}
     - target: {fileID: 754246364641661534, guid: 8d64bcb7f3394e5488acb0991ee7bd48, type: 3}
       propertyPath: m_LocalPosition.x
       value: 23.82

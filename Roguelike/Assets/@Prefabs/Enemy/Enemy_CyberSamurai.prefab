@@ -189,7 +189,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b37e40349fe28be4f9de0128b25aec63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioSource: {fileID: 0}
   target: {fileID: 0}
   ps: {fileID: 0}
 --- !u!50 &5109216519819320158
@@ -257,7 +256,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 2.7428572, y: 2.2857144}
+    oldSize: {x: 3.2, y: 2.6666667}
     newSize: {x: 2.7428572, y: 2.2857144}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -324,3 +323,4 @@ MonoBehaviour:
   curShootTime: 0
   BulletTransform: {fileID: 5158216928334892121}
   Bullet: {fileID: 525238048956279774, guid: f0d7cb97786765241aeb4054e0599266, type: 3}
+  shotClip: {fileID: 8300000, guid: 8beedae5f4be61e48b975f8935cd4231, type: 3}
