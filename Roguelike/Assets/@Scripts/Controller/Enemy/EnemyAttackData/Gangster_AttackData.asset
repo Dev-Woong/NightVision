@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 38f85f06c6083884bafdd011d55a8f0e, type: 3}
   m_Name: Gangster_AttackData
   m_EditorClassIdentifier: 
+  wType: 0
   targetMask:
     serializedVersion: 2
     m_Bits: 64
-  knockBack: 1
   knockBackForceX: 1
   knockBackForceY: 0
   getEnergy: 0
@@ -23,6 +23,7 @@ MonoBehaviour:
   animSpot: 
   hitCount: 3
   damageValue: 3
+  SFX: {fileID: 8300000, guid: f101b40995916e545abc12e3396e8461, type: 3}
   HitEffect: {fileID: 0}
   effectPos: {x: 0, y: 0, z: 0}
   hitBoxSize: {x: 1.5, y: 1, z: 0}

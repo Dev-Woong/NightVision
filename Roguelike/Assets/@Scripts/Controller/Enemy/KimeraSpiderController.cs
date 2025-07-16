@@ -108,7 +108,7 @@ public class KimeraSpiderController : EnemyController
     public void EnterBerserkMode()
     {
         ps.atk *= 3f;
-        speed *= 1.4f;
+        speed *= 1.6f;
         ps.def *= 0.4f;
 
         
