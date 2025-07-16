@@ -7,6 +7,7 @@ public class CopController : EnemyController
     public float curShootTime = 0;
     public Transform BulletTransform;
     public GameObject Bullet;
+    public AudioClip shotClip;
     protected override void Move()
     {
         CoolTimeProcess();
@@ -73,6 +74,7 @@ public class CopController : EnemyController
     }
     public void Shoot() // AnimationEvent
     {
+        SFXManager.Instance.PlaySFX(shotClip);
         curShootTime = shootCoolTime;
         doShoot = false;
         moveAble = false;

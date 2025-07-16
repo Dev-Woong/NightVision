@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c01b2144b088e7f458b604296724b753, type: 3}
   m_Name: CompanyBGM
   m_EditorClassIdentifier: 
-  BGM: {fileID: 0}
+  BGM: {fileID: 8300000, guid: f72dd7e9aa4748340980e8041075a5e9, type: 3}
   sceneNum: 5

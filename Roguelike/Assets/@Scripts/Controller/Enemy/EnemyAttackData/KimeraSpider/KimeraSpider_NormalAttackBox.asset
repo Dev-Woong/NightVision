@@ -23,8 +23,8 @@ MonoBehaviour:
   animSpot: 
   hitCount: 1
   damageValue: 3
-  SFX: {fileID: 8300000, guid: 6db4e5b60052aea4aacc0dd444ffa405, type: 3}
+  SFX: {fileID: 0}
   HitEffect: {fileID: 0}
   effectPos: {x: 0, y: 0, z: 0}
-  hitBoxSize: {x: 5, y: 0.5, z: 0}
-  rangeOffset: 4
+  hitBoxSize: {x: 3, y: 1, z: 0}
+  rangeOffset: 3

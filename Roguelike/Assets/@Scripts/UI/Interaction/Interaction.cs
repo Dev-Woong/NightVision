@@ -7,7 +7,6 @@ public class Interaction : MonoBehaviour
 {
     public GameObject[] gameObjects;
     
-    bool ison = false;
     void Start()
     {   
         foreach (GameObject Gb in gameObjects)

@@ -32,7 +32,6 @@ public class CCam : MonoBehaviour
         GameObject playerObj = GameObject.FindWithTag("Player");
         if (playerObj == null)
         {
-            Debug.LogWarning("플레이어를 찾을 수 없습니다.");
             return;
         }
         //scene.buildIndex = 
@@ -60,7 +59,6 @@ public class CCam : MonoBehaviour
             {
                 cpc.TargetOffset = new Vector3(0, 4.6f, 0);
             }
-                Debug.Log("Cinemachine Tracking Target 설정 완료");
         }
         
     }

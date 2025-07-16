@@ -17,16 +17,6 @@ public class ScopeCamController : MonoBehaviour
     {
         gameObject.GetComponent<CinemachineConfiner2D>().InvalidateBoundingShapeCache();
     }
-    //public void ChangeMapCollider(int SceneNum)
-    //{
-    //    gameObject.GetComponent<CinemachineConfiner2D>().BoundingShape2D = mapCollider[SceneNum];
-    //    StartCoroutine(DelayUpdate());
-    //}
-    //IEnumerator DelayUpdate()
-    //{
-    //    yield return new WaitForSeconds(0.3f);
-    //    gameObject.GetComponent<CinemachineConfiner2D>().InvalidateBoundingShapeCache();
-    //}
     public void CamPositionSet()
     {
         transform.position = pc.transform.position;

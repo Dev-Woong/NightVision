@@ -418,6 +418,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 829cbb4db06c95c45845356cb9ea1cf9, type: 2}
   - {fileID: 11400000, guid: de73b7c1a64a0254982d5fbf4061bb97, type: 2}
   ShopBGMData: {fileID: 11400000, guid: 68774c73b23502f4cb04ef4c2e5a6dd7, type: 2}
+  BossBGMData: {fileID: 11400000, guid: f8e9607ce22771a4b9db8b3ba7a10651, type: 2}
   aSource: {fileID: 0}
   curScene:
     m_Handle: 0
@@ -37475,6 +37476,7 @@ MonoBehaviour:
   curShootTime: 0
   BulletTransform: {fileID: 8127781407991932225}
   Bullet: {fileID: 525238048956279774, guid: f0d7cb97786765241aeb4054e0599266, type: 3}
+  shotClip: {fileID: 0}
 --- !u!114 &3541141466152483791
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37509,6 +37511,7 @@ MonoBehaviour:
   curShootTime: 0
   BulletTransform: {fileID: 8127781409060024046}
   Bullet: {fileID: 525238048956279774, guid: f0d7cb97786765241aeb4054e0599266, type: 3}
+  shotClip: {fileID: 0}
 --- !u!95 &3708723544893880973
 Animator:
   serializedVersion: 7

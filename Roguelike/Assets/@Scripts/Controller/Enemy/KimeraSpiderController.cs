@@ -15,6 +15,7 @@ public class KimeraSpiderController : EnemyController
     public bool enterBerserkMode = false;
     public bool onParticles = true;
     public float elapsed = 0f;
+    public int count = 0;
     public Transform BulletTransform;
     public GameObject Bullet;
     public GameObject WarningIndicator;
@@ -31,13 +32,19 @@ public class KimeraSpiderController : EnemyController
         {
             float minDistance = Mathf.Infinity;
             foreach (Collider2D hit in hits)
-            {
+            { 
                 float distance = Vector2.Distance(transform.position, hit.transform.position);
                 if (distance <= minDistance)
                 {
                     minDistance = distance;
                     closest = hit.transform;
                     direction = new Vector2(closest.position.x - rb.position.x, 0);
+                    if (count == 0)
+                    {
+                        BGMManager.Instance.EnterBossBattle();
+                        count++;
+                    }
+                    
                 }
             }
             if (closest != null && moveAble == true && isGround == true)

@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class ShopSessionData
 {
-    public List<ShopItemInstance> currentItems = new List<ShopItemInstance>();
+    public List<ShopItemInstance> currentItems = new();
 }
 
 public class ShopManager : MonoBehaviour
@@ -32,10 +32,10 @@ public class ShopManager : MonoBehaviour
         List<ShopItemData> itemDatas = new(database.items);
         Shuffle(itemDatas);
 
-        for(int i = 0; i < Mathf.Min(itemCount, itemDatas.Count); i++)
+        for(int i = 0; i < /*Mathf.Min(itemCount, itemDatas.Count)*/itemCount; i++)
         {
-            ShopItemInstance instance = new ShopItemInstance(itemDatas[i]);
-            shopData.currentItems.Add(instance);
+            ShopItemInstance sInstance = new (itemDatas[i]);
+            shopData.currentItems.Add(sInstance);
         }
     }
 
