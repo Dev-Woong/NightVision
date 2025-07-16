@@ -391,6 +391,7 @@ GameObject:
   - component: {fileID: 17595244}
   - component: {fileID: 17595243}
   - component: {fileID: 17595242}
+  - component: {fileID: 17595245}
   m_Layer: 0
   m_Name: BGMManager
   m_TagString: Untagged
@@ -423,6 +424,7 @@ MonoBehaviour:
   master: {fileID: 0}
   curScene:
     m_Handle: 0
+  a: 0
 --- !u!82 &17595243
 AudioSource:
   m_ObjectHideFlags: 0
@@ -535,6 +537,14 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!81 &17595245
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 17595241}
+  m_Enabled: 1
 --- !u!1 &23549180
 GameObject:
   m_ObjectHideFlags: 0
@@ -14857,7 +14867,7 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 882917628}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!20 &882917630
 Camera:
   m_ObjectHideFlags: 0
