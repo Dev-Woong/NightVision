@@ -3762,7 +3762,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -6774643347955004782, guid: a2338b8e13fca3d49b29f9d7fe256dcb, type: 3}
+  m_Sprite: {fileID: 1747805174015867956, guid: aedd46e0689a6a14a81a9146b5526108, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -7218,7 +7218,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -6774643347955004782, guid: a2338b8e13fca3d49b29f9d7fe256dcb, type: 3}
+  m_Sprite: {fileID: -3933268255571791511, guid: 5be0215e1f3dd104e96e11ccbb0cf2f8, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -15625,7 +15625,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 17, y: -10}
+  m_AnchoredPosition: {x: -105.7, y: -10}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &909503453
@@ -16623,7 +16623,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 287, y: -10}
+  m_AnchoredPosition: {x: 220.4, y: -10}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &996162901
@@ -24042,7 +24042,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\uCD1D \uC2A4\uD0AC \uBCC0\uACBD"
+  m_text: "\uCD1D \uC2A4\uD0AC \uBCC0\uACBD & \uD328\uB9C1"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2f54d4b92d0b5c547a6b4225bd60b1ca, type: 2}
   m_sharedMaterial: {fileID: 4912627283511147026, guid: 2f54d4b92d0b5c547a6b4225bd60b1ca, type: 2}
@@ -35583,7 +35583,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -262, y: -10}
+  m_AnchoredPosition: {x: -302.4, y: -10}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &2061976468
