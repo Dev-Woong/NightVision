@@ -140,6 +140,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7128009181797665293}
   - component: {fileID: 1526986650912259888}
+  - component: {fileID: 3182129796735411700}
   m_Layer: 0
   m_Name: Portal
   m_TagString: Portal
@@ -196,7 +197,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.04138279, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -206,8 +207,21 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.005, y: 3}
+  m_Size: {x: 0.4207096, y: 3}
   m_EdgeRadius: 0
+--- !u!114 &3182129796735411700
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6973309818648168771}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db65477eeec770b4190b7888696bf2bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Guard: {fileID: 0}
 --- !u!1 &7229675793963271078
 GameObject:
   m_ObjectHideFlags: 0
@@ -274,7 +288,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.0026773834, y: 0}
+  m_Offset: {x: 0.17926502, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -284,7 +298,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.01, y: 3}
+  m_Size: {x: 0.40325737, y: 3}
   m_EdgeRadius: 0
 --- !u!1 &8758786375709160199
 GameObject:
@@ -352,7 +366,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.29329872, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -362,5 +376,5 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.01, y: 3}
+  m_Size: {x: 0.4231224, y: 3}
   m_EdgeRadius: 0
