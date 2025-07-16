@@ -20,12 +20,11 @@ public class Bullet : PoolAble
         speed = setSpeed;
         if (setSpeed > 0)
         {
-            Debug.Log($"발사 성공 ! {targetMask},{bulletDir},{setSpeed},{speed}");
             ShootBullet(speed);
         }
         else 
         {
-            Debug.Log($"속도 조절 실패 !{setSpeed},{speed} ");
+            return;
         }
     }
     public void ShootBullet(float speed)

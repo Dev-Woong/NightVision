@@ -84,11 +84,10 @@ public class PlayerController :DamageAbleBase,IDamageable
         GameObject hudText = Instantiate(damageText);
         hudText.transform.position = damagePos.position;
         hudText.GetComponent<DamageText>().damage = causerAtk;
-        if (weaponType != WeaponType.Hand) 
-        {
+        
             anim.SetTrigger("Hurt");
             moveAble = false;
-        }
+        
         
         rb.gravityScale = 1.0f;
         //if (curHp <= 0)

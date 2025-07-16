@@ -16,7 +16,6 @@ MonoBehaviour:
   targetMask:
     serializedVersion: 2
     m_Bits: 64
-  knockBack: 1
   knockBackForceX: 3
   knockBackForceY: 1
   getEnergy: 0
@@ -24,6 +23,7 @@ MonoBehaviour:
   animSpot: 
   hitCount: 1
   damageValue: 10
+  SFX: {fileID: 8300000, guid: eed60f1853ef8e8449f1a6d239ffccaa, type: 3}
   HitEffect: {fileID: 0}
   effectPos: {x: 0, y: 0, z: 0}
   hitBoxSize: {x: 2, y: 1, z: 0}

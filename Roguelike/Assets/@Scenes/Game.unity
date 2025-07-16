@@ -57566,6 +57566,12 @@ MonoBehaviour:
   gunModePanel: {fileID: 1851300735}
   Rifle: {fileID: 1765245004}
   normalGunAttack: {fileID: 11400000, guid: c88439de52c6e964f8957d10d32b46a9, type: 2}
+  dashSFX: {fileID: 8300000, guid: 91ee25f019a66204ea77bb4c114e7119, type: 3}
+  jumpSFX: {fileID: 8300000, guid: 265da28f4ed461247ac3db908ca75ded, type: 3}
+  swapSFX:
+  - {fileID: 8300000, guid: 0f7d0fce7473b8e42b274a0d93f0c832, type: 3}
+  - {fileID: 8300000, guid: 023f453d6b2b3704a854d97494fab751, type: 3}
+  - {fileID: 8300000, guid: 1742ff0c6faa6424ba42aae1984e8bce, type: 3}
 --- !u!61 &1762227173
 BoxCollider2D:
   m_ObjectHideFlags: 0

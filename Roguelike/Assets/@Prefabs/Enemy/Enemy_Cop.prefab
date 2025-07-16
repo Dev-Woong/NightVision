@@ -274,6 +274,7 @@ MonoBehaviour:
   curShootTime: 0
   BulletTransform: {fileID: 8127781407153622511}
   Bullet: {fileID: 525238048956279774, guid: f0d7cb97786765241aeb4054e0599266, type: 3}
+  shotClip: {fileID: 8300000, guid: 8beedae5f4be61e48b975f8935cd4231, type: 3}
 --- !u!1 &4263090131874403809
 GameObject:
   m_ObjectHideFlags: 0
