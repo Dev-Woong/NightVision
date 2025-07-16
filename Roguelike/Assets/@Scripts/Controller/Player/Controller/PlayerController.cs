@@ -604,7 +604,7 @@ public class PlayerController :DamageAbleBase,IDamageable
         // 위치 선정
         GetComponent<PlayerPositionManager>().SetTargetSpawnId(mapData.spawnPointId);
         // 씬 로딩
-        SceneManager.LoadSceneAsync(mapData.sceneName);
+        LoadingSceneManager.LoadScene(mapData.sceneName);
 
         // 초기화 코루틴 실행
         if (mapData.useInitializeCamAndItem)
@@ -612,8 +612,6 @@ public class PlayerController :DamageAbleBase,IDamageable
             StartCoroutine(InitializeCamAndItem());
         }
     }
-    
-
     #region LifeCycle
     public void Awake()
     {

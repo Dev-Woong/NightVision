@@ -108,8 +108,10 @@ public class KimeraSpiderController : EnemyController
     public void EnterBerserkMode()
     {
         ps.atk *= 3f;
-        ps.speed *= 1.8f;
-        ps.def *= 0.3f;
+        speed *= 1.4f;
+        ps.def *= 0.4f;
+
+        
         Particles.SetActive(true);
         animator.SetBool("SetBerserk", true);
         StartCoroutine(nameof(SetColor));
@@ -238,8 +240,11 @@ public class KimeraSpiderController : EnemyController
             animator.SetBool("isWalk", false);
             animator.SetTrigger("EnterBerserk");
             moveAble = false;
-        }
-        
+        } 
+    }
+    public void ChangeBGM()
+    {
+        BGMManager.Instance.BGMCoroutineProcess();
     }
     protected void CoolTimeProcess()
     {
@@ -256,7 +261,6 @@ public class KimeraSpiderController : EnemyController
         }
         if (doDropAttack == true)
         {
-            
             Vector3 dir = new Vector3(direction.x, transform.position.y, 0);
             rb.linearVelocity = (speed*4f *dir.normalized);
         }
