@@ -57384,7 +57384,6 @@ MonoBehaviour:
   RifleCam: {fileID: 910484938}
   mapCam: []
   mappol: []
-  Guard: {fileID: 0}
   a: 0
   portalUseAble: 0
   moveLeft: 1
@@ -59463,8 +59462,8 @@ Tilemap:
   - first: {x: 54, y: -4, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 0
-      m_TileSpriteIndex: 3
+      m_TileIndex: 14
+      m_TileSpriteIndex: 14
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -59512,7 +59511,7 @@ Tilemap:
       m_AllTileFlags: 1073741825
   m_AnimatedTiles: {}
   m_TileAssetArray:
-  - m_RefCount: 2
+  - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: 3a3e81629153c2f4ab4ad76281fedc71, type: 2}
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: 6a4a6b46cf700cc4dbf3ff8cd050e645, type: 2}
@@ -59540,6 +59539,8 @@ Tilemap:
     m_Data: {fileID: 11400000, guid: bf2d483c8cc92ab4dba2ff70772a902c, type: 2}
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: 35c4b23b1bc7d3749b4e086013342f80, type: 2}
+  - m_RefCount: 1
+    m_Data: {fileID: 11400000, guid: 19157344776815b46b5e738fa9668f49, type: 2}
   m_TileSpriteArray:
   - m_RefCount: 1
     m_Data: {fileID: 8639550116057860453, guid: 965675157758c4e45897c1262eb4cdac, type: 3}
@@ -59547,7 +59548,7 @@ Tilemap:
     m_Data: {fileID: -9171479452509205714, guid: 965675157758c4e45897c1262eb4cdac, type: 3}
   - m_RefCount: 2
     m_Data: {fileID: -1045133410153605164, guid: b6fed9c2ac4fa2c44b5601144fc6796a, type: 3}
-  - m_RefCount: 2
+  - m_RefCount: 1
     m_Data: {fileID: -9131532092840979714, guid: 29d0000a0b6ac094d9658a8c998967dc, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: -2639815033004070117, guid: 29d0000a0b6ac094d9658a8c998967dc, type: 3}
@@ -59569,6 +59570,8 @@ Tilemap:
     m_Data: {fileID: 7265313343042191254, guid: 965675157758c4e45897c1262eb4cdac, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: -4871644234308700824, guid: 965675157758c4e45897c1262eb4cdac, type: 3}
+  - m_RefCount: 1
+    m_Data: {fileID: 8506914304779898042, guid: 29d0000a0b6ac094d9658a8c998967dc, type: 3}
   m_TileMatrixArray:
   - m_RefCount: 2
     m_Data:
