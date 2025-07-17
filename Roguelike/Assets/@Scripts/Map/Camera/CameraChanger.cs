@@ -17,7 +17,11 @@ public class CameraChanger : MonoBehaviour
     public bool portalUseAble = false;
     public bool moveLeft = true;
     public bool moveRight = true;
-    private void Awake()
+    private void Start()
+    {
+        Initialize();
+    }
+    public void Initialize()
     {
         mapCam = GameObject.FindGameObjectsWithTag("Cam");
         mappol = FindObjectsByType<PolygonCollider2D>(FindObjectsSortMode.InstanceID);
@@ -27,14 +31,6 @@ public class CameraChanger : MonoBehaviour
         mappol = mappol.OrderBy(p => p.name).ToArray();
         c = mappol.Length;
         a = 0;
-    }
-    private void Start()
-    {
-        Initialize();
-    }
-    public void Initialize()
-    {
-       
         ScopeCam.GetComponent<CinemachineConfiner2D>().BoundingShape2D = mappol[0];
         RifleCam.GetComponent<CinemachineConfiner2D>().BoundingShape2D = mappol[0];
         StartCoroutine(DelayUpdate());

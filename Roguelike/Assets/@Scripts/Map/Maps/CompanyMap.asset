@@ -15,3 +15,5 @@ MonoBehaviour:
   sceneName: Company
   spawnPointId: CompanyStartPos
   useInitializeCamAndItem: 1
+  curmapName: "\uB3C4\uC2EC"
+  nextmapName: "\uC545\uB355 \uCEF4\uD37C\uB2C8"

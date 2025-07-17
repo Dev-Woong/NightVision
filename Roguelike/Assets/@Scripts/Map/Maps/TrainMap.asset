@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3478b473ca707a14d9e7f447654231eb, type: 3}
   m_Name: TrainMap
   m_EditorClassIdentifier: 
-  tagName: TrainPortal
   sceneName: Train
   spawnPointId: TrainStartPos
   useInitializeCamAndItem: 1
+  curmapName: "\uB9C8\uC744"
+  nextmapName: "\uAE30\uCC28"
