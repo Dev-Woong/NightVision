@@ -74,6 +74,7 @@ public class PlayerController :DamageAbleBase,IDamageable
     public AudioClip dashSFX;
     public AudioClip jumpSFX;
     public AudioClip[] swapSFX;
+    public AudioClip parringSFX;
     #endregion
 
    
@@ -305,6 +306,7 @@ public class PlayerController :DamageAbleBase,IDamageable
             anim.SetTrigger("Attack");
         }
     }
+    
     public void Parring()
     {
         if (Input.GetKeyDown(KeyCode.D) && isParring == false&&weaponType == WeaponType.Sword)
@@ -553,6 +555,7 @@ public class PlayerController :DamageAbleBase,IDamageable
                 if (isParring == true)
                 {
                     int a = Random.Range(0, 6);
+                    SFXManager.Instance.PlaySFX(parringSFX);
                     anim.SetTrigger("EnterBullet");
                     anim.SetInteger("RandomParring", a);
                     other.GetComponent<Rigidbody2D>().linearVelocity = -other.GetComponent<Rigidbody2D>().linearVelocity*2;

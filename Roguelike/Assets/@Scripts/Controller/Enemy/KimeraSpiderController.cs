@@ -25,7 +25,6 @@ public class KimeraSpiderController : EnemyController
     public AudioClip shotClip;
     public AudioClip walkClip;
     public AudioClip berserkClip;
-    public AudioClip dieClip;
 
     
     protected override void Move()
@@ -74,6 +73,7 @@ public class KimeraSpiderController : EnemyController
                 if (onDropSequence == true && enterBerserkMode == true)
                 {
                     rb.linearVelocity = Vector3.zero;
+                    damageAble = false;
                     animator.SetBool("isWalk", false);
                     animator.SetBool("DropSequence",true);
                     
@@ -165,7 +165,7 @@ public class KimeraSpiderController : EnemyController
     }
     protected void DropAttackProcess()
     {
-        damageAble = false;
+        
         
         rb.linearVelocity = (direction.normalized * speed);
         doDropAttack = true;
@@ -190,7 +190,6 @@ public class KimeraSpiderController : EnemyController
     {
         animator.SetBool("DropSequence", false);
         curDropAttackTime = dropAttackCoolTime;
-        
     }
     public void SetTParticles()
     {
@@ -204,7 +203,6 @@ public class KimeraSpiderController : EnemyController
         SFXManager.Instance.PlaySFX(shotClip);
         doShoot = false;
         moveAble = false;
-        //distanceToTarget = (new Vector3(closest.position.x,closest.position.y+0.2f,0) - BulletTransform.position).normalized;
         GameObject bullet = Instantiate(Bullet, BulletTransform.position, Quaternion.identity);
         LayerMask playerLayer = 6;
         if (gameObject.transform.localScale.x == 1)
@@ -273,6 +271,5 @@ public class KimeraSpiderController : EnemyController
             Vector3 dir = new Vector3(direction.x, transform.position.y, 0);
             rb.linearVelocity = (speed*4f *dir.normalized);
         }
-        
     }
 }

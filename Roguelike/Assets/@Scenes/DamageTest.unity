@@ -1319,6 +1319,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy_Cop
       objectReference: {fileID: 0}
+    - target: {fileID: 2352562619010275189, guid: a629d960af862ca4d8ccf2b586449fd3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3044865409095038535, guid: a629d960af862ca4d8ccf2b586449fd3, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.7
@@ -2709,7 +2713,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3853450244750485011, guid: 6ad7a8f431cbc5647b08025c151c671c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 6.7
+      value: -2.66
       objectReference: {fileID: 0}
     - target: {fileID: 3853450244750485011, guid: 6ad7a8f431cbc5647b08025c151c671c, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2747,13 +2751,13 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5360979704491835849, guid: 6ad7a8f431cbc5647b08025c151c671c, type: 3}
+      propertyPath: dieClip
+      value: 
+      objectReference: {fileID: 8300000, guid: b0f71b4473e9e3d4eb67170c197e3c5a, type: 3}
     - target: {fileID: 7029524666091483697, guid: 6ad7a8f431cbc5647b08025c151c671c, type: 3}
       propertyPath: m_Name
       value: Enemy_Ghoul
-      objectReference: {fileID: 0}
-    - target: {fileID: 7029524666091483697, guid: 6ad7a8f431cbc5647b08025c151c671c, type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2949,7 +2953,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &818566373
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3569,6 +3573,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 0f7d0fce7473b8e42b274a0d93f0c832, type: 3}
   - {fileID: 8300000, guid: 023f453d6b2b3704a854d97494fab751, type: 3}
   - {fileID: 8300000, guid: 1742ff0c6faa6424ba42aae1984e8bce, type: 3}
+  parringSFX: {fileID: 8300000, guid: 66b1f1f6f25630d43a89a6c9d462840e, type: 3}
 --- !u!61 &957042069
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5205,7 +5210,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8810835889458634000, guid: afabfd3bac08b034c8b4897cfa040910, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 6.7
+      value: -5.03
       objectReference: {fileID: 0}
     - target: {fileID: 8810835889458634000, guid: afabfd3bac08b034c8b4897cfa040910, type: 3}
       propertyPath: m_LocalPosition.y
