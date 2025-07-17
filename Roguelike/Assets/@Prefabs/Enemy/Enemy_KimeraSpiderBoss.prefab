@@ -9968,7 +9968,7 @@ Transform:
   m_GameObject: {fileID: 8891190248757076646}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.29, y: -2.38, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: -1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -10181,11 +10181,16 @@ MonoBehaviour:
   enterBerserkMode: 0
   onParticles: 1
   elapsed: 0
+  count: 0
   BulletTransform: {fileID: 511314989864113372}
   Bullet: {fileID: 2955243298816953352, guid: e4f7b1d0ef1a0cb439d0c9b5c3f8981d, type: 3}
   WarningIndicator: {fileID: 2111255308444023659}
   Particles: {fileID: 7986480201250727735}
   distanceToTarget: {x: 0, y: 0}
+  shotClip: {fileID: 8300000, guid: 7dc2ed7dd709465409835432d2d3970a, type: 3}
+  walkClip: {fileID: 8300000, guid: 9eae2f6ebe3e65244ad5db8a533c6dde, type: 3}
+  berserkClip: {fileID: 8300000, guid: 4c38b75bb4932e340a74500eaf352e89, type: 3}
+  dieClip: {fileID: 0}
 --- !u!114 &4632552103063429547
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10206,3 +10211,4 @@ MonoBehaviour:
   def: 0
   jamStack: 0
   knockBack: 0
+  checkDie: 0

@@ -135,6 +135,7 @@ public class EnemyController : DamageAbleBase, IDamageable
 
     void Die()
     {
+        ps.checkDie = true;
         gameObject.SetActive(false);
         //ReleaseObject();
     }

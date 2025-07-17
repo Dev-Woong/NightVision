@@ -575,14 +575,15 @@ public class PlayerController :DamageAbleBase,IDamageable
         {
             return;
         }
-        var mapData = portal.targetMapData;
-        if (mapData == null)
+        //var curMapData = portal.curMapData;
+        var nextMapData = portal.targetMapData;
+        if (nextMapData == null)
         {
             return;
         }
-        if (mapData != null)
+        if (nextMapData != null)
         {
-            StartCoroutine(HandleMapTransition(mapData));
+            //StartCoroutine(HandleMapTransition(curMapData,nextMapData));
         }
         if (other.CompareTag("SpeedTool"))
         {
@@ -592,26 +593,25 @@ public class PlayerController :DamageAbleBase,IDamageable
 
     void InitializeCamAndItem(MapData mapData)
     {
-        
         camChanger.Initialize();
         ShopManager.Instance.NewShopItems(itemDatabase, 4);
     }
 
 
-    IEnumerator HandleMapTransition(MapData mapData)
+    IEnumerator HandleMapTransition(MapData curMapData,MapData targetMapData)
     {
         bool sequence= false;
         // 위치 선정
-        GetComponent<PlayerPositionManager>().SetTargetSpawnId(mapData.spawnPointId);
+        GetComponent<PlayerPositionManager>().SetTargetSpawnId(targetMapData.spawnPointId);
         // 씬 로딩
-        LoadingSceneManager.LoadScene(mapData.sceneName);
+        //LoadingSceneManager.LoadScene(targetMapData.sceneName,curMapData,targetMapData);
         // 초기화 코루틴 실행
         while (LoadingSceneManager.onLoadScene == false||sequence ==false)
         {
-            if (mapData.useInitializeCamAndItem&& LoadingSceneManager.onLoadScene == true)
+            if (targetMapData.useInitializeCamAndItem&& LoadingSceneManager.onLoadScene == true)
             {
                 yield return new WaitForSeconds(2f);
-                InitializeCamAndItem(mapData);
+                InitializeCamAndItem(targetMapData);
                 sequence = true;
             }
             yield return new WaitForSeconds(0.1f);

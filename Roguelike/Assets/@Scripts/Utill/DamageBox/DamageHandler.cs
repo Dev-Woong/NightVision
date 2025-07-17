@@ -83,13 +83,16 @@ public class DamageHandler : MonoBehaviour
             
             if (data.HitEffect != null)
             {
-                Vector3 effectPos = targetPos + new Vector3(data.effectPos.x * x, data.effectPos.y, data.effectPos.z);
-                var effect = Instantiate(data.HitEffect, effectPos, Quaternion.identity);
-
-                if (transform.localScale.x == -1)
+                if (target.GetComponent<PublicStatus>().checkDie == false)
                 {
-                    effect.GetComponent<SpriteRenderer>().flipX = true;
+                    Vector3 effectPos = targetPos + new Vector3(data.effectPos.x * x, data.effectPos.y, data.effectPos.z);
+                    var effect = Instantiate(data.HitEffect, effectPos, Quaternion.identity);
+                    if (transform.localScale.x == -1)
+                    {
+                        effect.GetComponent<SpriteRenderer>().flipX = true;
+                    }
                 }
+                else yield return null;
             }
             currentHits++;
             yield return Interval;

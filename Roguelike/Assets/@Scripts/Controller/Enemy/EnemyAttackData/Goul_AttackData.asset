@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 38f85f06c6083884bafdd011d55a8f0e, type: 3}
   m_Name: Goul_AttackData
   m_EditorClassIdentifier: 
+  wType: 0
   targetMask:
     serializedVersion: 2
     m_Bits: 64
-  knockBack: 1
   knockBackForceX: 3
   knockBackForceY: 0
   getEnergy: 0
@@ -23,6 +23,7 @@ MonoBehaviour:
   animSpot: 
   hitCount: 2
   damageValue: 15
+  SFX: {fileID: 8300000, guid: 979e7d0d67b2bfa40a57386cd9c53af4, type: 3}
   HitEffect: {fileID: 0}
   effectPos: {x: 0, y: 0, z: 0}
   hitBoxSize: {x: 3, y: 1, z: 0}
