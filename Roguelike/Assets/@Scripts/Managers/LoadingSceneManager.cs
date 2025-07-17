@@ -25,7 +25,6 @@ public class LoadingSceneManager : MonoBehaviour
     public static string curMapName;
     public static string nextMapName;
 
-    public static string nomap;
 
     [SerializeField]
     private Image progressBar;
@@ -77,16 +76,15 @@ public class LoadingSceneManager : MonoBehaviour
     IEnumerator LoadScene()
     {
         yield return null;
-        //if (curMapName != null)
-        //{
-        //    cmn.text = curMapName;
-        //    nmn.text = nextMapName;
-        //}
-        //else
-        //{
-        //    nm.GetComponent<TMP_Text>().text = nomap;
-        //    nm.SetActive(true);
-        //}
+        if (curMapName != null)
+        {
+            cmn.text = curMapName;
+            nmn.text = nextMapName;
+        }
+        else
+        {
+            nm.SetActive(true);
+        }
         AsyncOperation op = SceneManager.LoadSceneAsync(nextScene);
         op.allowSceneActivation = false;
         yield return new WaitForSeconds(0.1f);
@@ -139,7 +137,6 @@ public class LoadingSceneManager : MonoBehaviour
                         onLoadScene = op.allowSceneActivation;
                         cmn.text = "";
                         nmn.text = "";
-                        Debug.Log("¾À¸Å"+onLoadScene);
                     }
                     yield return new WaitForSeconds(0.1f);
                 }
