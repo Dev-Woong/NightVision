@@ -609,16 +609,11 @@ public class PlayerController :DamageAbleBase,IDamageable
         bool load = false;
         while (load  == false)
         {
-            Debug.Log("와일문 안쪽까진 호출");
-            Debug.Log(LoadingSceneManager.onLoadScene);
             if (targetMapData.useInitializeCamAndItem==true&& LoadingSceneManager.onLoadScene==true)
             {
-                Debug.Log("이프문 안쪽까진 호출");
-                Debug.Log(LoadingSceneManager.onLoadScene);
                 yield return new WaitForSeconds(8);
                 InitializeCamAndItem(targetMapData);
                 load = true;
-                Debug.Log("이니셜라이즈 최종호출 성공");
             }
             yield return new WaitForSeconds(0.1f);
         }
