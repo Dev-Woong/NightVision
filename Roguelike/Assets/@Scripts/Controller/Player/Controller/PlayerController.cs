@@ -575,7 +575,7 @@ public class PlayerController :DamageAbleBase,IDamageable
         {
             return;
         }
-        //var curMapData = portal.curMapData;
+        
         var nextMapData = portal.targetMapData;
         if (nextMapData == null)
         {
@@ -583,7 +583,7 @@ public class PlayerController :DamageAbleBase,IDamageable
         }
         if (nextMapData != null)
         {
-            //StartCoroutine(HandleMapTransition(curMapData,nextMapData));
+            StartCoroutine(HandleMapTransition(nextMapData));
         }
         if (other.CompareTag("SpeedTool"))
         {
@@ -598,21 +598,27 @@ public class PlayerController :DamageAbleBase,IDamageable
     }
 
 
-    IEnumerator HandleMapTransition(MapData curMapData,MapData targetMapData)
+    IEnumerator HandleMapTransition(MapData targetMapData)
     {
-        bool sequence= false;
+        yield return null;
         // 위치 선정
         GetComponent<PlayerPositionManager>().SetTargetSpawnId(targetMapData.spawnPointId);
         // 씬 로딩
-        //LoadingSceneManager.LoadScene(targetMapData.sceneName,curMapData,targetMapData);
+        LoadingSceneManager.LoadScene(targetMapData.sceneName,targetMapData);
         // 초기화 코루틴 실행
-        while (LoadingSceneManager.onLoadScene == false||sequence ==false)
+        bool load = false;
+        while (load  == false)
         {
-            if (targetMapData.useInitializeCamAndItem&& LoadingSceneManager.onLoadScene == true)
+            Debug.Log("와일문 안쪽까진 호출");
+            Debug.Log(LoadingSceneManager.onLoadScene);
+            if (targetMapData.useInitializeCamAndItem==true&& LoadingSceneManager.onLoadScene==true)
             {
-                yield return new WaitForSeconds(2f);
+                Debug.Log("이프문 안쪽까진 호출");
+                Debug.Log(LoadingSceneManager.onLoadScene);
+                yield return new WaitForSeconds(8);
                 InitializeCamAndItem(targetMapData);
-                sequence = true;
+                load = true;
+                Debug.Log("이니셜라이즈 최종호출 성공");
             }
             yield return new WaitForSeconds(0.1f);
         }

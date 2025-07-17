@@ -16,7 +16,7 @@ public class LoadingSceneManager : MonoBehaviour
     //public Image Image1;
     //public Image Image2;
     //public Image Image3;
-    public static bool onLoadScene;
+    public static bool onLoadScene=false;
 
     public string[] lta;
     public string[] tta;
@@ -50,11 +50,6 @@ public class LoadingSceneManager : MonoBehaviour
         {
             curMapName = nextMapData.curmapName;
             nextMapName = nextMapData.nextmapName;
-
-        }
-        else
-        {
-            nomap = "넘어가유~";
         }
     }
     IEnumerator CoLoadingText()
@@ -82,26 +77,19 @@ public class LoadingSceneManager : MonoBehaviour
     IEnumerator LoadScene()
     {
         yield return null;
-        if (curMapName != null)
-        {
-            cmn.text = curMapName;
-            //nmn.text = nextMapName;
-            //Image3.color = new Color32(0,0,0,0);
-            //Image1.color = Color.white;
-            //Image2.color = Color.white;
-        }
-        else
-        {
-            nm.GetComponent<TMP_Text>().text = nomap;
-            nm.SetActive(true);
-
-            //Image3.color = Color.white;
-            //Image1.color = new Color32(0, 0, 0, 0);
-            //Image2.color = new Color32(0, 0, 0, 0);
-        }
-        onLoadScene = false;
-        UnityEngine.AsyncOperation op = SceneManager.LoadSceneAsync(nextScene);
+        //if (curMapName != null)
+        //{
+        //    cmn.text = curMapName;
+        //    nmn.text = nextMapName;
+        //}
+        //else
+        //{
+        //    nm.GetComponent<TMP_Text>().text = nomap;
+        //    nm.SetActive(true);
+        //}
+        AsyncOperation op = SceneManager.LoadSceneAsync(nextScene);
         op.allowSceneActivation = false;
+        yield return new WaitForSeconds(0.1f);
 
         float visualProgress = 0f;
         float speed = 1f;
@@ -143,13 +131,19 @@ public class LoadingSceneManager : MonoBehaviour
                 progressBar.fillAmount = 1f; // 보정
                 yield return new WaitForSeconds(1.2f);
                 op.allowSceneActivation = true;
-                yield return new WaitForSeconds(0.1f);
-                onLoadScene = op.allowSceneActivation;
-                cmn.text = "";
-                nmn.text = "";
-                yield break;
+                while (true) 
+                { 
+                    if (op.allowSceneActivation == true)
+                    {
+
+                        onLoadScene = op.allowSceneActivation;
+                        cmn.text = "";
+                        nmn.text = "";
+                        Debug.Log("씬매"+onLoadScene);
+                    }
+                    yield return new WaitForSeconds(0.1f);
+                }
             }
         }
-        
     }
 }

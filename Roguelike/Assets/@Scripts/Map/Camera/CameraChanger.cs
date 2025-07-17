@@ -23,6 +23,7 @@ public class CameraChanger : MonoBehaviour
     }
     public void Initialize()
     {
+        Debug.Log("캠체인져 이니셜라이즈 호출");
         mapCam = GameObject.FindGameObjectsWithTag("Cam");
         mappol = FindObjectsByType<PolygonCollider2D>(FindObjectsSortMode.InstanceID);
         moveLeft = true;
