@@ -112,12 +112,14 @@ public class LoadingSceneManager : MonoBehaviour
             
             cbg.SetActive(true);
             nbg.SetActive(true);
+
             tr0.SetActive(true);
             tr1.SetActive(true);
             tr2.SetActive(true);
         }
         else
         {
+
             StartCoroutine(CoNmText());
         }
         AsyncOperation op = SceneManager.LoadSceneAsync(nextScene);

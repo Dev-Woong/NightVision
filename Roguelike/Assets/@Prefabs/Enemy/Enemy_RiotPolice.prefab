@@ -179,7 +179,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b37e40349fe28be4f9de0128b25aec63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioSource: {fileID: 0}
   target: {fileID: 0}
   ps: {fileID: 0}
 --- !u!95 &3782448489281834095
@@ -233,6 +232,7 @@ MonoBehaviour:
   isGround: 0
   closest: {fileID: 0}
   direction: {x: 0, y: 0}
+  dieClip: {fileID: 8300000, guid: 830e48505e7e45940bfa87ae7d61f408, type: 3}
 --- !u!114 &3817003602992575049
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -253,6 +253,7 @@ MonoBehaviour:
   def: 0
   jamStack: 0
   knockBack: 1
+  checkDie: 0
 --- !u!1 &8605965775870591403
 GameObject:
   m_ObjectHideFlags: 0

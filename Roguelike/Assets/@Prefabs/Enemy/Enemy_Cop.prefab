@@ -240,6 +240,7 @@ MonoBehaviour:
   def: 0
   jamStack: 0
   knockBack: 1
+  checkDie: 0
 --- !u!114 &3541141465374513358
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -269,6 +270,7 @@ MonoBehaviour:
   isGround: 0
   closest: {fileID: 0}
   direction: {x: 0, y: 0}
+  dieClip: {fileID: 8300000, guid: 164f1b4ee64464449bf637416ccc741c, type: 3}
   doShoot: 1
   shootCoolTime: 3
   curShootTime: 0
