@@ -575,15 +575,19 @@ public class PlayerController :DamageAbleBase,IDamageable
         {
             return;
         }
-        
-        var nextmapData = portal.targetMapData;
-        if (nextmapData == null)
+        //var curMapData = portal.curMapData;
+        var nextMapData = portal.targetMapData;
+        if (nextMapData == null)
         {
             return;
         }
-        if (nextmapData != null)
+        if (nextMapData != null)
         {
-            StartCoroutine(HandleMapTransition( nextmapData));
+            //StartCoroutine(HandleMapTransition(curMapData,nextMapData));
+        }
+        if (other.CompareTag("SpeedTool"))
+        {
+            PublicStat.speed = 1;
         }
     }
 
@@ -594,27 +598,21 @@ public class PlayerController :DamageAbleBase,IDamageable
     }
 
 
-    IEnumerator HandleMapTransition(MapData nextMapData)
-    {   
+    IEnumerator HandleMapTransition(MapData curMapData,MapData targetMapData)
+    {
+        bool sequence= false;
         // 위치 선정
-        GetComponent<PlayerPositionManager>().SetTargetSpawnId(nextMapData.spawnPointId);
+        GetComponent<PlayerPositionManager>().SetTargetSpawnId(targetMapData.spawnPointId);
         // 씬 로딩
-        if (nextMapData != null)
-        {
-            LoadingSceneManager.LoadScene(nextMapData.sceneName, nextMapData);
-        }
-        else
-        {
-            LoadingSceneManager.LoadScene(nextMapData.sceneName);
-        }
+        //LoadingSceneManager.LoadScene(targetMapData.sceneName,curMapData,targetMapData);
         // 초기화 코루틴 실행
-        while (true)
+        while (LoadingSceneManager.onLoadScene == false||sequence ==false)
         {
-            if (nextMapData.useInitializeCamAndItem&& LoadingSceneManager.onLoadScene == true)
+            if (targetMapData.useInitializeCamAndItem&& LoadingSceneManager.onLoadScene == true)
             {
                 yield return new WaitForSeconds(2f);
-                InitializeCamAndItem(nextMapData);
-                yield break;
+                InitializeCamAndItem(targetMapData);
+                sequence = true;
             }
             yield return new WaitForSeconds(0.1f);
         }

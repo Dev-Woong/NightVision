@@ -12,6 +12,7 @@ public class PublicStatus : MonoBehaviour
     public float def;
     public int jamStack;
     public KnockBack knockBack;
+    public bool checkDie = false;
     void Awake()
     {
         atk = obData.atk;
@@ -24,10 +25,5 @@ public class PublicStatus : MonoBehaviour
     void StatusUpdate()
     {
         // TODO : 플레이어 아이템구매하면 스탯변화주기
-    }
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }
