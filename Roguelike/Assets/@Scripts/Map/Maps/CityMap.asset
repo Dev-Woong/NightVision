@@ -15,3 +15,5 @@ MonoBehaviour:
   sceneName: City
   spawnPointId: CityStartPos
   useInitializeCamAndItem: 1
+  curmapName: "\uAE30\uCC28"
+  nextmapName: "\uB3C4\uC2EC"

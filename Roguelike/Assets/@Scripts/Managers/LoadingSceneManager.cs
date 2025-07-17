@@ -9,29 +9,53 @@ using UnityEngine.UI;
 public class LoadingSceneManager : MonoBehaviour
 {
     public TMP_Text lt;
-
+    public TMP_Text tt;
+    public TMP_Text nmn;
+    public GameObject nm;
+    public TMP_Text cmn;
+    //public Image Image1;
+    //public Image Image2;
+    //public Image Image3;
     public static bool onLoadScene;
 
     public string[] lta;
+    public string[] tta;
 
     public static string nextScene;
-     
+    public static string curMapName;
+    public static string nextMapName;
+
+    public static string nomap;
+
     [SerializeField]
     private Image progressBar;
 
     
 
+
+
     private void Start()
     {
         StartCoroutine(LoadScene());
         StartCoroutine(CoLoadingText());
+        StartCoroutine(CoTText());
+        nm.SetActive(false);
     }
 
-    public static void LoadScene(string sceneName)
+    public static void LoadScene(string nextsceneName, MapData nextMapData = null)
     {
-        nextScene = sceneName;
+        nextScene = nextsceneName;
         SceneManager.LoadScene("LoadingScene");
-        
+        if (nextMapData != null)
+        {
+            curMapName = nextMapData.curmapName;
+            nextMapName = nextMapData.nextmapName;
+
+        }
+        else
+        {
+            nomap = "넘어가유~";
+        }
     }
     IEnumerator CoLoadingText()
     {
@@ -45,11 +69,38 @@ public class LoadingSceneManager : MonoBehaviour
             yield return new WaitForSeconds(0.5f);
         }
     }
+    IEnumerator CoTText()
+    {
+        while (true)
+        {
+            int i = Random.Range(0, tta.Length);
+            tt.text = tta[i];
+            yield return new WaitForSeconds(2f);
+        }
+    }
+
     IEnumerator LoadScene()
     {
         yield return null;
+        if (curMapName != null)
+        {
+            cmn.text = curMapName;
+            //nmn.text = nextMapName;
+            //Image3.color = new Color32(0,0,0,0);
+            //Image1.color = Color.white;
+            //Image2.color = Color.white;
+        }
+        else
+        {
+            nm.GetComponent<TMP_Text>().text = nomap;
+            nm.SetActive(true);
+
+            //Image3.color = Color.white;
+            //Image1.color = new Color32(0, 0, 0, 0);
+            //Image2.color = new Color32(0, 0, 0, 0);
+        }
         onLoadScene = false;
-        AsyncOperation op = SceneManager.LoadSceneAsync(nextScene);
+        UnityEngine.AsyncOperation op = SceneManager.LoadSceneAsync(nextScene);
         op.allowSceneActivation = false;
 
         float visualProgress = 0f;
@@ -94,8 +145,11 @@ public class LoadingSceneManager : MonoBehaviour
                 op.allowSceneActivation = true;
                 yield return new WaitForSeconds(0.1f);
                 onLoadScene = op.allowSceneActivation;
+                cmn.text = "";
+                nmn.text = "";
                 yield break;
             }
         }
+        
     }
 }

@@ -15,3 +15,5 @@ MonoBehaviour:
   sceneName: Home
   spawnPointId: HomeStartPos
   useInitializeCamAndItem: 1
+  curmapName: "\uD3D0\uD5C8"
+  nextmapName: "\uB9C8\uC744"
