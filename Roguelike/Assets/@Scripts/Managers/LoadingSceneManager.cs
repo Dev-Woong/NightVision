@@ -11,15 +11,22 @@ public class LoadingSceneManager : MonoBehaviour
     public TMP_Text lt;
     public TMP_Text tt;
     public TMP_Text nmn;
-    public GameObject nm;
+    public TMP_Text nm;
     public TMP_Text cmn;
-    //public Image Image1;
-    //public Image Image2;
-    //public Image Image3;
+
+    public GameObject cbg;
+    public GameObject nbg;
+    public GameObject tr0;
+    public GameObject tr1;
+    public GameObject tr2;
+
+
+
     public static bool onLoadScene=false;
 
     public string[] lta;
     public string[] tta;
+    public string[] nma;
 
     public static string nextScene;
     public static string curMapName;
@@ -29,16 +36,16 @@ public class LoadingSceneManager : MonoBehaviour
     [SerializeField]
     private Image progressBar;
 
-    
-
-
-
     private void Start()
     {
         StartCoroutine(LoadScene());
         StartCoroutine(CoLoadingText());
         StartCoroutine(CoTText());
-        nm.SetActive(false);
+        cbg.SetActive(false);
+        nbg.SetActive(false);
+        tr0.SetActive(false);
+        tr1.SetActive(false);
+        tr2.SetActive(false);
     }
 
     public static void LoadScene(string nextsceneName, MapData nextMapData = null)
@@ -73,6 +80,28 @@ public class LoadingSceneManager : MonoBehaviour
         }
     }
 
+    IEnumerator CoNmText()
+    {
+        while (true)
+        {
+            
+            nm.text = nma[0];
+            yield return new WaitForSeconds(1.8f);
+            nm.text = nma[1];
+            yield return new WaitForSeconds(1.8f);
+            nm.text = nma[2];
+            yield return new WaitForSeconds(1.8f);
+            nm.text = nma[3];
+            yield return new WaitForSeconds(1.8f);
+            nm.text = nma[4];
+            yield return new WaitForSeconds(1.8f);
+            nm.text = nma[5];
+            yield return new WaitForSeconds(1.8f);
+
+
+        }
+    }
+
     IEnumerator LoadScene()
     {
         yield return null;
@@ -80,10 +109,16 @@ public class LoadingSceneManager : MonoBehaviour
         {
             cmn.text = curMapName;
             nmn.text = nextMapName;
+            
+            cbg.SetActive(true);
+            nbg.SetActive(true);
+            tr0.SetActive(true);
+            tr1.SetActive(true);
+            tr2.SetActive(true);
         }
         else
         {
-            nm.SetActive(true);
+            StartCoroutine(CoNmText());
         }
         AsyncOperation op = SceneManager.LoadSceneAsync(nextScene);
         op.allowSceneActivation = false;
@@ -129,14 +164,18 @@ public class LoadingSceneManager : MonoBehaviour
                 progressBar.fillAmount = 1f; // º¸Á¤
                 yield return new WaitForSeconds(1.2f);
                 op.allowSceneActivation = true;
+                
                 while (true) 
                 { 
                     if (op.allowSceneActivation == true)
                     {
-
+                        
                         onLoadScene = op.allowSceneActivation;
                         cmn.text = "";
                         nmn.text = "";
+                        StopCoroutine(CoNmText());
+                        
+                        //nm.gameObject.SetActive(false);
                     }
                     yield return new WaitForSeconds(0.1f);
                 }
