@@ -32,6 +32,7 @@ public class EnemyController : DamageAbleBase, IDamageable
     protected Coroutine coAttack;
     public Transform closest;
     public Vector2 direction;
+    public AudioClip dieClip;
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -115,9 +116,7 @@ public class EnemyController : DamageAbleBase, IDamageable
     }
     public IEnumerator EnAttack()
     {
-
         canAttack = false;
-        moveAble = false;
         yield return new WaitForSeconds(0.1f);
         animator.SetTrigger("Attack");
         yield return new WaitForSeconds(2f);
@@ -132,18 +131,24 @@ public class EnemyController : DamageAbleBase, IDamageable
         Gizmos.DrawWireSphere(offsetPosition, detectionRadius);
     }
 
-
+    public void DieSFX()
+    {
+        SFXManager.Instance.PlaySFX(dieClip);
+    }
     void Die()
     {
         ps.checkDie = true;
         gameObject.SetActive(false);
-        //ReleaseObject();
     }
 
 
     public void OnMoveAble() // Animation Event
     {
         moveAble = true;
+    }
+    public void MoveAbleFalse()
+    {
+        moveAble = false;
     }
 
     public override void OnDamage(float causerAtk, WeaponType wType)

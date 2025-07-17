@@ -30,8 +30,19 @@ public class GhoulController : EnemyController
                 if (distanceToTarget < stopDistance)
                 {
                     animator.SetBool("isWalk", false);
+                    if (closest.position.x >= transform.position.x)
+                    {
+                        transform.localScale = new Vector3(-1, 1, 1);
+                    }
+                    if (closest.position.x < transform.position.x)
+                    {
+                        transform.localScale = new Vector3(1, 1, 1);
+                    }
                     if (canAttack == true)
+                    {
+                        Debug.Log("g");
                         coAttack = StartCoroutine(EnAttack());
+                    }
                     else return;
                 }
                 else
@@ -59,10 +70,12 @@ public class GhoulController : EnemyController
             animator.SetBool("isWalk", false);
             animator.SetBool("isIdle", true);
             ghoulWalkable = false;
+            damageAble = false;
         }
     }
     public void GhoulWalkable()
     {
+        damageAble = true;
         ghoulWalkable = true;
     }
     
