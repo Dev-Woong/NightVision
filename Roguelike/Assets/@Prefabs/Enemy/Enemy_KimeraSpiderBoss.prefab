@@ -10171,6 +10171,7 @@ MonoBehaviour:
   isGround: 1
   closest: {fileID: 0}
   direction: {x: 0, y: 0}
+  dieClip: {fileID: 8300000, guid: 8c2ab882a8b124743bb5cf8fb516907e, type: 3}
   doShoot: 0
   shootCoolTime: 3.5
   curShootTime: 3.5
@@ -10190,7 +10191,6 @@ MonoBehaviour:
   shotClip: {fileID: 8300000, guid: 7dc2ed7dd709465409835432d2d3970a, type: 3}
   walkClip: {fileID: 8300000, guid: 9eae2f6ebe3e65244ad5db8a533c6dde, type: 3}
   berserkClip: {fileID: 8300000, guid: 4c38b75bb4932e340a74500eaf352e89, type: 3}
-  dieClip: {fileID: 0}
 --- !u!114 &4632552103063429547
 MonoBehaviour:
   m_ObjectHideFlags: 0

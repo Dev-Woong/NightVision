@@ -203,6 +203,7 @@ MonoBehaviour:
   isGround: 1
   closest: {fileID: 0}
   direction: {x: 0, y: 0}
+  dieClip: {fileID: 8300000, guid: 164f1b4ee64464449bf637416ccc741c, type: 3}
 --- !u!61 &4526613081568772660
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -261,7 +262,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b37e40349fe28be4f9de0128b25aec63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioSource: {fileID: 0}
   target: {fileID: 0}
   ps: {fileID: 5371138580197556179}
 --- !u!114 &5371138580197556179
@@ -284,3 +284,4 @@ MonoBehaviour:
   def: 0
   jamStack: 0
   knockBack: 1
+  checkDie: 0

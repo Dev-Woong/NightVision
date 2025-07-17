@@ -284,5 +284,5 @@ MonoBehaviour:
   isGround: 0
   closest: {fileID: 0}
   direction: {x: 0, y: 0}
-  dieClip: {fileID: 8300000, guid: a769d49a0db4f7a4da7d621d1c932bad, type: 3}
+  dieClip: {fileID: 8300000, guid: b0f71b4473e9e3d4eb67170c197e3c5a, type: 3}
   ghoulWalkable: 0
