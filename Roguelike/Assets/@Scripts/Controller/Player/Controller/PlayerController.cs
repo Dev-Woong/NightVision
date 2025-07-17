@@ -575,44 +575,46 @@ public class PlayerController :DamageAbleBase,IDamageable
         {
             return;
         }
-        var mapData = portal.targetMapData;
-        if (mapData == null)
+        
+        var nextmapData = portal.targetMapData;
+        if (nextmapData == null)
         {
             return;
         }
-        if (mapData != null)
+        if (nextmapData != null)
         {
-            StartCoroutine(HandleMapTransition(mapData));
-        }
-        if (other.CompareTag("SpeedTool"))
-        {
-            PublicStat.speed = 1;
+            StartCoroutine(HandleMapTransition( nextmapData));
         }
     }
 
     void InitializeCamAndItem(MapData mapData)
     {
-        
         camChanger.Initialize();
         ShopManager.Instance.NewShopItems(itemDatabase, 4);
     }
 
 
-    IEnumerator HandleMapTransition(MapData mapData)
-    {
-        bool sequence= false;
+    IEnumerator HandleMapTransition(MapData nextMapData)
+    {   
         // 위치 선정
-        GetComponent<PlayerPositionManager>().SetTargetSpawnId(mapData.spawnPointId);
+        GetComponent<PlayerPositionManager>().SetTargetSpawnId(nextMapData.spawnPointId);
         // 씬 로딩
-        LoadingSceneManager.LoadScene(mapData.sceneName);
-        // 초기화 코루틴 실행
-        while (LoadingSceneManager.onLoadScene == false||sequence ==false)
+        if (nextMapData != null)
         {
-            if (mapData.useInitializeCamAndItem&& LoadingSceneManager.onLoadScene == true)
+            LoadingSceneManager.LoadScene(nextMapData.sceneName, nextMapData);
+        }
+        else
+        {
+            LoadingSceneManager.LoadScene(nextMapData.sceneName);
+        }
+        // 초기화 코루틴 실행
+        while (true)
+        {
+            if (nextMapData.useInitializeCamAndItem&& LoadingSceneManager.onLoadScene == true)
             {
                 yield return new WaitForSeconds(2f);
-                InitializeCamAndItem(mapData);
-                sequence = true;
+                InitializeCamAndItem(nextMapData);
+                yield break;
             }
             yield return new WaitForSeconds(0.1f);
         }
