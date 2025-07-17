@@ -10,7 +10,7 @@ public class LoadingSceneManager : MonoBehaviour
 {
     public TMP_Text lt;
 
-
+    public static bool onLoadScene;
 
     public string[] lta;
 
@@ -31,24 +31,24 @@ public class LoadingSceneManager : MonoBehaviour
     {
         nextScene = sceneName;
         SceneManager.LoadScene("LoadingScene");
+        
     }
     IEnumerator CoLoadingText()
     {
-        
         while (true)
         {
             lt.text = lta[0];
-            yield return new WaitForSeconds(1f);
+            yield return new WaitForSeconds(0.5f);
             lt.text = lta[1];
-            yield return new WaitForSeconds(1f);
+            yield return new WaitForSeconds(0.5f);
             lt.text = lta[2];
-            yield return new WaitForSeconds(1f);
+            yield return new WaitForSeconds(0.5f);
         }
     }
     IEnumerator LoadScene()
     {
         yield return null;
-
+        onLoadScene = false;
         AsyncOperation op = SceneManager.LoadSceneAsync(nextScene);
         op.allowSceneActivation = false;
 
@@ -68,7 +68,6 @@ public class LoadingSceneManager : MonoBehaviour
             visualProgress = Mathf.MoveTowards(visualProgress, targetVisualProgress, Time.deltaTime * speed);
             progressBar.fillAmount = visualProgress;
 
-            // 멈칫 타이밍 체크
             foreach (float point in stopPoints)
             {
                 if (!stopped.Contains(point) && visualProgress >= point)
@@ -79,11 +78,10 @@ public class LoadingSceneManager : MonoBehaviour
                 }
             }
 
-            // 완료 처리
             if (op.progress >= 0.90f && visualProgress >= 0.95f)
             {
                 yield return new WaitForSeconds(Random.Range(0.6f, 0.9f));
-                BGMManager.Instance.BGMCoroutineProcess(); // 코루틴이면 yield return 필요
+                BGMManager.Instance.BGMCoroutineProcess(); 
 
                 while (progressBar.fillAmount < 0.999f)
                 {
@@ -92,10 +90,10 @@ public class LoadingSceneManager : MonoBehaviour
                 }
 
                 progressBar.fillAmount = 1f; // 보정
-                yield return new WaitForSeconds(2f);
-
+                yield return new WaitForSeconds(1.2f);
                 op.allowSceneActivation = true;
-                progressBar.fillAmount = 0f;
+                yield return new WaitForSeconds(0.1f);
+                onLoadScene = op.allowSceneActivation;
                 yield break;
             }
         }
