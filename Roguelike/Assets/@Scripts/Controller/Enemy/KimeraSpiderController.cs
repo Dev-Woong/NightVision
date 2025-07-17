@@ -25,6 +25,7 @@ public class KimeraSpiderController : EnemyController
     public AudioClip shotClip;
     public AudioClip walkClip;
     public AudioClip berserkClip;
+    public AudioClip dieClip;
 
     
     protected override void Move()
@@ -112,9 +113,8 @@ public class KimeraSpiderController : EnemyController
     public void EnterBerserkMode()
     {
         ps.atk *= 3f;
-        speed *= 1.6f;
+        speed *= 1.5f;
         ps.def *= 0.4f;
-
         SFXManager.Instance.PlaySFX(berserkClip);
         Particles.SetActive(true);
         animator.SetBool("SetBerserk", true);
