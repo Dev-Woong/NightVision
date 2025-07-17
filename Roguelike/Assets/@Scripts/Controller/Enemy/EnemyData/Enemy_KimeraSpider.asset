@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ID: 8
   atk: 30
-  def: 40
+  def: 20
   maxHp: 10000
   speed: 2
   dropJam: 200

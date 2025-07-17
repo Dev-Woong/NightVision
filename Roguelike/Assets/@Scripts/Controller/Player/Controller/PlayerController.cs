@@ -1,4 +1,5 @@
 using System.Collections;
+using UnityEditor.U2D.Aseprite;
 using UnityEngine;
 public enum WeaponType
 {
@@ -589,9 +590,11 @@ public class PlayerController :DamageAbleBase,IDamageable
         }
     }
 
-    IEnumerator InitializeCamAndItem()
+    IEnumerator InitializeCamAndItem(MapData mapData)
     {
-        yield return new WaitForSeconds(3f);
+        bool canLoad = false;
+        LoadingSceneManager.LoadScene(mapData.sceneName);
+        yield return new WaitForSeconds(5f);
         camChanger.Initialize();
         ShopManager.Instance.NewShopItems(itemDatabase, 4);
     }
@@ -602,12 +605,11 @@ public class PlayerController :DamageAbleBase,IDamageable
         // 위치 선정
         GetComponent<PlayerPositionManager>().SetTargetSpawnId(mapData.spawnPointId);
         // 씬 로딩
-        LoadingSceneManager.LoadScene(mapData.sceneName);
 
         // 초기화 코루틴 실행
         if (mapData.useInitializeCamAndItem)
         {
-            StartCoroutine(InitializeCamAndItem());
+            StartCoroutine(InitializeCamAndItem(mapData));
         }
     }
     #region LifeCycle
