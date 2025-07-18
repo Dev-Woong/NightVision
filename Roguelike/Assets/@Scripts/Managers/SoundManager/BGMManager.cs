@@ -75,7 +75,7 @@ public class BGMManager : MonoBehaviour
         }
         else 
         {
-            BGMCoroutineProcess();
+            aSource.clip = bData[2].BGM;
         }
     }
     public void BGMCoroutineProcess()

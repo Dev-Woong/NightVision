@@ -346,10 +346,11 @@ public class PlayerController :DamageAbleBase,IDamageable
     }
     public void Parring()
     {
-        if (Input.GetKeyDown(KeyCode.D) && isParring == false&&weaponType == WeaponType.Sword)
+        if (Input.GetKeyDown(KeyCode.D) && isParring == false&&weaponType == WeaponType.Sword&&PlayerStat.curEnergy >= 40)
         {
             bc.size = parringBCSize;
             anim.SetTrigger("Parring");
+            PlayerStat.curEnergy -= 40;                                         
             isParring = true;
             rb.gravityScale = 1f;
             moveAble = false;

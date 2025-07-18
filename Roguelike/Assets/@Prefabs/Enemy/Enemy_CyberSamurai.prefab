@@ -300,7 +300,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damageAble: 1
-  eType: 0
+  eType: 1
   damagePos: {fileID: 6337855100605087145}
   damageText: {fileID: 2707642217791368709, guid: 04b8c71144ab0f5478c351bdc7621f7a, type: 3}
   speed: 0
