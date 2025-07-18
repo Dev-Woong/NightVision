@@ -38,6 +38,7 @@ public class LoadingSceneManager : MonoBehaviour
 
     private void Start()
     {
+        LoadingController.onInputBlocker = true;
         StartCoroutine(LoadScene());
         StartCoroutine(CoLoadingText());
         StartCoroutine(CoTText());
@@ -119,7 +120,6 @@ public class LoadingSceneManager : MonoBehaviour
         }
         else
         {
-
             StartCoroutine(CoNmText());
         }
         AsyncOperation op = SceneManager.LoadSceneAsync(nextScene);

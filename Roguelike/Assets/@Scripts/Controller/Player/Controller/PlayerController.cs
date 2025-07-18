@@ -652,24 +652,27 @@ public class PlayerController :DamageAbleBase,IDamageable
     
     void Update()
     {
-        if( moveAble == true) 
-        { 
-            Move(); 
-            Jump();
-            Dash();
-            SetWeaponState();
-            GetWeaponState();
-            Attack();
-            Parring();
+        if (LoadingController.onInputBlocker == false)
+        {
+            if (moveAble == true)
+            {
+                Move();
+                Jump();
+                Dash();
+                SetWeaponState();
+                GetWeaponState();
+                Attack();
+                Parring();
+            }
+            EnterRifleMode();
+            GunModeUI();
+            SelectGunMode();
+            DoubleJump();
+            OnAir();
+            EnterSnipeMode();
+            UseSkill();
+            ResetComboCount();
         }
-        EnterRifleMode();
-        GunModeUI();
-        SelectGunMode();
-        DoubleJump();
-        OnAir();
-        EnterSnipeMode();
-        UseSkill();
-        ResetComboCount();
     }
     #endregion
 }

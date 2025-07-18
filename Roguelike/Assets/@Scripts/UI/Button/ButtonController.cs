@@ -28,7 +28,6 @@ public class ButtonController : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.Escape) && SettingPanel.activeSelf)
         {
             SettingPanel.SetActive(false);
-            //startgame.GetComponent<Button>().
         }
             
     }
