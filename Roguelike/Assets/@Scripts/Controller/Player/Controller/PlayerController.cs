@@ -1,5 +1,5 @@
 using System.Collections;
-using UnityEditor.U2D.Aseprite;
+
 using UnityEngine;
 public enum WeaponType
 {

@@ -22,7 +22,7 @@ MonoBehaviour:
   skillType: 0
   animSpot: '-'
   hitCount: 30
-  damageValue: 12
+  damageValue: 4
   SFX: {fileID: 8300000, guid: ce80e287a8a8843449258c60a32bcacf, type: 3}
   HitEffect: {fileID: 5099289152872433770, guid: 47d68cf229101694f9b0faea8768cdd2, type: 3}
   effectPos: {x: 0.4, y: -0.1, z: 0}
