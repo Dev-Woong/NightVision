@@ -39,10 +39,19 @@ public class BGMManager : MonoBehaviour
         
         for (int i = 0; i < bData.Length; i++)
         {
-            if (bData[i].sceneNum == a+1)
+            if (LoadingSceneManager.isDie == false)
             {
-                aSource.clip = bData[a+1].BGM;
-                break;
+                if (bData[i].sceneNum == a + 1)
+                {
+                    aSource.clip = bData[a + 1].BGM;
+                    a++;
+                    break;
+                }
+            }
+            else
+            {
+                aSource.clip = bData[2].BGM;
+                a = 2;
             }
         }
     }
@@ -123,7 +132,6 @@ public class BGMManager : MonoBehaviour
             aSource.volume += 0.05f;
             yield return new WaitForSeconds(0.05f);
         }
-        a++;
         yield break;
     }
 }

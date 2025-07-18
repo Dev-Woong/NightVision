@@ -31,7 +31,10 @@ public class PlayerPositionManager : MonoBehaviour
             }
         }
     }
+    public void RespawnPlayer()
+    {
 
+    }
     public void SetTargetSpawnId(string newId)
     {
         targetSpawnId = newId;

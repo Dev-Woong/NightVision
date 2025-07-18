@@ -4,20 +4,32 @@ using UnityEngine.UI;
 public class PlayerStatus: MonoBehaviour
 {
     
-    public float curEnergy = 100;
-    public float maxEnergy = 100;
+    public float curEnergy;
+    public float maxEnergy;
+    public float EnergyRecovery;
     public Image Energy;
-    void Start()
-    {
-    }
-
     public void EnergyAmount()
     {
         Energy.fillAmount = curEnergy / maxEnergy;
     }
-    // Update is called once per frame
+    public void EnergyCharge()
+    {
+        if (curEnergy <= maxEnergy)
+        {
+            curEnergy += Time.deltaTime * EnergyRecovery;
+        }
+        
+    }
+    private void Start()
+    {
+        curEnergy = maxEnergy;
+    }
     void Update()
     {
-        //EnergyAmount();
+        if (LoadingController.onInputBlocker == false)
+        {
+            EnergyCharge();
+            EnergyAmount();
+        }
     }
 }

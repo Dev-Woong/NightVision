@@ -13,5 +13,6 @@ public class MapData : ScriptableObject
     public string curmapName;
 
     public string nextmapName;
+    public Vector2 SpawnPoint; 
 
 }
