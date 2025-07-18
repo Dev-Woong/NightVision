@@ -1,13 +1,15 @@
-using Unity.VisualScripting;
+
+using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class UIManager : MonoBehaviour
 {
-    private UIManager Instance;
-    public GameObject pausepenal;
-    public GameObject optionpenal;
-    public GameObject keypenal;
+    public static UIManager Instance;
+    public GameObject pausepanel;
+    public GameObject optionpanel;
+    public GameObject keypanel;
+    public GameObject dieImage;
 
     bool on = false;
     bool inGame = false;
@@ -36,6 +38,12 @@ public class UIManager : MonoBehaviour
         else 
             inGame = false; 
     }
+    public void PlayerDiePanel()
+    {
+        dieImage.SetActive(true);
+        dieImage.GetComponent<DiePanel>().DieAnim();
+    }
+    
     void Update()
     {
         if (LoadingController.onInputBlocker != true)
@@ -43,7 +51,7 @@ public class UIManager : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.Escape) && inGame == true)
             {
                 on = !on;
-                pausepenal.SetActive(on);
+                pausepanel.SetActive(on);
                 if (on == true)
                 {
                     Time.timeScale = 0;
@@ -51,8 +59,8 @@ public class UIManager : MonoBehaviour
                 if (on == false)
                 {
                     Time.timeScale = 1;
-                    optionpenal.SetActive(false);
-                    keypenal.SetActive(false);
+                    optionpanel.SetActive(false);
+                    keypanel.SetActive(false);
                 }
             } 
         }

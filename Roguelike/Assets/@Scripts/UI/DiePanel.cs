@@ -1,18 +1,25 @@
+using UnityEditor.Build.Content;
 using UnityEngine;
 
 public class DiePanel : MonoBehaviour
 {
-    public GameObject DiePenal;
-
-
+    public GameObject DieImage;
+    Animator anim;
+    private void Awake()
+    {
+        anim = GetComponent<Animator>();
+    }
     void Start()
     {
-        DiePenal.SetActive(false);
+        gameObject.SetActive(false);
     }
-
-    
-    void EnDie()
+    public void DieAnim()
     {
-        DiePenal.SetActive(true);
+        anim.SetTrigger("Die");
+    }
+    public void DieAnimEvent()
+    {
+        LoadingSceneManager.LoadScene("Home", null, true);
+        DieImage.SetActive(false);
     }
 }

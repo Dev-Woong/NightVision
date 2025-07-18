@@ -17,3 +17,4 @@ MonoBehaviour:
   useInitializeCamAndItem: 1
   curmapName: "\uB9C8\uC744 \uC678\uACFD"
   nextmapName: "\uB9C8\uC744"
+  SpawnPoint: {x: 12.05, y: -4.7}

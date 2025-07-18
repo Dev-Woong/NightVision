@@ -1,6 +1,7 @@
 using System.Collections;
 
 using UnityEngine;
+using UnityEngine.UI;
 public enum WeaponType
 {
     Hand,
@@ -34,7 +35,7 @@ public class PlayerController :DamageAbleBase,IDamageable
     public Transform damagePos;
     public GameObject damageText;
     private RifleController rc;
-
+    [SerializeField] private MapData home;
     readonly WaitForSeconds wTime = new(0.04f);
     private WeaponType weaponType;
 
@@ -75,25 +76,35 @@ public class PlayerController :DamageAbleBase,IDamageable
     public AudioClip jumpSFX;
     public AudioClip[] swapSFX;
     public AudioClip parringSFX;
+    public SlicedFilledImage HPImage;
     #endregion
 
    
     public override void OnDamage(float causerAtk, WeaponType wType)
     {
-        curHp -= causerAtk;
-        GameObject hudText = Instantiate(damageText);
-        hudText.transform.position = damagePos.position;
-        hudText.GetComponent<DamageText>().damage = causerAtk;
-        
+        if (curHp > 0)
+        {
+            curHp -= causerAtk;
+            GameObject hudText = Instantiate(damageText);
+            hudText.transform.position = damagePos.position;
+            hudText.GetComponent<DamageText>().damage = causerAtk;
+
             anim.SetTrigger("Hurt");
             moveAble = false;
-        
-        
-        rb.gravityScale = 1.0f;
-        //if (curHp <= 0)
-        //{
-        //    Die();
-        //}
+            rb.gravityScale = 1.0f;
+        }
+        else 
+        {
+            curHp -= causerAtk;
+            GameObject hudText = Instantiate(damageText);
+            hudText.transform.position = damagePos.position;
+            hudText.GetComponent<DamageText>().damage = causerAtk;
+            Die();
+        }
+    }
+    public void HPProcess()
+    {
+        HPImage.fillAmount = curHp/PublicStat.maxHp;
     }
     #region GunMode
     public void EnterSnipeMode()
@@ -148,22 +159,27 @@ public class PlayerController :DamageAbleBase,IDamageable
             }
             if (Input.GetKeyDown(KeyCode.F))
             {
-                switch (mode)
+                if (PlayerStat.curEnergy >= 30)
                 {
-                    case 0:
-                        moveAble = !moveAble;
-                        modeSelection = false;
-                        snipeMode = true;
-                        mode = 0;
-                        break;
-                    case 1:
-                        moveAble = !moveAble;
-                        modeSelection = false;
-                        rifleMode = !rifleMode;
-                        mode = 0;
-                        StartCoroutine(RifleFire());
-                        break;
+                    PlayerStat.curEnergy -= 30;
+                    switch (mode)
+                    {
+                        case 0:
+                            moveAble = !moveAble;
+                            modeSelection = false;
+                            snipeMode = true;
+                            mode = 0;
+                            break;
+                        case 1:
+                            moveAble = !moveAble;
+                            modeSelection = false;
+                            rifleMode = !rifleMode;
+                            mode = 0;
+                            StartCoroutine(RifleFire());
+                            break;
+                    }
                 }
+                else return;
             }
 
         }
@@ -298,7 +314,6 @@ public class PlayerController :DamageAbleBase,IDamageable
             Instantiate(DashEffect, DashEffectPoint);
         }
     }
-
     void Attack()
     {
         if (Input.GetKeyDown(KeyCode.A))
@@ -306,7 +321,29 @@ public class PlayerController :DamageAbleBase,IDamageable
             anim.SetTrigger("Attack");
         }
     }
-    
+    private void Die()
+    {
+        anim.SetTrigger("Die");
+        moveAble = false;
+        damageAble = false;
+    }
+    public void Respawn()
+    {
+        if (LoadingSceneManager.respawnAble == true)
+        {
+            anim.SetTrigger("Respawn");
+            moveAble = true;
+            damageAble = true;
+            curHp = PublicStat.maxHp;
+            shopOpenCount = 1;
+            transform.position = home.SpawnPoint;
+            LoadingSceneManager.respawnAble = false;
+        }
+    }
+    private void DieProcess() // AnimationEvent
+    {
+        UIManager.Instance.PlayerDiePanel();
+    }
     public void Parring()
     {
         if (Input.GetKeyDown(KeyCode.D) && isParring == false&&weaponType == WeaponType.Sword)
@@ -326,18 +363,19 @@ public class PlayerController :DamageAbleBase,IDamageable
     }
     void UseSkill()
     {
-        if (Input.GetKeyDown(KeyCode.S))
+        if (Input.GetKeyDown(KeyCode.S)&&PlayerStat.curEnergy >=10)
         {
-            lastInputTime = Time.time;  
+            lastInputTime = Time.time;
             if (weaponType != WeaponType.Gun)
             {
+
                 if (comboResetCoroutine != null)
                 {
                     StopCoroutine(comboResetCoroutine);
                     comboResetCoroutine = null;
                 }
                 anim.SetTrigger(Define.useSkillHash);
-                anim.SetInteger(Define.comboCountHash, comboCount);
+                anim.SetInteger(Define.comboCountHash, comboCount);                
             }
             else
             {
@@ -347,6 +385,10 @@ public class PlayerController :DamageAbleBase,IDamageable
                 }
             }
         }
+    }
+    public void UseEnergy()
+    {
+        PlayerStat.curEnergy -= 10;
     }
     #endregion
     public void OnAirTool()
@@ -463,7 +505,7 @@ public class PlayerController :DamageAbleBase,IDamageable
         Vector3 fallForce = Vector3.down;
         rb.AddForce(fallForce * 10, ForceMode2D.Impulse);
     }
-    public void PlusComboCount() // �޺� ī��Ʈ ���� Animation Event
+    public void PlusComboCount()
     {
         comboCount++;
         if (comboCount > 2)
@@ -471,7 +513,7 @@ public class PlayerController :DamageAbleBase,IDamageable
             comboCount = 0;
         }
     }
-    private void ResetComboCount() // Ȥ�� �����ִ� comboCount �����ʱ�ȭ
+    private void ResetComboCount() 
     {
         AnimatorStateInfo state = anim.GetCurrentAnimatorStateInfo(0);
 
@@ -505,17 +547,14 @@ public class PlayerController :DamageAbleBase,IDamageable
         {
             timer += Time.deltaTime;
 
-            // �߰��� �Է��� ���� �������� ����
             if (lastInputTime > lastCheckedInputTime)
             {
                 comboResetCoroutine = null;
-                yield break; // �޺� ����
+                yield break;
             }
 
             yield return null;
         }
-
-        // �Է� �������� �޺� ����
         comboCount = 0;
         comboResetCoroutine = null;
     }
@@ -564,11 +603,13 @@ public class PlayerController :DamageAbleBase,IDamageable
                 }
                 else
                 {
-                    if (weaponType != WeaponType.Hand)
-                    anim.SetTrigger("Hurt");
-                    float bulletAtk = other.gameObject.GetComponent<Bullet>().atk;
-                    OnDamage(bulletAtk, weaponType);
-                    other.gameObject.SetActive(false);
+                    if (curHp > 0) 
+                    {
+                        anim.SetTrigger("Hurt");
+                        float bulletAtk = other.gameObject.GetComponent<Bullet>().atk;
+                        OnDamage(bulletAtk, weaponType);
+                        other.gameObject.SetActive(false);
+                    }
                 }
             }
         }
@@ -599,8 +640,6 @@ public class PlayerController :DamageAbleBase,IDamageable
         camChanger.Initialize();
         ShopManager.Instance.NewShopItems(itemDatabase, 4);
     }
-
-
     IEnumerator HandleMapTransition(MapData targetMapData)
     {
         yield return null;
@@ -614,7 +653,7 @@ public class PlayerController :DamageAbleBase,IDamageable
         {
             if (targetMapData.useInitializeCamAndItem==true&& LoadingSceneManager.onLoadScene==true)
             {
-                yield return new WaitForSeconds(8);
+                yield return new WaitForSeconds(9);
                 InitializeCamAndItem(targetMapData);
                 load = true;
             }
@@ -625,7 +664,6 @@ public class PlayerController :DamageAbleBase,IDamageable
     public void Awake()
     {
         DontDestroyOnLoad(gameObject);
-
         PlayerStat = GetComponent<PlayerStatus>();
         PublicStat = GetComponent<PublicStatus>();
         rb = GetComponent<Rigidbody2D>();
@@ -633,8 +671,8 @@ public class PlayerController :DamageAbleBase,IDamageable
         anim = GetComponent<Animator>();
         rc = GetComponentInChildren<RifleController>();
         bc = GetComponent<BoxCollider2D>();
-        maxHp = PublicStat.maxHp;
-        curHp = maxHp;
+        
+        
         normalBCSize = bc.size;
         
         parringBCSize = new Vector2(2.3f, 0.9f);
@@ -644,7 +682,7 @@ public class PlayerController :DamageAbleBase,IDamageable
     {
         Rifle.SetActive(false);
         Scope.SetActive(false);
-        
+        curHp = PublicStat.maxHp;
         rb.freezeRotation = true;
 
         camChanger = GetComponent<CameraChanger>();
@@ -663,6 +701,7 @@ public class PlayerController :DamageAbleBase,IDamageable
                 GetWeaponState();
                 Attack();
                 Parring();
+                HPProcess();
             }
             EnterRifleMode();
             GunModeUI();
@@ -673,6 +712,8 @@ public class PlayerController :DamageAbleBase,IDamageable
             UseSkill();
             ResetComboCount();
         }
+        
+        Respawn();
     }
     #endregion
 }

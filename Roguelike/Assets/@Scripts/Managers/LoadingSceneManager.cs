@@ -31,8 +31,8 @@ public class LoadingSceneManager : MonoBehaviour
     public static string nextScene;
     public static string curMapName;
     public static string nextMapName;
-
-
+    public static bool isDie;
+    public static bool respawnAble = false;
     [SerializeField]
     private Image progressBar;
 
@@ -47,12 +47,14 @@ public class LoadingSceneManager : MonoBehaviour
         tr0.SetActive(false);
         tr1.SetActive(false);
         tr2.SetActive(false);
+        respawnAble = false;
     }
 
-    public static void LoadScene(string nextsceneName, MapData nextMapData = null)
+    public static void LoadScene(string nextsceneName, MapData nextMapData = null,bool onDie = false)
     {
         nextScene = nextsceneName;
         SceneManager.LoadScene("LoadingScene");
+        isDie = onDie;
         if (nextMapData != null)
         {
             curMapName = nextMapData.curmapName;
@@ -83,30 +85,34 @@ public class LoadingSceneManager : MonoBehaviour
 
     IEnumerator CoNmText()
     {
-        while (true)
+        if (isDie == false)
         {
-            
-            nm.text = nma[0];
-            yield return new WaitForSeconds(1.8f);
-            nm.text = nma[1];
-            yield return new WaitForSeconds(1.8f);
-            nm.text = nma[2];
-            yield return new WaitForSeconds(1.8f);
-            nm.text = nma[3];
-            yield return new WaitForSeconds(1.8f);
-            nm.text = nma[4];
-            yield return new WaitForSeconds(1.8f);
-            nm.text = nma[5];
-            yield return new WaitForSeconds(1.8f);
-
-
+            while (true)
+            {
+                nm.text = nma[0];
+                yield return new WaitForSeconds(1.8f);
+                nm.text = nma[1];
+                yield return new WaitForSeconds(1.8f);
+                nm.text = nma[2];
+                yield return new WaitForSeconds(1.8f);
+                nm.text = nma[3];
+                yield return new WaitForSeconds(1.8f);
+                nm.text = nma[4];
+                yield return new WaitForSeconds(1.8f);
+                nm.text = nma[5];
+                yield return new WaitForSeconds(1.8f);
+            }
+        }
+        else
+        {
+            nm.text = "부활중입니다.";
         }
     }
 
     IEnumerator LoadScene()
     {
         yield return null;
-        if (curMapName != null)
+        if (curMapName != null && isDie == false)
         {
             cmn.text = curMapName;
             nmn.text = nextMapName;
@@ -171,12 +177,16 @@ public class LoadingSceneManager : MonoBehaviour
                 { 
                     if (op.allowSceneActivation == true)
                     {
-                        
+                        if (isDie == true)
+                        {
+                            respawnAble = true;
+                        }
                         onLoadScene = op.allowSceneActivation;
                         cmn.text = "";
                         nmn.text = "";
-                        StopCoroutine(CoNmText());
-                        
+                        isDie = false;
+                        LoadingController.onInputBlocker = false;
+                        StopAllCoroutines();
                         //nm.gameObject.SetActive(false);
                     }
                     yield return new WaitForSeconds(0.1f);

@@ -4627,14 +4627,13 @@ GameObject:
   - component: {fileID: 227585203}
   - component: {fileID: 227585205}
   - component: {fileID: 227585204}
-  - component: {fileID: 227585206}
   m_Layer: 5
   m_Name: Die Panel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &227585203
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4693,19 +4692,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 227585202}
   m_CullTransparentMesh: 1
---- !u!114 &227585206
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 227585202}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 234c6158c7d60544d96a5d344913c022, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  DiePenal: {fileID: 227585202}
 --- !u!1 &227812024
 GameObject:
   m_ObjectHideFlags: 0
@@ -10683,9 +10669,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eae8f3826fac7924ea9f066e70cd6756, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pausepenal: {fileID: 1185648461}
-  optionpenal: {fileID: 406095409}
-  keypenal: {fileID: 1183669277}
+  pausepanel: {fileID: 1185648461}
+  optionpanel: {fileID: 406095409}
+  keypanel: {fileID: 1183669277}
+  dieImage: {fileID: 1842841653}
 --- !u!114 &618773512
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32514,6 +32501,7 @@ GameObject:
   - component: {fileID: 1842841658}
   - component: {fileID: 1842841657}
   - component: {fileID: 1842841656}
+  - component: {fileID: 1842841659}
   m_Layer: 5
   m_Name: Image
   m_TagString: Untagged
@@ -32601,6 +32589,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1842841653}
   m_CullTransparentMesh: 1
+--- !u!114 &1842841659
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1842841653}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 234c6158c7d60544d96a5d344913c022, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DieImage: {fileID: 1842841653}
 --- !u!1 &1845011292
 GameObject:
   m_ObjectHideFlags: 0
