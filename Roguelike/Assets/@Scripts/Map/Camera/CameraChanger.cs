@@ -35,6 +35,8 @@ public class CameraChanger : MonoBehaviour
         ScopeCam.GetComponent<CinemachineConfiner2D>().BoundingShape2D = mappol[0];
         RifleCam.GetComponent<CinemachineConfiner2D>().BoundingShape2D = mappol[0];
         StartCoroutine(DelayUpdate());
+
+        LoadingController.onInputBlocker = false;
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {

@@ -38,20 +38,23 @@ public class UIManager : MonoBehaviour
     }
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape)&& inGame == true)
+        if (LoadingController.onInputBlocker != true)
         {
-            on = !on;
-            pausepenal.SetActive(on);
-            if (on == true)
+            if (Input.GetKeyDown(KeyCode.Escape) && inGame == true)
             {
-                Time.timeScale = 0;
-            }
-            if (on == false)
-            {
-                Time.timeScale = 1;
-                optionpenal.SetActive(false);
-                keypenal.SetActive(false);
-            }
+                on = !on;
+                pausepenal.SetActive(on);
+                if (on == true)
+                {
+                    Time.timeScale = 0;
+                }
+                if (on == false)
+                {
+                    Time.timeScale = 1;
+                    optionpenal.SetActive(false);
+                    keypenal.SetActive(false);
+                }
+            } 
         }
     }
 

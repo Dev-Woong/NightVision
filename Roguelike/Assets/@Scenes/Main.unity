@@ -37484,6 +37484,7 @@ MonoBehaviour:
   isGround: 0
   closest: {fileID: 0}
   direction: {x: 0, y: 0}
+  dieClip: {fileID: 0}
   doShoot: 1
   shootCoolTime: 3
   curShootTime: 0
@@ -37519,6 +37520,7 @@ MonoBehaviour:
   isGround: 0
   closest: {fileID: 0}
   direction: {x: 0, y: 0}
+  dieClip: {fileID: 0}
   doShoot: 1
   shootCoolTime: 3
   curShootTime: 0
@@ -37710,6 +37712,7 @@ MonoBehaviour:
   isGround: 0
   closest: {fileID: 0}
   direction: {x: 0, y: 0}
+  dieClip: {fileID: 0}
 --- !u!212 &7336577218724604842
 SpriteRenderer:
   m_ObjectHideFlags: 0
