@@ -12,7 +12,7 @@ public class Bullet : PoolAble
     {
         rb= GetComponent<Rigidbody2D>();    
     }
-    public void SetBullet(LayerMask target, Vector3 direction,float setSpeed ,float targetAtk = 0)
+    public void SetBullet(LayerMask target, Vector3 direction,float setSpeed=15 ,float targetAtk = 0)
     {
         targetMask = target;
         atk = targetAtk;

@@ -32,7 +32,7 @@ public class KimeraSpiderController : EnemyController
         CoolTimeProcess();
         Collider2D[] hits = Physics2D.OverlapCircleAll(transform.position, detectionRadius, PlayerLayer);
         ParticleRot();
-        if (hits.Length > 0)
+        if (hits.Length > 0 || onAttacked == true)
         {
             float minDistance = Mathf.Infinity;
             foreach (Collider2D hit in hits)
@@ -165,8 +165,6 @@ public class KimeraSpiderController : EnemyController
     }
     protected void DropAttackProcess()
     {
-        
-        
         rb.linearVelocity = (direction.normalized * speed);
         doDropAttack = true;
         sr.color = new Color(0,0,0,0);
@@ -208,12 +206,12 @@ public class KimeraSpiderController : EnemyController
         if (gameObject.transform.localScale.x == 1)
         {   
             bullet.transform.eulerAngles = new Vector3(0, 0, 90);
-            bullet.GetComponent<Bullet>().SetBullet(playerLayer, transform.right,20, ps.atk);
+            bullet.GetComponent<Bullet>().SetBullet(playerLayer, transform.right,17, ps.atk);
         }
         else if (gameObject.transform.localScale.x == -1)
         {
             bullet.transform.eulerAngles = new Vector3(0, 0, -90);
-            bullet.GetComponent<Bullet>().SetBullet(playerLayer, -transform.right,20, ps.atk);
+            bullet.GetComponent<Bullet>().SetBullet(playerLayer, -transform.right,17, ps.atk);
         }
        
     }
@@ -238,6 +236,8 @@ public class KimeraSpiderController : EnemyController
         }
         finalDmg = causerAtk - ps.def;
         curHp -= finalDmg;
+        onAttacked = true;
+        detectionRadius = Mathf.Infinity;
         GameObject hudText = Instantiate(damageText);
         hudText.transform.position = damagePos.position;
         hudText.GetComponent<DamageText>().damage = Mathf.RoundToInt(finalDmg);

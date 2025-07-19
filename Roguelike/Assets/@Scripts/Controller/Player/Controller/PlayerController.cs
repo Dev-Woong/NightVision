@@ -346,11 +346,11 @@ public class PlayerController :DamageAbleBase,IDamageable
     }
     public void Parring()
     {
-        if (Input.GetKeyDown(KeyCode.D) && isParring == false&&weaponType == WeaponType.Sword&&PlayerStat.curEnergy >= 40)
+        if (Input.GetKeyDown(KeyCode.D) && isParring == false&&weaponType == WeaponType.Sword&&PlayerStat.curEnergy >= 5)
         {
             bc.size = parringBCSize;
             anim.SetTrigger("Parring");
-            PlayerStat.curEnergy -= 40;                                         
+            PlayerStat.curEnergy -= 5;                                         
             isParring = true;
             rb.gravityScale = 1f;
             moveAble = false;
@@ -598,8 +598,8 @@ public class PlayerController :DamageAbleBase,IDamageable
                     SFXManager.Instance.PlaySFX(parringSFX);
                     anim.SetTrigger("EnterBullet");
                     anim.SetInteger("RandomParring", a);
-                    other.GetComponent<Rigidbody2D>().linearVelocity = -other.GetComponent<Rigidbody2D>().linearVelocity*2;
-                    other.GetComponent<Bullet>().atk *= 2;
+                    other.GetComponent<Rigidbody2D>().linearVelocity = -other.GetComponent<Rigidbody2D>().linearVelocity*1.5f;
+                    other.GetComponent<Bullet>().atk = PublicStat.atk * 3f;
                     other.GetComponent<Bullet>().targetMask = LayerMask.NameToLayer("Enemy");
                 }
                 else

@@ -26,7 +26,7 @@ public class EnemyController : DamageAbleBase, IDamageable
     public float curHp;
     public bool OnHit = false;
     public bool canAttack = true;
-
+    public bool onAttacked = false;
     public bool moveAble = true;
     public bool isGround = false; 
     protected Coroutine coAttack;
@@ -51,7 +51,7 @@ public class EnemyController : DamageAbleBase, IDamageable
     {
         Collider2D[] hits = Physics2D.OverlapCircleAll(transform.position, detectionRadius, PlayerLayer);
 
-        if (hits.Length > 0)
+        if (hits.Length > 0 || onAttacked == true)
         {
             float minDistance = Mathf.Infinity;
             foreach (Collider2D hit in hits)
@@ -138,6 +138,7 @@ public class EnemyController : DamageAbleBase, IDamageable
     void Die()
     {
         ps.checkDie = true;
+
         gameObject.SetActive(false);
     }
 
@@ -159,6 +160,9 @@ public class EnemyController : DamageAbleBase, IDamageable
             if (curHp <= 0)
             {
                 damageAble = false;
+                gameObject.GetComponent<Rigidbody2D>().linearVelocity = Vector2.zero ;
+                gameObject.GetComponent<Rigidbody2D>().gravityScale = 0;
+                gameObject.GetComponent<BoxCollider2D>().enabled = false;
                 animator.SetTrigger("Die");
             }
         }
@@ -182,6 +186,8 @@ public class EnemyController : DamageAbleBase, IDamageable
                     break;
             }
         }
+        onAttacked = true;
+        detectionRadius = Mathf.Infinity;
         finalDmg = causerAtk-ps.def;
         curHp -= finalDmg;
         GameObject hudText = Instantiate(damageText);
@@ -194,22 +200,14 @@ public class EnemyController : DamageAbleBase, IDamageable
         {
             if (collision.gameObject.GetComponent<Bullet>().targetMask == 7)
             {
-                if (eType == EnemyType.Normal)
+                GameObject hudText = Instantiate(damageText);
+                hudText.transform.position = damagePos.position;
+                hudText.GetComponent<DamageText>().damage = collision.GetComponent<Bullet>().atk;
+                if (curHp <= 0)
                 {
-                    GameObject hudText = Instantiate(damageText);
-                    hudText.transform.position = damagePos.position;
-                    hudText.GetComponent<DamageText>().damage = 999;
+                    damageAble = false;
+                    gameObject.GetComponent<BoxCollider2D>().enabled = false;
                     animator.SetTrigger("Die");
-                }
-                else if (eType == EnemyType.Boss)
-                {
-                    GameObject hudText = Instantiate(damageText);
-                    hudText.transform.position = damagePos.position;
-                    hudText.GetComponent<DamageText>().damage = collision.GetComponent<Bullet>().atk;
-                    if (curHp <= 0)
-                    {
-                        animator.SetTrigger("Die");
-                    }
                 }
             }
         }

@@ -10173,8 +10173,8 @@ MonoBehaviour:
   direction: {x: 0, y: 0}
   dieClip: {fileID: 8300000, guid: 8c2ab882a8b124743bb5cf8fb516907e, type: 3}
   doShoot: 0
-  shootCoolTime: 3.5
-  curShootTime: 3.5
+  shootCoolTime: 4.2
+  curShootTime: 5
   doDropAttack: 0
   onDropSequence: 0
   dropAttackCoolTime: 10

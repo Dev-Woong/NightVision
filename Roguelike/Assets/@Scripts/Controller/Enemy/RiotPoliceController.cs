@@ -1,5 +1,3 @@
-using System.Collections;
-using UnityEditor;
 using UnityEngine;
 
 public class RiotPoliceController : EnemyController
@@ -8,7 +6,7 @@ public class RiotPoliceController : EnemyController
     {
         Collider2D[] hits = Physics2D.OverlapCircleAll(transform.position, detectionRadius, PlayerLayer);
 
-        if (hits.Length > 0)
+        if (hits.Length > 0 || onAttacked == true)
         {
             float minDistance = Mathf.Infinity;
             foreach (Collider2D hit in hits)
@@ -74,6 +72,8 @@ public class RiotPoliceController : EnemyController
                 finalDmg = causerAtk;
                 break;
         }
+        onAttacked = true;
+        detectionRadius = Mathf.Infinity;
         curHp -= Mathf.RoundToInt(finalDmg-ps.def);
         GameObject hudText = Instantiate(damageText);
         hudText.transform.position = damagePos.position;
