@@ -1,7 +1,4 @@
-using System.Collections;
-using UnityEditor;
 using UnityEngine;
-using UnityEngine.UIElements;
 
 public class GhoulController : EnemyController 
 { 
@@ -11,7 +8,7 @@ public class GhoulController : EnemyController
     {
         Collider2D[] hits = Physics2D.OverlapCircleAll(transform.position, detectionRadius, PlayerLayer);
         
-        if (hits.Length > 0)
+        if (hits.Length > 0 || onAttacked == true)
         {
             float minDistance = Mathf.Infinity;
             foreach (Collider2D hit in hits)
