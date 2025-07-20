@@ -53,7 +53,10 @@ public class ShopInteraction : MonoBehaviour
         {
             isPlayerinRange = true;
             ShopOpenCount = collision.GetComponent<PlayerController>().shopOpenCount;
-            collision.GetComponent<PlayerController>().shopOpenCount = 0;
+            if (ShopOpenCount == 1)
+            {
+                collision.GetComponent<PlayerController>().shopOpenCount = 0;
+            }
         }
     }
 
