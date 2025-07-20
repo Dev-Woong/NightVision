@@ -26,4 +26,5 @@ public class ShopItemSlot : MonoBehaviour
         descriptionText.text = instance.baseData.description;
         priceText.text = $"{instance.price}";
     }
+    
 }
