@@ -1,4 +1,4 @@
-using UnityEditor.UIElements;
+
 using UnityEngine;
 
 [CreateAssetMenu(fileName ="NewItem", menuName = "Shop/Item")]

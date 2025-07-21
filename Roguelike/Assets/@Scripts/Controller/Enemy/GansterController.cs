@@ -26,12 +26,13 @@ public class GansterController : EnemyController
                 if (distanceToTarget < stopDistance)
                 {
                     animator.SetBool("isWalk", false);
+                    rb.linearVelocity = Vector3.zero;
                     if (canAttack == true)
                         coAttack = StartCoroutine(EnAttack());
                 }
                 else
                 {
-                    Debug.Log($"ÀÌµ¿Áß {rb.linearVelocity}");
+                    
                     animator.SetBool("isWalk", true);
                     rb.linearVelocity = (direction.normalized * speed);
                     if (closest.position.x >= transform.position.x)

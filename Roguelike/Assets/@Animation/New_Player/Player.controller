@@ -1089,13 +1089,13 @@ AnimatorStateMachine:
   - {fileID: 2366516023207486337}
   - {fileID: 9075271839314279779}
   m_StateMachineTransitions:
-  - first: {fileID: -3851720415808478385}
-    second:
-    - {fileID: -6671376639094627546}
   - first: {fileID: 4809050685455890759}
     second:
     - {fileID: -99398863055945782}
     - {fileID: -6605697281352912456}
+  - first: {fileID: -3851720415808478385}
+    second:
+    - {fileID: -6671376639094627546}
   - first: {fileID: -8623794927704892597}
     second:
     - {fileID: -6620966937036493479}
@@ -1403,7 +1403,7 @@ AnimatorStateMachine:
     m_Position: {x: 280, y: -50, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -7786666382647661247}
-    m_Position: {x: 80, y: -200, z: 0}
+    m_Position: {x: 90, y: -130, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 518800210366153049}
     m_Position: {x: 730, y: 390, z: 0}
@@ -2853,6 +2853,12 @@ AnimatorStateTransition:
   m_Conditions:
   - m_ConditionMode: 1
     m_ConditionEvent: Attack
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: isWalk
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: isRun
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -5234853317000735749}

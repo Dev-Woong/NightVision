@@ -146,6 +146,13 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
+  - time: 0
+    functionName: MoveAbleFalse
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
   - time: 0.041666668
     functionName: DownSlashEffect
     data: 
@@ -183,6 +190,13 @@ AnimationClip:
     messageOptions: 0
   - time: 0.5416667
     functionName: PlusComboCount
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0.6666667
+    functionName: OnMoveAble
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0

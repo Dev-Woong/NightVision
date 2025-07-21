@@ -1,5 +1,4 @@
 using TMPro;
-using UnityEditor.Search;
 using UnityEngine;
 using UnityEngine.UI;
 public class ShopItemSlot : MonoBehaviour
@@ -38,12 +37,10 @@ public class ShopItemSlot : MonoBehaviour
     {
         if (quantity <= 0)
         {
-            Debug.Log("품절입니다.");
             return;
         }
         if (PlayerStatus.Instance.jamStack < price)
         {
-            Debug.Log("잔액이 부족합니다");
             return;
         }
         PlayerStatus.Instance.SetItemStats(this);
@@ -55,7 +52,6 @@ public class ShopItemSlot : MonoBehaviour
             selectedButton.interactable = false;
         }
 
-        Debug.Log($"{nameText.text} 아이템 구매 완료!");
     }
 }
 

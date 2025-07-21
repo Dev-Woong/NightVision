@@ -152,6 +152,13 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
+  - time: 0
+    functionName: MoveAbleFalse
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
   - time: 0.14285715
     functionName: PlayerCreateAttackBox
     data: 
@@ -210,6 +217,13 @@ AnimationClip:
     messageOptions: 0
   - time: 1.0952381
     functionName: PlusComboCount
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 1.1904762
+    functionName: OnMoveAble
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
