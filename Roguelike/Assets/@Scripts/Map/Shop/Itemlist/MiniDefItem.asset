@@ -10,18 +10,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1bcaff112e6880143aa326affc45c68f, type: 3}
-  m_Name: EnergyRecovery
+  m_Name: MiniDefItem
   m_EditorClassIdentifier: 
-  itemName: "\uC5D0\uB108\uC9C0 \uD68C\uBCF5\uB825"
-  minRandomPrice: 100
-  maxRandomPrice: 150
+  itemName: "\uBC29\uC5B4\uB825 (\uD558)"
+  minRandomPrice: 80
+  maxRandomPrice: 120
   minRandomQuantity: 1
   maxRandomQuantity: 3
-  description: "\uC5D0\uB108\uC9C0 \uD68C\uBCF5\uB825\uC744 5\uC99D\uAC00\uC2DC\uD0B5\uB2C8\uB2E4."
-  itemIcon: {fileID: -1604204522596464865, guid: 97892ea818d14724e8657f5693207b99, type: 3}
+  description: "\uBC29\uC5B4\uB825\uC744 1 \uC99D\uAC00\uC2DC\uD0A8\uB2E4"
+  itemIcon: {fileID: -6840694530457308673, guid: 97892ea818d14724e8657f5693207b99, type: 3}
   itemAtk: 0
   itemSpeed: 0
-  itemDef: 0
+  itemDef: 1
   itemMaxHp: 0
   itemEnergy: 0
-  itemEnergyRecovery: 0.5
+  itemEnergyRecovery: 0
