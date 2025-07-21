@@ -12,14 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1bcaff112e6880143aa326affc45c68f, type: 3}
   m_Name: HealthPlus
   m_EditorClassIdentifier: 
-  itemName: "\uB2A5\uB825\uCE58 \uC99D\uAC00 : \uCCB4\uB825"
-  price: 0
-  basePrice: 30
-  minRandomPrice: 10
-  maxRandomPrice: 90
-  quantity: 0
-  basequantity: 3
+  itemName: "\uCCB4\uB825"
+  minRandomPrice: 100
+  maxRandomPrice: 140
   minRandomQuantity: 1
   maxRandomQuantity: 3
   description: "\uCCB4\uB825\uC744 20 \uC99D\uAC00\uC2DC\uD0A8\uB2E4"
   itemIcon: {fileID: -5834073387260071431, guid: 97892ea818d14724e8657f5693207b99, type: 3}
+  itemAtk: 0
+  itemSpeed: 0
+  itemDef: 0
+  itemMaxHp: 20
+  itemEnergy: 0
+  itemEnergyRecovery: 0

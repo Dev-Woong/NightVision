@@ -471,6 +471,12 @@ MonoBehaviour:
   quantityText: {fileID: 4282247513836799134}
   descriptionText: {fileID: 6483014012127299838}
   priceText: {fileID: 452124098538968434}
+  atk: 0
+  maxHp: 0
+  speed: 0
+  def: 0
+  price: 0
+  quantity: 0
   selectedButton: {fileID: 5768434257194023596}
 --- !u!1 &1668036888959132054
 GameObject:
@@ -902,7 +908,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 4530212149137582869}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 3481690252419942682}
+        m_TargetAssemblyTypeName: ShopItemSlot, Assembly-CSharp
+        m_MethodName: BuyingItem
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &5644934758763011369
 GameObject:
   m_ObjectHideFlags: 0

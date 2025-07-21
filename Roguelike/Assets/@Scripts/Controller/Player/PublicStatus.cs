@@ -10,20 +10,46 @@ public class PublicStatus : MonoBehaviour
     public float maxHp;
     public float curHp;
     public float def;
-    public int jamStack;
+    public float baseAtk;
+    public float baseSpeed;
+    public float baseMaxHp;
+    public int baseDef;
+    public float itemAtk;
+    public float itemSpeed;
+    public float itemMaxHp;
+    public int itemDef;
+    public int dropJam;
     public KnockBack knockBack;
     public bool checkDie = false;
     void Awake()
     {
-        atk = obData.atk;
-        speed = obData.speed;   
-        maxHp = obData.maxHp;
-        def = obData.def;
-        jamStack = obData.dropJam;
+        baseAtk = obData.atk;
+        baseSpeed = obData.speed;
+        baseMaxHp = obData.maxHp;
+        baseDef = obData.def;
+        dropJam = obData.dropJam;
         curHp = maxHp;
     }
-    void StatusUpdate()
+    private void Start()
     {
-        // TODO : 플레이어 아이템구매하면 스탯변화주기
+        atk = baseAtk;
+        speed = baseSpeed;
+        maxHp = baseMaxHp;
+        def = baseDef;
+    }
+    public void StatusUpdate()
+    {
+        atk = baseAtk +itemAtk;
+        speed =baseSpeed+ itemSpeed;
+        maxHp = baseMaxHp+itemMaxHp;
+        def = baseDef+itemDef;
+    }
+    public void SetItemStats(PlayerStatus ps)
+    {
+        itemAtk = ps.atk;
+        itemSpeed = ps.speed;
+        itemMaxHp = ps.maxHp;
+        itemDef = ps.def;
+        StatusUpdate();
     }
 }

@@ -164,6 +164,8 @@ public class EnemyController : DamageAbleBase, IDamageable
                 gameObject.GetComponent<Rigidbody2D>().gravityScale = 0;
                 gameObject.GetComponent<BoxCollider2D>().enabled = false;
                 animator.SetTrigger("Die");
+                PlayerStatus.Instance.jamStack += ps.dropJam;
+                PlayerStatus.Instance.UpdateJam();
             }
         }
     }

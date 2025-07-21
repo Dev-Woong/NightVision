@@ -12,14 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1bcaff112e6880143aa326affc45c68f, type: 3}
   m_Name: DefancePlus
   m_EditorClassIdentifier: 
-  itemName: "\uB2A5\uB825\uCE58 \uC99D\uAC00 : \uBC29\uC5B4"
-  price: 0
-  basePrice: 80
-  minRandomPrice: 40
+  itemName: "\uBC29\uC5B4"
+  minRandomPrice: 120
   maxRandomPrice: 160
-  quantity: 0
-  basequantity: 4
   minRandomQuantity: 1
   maxRandomQuantity: 4
-  description: "\uBC29\uC5B4\uB825\uC744 3 \uC99D\uAC00\uC2DC\uD0A8\uB2E4"
+  description: "\uBC29\uC5B4\uB825\uC744 2 \uC99D\uAC00\uC2DC\uD0A8\uB2E4"
   itemIcon: {fileID: -2100862993504246422, guid: 97892ea818d14724e8657f5693207b99, type: 3}
+  itemAtk: 0
+  itemSpeed: 0
+  itemDef: 2
+  itemMaxHp: 0
+  itemEnergy: 0
+  itemEnergyRecovery: 0

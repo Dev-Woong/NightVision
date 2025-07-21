@@ -77,31 +77,22 @@ public class PlayerController :DamageAbleBase,IDamageable
     public AudioClip[] swapSFX;
     public AudioClip parringSFX;
     public SlicedFilledImage HPImage;
+    public GameObject PlayerUI;
     #endregion
 
-   
+
     public override void OnDamage(float causerAtk, WeaponType wType)
     {
-        if (curHp > 0)
-        {
-            curHp -= causerAtk;
-            GameObject hudText = Instantiate(damageText);
-            hudText.transform.position = damagePos.position;
-            hudText.GetComponent<DamageText>().damage = causerAtk;
-
-            anim.SetTrigger("Hurt");
-            moveAble = false;
-            rb.gravityScale = 1.0f;
-        }
-        else 
-        {
-            curHp -= causerAtk;
-            GameObject hudText = Instantiate(damageText);
-            hudText.transform.position = damagePos.position;
-            hudText.GetComponent<DamageText>().damage = causerAtk;
-            Die();
-        }
+        curHp -= causerAtk;
+        GameObject hudText = Instantiate(damageText);
+        hudText.transform.position = damagePos.position;
+        hudText.GetComponent<DamageText>().damage = causerAtk;
+        anim.SetTrigger("Hurt");
+        moveAble = false;
+        rb.gravityScale = 1.0f;
+        StartCoroutine(Die());
     }
+    
     public void HPProcess()
     {
         HPImage.fillAmount = curHp/PublicStat.maxHp;
@@ -276,8 +267,6 @@ public class PlayerController :DamageAbleBase,IDamageable
                 anim.SetBool(Define.isRunHash, false);
                 tr.Translate(Time.deltaTime * PublicStat.speed * moveDir);
             }
-
-
             if (h > 0)
             {
                 tr.localScale = new Vector3(1, 1, 1);
@@ -286,7 +275,6 @@ public class PlayerController :DamageAbleBase,IDamageable
             {
                 tr.localScale = new Vector3(-1, 1, 1);
             }
-
         }
         else
         {
@@ -304,12 +292,10 @@ public class PlayerController :DamageAbleBase,IDamageable
             if (tr.localScale.x == 1)
             {
                 DashEffect.transform.localScale = new Vector3(1, 0, 0);
-
             }
             else if (tr.localScale.x == -1)
             {
                 DashEffect.transform.localScale = new Vector3(-1, 0, 0);
-
             }
             Instantiate(DashEffect, DashEffectPoint);
         }
@@ -321,11 +307,18 @@ public class PlayerController :DamageAbleBase,IDamageable
             anim.SetTrigger("Attack");
         }
     }
-    private void Die()
+    IEnumerator Die()
     {
-        anim.SetTrigger("Die");
-        moveAble = false;
-        damageAble = false;
+        yield return new WaitForSeconds(0.05f);
+        if (curHp <= 0)
+        {
+            anim.SetTrigger("Die");
+            moveAble = false;
+            damageAble = false;
+            
+        }
+        Debug.Log("111");
+        yield return null;
     }
     public void Respawn()
     {
@@ -702,7 +695,7 @@ public class PlayerController :DamageAbleBase,IDamageable
                 GetWeaponState();
                 Attack();
                 Parring();
-                HPProcess();
+                
             }
             EnterRifleMode();
             GunModeUI();
@@ -713,7 +706,8 @@ public class PlayerController :DamageAbleBase,IDamageable
             UseSkill();
             ResetComboCount();
         }
-        
+        HPProcess();
+        PlayerUI.SetActive(!LoadingController.onInputBlocker);
         Respawn();
     }
     #endregion
