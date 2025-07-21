@@ -90,7 +90,14 @@ public class PlayerController :DamageAbleBase,IDamageable
         anim.SetTrigger("Hurt");
         moveAble = false;
         rb.gravityScale = 1.0f;
-        StartCoroutine(Die());
+        if (curHp <= 0)
+        {
+            snipeMode = false;
+            rifleMode = false;
+            rb.linearVelocity = Vector3.zero;
+            rb.gravityScale = 0;
+            StartCoroutine(Die());
+        }
     }
     
     public void HPProcess()
@@ -150,9 +157,9 @@ public class PlayerController :DamageAbleBase,IDamageable
             }
             if (Input.GetKeyDown(KeyCode.F))
             {
-                if (PlayerStat.curEnergy >= 30)
+                if (PlayerStat.curEnergy >= 60)
                 {
-                    PlayerStat.curEnergy -= 30;
+                    PlayerStat.curEnergy -= 60;
                     switch (mode)
                     {
                         case 0:
@@ -310,14 +317,10 @@ public class PlayerController :DamageAbleBase,IDamageable
     IEnumerator Die()
     {
         yield return new WaitForSeconds(0.05f);
-        if (curHp <= 0)
-        {
+        
             anim.SetTrigger("Die");
             moveAble = false;
             damageAble = false;
-            
-        }
-        Debug.Log("111");
         yield return null;
     }
     public void Respawn()
@@ -327,6 +330,7 @@ public class PlayerController :DamageAbleBase,IDamageable
             anim.SetTrigger("Respawn");
             moveAble = true;
             damageAble = true;
+            rb.gravityScale = 1;
             curHp = PublicStat.maxHp;
             shopOpenCount = 1;
             transform.position = home.SpawnPoint;
@@ -339,11 +343,11 @@ public class PlayerController :DamageAbleBase,IDamageable
     }
     public void Parring()
     {
-        if (Input.GetKeyDown(KeyCode.D) && isParring == false&&weaponType == WeaponType.Sword&&PlayerStat.curEnergy >= 5)
+        if (Input.GetKeyDown(KeyCode.D) && isParring == false&&weaponType == WeaponType.Sword&&PlayerStat.curEnergy >= 10)
         {
             bc.size = parringBCSize;
             anim.SetTrigger("Parring");
-            PlayerStat.curEnergy -= 5;                                         
+            PlayerStat.curEnergy -= 10;                                         
             isParring = true;
             rb.gravityScale = 1f;
             moveAble = false;
@@ -357,7 +361,7 @@ public class PlayerController :DamageAbleBase,IDamageable
     }
     void UseSkill()
     {
-        if (Input.GetKeyDown(KeyCode.S)&&PlayerStat.curEnergy >=10)
+        if (Input.GetKeyDown(KeyCode.S)&&PlayerStat.curEnergy >=15)
         {
             lastInputTime = Time.time;
             if (weaponType != WeaponType.Gun)
@@ -382,7 +386,7 @@ public class PlayerController :DamageAbleBase,IDamageable
     }
     public void UseEnergy()
     {
-        PlayerStat.curEnergy -= 10;
+        PlayerStat.curEnergy -= 15;
     }
     #endregion
     public void OnAirTool()
@@ -592,7 +596,7 @@ public class PlayerController :DamageAbleBase,IDamageable
                     anim.SetTrigger("EnterBullet");
                     anim.SetInteger("RandomParring", a);
                     other.GetComponent<Rigidbody2D>().linearVelocity = -other.GetComponent<Rigidbody2D>().linearVelocity*1.5f;
-                    other.GetComponent<Bullet>().atk = PublicStat.atk * 3f;
+                    other.GetComponent<Bullet>().atk += PublicStat.atk * 10f;
                     other.GetComponent<Bullet>().targetMask = LayerMask.NameToLayer("Enemy");
                 }
                 else

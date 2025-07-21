@@ -31,7 +31,7 @@ public class GansterController : EnemyController
                 }
                 else
                 {
-
+                    Debug.Log($"ÀÌµ¿Áß {rb.linearVelocity}");
                     animator.SetBool("isWalk", true);
                     rb.linearVelocity = (direction.normalized * speed);
                     if (closest.position.x >= transform.position.x)

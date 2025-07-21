@@ -16,8 +16,8 @@ MonoBehaviour:
   minRandomPrice: 100
   maxRandomPrice: 150
   minRandomQuantity: 1
-  maxRandomQuantity: 5
-  description: "\uC5D0\uB108\uC9C0 \uD68C\uBCF5\uB825\uC744 0.5\uC99D\uAC00\uC2DC\uD0B5\uB2C8\uB2E4."
+  maxRandomQuantity: 3
+  description: "\uC5D0\uB108\uC9C0 \uD68C\uBCF5\uB825\uC744 5\uC99D\uAC00\uC2DC\uD0B5\uB2C8\uB2E4."
   itemIcon: {fileID: -1604204522596464865, guid: 97892ea818d14724e8657f5693207b99, type: 3}
   itemAtk: 0
   itemSpeed: 0

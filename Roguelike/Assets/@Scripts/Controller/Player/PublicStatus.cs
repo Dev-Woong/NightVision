@@ -8,7 +8,6 @@ public class PublicStatus : MonoBehaviour
     public float atk;
     public float speed;
     public float maxHp;
-    public float curHp;
     public float def;
     public float baseAtk;
     public float baseSpeed;
@@ -28,7 +27,6 @@ public class PublicStatus : MonoBehaviour
         baseMaxHp = obData.maxHp;
         baseDef = obData.def;
         dropJam = obData.dropJam;
-        curHp = maxHp;
     }
     private void Start()
     {
