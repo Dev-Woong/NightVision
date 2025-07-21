@@ -10,7 +10,6 @@ public class BGMManager : MonoBehaviour
     public BGMData ShopBGMData;
     public BGMData BossBGMData;
     public AudioSource aSource;
-    public AudioMixer master;
     public Scene curScene;
     public int a;
     void Awake()
@@ -76,6 +75,7 @@ public class BGMManager : MonoBehaviour
         else 
         {
             aSource.clip = bData[2].BGM;
+            aSource.Play();
         }
     }
     public void BGMCoroutineProcess()

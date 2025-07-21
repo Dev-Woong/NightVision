@@ -688,7 +688,7 @@ public class PlayerController :DamageAbleBase,IDamageable
     
     void Update()
     {
-        if (LoadingController.onInputBlocker == false)
+        if (LoadingController.onInputBlocker == false && LoadingController.onOpenShop == false)
         {
             if (moveAble == true)
             {
@@ -699,7 +699,7 @@ public class PlayerController :DamageAbleBase,IDamageable
                 GetWeaponState();
                 Attack();
                 Parring();
-                
+                UseSkill();
             }
             EnterRifleMode();
             GunModeUI();
@@ -707,7 +707,6 @@ public class PlayerController :DamageAbleBase,IDamageable
             DoubleJump();
             OnAir();
             EnterSnipeMode();
-            UseSkill();
             ResetComboCount();
         }
         HPProcess();

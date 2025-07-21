@@ -10,15 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1bcaff112e6880143aa326affc45c68f, type: 3}
-  m_Name: SpeedPlus
+  m_Name: SpeedItem
   m_EditorClassIdentifier: 
-  itemName: "\uC18D\uB3C4"
+  itemName: "\uC18D\uB3C4 (\uC0C1)"
   minRandomPrice: 70
   maxRandomPrice: 120
   minRandomQuantity: 1
   maxRandomQuantity: 3
   description: "\uC18D\uB3C4\uB97C 5\uC99D\uAC00\uC2DC\uD0A8\uB2E4"
-  itemIcon: {fileID: 5450060846365728036, guid: 97892ea818d14724e8657f5693207b99, type: 3}
+  itemIcon: {fileID: -1588627099250213332, guid: 97892ea818d14724e8657f5693207b99, type: 3}
   itemAtk: 0
   itemSpeed: 0.05
   itemDef: 0

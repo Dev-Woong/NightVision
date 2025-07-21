@@ -4,7 +4,6 @@ using UnityEngine;
 public class ShopInteraction : MonoBehaviour
 {
     public ShopUIManager2 shopUIManager2;
-
     public GameObject[] gameObjects;
     public TMP_Text PlayerJamText;
     public bool isPlayerinRange = false;
@@ -28,6 +27,7 @@ public class ShopInteraction : MonoBehaviour
                 ShopOpenCount = 0;
                 isShopOpen = true;
                 shopUIManager2.OpenShop();
+                LoadingController.onOpenShop = true;
                 PlayerJamText.text = playerJam.ToString();
                 BGMManager.Instance.EnterShopBGM(isShopOpen);
             }
@@ -36,7 +36,7 @@ public class ShopInteraction : MonoBehaviour
                 isShopOpen = false;
                 shopUIManager2.OpenShop();
                 shopUIManager2.ClearShop();
-
+                LoadingController.onOpenShop = false;
                 BGMManager.Instance.EnterShopBGM(isShopOpen);
             }
             foreach (GameObject Gb in gameObjects)

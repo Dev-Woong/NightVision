@@ -10,18 +10,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1bcaff112e6880143aa326affc45c68f, type: 3}
-  m_Name: HealthPlus
+  m_Name: MiniMaxEnergyItem
   m_EditorClassIdentifier: 
-  itemName: "\uCCB4\uB825"
-  minRandomPrice: 100
-  maxRandomPrice: 150
+  itemName: "\uCD5C\uB300 \uC5D0\uB108\uC9C0 (\uD558)"
+  minRandomPrice: 70
+  maxRandomPrice: 100
   minRandomQuantity: 1
   maxRandomQuantity: 3
-  description: "\uCCB4\uB825\uC744 10 \uC99D\uAC00\uC2DC\uD0A8\uB2E4"
-  itemIcon: {fileID: -5834073387260071431, guid: 97892ea818d14724e8657f5693207b99, type: 3}
+  description: "\uC5D0\uB108\uC9C0\uB97C 2 \uC99D\uAC00\uC2DC\uD0A8\uB2E4"
+  itemIcon: {fileID: -1604204522596464865, guid: 97892ea818d14724e8657f5693207b99, type: 3}
   itemAtk: 0
   itemSpeed: 0
   itemDef: 0
-  itemMaxHp: 10
-  itemEnergy: 0
+  itemMaxHp: 0
+  itemEnergy: 2
   itemEnergyRecovery: 0
