@@ -23,7 +23,7 @@ MonoBehaviour:
   animSpot: 'HandCombo2-1
 
 '
-  hitCount: 3
+  hitCount: 4
   damageValue: 11
   SFX: {fileID: 8300000, guid: e24b5f51fb70bef4c8eab183c80058c7, type: 3}
   HitEffect: {fileID: 5099289152872433770, guid: 47d68cf229101694f9b0faea8768cdd2, type: 3}

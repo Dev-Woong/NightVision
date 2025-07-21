@@ -33,15 +33,18 @@ public class EnemyController : DamageAbleBase, IDamageable
     public Transform closest;
     public Vector2 direction;
     public AudioClip dieClip;
-    private void Start()
+    private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
         bc = GetComponent<BoxCollider2D>();
         animator = GetComponent<Animator>();
         sr = GetComponent<SpriteRenderer>();
         ps = GetComponent<PublicStatus>();
-        curHp = gameObject.GetComponent<PublicStatus>().maxHp;
-        speed = GetComponent<PublicStatus>().speed;
+    }
+    private void Start()
+    {
+        curHp = ps.baseMaxHp;
+        speed = ps.baseSpeed;
     }
     private void Update()
     {
@@ -202,15 +205,7 @@ public class EnemyController : DamageAbleBase, IDamageable
         {
             if (collision.gameObject.GetComponent<Bullet>().targetMask == 7)
             {
-                GameObject hudText = Instantiate(damageText);
-                hudText.transform.position = damagePos.position;
-                hudText.GetComponent<DamageText>().damage = collision.GetComponent<Bullet>().atk;
-                if (curHp <= 0)
-                {
-                    damageAble = false;
-                    gameObject.GetComponent<BoxCollider2D>().enabled = false;
-                    animator.SetTrigger("Die");
-                }
+                OnDamage(collision.GetComponent<Bullet>().atk,WeaponType.Gun);    
             }
         }
     }

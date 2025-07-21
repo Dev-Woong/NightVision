@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: SpeedPlus
   m_EditorClassIdentifier: 
   itemName: "\uC18D\uB3C4"
-  minRandomPrice: 150
-  maxRandomPrice: 200
+  minRandomPrice: 70
+  maxRandomPrice: 120
   minRandomQuantity: 1
   maxRandomQuantity: 3
-  description: "\uC18D\uB3C4\uB97C 0.05\uC99D\uAC00\uC2DC\uD0A8\uB2E4"
+  description: "\uC18D\uB3C4\uB97C 5\uC99D\uAC00\uC2DC\uD0A8\uB2E4"
   itemIcon: {fileID: 5450060846365728036, guid: 97892ea818d14724e8657f5693207b99, type: 3}
   itemAtk: 0
   itemSpeed: 0.05

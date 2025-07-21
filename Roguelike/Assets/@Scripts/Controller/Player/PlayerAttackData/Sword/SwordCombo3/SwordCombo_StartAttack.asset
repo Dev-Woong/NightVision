@@ -22,7 +22,7 @@ MonoBehaviour:
   skillType: 0
   animSpot: "\uCF64\uBCF43 \uC2DC\uC791\uBCA0\uAE30"
   hitCount: 2
-  damageValue: 18
+  damageValue: 12
   SFX: {fileID: 8300000, guid: cfb20f8aeece91b42bbff1b95bf8e52c, type: 3}
   HitEffect: {fileID: 5295936817183097829, guid: 4a12568d27798834cb68a1ec2c2f08dd, type: 3}
   effectPos: {x: 0, y: 0, z: 0}

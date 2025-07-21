@@ -22,7 +22,7 @@ MonoBehaviour:
   skillType: 0
   animSpot: HandCombo3-1
   hitCount: 1
-  damageValue: 7
+  damageValue: 9
   SFX: {fileID: 8300000, guid: 36c03c244f10ff14aa6279f36ec7f55c, type: 3}
   HitEffect: {fileID: 6400350627046229043, guid: d51260152c6239a498168d5e1db72914, type: 3}
   effectPos: {x: 0, y: -0.23, z: 0}
