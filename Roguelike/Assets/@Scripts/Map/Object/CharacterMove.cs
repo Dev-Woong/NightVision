@@ -12,12 +12,15 @@ public class CharacterMove : MonoBehaviour
 
     void Move()
     {
-        transform.Translate(Vector3.left * Time.deltaTime * speed);
-        if (transform.position.x >= 10)
+        if (transform.position.x <= 6.8f)
         {
-            dir = transform.position;
-            dir.x = -10f;
-            transform.position = dir;
+            transform.Translate(Vector3.left * Time.deltaTime * speed);
+            if (transform.position.x >= 10)
+            {
+                dir = transform.position;
+                dir.x = -10f;
+                transform.position = dir;
+            }
         }
     }
 }

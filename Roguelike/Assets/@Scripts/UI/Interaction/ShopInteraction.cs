@@ -1,3 +1,4 @@
+using TMPro;
 using UnityEngine;
 
 public class ShopInteraction : MonoBehaviour
@@ -5,10 +6,12 @@ public class ShopInteraction : MonoBehaviour
     public ShopUIManager2 shopUIManager2;
 
     public GameObject[] gameObjects;
-
+    public TMP_Text PlayerJamText;
     public bool isPlayerinRange = false;
     private bool isShopOpen = false;
     public int ShopOpenCount;
+    public int playerJam;
+
     void Start()
     {
         foreach (GameObject Gb in gameObjects)
@@ -25,7 +28,7 @@ public class ShopInteraction : MonoBehaviour
                 ShopOpenCount = 0;
                 isShopOpen = true;
                 shopUIManager2.OpenShop();
-
+                PlayerJamText.text = playerJam.ToString();
                 BGMManager.Instance.EnterShopBGM(isShopOpen);
             }
             else if (isShopOpen == true)
@@ -45,6 +48,12 @@ public class ShopInteraction : MonoBehaviour
     void Update()
     {
         ShopProcess();
+        if (isShopOpen == true)
+        {
+            playerJam = PlayerStatus.Instance.jamStack;
+            PlayerJamText.text = playerJam.ToString();
+        }
+        
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
