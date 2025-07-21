@@ -1,7 +1,6 @@
 using System.Collections;
 
 using UnityEngine;
-using UnityEngine.UI;
 public enum WeaponType
 {
     Hand,
@@ -40,6 +39,7 @@ public class PlayerController :DamageAbleBase,IDamageable
     private WeaponType weaponType;
 
     private float h;
+    private float dashCoolTime;
     private readonly float riseHeight = 1.3f;
     private readonly float fallGravityScale = 11f;
     private float lastInputTime = 0;
@@ -60,6 +60,7 @@ public class PlayerController :DamageAbleBase,IDamageable
     public bool moveAble = true;
     public bool snipeMode = false;
     public bool isParring = false;
+    public bool isAttacking = false;
     public Vector3 portalMovePosition;
     public Vector2 parringBCSize;
     public Vector2 normalBCSize;
@@ -121,21 +122,28 @@ public class PlayerController :DamageAbleBase,IDamageable
     }
     public void ExitSnipeMode()
     {
-        moveAble = !moveAble;
+        PublicStat.knockBack = KnockBack.Done;
         snipeMode = !snipeMode;
+        isAttacking = false;
     }
-
+    public void MoveAbleFalse()
+    {
+        isAttacking = true;
+    }
+    public void OnMoveAble() // AnimationEvent
+    {
+        isAttacking = false ;
+    }
     public void EnterRifleMode()
     {
         anim.SetBool("onRifle", rifleMode);
         Rifle.SetActive(rifleMode);
-        
     }
     public void ExitRifleMode()
     {
-        moveAble = true;
+        PublicStat.knockBack = KnockBack.Done;
         rifleMode = false;
-       
+        isAttacking = false;
         anim.SetBool("onRifle", rifleMode);
     }
     public void EnterGunMode()
@@ -163,13 +171,15 @@ public class PlayerController :DamageAbleBase,IDamageable
                     switch (mode)
                     {
                         case 0:
-                            moveAble = !moveAble;
+                            isAttacking = true;
+                            PublicStat.knockBack = KnockBack.None;
                             modeSelection = false;
                             snipeMode = true;
                             mode = 0;
                             break;
                         case 1:
-                            moveAble = !moveAble;
+                            isAttacking = true;
+                            PublicStat.knockBack = KnockBack.None;
                             modeSelection = false;
                             rifleMode = !rifleMode;
                             mode = 0;
@@ -259,7 +269,7 @@ public class PlayerController :DamageAbleBase,IDamageable
     #region PlayerController
     void Move()
     {
-        if (Input.GetButton(Define.Horizontal) /* && (isAttacking == false || weaponType==WeaponType.Gun)*/)
+        if (Input.GetButton(Define.Horizontal) && isAttacking == false )
         {
             h = Input.GetAxisRaw(Define.Horizontal);
             Vector2 moveDir = new Vector2(h, 0);
@@ -291,9 +301,13 @@ public class PlayerController :DamageAbleBase,IDamageable
     }
     void Dash()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        dashCoolTime -= Time.deltaTime;
+        if (Input.GetKeyDown(KeyCode.Space)&& dashCoolTime <=0 && rifleMode == false  && snipeMode == false)
         {
             SFXManager.Instance.PlaySFX(dashSFX);
+            isAttacking = false;
+            moveAble = true;
+            rb.linearVelocity = Vector3.zero;
             anim.SetTrigger(Define.DashHash);
             rb.gravityScale = 1;
             if (tr.localScale.x == 1)
@@ -305,14 +319,26 @@ public class PlayerController :DamageAbleBase,IDamageable
                 DashEffect.transform.localScale = new Vector3(-1, 0, 0);
             }
             Instantiate(DashEffect, DashEffectPoint);
+            dashCoolTime = 2;
         }
     }
     void Attack()
     {
         if (Input.GetKeyDown(KeyCode.A))
         {
-            anim.SetTrigger("Attack");
+            if (weaponType != WeaponType.Gun)
+            {
+                StartCoroutine(CoAttack());
+            }
+            else anim.SetTrigger("Attack");
         }
+    }
+    IEnumerator CoAttack()
+    {
+        anim.SetBool("isWalk", false);
+        anim.SetBool("isRun", false);
+        yield return null;
+        anim.SetTrigger("Attack");
     }
     IEnumerator Die()
     {
@@ -363,26 +389,35 @@ public class PlayerController :DamageAbleBase,IDamageable
     {
         if (Input.GetKeyDown(KeyCode.S)&&PlayerStat.curEnergy >=15)
         {
-            lastInputTime = Time.time;
-            if (weaponType != WeaponType.Gun)
+            
+            StartCoroutine(CoSkillAttack());
+        }
+    }
+    IEnumerator CoSkillAttack()
+    {
+        lastInputTime = Time.time;
+        anim.SetBool("isWalk", false);
+        anim.SetBool("isRun", false);
+        Debug.Log("공격호출2");
+        if (weaponType != WeaponType.Gun)
+        {
+            if (comboResetCoroutine != null)
             {
-
-                if (comboResetCoroutine != null)
-                {
-                    StopCoroutine(comboResetCoroutine);
-                    comboResetCoroutine = null;
-                }
-                anim.SetTrigger(Define.useSkillHash);
-                anim.SetInteger(Define.comboCountHash, comboCount);                
+                StopCoroutine(comboResetCoroutine);
+                comboResetCoroutine = null;
             }
-            else
+            isAttacking = true;
+            anim.SetTrigger(Define.useSkillHash);
+            anim.SetInteger(Define.comboCountHash, comboCount);
+        }
+        else
+        {
+            if (moveAble == true)
             {
-                if (moveAble == true)
-                {
-                    EnterGunMode();
-                }
+                EnterGunMode();
             }
         }
+        yield return null;
     }
     public void UseEnergy()
     {
@@ -566,14 +601,13 @@ public class PlayerController :DamageAbleBase,IDamageable
             jumpCount = 0;
             anim.SetBool("onAir", false);
         }
-        if (collision.collider.CompareTag("UpStair"))
-        {
-            canJump = true;
-            PublicStat.speed = 2;
-            jumpCount = 0;
-            anim.SetBool("onAir", false);
-        }
-
+        //if (collision.collider.CompareTag("UpStair"))
+        //{
+        //    canJump = true;
+        //    PublicStat.speed = 2;
+        //    jumpCount = 0;
+        //    anim.SetBool("onAir", false);
+        //}
     }
     public void ParringSpectrumProcess()
     {
@@ -694,13 +728,14 @@ public class PlayerController :DamageAbleBase,IDamageable
             {
                 Move();
                 Jump();
-                Dash();
                 SetWeaponState();
                 GetWeaponState();
-                Attack();
+                
                 Parring();
+                Attack();
                 UseSkill();
             }
+            Dash();
             EnterRifleMode();
             GunModeUI();
             SelectGunMode();

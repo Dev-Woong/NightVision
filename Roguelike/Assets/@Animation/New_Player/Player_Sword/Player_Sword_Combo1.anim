@@ -134,6 +134,13 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
+  - time: 0
+    functionName: MoveAbleFalse
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
   - time: 0.04761905
     functionName: HorizonSlashEffect
     data: 
@@ -185,6 +192,13 @@ AnimationClip:
     messageOptions: 0
   - time: 0.42857143
     functionName: OnAirComboHold
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0.52380955
+    functionName: OnMoveAble
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0

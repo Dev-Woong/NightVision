@@ -109,8 +109,8 @@ AnimationClip:
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
   m_Events:
-  - time: 0.11111111
-    functionName: Jab
+  - time: 0
+    functionName: MoveAbleFalse
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
@@ -120,6 +120,13 @@ AnimationClip:
     functionName: PlayerCreateAttackBox
     data: 
     objectReferenceParameter: {fileID: 11400000, guid: 5fd4a19b186c16445a8ae9bf5f19a191, type: 2}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0.11111111
+    functionName: Jab
+    data: 
+    objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
@@ -148,6 +155,13 @@ AnimationClip:
     functionName: PlayerCreateAttackBox
     data: 
     objectReferenceParameter: {fileID: 11400000, guid: 38453c26a4415224eb3ec69060967f9a, type: 2}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0.7222222
+    functionName: OnMoveAble
+    data: 
+    objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
