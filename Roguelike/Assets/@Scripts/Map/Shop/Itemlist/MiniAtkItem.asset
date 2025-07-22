@@ -17,7 +17,7 @@ MonoBehaviour:
   maxRandomPrice: 120
   minRandomQuantity: 1
   maxRandomQuantity: 3
-  description: "\uACF5\uACA9\uB825\uC744 2\uC99D\uAC00\uC2DC\uD0A8\uB2E4"
+  description: "\uACF5\uACA9\uB825\uC744 \n2\uC99D\uAC00\uC2DC\uD0A8\uB2E4"
   itemIcon: {fileID: 6097864426945678345, guid: 97892ea818d14724e8657f5693207b99, type: 3}
   itemAtk: 0.2
   itemSpeed: 0
