@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Enemy_Goul
   m_EditorClassIdentifier: 
   ID: 3
-  atk: 1
+  atk: 2
   def: 1
-  maxHp: 500
+  maxHp: 900
   speed: 1
   dropJam: 20
