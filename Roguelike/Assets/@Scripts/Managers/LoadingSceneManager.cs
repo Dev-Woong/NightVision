@@ -89,18 +89,9 @@ public class LoadingSceneManager : MonoBehaviour
         {
             while (true)
             {
-                nm.text = nma[0];
-                yield return new WaitForSeconds(1.8f);
-                nm.text = nma[1];
-                yield return new WaitForSeconds(1.8f);
-                nm.text = nma[2];
-                yield return new WaitForSeconds(1.8f);
-                nm.text = nma[3];
-                yield return new WaitForSeconds(1.8f);
-                nm.text = nma[4];
-                yield return new WaitForSeconds(1.8f);
-                nm.text = nma[5];
-                yield return new WaitForSeconds(1.8f);
+                int a=Random.Range(0, nma.Length);
+                nm.text = nma[a];
+                yield return new WaitForSeconds(1.3f);
             }
         }
         else

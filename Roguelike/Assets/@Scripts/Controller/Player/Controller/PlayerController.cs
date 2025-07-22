@@ -44,7 +44,7 @@ public class PlayerController :DamageAbleBase,IDamageable
     private readonly float fallGravityScale = 11f;
     private float lastInputTime = 0;
     private readonly float resetDelay = 0.5f;
-    private readonly float jumpForce = 5;
+    private readonly float jumpForce = 7f;
     private int wType = 0;
     private int jumpCount = 0;
     private int comboCount = 0;
