@@ -73,7 +73,7 @@ public class ScopeController: MonoBehaviour
     
     public void Fire()
     {
-        if (Input.GetKeyDown(KeyCode.A) && player.magazineDrum > 0&&curTime <=0)
+        if (Input.GetKeyDown(KeyCode.S) && player.magazineDrum > 0&&curTime <=0)
         {
             if (FireCoroutine != null)
             {
