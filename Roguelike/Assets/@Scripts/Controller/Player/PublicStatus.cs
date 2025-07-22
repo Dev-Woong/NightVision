@@ -1,10 +1,14 @@
 using Microsoft.Win32.SafeHandles;
+using System.Collections;
 using System.Data.Common;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class PublicStatus : MonoBehaviour
 {
     public ObjectData obData;
+    public PlayerController pc;
+
     public float atk;
     public float speed;
     public float maxHp;
@@ -27,6 +31,7 @@ public class PublicStatus : MonoBehaviour
         baseMaxHp = obData.maxHp;
         baseDef = obData.def;
         dropJam = obData.dropJam;
+        pc = GetComponent<PlayerController>();
     }
     private void Start()
     {
@@ -41,6 +46,12 @@ public class PublicStatus : MonoBehaviour
         speed =baseSpeed+ itemSpeed;
         maxHp = baseMaxHp+itemMaxHp;
         def = baseDef+itemDef;
+        StartCoroutine(SetHp());
+    }
+    IEnumerator SetHp()
+    {
+        yield return null;
+        pc.curHp = maxHp;
     }
     public void SetItemStats(PlayerStatus ps)
     {

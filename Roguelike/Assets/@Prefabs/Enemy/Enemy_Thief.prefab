@@ -191,7 +191,7 @@ MonoBehaviour:
   damagePos: {fileID: 7391003730106994732}
   damageText: {fileID: 2707642217791368709, guid: 04b8c71144ab0f5478c351bdc7621f7a, type: 3}
   speed: 2
-  stopDistance: 2
+  stopDistance: 1
   detectionRadius: 5
   PlayerLayer:
     serializedVersion: 2
@@ -199,6 +199,7 @@ MonoBehaviour:
   curHp: 0
   OnHit: 0
   canAttack: 1
+  onAttacked: 0
   moveAble: 1
   isGround: 1
   closest: {fileID: 0}
@@ -220,9 +221,16 @@ MonoBehaviour:
   atk: 0
   speed: 0
   maxHp: 0
-  curHp: 0
   def: 0
-  jamStack: 0
+  baseAtk: 0
+  baseSpeed: 0
+  baseMaxHp: 0
+  baseDef: 0
+  itemAtk: 0
+  itemSpeed: 0
+  itemMaxHp: 0
+  itemDef: 0
+  dropJam: 0
   knockBack: 1
   checkDie: 0
 --- !u!114 &8627302218585599768

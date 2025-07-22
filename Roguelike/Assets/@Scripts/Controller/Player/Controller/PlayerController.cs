@@ -1,5 +1,5 @@
 using System.Collections;
-
+using Unity.VisualScripting;
 using UnityEngine;
 public enum WeaponType
 {
@@ -88,14 +88,20 @@ public class PlayerController :DamageAbleBase,IDamageable
         GameObject hudText = Instantiate(damageText);
         hudText.transform.position = damagePos.position;
         hudText.GetComponent<DamageText>().damage = causerAtk;
-        anim.SetTrigger("Hurt");
-        moveAble = false;
+        if (rifleMode == false && snipeMode == false)
+        {
+            anim.SetTrigger("Hurt");
+            moveAble = false;
+            isAttacking = false;
+        }
         rb.gravityScale = 1.0f;
         if (curHp <= 0)
         {
             LoadingController.onInputBlocker = true;
             snipeMode = false;
+            isAttacking = false;
             rifleMode = false;
+            PlayerStat.curEnergy = PlayerStat.maxEnergy;
             rb.linearVelocity = Vector3.zero;
             rb.gravityScale = 0;
             StartCoroutine(Die());
@@ -320,7 +326,7 @@ public class PlayerController :DamageAbleBase,IDamageable
                 DashEffect.transform.localScale = new Vector3(-1, 0, 0);
             }
             Instantiate(DashEffect, DashEffectPoint);
-            dashCoolTime = 0.2f;
+            //dashCoolTime = 0.2f;
         }
     }
     void Attack()
@@ -706,7 +712,7 @@ public class PlayerController :DamageAbleBase,IDamageable
         
         normalBCSize = bc.size;
         
-        parringBCSize = new Vector2(2.3f, 0.9f);
+        parringBCSize = new Vector2(2.5f, 0.9f);
     }
     
     void Start()
