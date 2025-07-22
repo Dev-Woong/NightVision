@@ -170,26 +170,21 @@ public class LoadingSceneManager : MonoBehaviour
                 }
 
                 progressBar.fillAmount = 1f; // º¸Á¤
-                yield return new WaitForSeconds(1.2f);
-                op.allowSceneActivation = true;
-                
-                while (true) 
-                { 
-                    if (op.allowSceneActivation == true)
-                    {
-                        if (isDie == true)
-                        {
-                            respawnAble = true;
-                        }
-                        onLoadScene = op.allowSceneActivation;
-                        cmn.text = "";
-                        nmn.text = "";
-                        isDie = false;
-                        StopAllCoroutines();
-                        //nm.gameObject.SetActive(false);
-                    }
-                    yield return new WaitForSeconds(0.1f);
+                yield return new WaitForSeconds(1f);
+                cmn.text = "";
+                nmn.text = "";
+                if (isDie == true)
+                {
+                    respawnAble = true;
+                    LoadingController.onInputBlocker = false;
+                    LoadingController.onPause = false;
+                    LoadingController.onOpenShop = false;
                 }
+                yield return null;
+                isDie = false;
+                onLoadScene = true;
+                yield return new WaitForSeconds(0.2f);
+                op.allowSceneActivation = true;
             }
         }
     }
