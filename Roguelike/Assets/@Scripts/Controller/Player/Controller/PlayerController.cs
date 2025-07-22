@@ -93,6 +93,7 @@ public class PlayerController :DamageAbleBase,IDamageable
         rb.gravityScale = 1.0f;
         if (curHp <= 0)
         {
+            LoadingController.onInputBlocker = true;
             snipeMode = false;
             rifleMode = false;
             rb.linearVelocity = Vector3.zero;
@@ -319,7 +320,7 @@ public class PlayerController :DamageAbleBase,IDamageable
                 DashEffect.transform.localScale = new Vector3(-1, 0, 0);
             }
             Instantiate(DashEffect, DashEffectPoint);
-            dashCoolTime = 2;
+            dashCoolTime = 0.2f;
         }
     }
     void Attack()
@@ -389,7 +390,6 @@ public class PlayerController :DamageAbleBase,IDamageable
     {
         if (Input.GetKeyDown(KeyCode.S)&&PlayerStat.curEnergy >=15)
         {
-            
             StartCoroutine(CoSkillAttack());
         }
     }
@@ -398,7 +398,6 @@ public class PlayerController :DamageAbleBase,IDamageable
         lastInputTime = Time.time;
         anim.SetBool("isWalk", false);
         anim.SetBool("isRun", false);
-        Debug.Log("공격호출2");
         if (weaponType != WeaponType.Gun)
         {
             if (comboResetCoroutine != null)

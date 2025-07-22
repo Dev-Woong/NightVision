@@ -21,7 +21,6 @@ public class ShopUIManager2 : MonoBehaviour
 
         foreach (var item in ShopManager.Instance.shopData.currentItems)
         {
-            Debug.Log("ShopItem »ý¼º");
             GameObject slot = Instantiate(slotPrefab, slotParent);
             var slotUI = slot.GetComponent<ShopItemSlot>();
             slotUI.SetUpSlot(item);

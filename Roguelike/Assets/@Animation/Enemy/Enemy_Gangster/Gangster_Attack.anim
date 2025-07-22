@@ -127,7 +127,7 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 0.6111111
+  - time: 0.6666667
     functionName: OnMoveAble
     data: 
     objectReferenceParameter: {fileID: 0}
