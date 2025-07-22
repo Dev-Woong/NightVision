@@ -727,7 +727,6 @@ public class PlayerController :DamageAbleBase,IDamageable
     void InitializeCamAndItem(MapData mapData)
     {
         camChanger.Initialize();
-        LoadingController.onInputBlocker = false;
         ShopManager.Instance.NewShopItems(itemDatabase, 4);
     }
     IEnumerator HandleMapTransition(MapData targetMapData)
@@ -745,7 +744,9 @@ public class PlayerController :DamageAbleBase,IDamageable
         {
             if (targetMapData.useInitializeCamAndItem==true&& LoadingSceneManager.onLoadScene==true)
             {
-                yield return new WaitForSeconds(9);
+                yield return new WaitForSeconds(7f);
+                LoadingController.onInputBlocker = false;
+                yield return new WaitForSeconds(2f);
                 InitializeCamAndItem(targetMapData);
                 load = true;
             }
