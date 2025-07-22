@@ -19,7 +19,6 @@ public class PausePenal : MonoBehaviour
         option.onClick.AddListener(EnOption);
         key.onClick.AddListener(EnKey);
         Exit.onClick.AddListener(EnExit);
-
     }
 
     void EnConnect()

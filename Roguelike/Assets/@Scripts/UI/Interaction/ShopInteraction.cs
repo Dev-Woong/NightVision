@@ -1,3 +1,4 @@
+using System.Collections;
 using TMPro;
 using UnityEngine;
 
@@ -62,11 +63,17 @@ public class ShopInteraction : MonoBehaviour
         {
             isPlayerinRange = true;
             ShopOpenCount = collision.GetComponent<PlayerController>().shopOpenCount;
+            collision.GetComponent<PlayerController>().modeSelection = false;
             if (ShopOpenCount == 1)
             {
-                collision.GetComponent<PlayerController>().shopOpenCount = 0;
+                StartCoroutine(CoShopCount(collision.GetComponent<PlayerController>()));
             }
         }
+    }
+    IEnumerator CoShopCount(PlayerController player)
+    {
+        yield return null;
+        player.shopOpenCount = 0;
     }
 
     private void OnTriggerExit2D(Collider2D collision)

@@ -54,9 +54,10 @@ public class PlayerController :DamageAbleBase,IDamageable
     public int magazineDrum = 5;
     public int shopOpenCount = 1;
 
+    public bool canDownJump = false;
     private bool canJump = true;
     private bool rifleMode = false;
-    private bool modeSelection = false;
+    public bool modeSelection = false;
     public bool moveAble = true;
     public bool snipeMode = false;
     public bool isParring = false;
@@ -132,6 +133,7 @@ public class PlayerController :DamageAbleBase,IDamageable
         PublicStat.knockBack = KnockBack.Done;
         snipeMode = !snipeMode;
         isAttacking = false;
+        moveAble = true;
     }
     public void MoveAbleFalse()
     {
@@ -151,6 +153,7 @@ public class PlayerController :DamageAbleBase,IDamageable
         PublicStat.knockBack = KnockBack.Done;
         rifleMode = false;
         isAttacking = false;
+        moveAble = true;
         anim.SetBool("onRifle", rifleMode);
     }
     public void EnterGunMode()
@@ -182,6 +185,7 @@ public class PlayerController :DamageAbleBase,IDamageable
                             PublicStat.knockBack = KnockBack.None;
                             modeSelection = false;
                             snipeMode = true;
+                            moveAble = false;
                             mode = 0;
                             break;
                         case 1:
@@ -190,6 +194,7 @@ public class PlayerController :DamageAbleBase,IDamageable
                             modeSelection = false;
                             rifleMode = !rifleMode;
                             mode = 0;
+                            moveAble = false;
                             StartCoroutine(RifleFire());
                             break;
                     }
@@ -326,7 +331,7 @@ public class PlayerController :DamageAbleBase,IDamageable
                 DashEffect.transform.localScale = new Vector3(-1, 0, 0);
             }
             Instantiate(DashEffect, DashEffectPoint);
-            //dashCoolTime = 0.2f;
+            dashCoolTime = 0.2f;
         }
     }
     void Attack()
@@ -417,7 +422,7 @@ public class PlayerController :DamageAbleBase,IDamageable
         }
         else
         {
-            if (moveAble == true)
+            if (moveAble == true && isAttacking == false)
             {
                 EnterGunMode();
             }
@@ -438,21 +443,52 @@ public class PlayerController :DamageAbleBase,IDamageable
     {
         if (Input.GetKeyDown(KeyCode.C))
         {
-            if (jumpCount == 0 && canJump == true)
+            if (canDownJump == false)
+            {
+                if (jumpCount == 0 && canJump == true)
+                {
+                    rb.linearVelocity = Vector3.zero;
+                    rb.gravityScale = 1;
+                    canJump = false;
+                    SFXManager.Instance.PlaySFX(jumpSFX);
+                    anim.SetTrigger("Jump");
+                    rb.AddForce(Vector3.up * jumpForce, ForceMode2D.Impulse);
+                    if (JumpCountCoroutine != null)
+                    {
+                        StopCoroutine(JumpCountCoroutine);
+                    }
+                    JumpCountCoroutine = StartCoroutine(DoubleJumpCoroutine());
+                }
+            }
+            else if (canDownJump == true&&onSecondFloor ==true)
             {
                 rb.gravityScale = 1;
                 canJump = false;
+                StartCoroutine(DownJumpCoroutine());
                 SFXManager.Instance.PlaySFX(jumpSFX);
                 anim.SetTrigger("Jump");
-                rb.AddForce(Vector3.up * jumpForce, ForceMode2D.Impulse);
-                if (JumpCountCoroutine != null)
+                rb.AddForce(Vector3.down * jumpForce, ForceMode2D.Impulse);
+                if ( JumpCountCoroutine !=null)
                 {
                     StopCoroutine(JumpCountCoroutine);
                 }
                 JumpCountCoroutine = StartCoroutine(DoubleJumpCoroutine());
-
             }
         }
+    }
+    void DownJump()
+    {
+        canDownJump = Input.GetKey(KeyCode.DownArrow);
+    }
+    IEnumerator DownJumpCoroutine()
+    {
+        Physics2D.IgnoreLayerCollision(gameObject.layer, LayerMask.NameToLayer("UpStair"),true);
+        bc.enabled = false;
+        yield return new WaitForSeconds(0.3f);
+        bc.enabled = true;
+        onSecondFloor = false;
+        Physics2D.IgnoreLayerCollision(gameObject.layer, LayerMask.NameToLayer("UpStair"), false);
+        
     }
     IEnumerator DoubleJumpCoroutine()
     {
@@ -597,23 +633,43 @@ public class PlayerController :DamageAbleBase,IDamageable
         comboResetCoroutine = null;
     }
     #endregion
+    bool onSecondFloor = false;
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.collider.CompareTag("Ground"))
         {
-            canJump = true;
-            jumpCount = 0;
+
+            if (collision.gameObject.layer != LayerMask.NameToLayer("UpStair"))
+            {
+                canJump = true;
+                jumpCount = 0;
+                anim.SetBool("onAir", false);
+            }
+            else if (collision.gameObject.layer == LayerMask.NameToLayer("UpStair"))
+            {
+                if (collision.gameObject.transform.position.y <= transform.position.y+0.1f)
+                {
+                    onSecondFloor = true;
+                    canJump = true;
+                    jumpCount = 0;
+                    anim.SetBool("onAir", false);
+                }
+            }
+        }
+    }
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+        if (collision.gameObject.layer == LayerMask.NameToLayer("UpStair"))
+        {
+            onSecondFloor = false;
+        }
+        if (collision.collider.CompareTag("Ground"))
+        {
             anim.SetBool("onAir", false);
         }
-        //if (collision.collider.CompareTag("UpStair"))
-        //{
-        //    canJump = true;
-        //    PublicStat.speed = 2;
-        //    jumpCount = 0;
-        //    anim.SetBool("onAir", false);
-        //}
     }
+    
     public void ParringSpectrumProcess()
     {
         int a = Random.Range(0, 6);
@@ -666,15 +722,12 @@ public class PlayerController :DamageAbleBase,IDamageable
         {
             StartCoroutine(HandleMapTransition(nextMapData));
         }
-        if (other.CompareTag("SpeedTool"))
-        {
-            PublicStat.speed = 1;
-        }
     }
 
     void InitializeCamAndItem(MapData mapData)
     {
         camChanger.Initialize();
+        LoadingController.onInputBlocker = false;
         ShopManager.Instance.NewShopItems(itemDatabase, 4);
     }
     IEnumerator HandleMapTransition(MapData targetMapData)
@@ -684,6 +737,8 @@ public class PlayerController :DamageAbleBase,IDamageable
         GetComponent<PlayerPositionManager>().SetTargetSpawnId(targetMapData.spawnPointId);
         // 씬 로딩
         LoadingSceneManager.LoadScene(targetMapData.sceneName,targetMapData);
+
+        LoadingController.onInputBlocker = true;
         // 초기화 코루틴 실행
         bool load = false;
         while (load  == false)
@@ -727,7 +782,7 @@ public class PlayerController :DamageAbleBase,IDamageable
     
     void Update()
     {
-        if (LoadingController.onInputBlocker == false && LoadingController.onOpenShop == false)
+        if (LoadingController.onInputBlocker == false && LoadingController.onOpenShop == false && LoadingController.onPause == false)
         {
             if (moveAble == true)
             {
@@ -735,15 +790,15 @@ public class PlayerController :DamageAbleBase,IDamageable
                 Jump();
                 SetWeaponState();
                 GetWeaponState();
-                
+                DownJump();
                 Parring();
                 Attack();
                 UseSkill();
             }
-            Dash();
-            EnterRifleMode();
             GunModeUI();
             SelectGunMode();
+            Dash();
+            EnterRifleMode();
             DoubleJump();
             OnAir();
             EnterSnipeMode();

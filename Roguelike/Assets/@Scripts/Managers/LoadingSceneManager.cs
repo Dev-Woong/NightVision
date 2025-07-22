@@ -185,7 +185,6 @@ public class LoadingSceneManager : MonoBehaviour
                         cmn.text = "";
                         nmn.text = "";
                         isDie = false;
-                        LoadingController.onInputBlocker = false;
                         StopAllCoroutines();
                         //nm.gameObject.SetActive(false);
                     }
