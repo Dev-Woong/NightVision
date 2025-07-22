@@ -46,23 +46,26 @@ public class UIManager : MonoBehaviour
     
     void Update()
     {
-        if (LoadingController.onInputBlocker != true)
+
+        if (Input.GetKeyDown(KeyCode.Escape) && inGame == true)
         {
-            if (Input.GetKeyDown(KeyCode.Escape) && inGame == true)
+            if (LoadingController.onInputBlocker !=true && LoadingController.onOpenShop == false)
             {
                 on = !on;
                 pausepanel.SetActive(on);
                 if (on == true)
                 {
+                    LoadingController.onPause = true;
                     Time.timeScale = 0;
                 }
                 if (on == false)
                 {
                     Time.timeScale = 1;
+                    LoadingController.onPause = false;
                     optionpanel.SetActive(false);
                     keypanel.SetActive(false);
                 }
-            } 
+            }
         }
     }
 

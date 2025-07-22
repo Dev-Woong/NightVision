@@ -18,8 +18,6 @@ public class AttackData : ScriptableObject
 
     public LayerMask targetMask;
 
-    
-
     public float knockBackForceX;
     public float knockBackForceY;
     public int getEnergy;
