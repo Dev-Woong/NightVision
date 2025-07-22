@@ -124,8 +124,8 @@ public class EnemyController : DamageAbleBase, IDamageable
         animator.SetTrigger("Attack");
         yield return new WaitForSeconds(2f);
         canAttack = true;
-        coAttack = null;
         yield return null;
+        coAttack = null;
     }
     void OnDrawGizmosSelected()
     {

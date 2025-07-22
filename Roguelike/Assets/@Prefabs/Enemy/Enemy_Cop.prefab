@@ -236,9 +236,16 @@ MonoBehaviour:
   atk: 0
   speed: 0
   maxHp: 0
-  curHp: 0
   def: 0
-  jamStack: 0
+  baseAtk: 0
+  baseSpeed: 0
+  baseMaxHp: 0
+  baseDef: 0
+  itemAtk: 0
+  itemSpeed: 0
+  itemMaxHp: 0
+  itemDef: 0
+  dropJam: 0
   knockBack: 1
   checkDie: 0
 --- !u!114 &3541141465374513358
@@ -259,13 +266,14 @@ MonoBehaviour:
   damageText: {fileID: 2707642217791368709, guid: 04b8c71144ab0f5478c351bdc7621f7a, type: 3}
   speed: 0
   stopDistance: 3
-  detectionRadius: 6
+  detectionRadius: 5
   PlayerLayer:
     serializedVersion: 2
     m_Bits: 64
   curHp: 0
   OnHit: 0
   canAttack: 1
+  onAttacked: 0
   moveAble: 1
   isGround: 0
   closest: {fileID: 0}

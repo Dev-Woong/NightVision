@@ -15,6 +15,6 @@ MonoBehaviour:
   ID: 2
   atk: 1
   def: 0
-  maxHp: 250
-  speed: 2.5
+  maxHp: 150
+  speed: 2
   dropJam: 15

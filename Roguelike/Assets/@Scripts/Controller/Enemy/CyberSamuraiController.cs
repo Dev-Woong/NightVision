@@ -39,12 +39,12 @@ public class CyberSamuraiController : EnemyController
                 {
                     transform.localScale = new Vector3(-1, 1, 1);
                 }
-                if (doRush == true && distanceToTarget <=20)
+                if (doRush == true && distanceToTarget <=10)
                 {
                     animator.SetBool("isWalk", false);
                     RushAttack(closest);
                 }
-                else if (doShoot == true&& distanceToTarget <= 20)
+                else if (doShoot == true&& distanceToTarget <=5)
                 {
                     animator.SetBool("isWalk", false);
                     rb.linearVelocity = Vector3.zero;

@@ -37,7 +37,7 @@ public class CopController : EnemyController
                     transform.localScale = new Vector3(-1, 1, 1);
                 }
 
-                if (doShoot == true&& distanceToTarget<=15)
+                if (doShoot == true&& distanceToTarget<=5)
                 {
                     animator.SetBool("isWalk", false);
                     rb.linearVelocity = Vector3.zero;
