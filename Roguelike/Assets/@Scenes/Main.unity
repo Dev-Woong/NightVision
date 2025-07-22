@@ -421,7 +421,6 @@ MonoBehaviour:
   ShopBGMData: {fileID: 11400000, guid: 68774c73b23502f4cb04ef4c2e5a6dd7, type: 2}
   BossBGMData: {fileID: 11400000, guid: f8e9607ce22771a4b9db8b3ba7a10651, type: 2}
   aSource: {fileID: 0}
-  master: {fileID: 0}
   curScene:
     m_Handle: 0
   a: 0
@@ -37030,9 +37029,16 @@ MonoBehaviour:
   atk: 0
   speed: 0
   maxHp: 0
-  curHp: 0
   def: 0
-  jamStack: 0
+  baseAtk: 0
+  baseSpeed: 0
+  baseMaxHp: 0
+  baseDef: 0
+  itemAtk: 0
+  itemSpeed: 0
+  itemMaxHp: 0
+  itemDef: 0
+  dropJam: 0
   knockBack: 1
   checkDie: 0
 --- !u!114 &123351062830377174
@@ -37051,9 +37057,16 @@ MonoBehaviour:
   atk: 0
   speed: 0
   maxHp: 0
-  curHp: 0
   def: 0
-  jamStack: 0
+  baseAtk: 0
+  baseSpeed: 0
+  baseMaxHp: 0
+  baseDef: 0
+  itemAtk: 0
+  itemSpeed: 0
+  itemMaxHp: 0
+  itemDef: 0
+  dropJam: 0
   knockBack: 1
   checkDie: 0
 --- !u!212 &470784899424486570
@@ -37481,6 +37494,7 @@ MonoBehaviour:
   curHp: 0
   OnHit: 0
   canAttack: 1
+  onAttacked: 0
   moveAble: 1
   isGround: 0
   closest: {fileID: 0}
@@ -37517,6 +37531,7 @@ MonoBehaviour:
   curHp: 0
   OnHit: 0
   canAttack: 1
+  onAttacked: 0
   moveAble: 1
   isGround: 0
   closest: {fileID: 0}
@@ -37633,9 +37648,16 @@ MonoBehaviour:
   atk: 0
   speed: 0
   maxHp: 0
-  curHp: 0
   def: 0
-  jamStack: 0
+  baseAtk: 0
+  baseSpeed: 0
+  baseMaxHp: 0
+  baseDef: 0
+  itemAtk: 0
+  itemSpeed: 0
+  itemMaxHp: 0
+  itemDef: 0
+  dropJam: 0
   knockBack: 1
   checkDie: 0
 --- !u!1 &4263090131033503456
@@ -37709,6 +37731,7 @@ MonoBehaviour:
   curHp: 0
   OnHit: 0
   canAttack: 1
+  onAttacked: 0
   moveAble: 1
   isGround: 0
   closest: {fileID: 0}

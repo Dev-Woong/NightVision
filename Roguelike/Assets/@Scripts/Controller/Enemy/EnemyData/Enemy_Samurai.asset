@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Enemy_Samurai
   m_EditorClassIdentifier: 
   ID: 1
-  atk: 2
-  def: 2
-  maxHp: 150
+  atk: 1
+  def: 1
+  maxHp: 500
   speed: 1
   dropJam: 20

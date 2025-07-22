@@ -205,7 +205,14 @@ public class EnemyController : DamageAbleBase, IDamageable
         {
             if (collision.gameObject.GetComponent<Bullet>().targetMask == 7)
             {
-                OnDamage(collision.GetComponent<Bullet>().atk,WeaponType.Gun);    
+                if (eType == EnemyType.Boss)
+                {
+                    OnDamage(collision.GetComponent<Bullet>().atk, WeaponType.Gun);
+                }
+                else if (eType == EnemyType.Normal)
+                {
+                    OnDamage(Random.Range(400, 600), WeaponType.Gun);
+                }
             }
         }
     }

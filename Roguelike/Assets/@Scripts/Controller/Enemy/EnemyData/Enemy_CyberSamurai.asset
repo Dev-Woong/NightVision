@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Enemy_CyberSamurai
   m_EditorClassIdentifier: 
   ID: 6
-  atk: 6
-  def: 5
-  maxHp: 1000
+  atk: 1
+  def: 1
+  maxHp: 1500
   speed: 1.7
   dropJam: 100
