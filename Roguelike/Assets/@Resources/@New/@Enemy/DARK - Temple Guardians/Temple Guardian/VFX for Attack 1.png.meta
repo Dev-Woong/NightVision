@@ -127,6 +127,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -134,10 +147,10 @@ TextureImporter:
       name: VFX for Attack 1_0
       rect:
         serializedVersion: 2
-        x: 50
-        y: 501
-        width: 30
-        height: 122
+        x: 0
+        y: 590
+        width: 160
+        height: 59
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -156,10 +169,10 @@ TextureImporter:
       name: VFX for Attack 1_1
       rect:
         serializedVersion: 2
-        x: 41
-        y: 472
-        width: 30
-        height: 12
+        x: 0
+        y: 531
+        width: 160
+        height: 59
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -178,10 +191,10 @@ TextureImporter:
       name: VFX for Attack 1_2
       rect:
         serializedVersion: 2
-        x: 39
-        y: 413
-        width: 43
-        height: 39
+        x: 0
+        y: 472
+        width: 160
+        height: 59
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -200,10 +213,10 @@ TextureImporter:
       name: VFX for Attack 1_3
       rect:
         serializedVersion: 2
-        x: 37
-        y: 354
-        width: 77
-        height: 38
+        x: 0
+        y: 413
+        width: 160
+        height: 59
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -222,10 +235,10 @@ TextureImporter:
       name: VFX for Attack 1_4
       rect:
         serializedVersion: 2
-        x: 35
-        y: 16
-        width: 95
-        height: 318
+        x: 0
+        y: 354
+        width: 160
+        height: 59
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -244,10 +257,10 @@ TextureImporter:
       name: VFX for Attack 1_5
       rect:
         serializedVersion: 2
-        x: 112
-        y: 239
-        width: 16
-        height: 13
+        x: 0
+        y: 295
+        width: 160
+        height: 59
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -266,10 +279,10 @@ TextureImporter:
       name: VFX for Attack 1_6
       rect:
         serializedVersion: 2
-        x: 112
-        y: 183
-        width: 16
-        height: 12
+        x: 0
+        y: 236
+        width: 160
+        height: 59
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -284,11 +297,99 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: VFX for Attack 1_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 177
+        width: 160
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 037d83a8ca8596f489d9001845a923ec
+      internalID: 628515952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX for Attack 1_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 118
+        width: 160
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a32a49baf85027040a70f93bb8c063f2
+      internalID: -2096873682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX for Attack 1_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 59
+        width: 160
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c4f8f43a66a0344ab30e0fbbb7c0b37
+      internalID: -1152477074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX for Attack 1_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4236f12a2482aa4893f3b66cfab4e71
+      internalID: -809229588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 7a04da9820304e0489cf728d523bad5e
     internalID: 0
     vertices: []
     indices: 
@@ -296,15 +397,21 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":11.0},"gridSpriteSize":{"x":160.0,"y":59.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       VFX for Attack 1_0: -4034690822095044497
       VFX for Attack 1_1: 7024694560561589473
+      VFX for Attack 1_10: -809229588
       VFX for Attack 1_2: 204449390912195065
       VFX for Attack 1_3: 8898232466772541128
       VFX for Attack 1_4: 9085762128415105248
       VFX for Attack 1_5: 3470885537243863456
       VFX for Attack 1_6: 618340258375410179
+      VFX for Attack 1_7: 628515952
+      VFX for Attack 1_8: -2096873682
+      VFX for Attack 1_9: -1152477074
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

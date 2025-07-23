@@ -44,7 +44,7 @@ public class PlayerController :DamageAbleBase,IDamageable
     private readonly float fallGravityScale = 11f;
     private float lastInputTime = 0;
     private readonly float resetDelay = 0.5f;
-    private readonly float jumpForce = 7f;
+    private readonly float jumpForce = 5.5f;
     private int wType = 0;
     private int jumpCount = 0;
     private int comboCount = 0;
@@ -68,9 +68,11 @@ public class PlayerController :DamageAbleBase,IDamageable
     private Coroutine comboResetCoroutine;
     private Coroutine JumpCountCoroutine;
 
-    public GameObject[] gunModes;
-    public GameObject gunModePanel;
+    public GameObject[] GunModes;
+    public GameObject GunModePanel;
     public GameObject Rifle;
+    public GameObject[] SwapEffect;
+    public Transform SwapEffectPoint;
 
     CameraChanger camChanger;
     public AttackData normalGunAttack;
@@ -201,7 +203,6 @@ public class PlayerController :DamageAbleBase,IDamageable
                 }
                 else return;
             }
-
         }
     }
     IEnumerator RifleFire()
@@ -211,27 +212,19 @@ public class PlayerController :DamageAbleBase,IDamageable
     }
     public void GunModeUI()
     {
-        gunModePanel.SetActive(modeSelection);
-        
+        GunModePanel.SetActive(modeSelection);
+
         if (mode == 0)
         {
-            gunModes[0].SetActive(modeSelection);
-            gunModes[1].SetActive(!modeSelection);
-            gunModes[2].SetActive(!modeSelection);
+            GunModes[0].SetActive(true);
+            GunModes[1].SetActive(false);
         }
         else if (mode == 1)
         {
-            gunModes[0].SetActive(!modeSelection);
-            gunModes[1].SetActive(modeSelection);
-            gunModes[2].SetActive(!modeSelection);
+            GunModes[0].SetActive(false);
+            GunModes[1].SetActive(true);
         }
-        else
-        {
-            gunModes[0].SetActive(!modeSelection);
-            gunModes[1].SetActive(!modeSelection);
-            gunModes[2].SetActive(modeSelection);
-        }
-
+        else return;
     }
     #endregion
     #region Weapon
@@ -240,18 +233,21 @@ public class PlayerController :DamageAbleBase,IDamageable
         if (Input.GetKeyDown(KeyCode.Q))
         {
             SFXManager.Instance.PlaySFX(swapSFX[0]);
+            Instantiate(SwapEffect[0],SwapEffectPoint);
             weaponType = WeaponType.Hand;
             comboCount = 0;
         }
         else if (Input.GetKeyDown(KeyCode.W))
         {
             SFXManager.Instance.PlaySFX(swapSFX[1]);
+            Instantiate(SwapEffect[1], SwapEffectPoint);
             weaponType = WeaponType.Sword;
             comboCount = 0;
         }
         else if (Input.GetKeyDown(KeyCode.E))
         {
             SFXManager.Instance.PlaySFX(swapSFX[2]);
+            Instantiate(SwapEffect[2], SwapEffectPoint);
             weaponType = WeaponType.Gun;
             comboCount = 0;
         }
@@ -259,7 +255,7 @@ public class PlayerController :DamageAbleBase,IDamageable
         
         if (weaponType != WeaponType.Gun) 
         {
-            modeSelection = false; gunModePanel.SetActive(false);
+            modeSelection = false; GunModePanel.SetActive(false);
         }
     }
     void GetWeaponState()
@@ -336,7 +332,7 @@ public class PlayerController :DamageAbleBase,IDamageable
     }
     void Attack()
     {
-        if (Input.GetKeyDown(KeyCode.A))
+        if (Input.GetKeyDown(KeyCode.A) && canJump == true)
         {
             if (weaponType != WeaponType.Gun)
             {
@@ -399,7 +395,7 @@ public class PlayerController :DamageAbleBase,IDamageable
     }
     void UseSkill()
     {
-        if (Input.GetKeyDown(KeyCode.S)&&PlayerStat.curEnergy >=15)
+        if (Input.GetKeyDown(KeyCode.S)&&PlayerStat.curEnergy >=15 && canJump == true)
         {
             StartCoroutine(CoSkillAttack());
         }

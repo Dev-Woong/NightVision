@@ -11405,6 +11405,7 @@ Transform:
   - {fileID: 1261793044}
   - {fileID: 1231403623}
   - {fileID: 214032651}
+  - {fileID: 1691679748}
   m_Father: {fileID: 1762227177}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &160932636
@@ -23939,37 +23940,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 517811177}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &712213905
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 712213906}
-  m_Layer: 0
-  m_Name: GameObject
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &712213906
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 712213905}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1851300736}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &716231444
 GameObject:
   m_ObjectHideFlags: 0
@@ -35675,7 +35645,7 @@ GameObject:
   - component: {fileID: 1215115921}
   - component: {fileID: 1215115922}
   m_Layer: 0
-  m_Name: Rifle
+  m_Name: RiflePanel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -54030,7 +54000,7 @@ GameObject:
   - component: {fileID: 1597484212}
   - component: {fileID: 1597484213}
   m_Layer: 0
-  m_Name: Scope
+  m_Name: ScopePanel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -54603,6 +54573,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1691679747
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1691679748}
+  m_Layer: 0
+  m_Name: SwapEffectPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1691679748
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1691679747}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.48, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 158338975}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1729717261
 GameObject:
   m_ObjectHideFlags: 0
@@ -60079,6 +60080,7 @@ MonoBehaviour:
   damagePos: {fileID: 1964922698}
   damageText: {fileID: 2707642217791368709, guid: 1f3b5ba7680ea6f45a8e8c8e06b20e81, type: 3}
   home: {fileID: 11400000, guid: 722080ae9c1c58c4b9d2e1d6efd899f6, type: 2}
+  mode: 0
   curHp: 0
   magazineDrum: 5
   shopOpenCount: 1
@@ -60091,19 +60093,23 @@ MonoBehaviour:
   portalMovePosition: {x: 0, y: 0, z: 0}
   parringBCSize: {x: 0, y: 0}
   normalBCSize: {x: 0, y: 0}
-  gunModes:
+  GunModes:
   - {fileID: 1597484211}
   - {fileID: 1215115920}
-  - {fileID: 712213905}
-  gunModePanel: {fileID: 1851300735}
+  GunModePanel: {fileID: 1851300735}
   Rifle: {fileID: 1765245004}
+  SwapEffect:
+  - {fileID: 1764224796563624474, guid: 71e13305efebf8f4b9ec613a3a1aba9d, type: 3}
+  - {fileID: 36552551085602812, guid: 9568b39dc80db734d9be200308323fb5, type: 3}
+  - {fileID: 1739461133879365015, guid: 8dc460ccfa5b17444bc83b5262a93d06, type: 3}
+  SwapEffectPoint: {fileID: 1691679748}
   normalGunAttack: {fileID: 11400000, guid: c88439de52c6e964f8957d10d32b46a9, type: 2}
   dashSFX: {fileID: 8300000, guid: 91ee25f019a66204ea77bb4c114e7119, type: 3}
   jumpSFX: {fileID: 8300000, guid: 265da28f4ed461247ac3db908ca75ded, type: 3}
   swapSFX:
   - {fileID: 8300000, guid: 0f7d0fce7473b8e42b274a0d93f0c832, type: 3}
   - {fileID: 8300000, guid: 023f453d6b2b3704a854d97494fab751, type: 3}
-  - {fileID: 8300000, guid: 1742ff0c6faa6424ba42aae1984e8bce, type: 3}
+  - {fileID: 8300000, guid: dbfbf45b9c28ffb4792d124f88f34980, type: 3}
   parringSFX: {fileID: 8300000, guid: 66b1f1f6f25630d43a89a6c9d462840e, type: 3}
   HPImage: {fileID: 1832084418}
   PlayerUI: {fileID: 716231444}
@@ -61373,7 +61379,6 @@ Transform:
   m_Children:
   - {fileID: 1597484212}
   - {fileID: 1215115921}
-  - {fileID: 712213906}
   m_Father: {fileID: 1762227177}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1855382944

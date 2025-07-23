@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: PlayerStatData
   m_EditorClassIdentifier: 
   ID: 0
-  atk: 5
-  def: 10
-  maxHp: 250
+  atk: 4
+  def: 5
+  maxHp: 300
   speed: 1.5
   dropJam: 0
