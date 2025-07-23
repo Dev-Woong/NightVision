@@ -463,7 +463,7 @@ public class PlayerController :DamageAbleBase,IDamageable
                 StartCoroutine(DownJumpCoroutine());
                 SFXManager.Instance.PlaySFX(jumpSFX);
                 anim.SetTrigger("Jump");
-                rb.AddForce(Vector3.down * jumpForce, ForceMode2D.Impulse);
+                rb.AddForce(0.5f * jumpForce * Vector3.down, ForceMode2D.Impulse);
                 if ( JumpCountCoroutine !=null)
                 {
                     StopCoroutine(JumpCountCoroutine);
