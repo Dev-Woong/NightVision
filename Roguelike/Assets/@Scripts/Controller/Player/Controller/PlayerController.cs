@@ -461,6 +461,7 @@ public class PlayerController :DamageAbleBase,IDamageable
                 rb.gravityScale = 1;
                 canJump = false;
                 StartCoroutine(DownJumpCoroutine());
+                moveAble = true;
                 SFXManager.Instance.PlaySFX(jumpSFX);
                 anim.SetTrigger("Jump");
                 rb.AddForce(0.5f * jumpForce * Vector3.down, ForceMode2D.Impulse);
