@@ -36,7 +36,7 @@ public class PlayerController :DamageAbleBase,IDamageable
     private RifleController rc;
     [SerializeField] private MapData home;
     readonly WaitForSeconds wTime = new(0.04f);
-    private WeaponType weaponType;
+    public WeaponType weaponType;
 
     private float h;
     private float dashCoolTime;
@@ -48,7 +48,6 @@ public class PlayerController :DamageAbleBase,IDamageable
     private int wType = 0;
     private int jumpCount = 0;
     private int comboCount = 0;
-    private int mode = 0;
     private float maxHp;
     public float curHp;
     public int magazineDrum = 5;
@@ -158,50 +157,29 @@ public class PlayerController :DamageAbleBase,IDamageable
         moveAble = true;
         anim.SetBool("onRifle", rifleMode);
     }
-    public void EnterGunMode()
+    public void SelectGunSkill()
     {
-        modeSelection = !modeSelection;
-    }
-    public void SelectGunMode()
-    {
-        if (modeSelection == true)
+        if (moveAble == true && isAttacking == false && weaponType == WeaponType.Gun && PlayerStat.curEnergy >= 60)
         {
-            rb.gravityScale = 1;
+            if (Input.GetKeyDown(KeyCode.S))
+            {
+                PlayerStat.curEnergy -= 60;
+                PublicStat.knockBack = KnockBack.None;
+                rb.gravityScale = 1;
+                isAttacking = true;
+                PublicStat.knockBack = KnockBack.None;
+                snipeMode = true;
+                moveAble = false;
+            }
             if (Input.GetKeyDown(KeyCode.D))
             {
-                mode++;
-                if (mode >= 2)
-                {
-                    mode = 0;
-                }
-            }
-            if (Input.GetKeyDown(KeyCode.F))
-            {
-                if (PlayerStat.curEnergy >= 60)
-                {
-                    PlayerStat.curEnergy -= 60;
-                    switch (mode)
-                    {
-                        case 0:
-                            isAttacking = true;
-                            PublicStat.knockBack = KnockBack.None;
-                            modeSelection = false;
-                            snipeMode = true;
-                            moveAble = false;
-                            mode = 0;
-                            break;
-                        case 1:
-                            isAttacking = true;
-                            PublicStat.knockBack = KnockBack.None;
-                            modeSelection = false;
-                            rifleMode = !rifleMode;
-                            mode = 0;
-                            moveAble = false;
-                            StartCoroutine(RifleFire());
-                            break;
-                    }
-                }
-                else return;
+                PlayerStat.curEnergy -= 60;
+                PublicStat.knockBack = KnockBack.None;
+                rb.gravityScale = 1;
+                isAttacking = true;
+                rifleMode = !rifleMode;
+                moveAble = false;
+                StartCoroutine(RifleFire());
             }
         }
     }
@@ -210,52 +188,39 @@ public class PlayerController :DamageAbleBase,IDamageable
         yield return wTime;
         rc.Fire();
     }
-    public void GunModeUI()
-    {
-        GunModePanel.SetActive(modeSelection);
-
-        if (mode == 0)
-        {
-            GunModes[0].SetActive(true);
-            GunModes[1].SetActive(false);
-        }
-        else if (mode == 1)
-        {
-            GunModes[0].SetActive(false);
-            GunModes[1].SetActive(true);
-        }
-        else return;
-    }
     #endregion
     #region Weapon
     void SetWeaponState()
     {
-        if (Input.GetKeyDown(KeyCode.Q))
+        if (isAttacking == false)
         {
-            SFXManager.Instance.PlaySFX(swapSFX[0]);
-            Instantiate(SwapEffect[0],SwapEffectPoint);
-            weaponType = WeaponType.Hand;
-            comboCount = 0;
-        }
-        else if (Input.GetKeyDown(KeyCode.W))
-        {
-            SFXManager.Instance.PlaySFX(swapSFX[1]);
-            Instantiate(SwapEffect[1], SwapEffectPoint);
-            weaponType = WeaponType.Sword;
-            comboCount = 0;
-        }
-        else if (Input.GetKeyDown(KeyCode.E))
-        {
-            SFXManager.Instance.PlaySFX(swapSFX[2]);
-            Instantiate(SwapEffect[2], SwapEffectPoint);
-            weaponType = WeaponType.Gun;
-            comboCount = 0;
-        }
-        wType = (int)weaponType;
-        
-        if (weaponType != WeaponType.Gun) 
-        {
-            modeSelection = false; GunModePanel.SetActive(false);
+            if (Input.GetKeyDown(KeyCode.Q) && weaponType != WeaponType.Hand)
+            {
+                SFXManager.Instance.PlaySFX(swapSFX[0]);
+                Instantiate(SwapEffect[0], SwapEffectPoint);
+                weaponType = WeaponType.Hand;
+                comboCount = 0;
+            }
+            else if (Input.GetKeyDown(KeyCode.W) && weaponType != WeaponType.Sword)
+            {
+                SFXManager.Instance.PlaySFX(swapSFX[1]);
+                Instantiate(SwapEffect[1], SwapEffectPoint);
+                weaponType = WeaponType.Sword;
+                comboCount = 0;
+            }
+            else if (Input.GetKeyDown(KeyCode.E) && weaponType != WeaponType.Gun)
+            {
+                SFXManager.Instance.PlaySFX(swapSFX[2]);
+                Instantiate(SwapEffect[2], SwapEffectPoint);
+                weaponType = WeaponType.Gun;
+                comboCount = 0;
+            }
+            wType = (int)weaponType;
+
+            if (weaponType != WeaponType.Gun)
+            {
+                modeSelection = false; GunModePanel.SetActive(false);
+            }
         }
     }
     void GetWeaponState()
@@ -402,6 +367,7 @@ public class PlayerController :DamageAbleBase,IDamageable
     }
     IEnumerator CoSkillAttack()
     {
+        
         lastInputTime = Time.time;
         anim.SetBool("isWalk", false);
         anim.SetBool("isRun", false);
@@ -415,13 +381,6 @@ public class PlayerController :DamageAbleBase,IDamageable
             isAttacking = true;
             anim.SetTrigger(Define.useSkillHash);
             anim.SetInteger(Define.comboCountHash, comboCount);
-        }
-        else
-        {
-            if (moveAble == true && isAttacking == false)
-            {
-                EnterGunMode();
-            }
         }
         yield return null;
     }
@@ -793,8 +752,7 @@ public class PlayerController :DamageAbleBase,IDamageable
                 Attack();
                 UseSkill();
             }
-            GunModeUI();
-            SelectGunMode();
+            SelectGunSkill();
             Dash();
             EnterRifleMode();
             DoubleJump();

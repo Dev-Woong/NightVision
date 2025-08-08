@@ -16447,7 +16447,7 @@ GameObject:
   m_Component:
   - component: {fileID: 908831876}
   m_Layer: 5
-  m_Name: skill
+  m_Name: Skill1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17346,7 +17346,7 @@ GameObject:
   m_Component:
   - component: {fileID: 991370861}
   m_Layer: 5
-  m_Name: Gunskill
+  m_Name: Skill2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -23193,7 +23193,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\uC2A4\uD0AC"
+  m_text: "\uC2A4\uD0AC&\uC800\uACA9\uBAA8\uB4DC"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2f54d4b92d0b5c547a6b4225bd60b1ca, type: 2}
   m_sharedMaterial: {fileID: 4912627283511147026, guid: 2f54d4b92d0b5c547a6b4225bd60b1ca, type: 2}
@@ -24964,7 +24964,7 @@ MonoBehaviour:
   pausepanel: {fileID: 1185648461}
   settingPanel: {fileID: 406095409}
   KeyPanel: {fileID: 1183669277}
-  connect: {fileID: 1758605415}
+  resume: {fileID: 1758605415}
   option: {fileID: 411186264}
   key: {fileID: 1647942917}
   Exit: {fileID: 736201301}
@@ -25124,7 +25124,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\uCD1D \uC2A4\uD0AC \uBAA8\uB4DC \uBCC0\uACBD \n& \uD328\uB9C1"
+  m_text: "\uB77C\uC774\uD50C \uBAA8\uB4DC&\uD328\uB9C1"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2f54d4b92d0b5c547a6b4225bd60b1ca, type: 2}
   m_sharedMaterial: {fileID: 4912627283511147026, guid: 2f54d4b92d0b5c547a6b4225bd60b1ca, type: 2}
@@ -32853,7 +32853,7 @@ GameObject:
   - component: {fileID: 1758605416}
   - component: {fileID: 1758605415}
   m_Layer: 5
-  m_Name: ConnectButton
+  m_Name: ResumeButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

@@ -8,24 +8,26 @@ public class PausePenal : MonoBehaviour
     public GameObject settingPanel;
     public GameObject KeyPanel;
 
-    public Button connect;
+    public Button resume;
     public Button option;
     public Button key;
     public Button Exit;
     
     void Start()
     {
-        connect.onClick.AddListener(EnConnect);
+        resume.onClick.AddListener(EnResume);
         option.onClick.AddListener(EnOption);
         key.onClick.AddListener(EnKey);
         Exit.onClick.AddListener(EnExit);
     }
 
-    void EnConnect()
+    void EnResume()
     {
+        Time.timeScale = 1;
+        LoadingController.onPause = false;
+        UIManager.Instance.on = false;
         pausepanel.SetActive(false);
         settingPanel.SetActive(false);
-        Time.timeScale = 1;
     }
 
     void EnOption()

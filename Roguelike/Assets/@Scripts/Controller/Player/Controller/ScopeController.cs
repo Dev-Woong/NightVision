@@ -80,7 +80,7 @@ public class ScopeController: MonoBehaviour
                 StopCoroutine(FireCoroutine);
             }
             float a = Random.Range(-0.3f, 0.3f);
-            Vector3 recoilDir = new Vector3(a, 1f, 0f).normalized;
+            Vector3 recoilDir = new Vector3(a, 2f, 0f).normalized;
             impulseSource.GenerateImpulse(recoilDir);
             FireCoroutine = StartCoroutine(FireEffect());
             dHandle.PlayerCreateAttackBox(snipeData);

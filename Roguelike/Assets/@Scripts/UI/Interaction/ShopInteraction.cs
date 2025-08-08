@@ -23,7 +23,7 @@ public class ShopInteraction : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.F) && isPlayerinRange == true)
         {
-            if (isShopOpen == false && ShopOpenCount == 1)
+            if (isShopOpen == false)
             {
                 ShopOpenCount = 0;
                 isShopOpen = true;

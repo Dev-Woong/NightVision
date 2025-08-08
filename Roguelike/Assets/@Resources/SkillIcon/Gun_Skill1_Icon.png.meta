@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 31881f61925e75143b4bf2783349971b
+guid: 3ecbc8bd36a9a944d90084be0cfd3190
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3667397261103977973
-    second: AmmoLargeForeground_0
+      213: 8623949067078851974
+    second: Gun_Skill1_Icon_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,43 +96,17 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: AmmoLargeForeground_0
+      name: Gun_Skill1_Icon_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 7
-        height: 13
+        width: 1024
+        height: 1024
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5f5d756d06635e230800000000000000
-      internalID: 3667397261103977973
+      spriteID: 68ddb402cfb6ea770800000000000000
+      internalID: 8623949067078851974
       vertices: []
       indices: 
       edges: []
@@ -161,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      AmmoLargeForeground_0: 3667397261103977973
+      Gun_Skill1_Icon_0: 8623949067078851974
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

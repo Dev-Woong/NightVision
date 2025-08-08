@@ -22,50 +22,50 @@ AnimationClip:
     curve:
     - time: 0
       value: {fileID: -1521287375353031703, guid: 66e8c5fc4847da04c918947fee7a0bd6, type: 3}
-    - time: 0.04761905
+    - time: 0.041666668
       value: {fileID: 2849963653659342643, guid: 66e8c5fc4847da04c918947fee7a0bd6, type: 3}
-    - time: 0.0952381
+    - time: 0.083333336
       value: {fileID: -2890321386374781690, guid: 66e8c5fc4847da04c918947fee7a0bd6, type: 3}
-    - time: 0.14285715
+    - time: 0.125
       value: {fileID: -6029418128223577654, guid: 66e8c5fc4847da04c918947fee7a0bd6, type: 3}
-    - time: 0.1904762
+    - time: 0.16666667
       value: {fileID: -6438621254248649013, guid: 66e8c5fc4847da04c918947fee7a0bd6, type: 3}
-    - time: 0.23809524
+    - time: 0.20833333
       value: {fileID: 64045535083767792, guid: 66e8c5fc4847da04c918947fee7a0bd6, type: 3}
-    - time: 0.2857143
+    - time: 0.25
       value: {fileID: 984581859742568336, guid: 66e8c5fc4847da04c918947fee7a0bd6, type: 3}
-    - time: 0.33333334
+    - time: 0.29166666
       value: {fileID: 3647269794109649731, guid: 66e8c5fc4847da04c918947fee7a0bd6, type: 3}
-    - time: 0.3809524
+    - time: 0.33333334
       value: {fileID: 3417217850126199585, guid: 66e8c5fc4847da04c918947fee7a0bd6, type: 3}
-    - time: 0.42857143
+    - time: 0.375
       value: {fileID: 1703118014494165467, guid: 66e8c5fc4847da04c918947fee7a0bd6, type: 3}
-    - time: 0.47619048
+    - time: 0.41666666
       value: {fileID: 8124559479724126349, guid: 66e8c5fc4847da04c918947fee7a0bd6, type: 3}
-    - time: 0.52380955
+    - time: 0.45833334
       value: {fileID: 8124559479724126349, guid: 66e8c5fc4847da04c918947fee7a0bd6, type: 3}
-    - time: 0.5714286
+    - time: 0.5
       value: {fileID: 8124559479724126349, guid: 66e8c5fc4847da04c918947fee7a0bd6, type: 3}
-    - time: 0.61904764
+    - time: 0.5416667
+      value: {fileID: 8124559479724126349, guid: 66e8c5fc4847da04c918947fee7a0bd6, type: 3}
+    - time: 0.5833333
+      value: {fileID: 8124559479724126349, guid: 66e8c5fc4847da04c918947fee7a0bd6, type: 3}
+    - time: 0.625
       value: {fileID: 8124559479724126349, guid: 66e8c5fc4847da04c918947fee7a0bd6, type: 3}
     - time: 0.6666667
       value: {fileID: 8124559479724126349, guid: 66e8c5fc4847da04c918947fee7a0bd6, type: 3}
-    - time: 0.71428573
+    - time: 0.7083333
       value: {fileID: 8124559479724126349, guid: 66e8c5fc4847da04c918947fee7a0bd6, type: 3}
-    - time: 0.7619048
+    - time: 0.75
       value: {fileID: 8124559479724126349, guid: 66e8c5fc4847da04c918947fee7a0bd6, type: 3}
-    - time: 0.8095238
-      value: {fileID: 8124559479724126349, guid: 66e8c5fc4847da04c918947fee7a0bd6, type: 3}
-    - time: 0.85714287
-      value: {fileID: 8124559479724126349, guid: 66e8c5fc4847da04c918947fee7a0bd6, type: 3}
-    - time: 0.9047619
+    - time: 0.7916667
       value: {fileID: 8124559479724126349, guid: 66e8c5fc4847da04c918947fee7a0bd6, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
     script: {fileID: 0}
     flags: 2
-  m_SampleRate: 21
+  m_SampleRate: 24
   m_WrapMode: 0
   m_Bounds:
     m_Center: {x: 0, y: 0, z: 0}
@@ -107,7 +107,7 @@ AnimationClip:
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.95238096
+    m_StopTime: 0.8333334
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -141,70 +141,70 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 0.04761905
+  - time: 0.041666668
     functionName: HorizonSlashEffect
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 0.0952381
+  - time: 0.083333336
     functionName: PlayerCreateAttackBox
     data: 
     objectReferenceParameter: {fileID: 11400000, guid: 64d3af5ad62be9e42b8527955f2cb19f, type: 2}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 0.1904762
+  - time: 0.16666667
     functionName: ComboCountReset
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 0.23809524
+  - time: 0.20833333
     functionName: UpSlashEffect
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 0.2857143
+  - time: 0.25
     functionName: PlayerCreateAttackBox
     data: 
     objectReferenceParameter: {fileID: 11400000, guid: 811490dc9cbfb8c47b2ea78da2a0b841, type: 2}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 0.3809524
+  - time: 0.33333334
     functionName: OnAirComboStart
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 0.42857143
+  - time: 0.375
     functionName: PlusComboCount
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 0.42857143
+  - time: 0.375
     functionName: OnAirComboHold
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 0.52380955
+  - time: 0.45833334
     functionName: OnMoveAble
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 0.7619048
+  - time: 0.6666667
     functionName: OnAirComboFall
     data: 
     objectReferenceParameter: {fileID: 0}

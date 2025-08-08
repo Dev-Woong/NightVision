@@ -11,7 +11,7 @@ public class UIManager : MonoBehaviour
     public GameObject keypanel;
     public GameObject dieImage;
 
-    bool on = false;
+    public bool on = false;
     bool inGame = false;
     private void Awake()
     {

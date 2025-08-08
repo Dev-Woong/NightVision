@@ -170,12 +170,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   obData: {fileID: 11400000, guid: 479f4d6f39209d64485fd7df14ae4712, type: 2}
+  pc: {fileID: 0}
   atk: 0
   speed: 0
   maxHp: 0
-  curHp: 0
   def: 0
-  jamStack: 0
+  baseAtk: 0
+  baseSpeed: 0
+  baseMaxHp: 0
+  baseDef: 0
+  itemAtk: 0
+  itemSpeed: 0
+  itemMaxHp: 0
+  itemDef: 0
+  dropJam: 0
   knockBack: 1
   checkDie: 0
 --- !u!114 &9182713348454048247
@@ -218,7 +226,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!61 &7198675133084326326
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -312,6 +320,7 @@ MonoBehaviour:
   curHp: 0
   OnHit: 0
   canAttack: 1
+  onAttacked: 0
   moveAble: 1
   isGround: 0
   closest: {fileID: 0}
