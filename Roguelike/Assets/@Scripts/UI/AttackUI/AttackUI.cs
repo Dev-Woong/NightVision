@@ -40,8 +40,10 @@ public class AttackUI : MonoBehaviour
     }
     void Update()
     {
+        this.gameObject.SetActive(!LoadingController.onInputBlocker);
         if (LoadingController.onInputBlocker == false && LoadingController.onOpenShop == false && LoadingController.onPause == false)
         {
+            
             ChangeSkillSpriteUI();
         }
     }
