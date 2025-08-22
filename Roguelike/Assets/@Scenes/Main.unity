@@ -1934,7 +1934,7 @@ MonoBehaviour:
   m_FillRect: {fileID: 1504131352}
   m_HandleRect: {fileID: 1670043132}
   m_Direction: 0
-  m_MinValue: 0
+  m_MinValue: 0.1
   m_MaxValue: 1
   m_WholeNumbers: 0
   m_Value: 1
@@ -11382,6 +11382,7 @@ MonoBehaviour:
   optionpanel: {fileID: 406095409}
   keypanel: {fileID: 1183669277}
   dieImage: {fileID: 1842841653}
+  on: 0
 --- !u!114 &618773512
 MonoBehaviour:
   m_ObjectHideFlags: 0
